@@ -1,0 +1,944 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/present-day>
+  a skos:Concept ;
+  rdfs:label "present-day" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic" ;
+  rdfs:label "Phanerozoic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic" ;
+  rdfs:label "Cenozoic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-holocene", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic" ;
+  rdfs:label "Quaternary" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-holocene>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary" ;
+  rdfs:label "Holocene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene-upperlatepleistocene", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene-middlepleistocene", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene-calabrian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene-gelasian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary" ;
+  rdfs:label "Pleistocene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene-upperlatepleistocene>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene" ;
+  rdfs:label "Upper/LatePleistocene " .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene-middlepleistocene>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene" ;
+  rdfs:label "MiddlePleistocene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene-calabrian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene" ;
+  rdfs:label "Calabrian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene-gelasian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-quaternary-pleistocene" ;
+  rdfs:label "Gelasian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-pliocene", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic" ;
+  rdfs:label "Neogene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-pliocene>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-pliocene-piacenzian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-pliocene-zanclean" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene" ;
+  rdfs:label "Pliocene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-pliocene-piacenzian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-pliocene" ;
+  rdfs:label "Piacenzian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-pliocene-zanclean>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-pliocene" ;
+  rdfs:label "Zanclean" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-messinian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-tortonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-serravallian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-langhian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-burdigalian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-aquitanian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene" ;
+  rdfs:label "Miocene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-messinian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene" ;
+  rdfs:label "Messinian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-tortonian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene" ;
+  rdfs:label "Tortonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-serravallian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene" ;
+  rdfs:label "Serravallian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-langhian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene" ;
+  rdfs:label "Langhian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-burdigalian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene" ;
+  rdfs:label "Burdigalian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene-aquitanian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-neogene-miocene" ;
+  rdfs:label "Aquitanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-oligocene", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic" ;
+  rdfs:label "Paleogene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-oligocene>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-oligocene-chattian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-oligocene-rupelian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene" ;
+  rdfs:label "Oligocene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-oligocene-chattian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-oligocene" ;
+  rdfs:label "Chattian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-oligocene-rupelian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-oligocene" ;
+  rdfs:label "Rupelian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene-priabonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene-lutetian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene-bartonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene-ypresian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene" ;
+  rdfs:label "Eocene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene-priabonian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene" ;
+  rdfs:label "Priabonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene-lutetian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene" ;
+  rdfs:label "Lutetian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene-bartonian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene" ;
+  rdfs:label "Bartonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene-ypresian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-eocene" ;
+  rdfs:label "Ypresian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene-thanetian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene-selandian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene-danian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene" ;
+  rdfs:label "Paleocene" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene-thanetian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene" ;
+  rdfs:label "Thanetian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene-selandian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene" ;
+  rdfs:label "Selandian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene-danian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-cenozoic-paleogene-paleocene" ;
+  rdfs:label "Danian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic" ;
+  rdfs:label "Mesozoic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic" ;
+  rdfs:label "Cretaceous" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-maastrichtian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-campanian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-santonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-coniacian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-turonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-cenomanian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous" ;
+  rdfs:label "Upper/LateCretaceous" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-maastrichtian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous" ;
+  rdfs:label "Maastrichtian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-campanian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous" ;
+  rdfs:label "Campanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-santonian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous" ;
+  rdfs:label "Santonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-coniacian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous" ;
+  rdfs:label "Coniacian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-turonian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous" ;
+  rdfs:label "Turonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-cenomanian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-upperlatecretaceous" ;
+  rdfs:label "Cenomanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-albian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-aptian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-barremian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-hauterivian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-valanginian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-berriasian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous" ;
+  rdfs:label "Lower/EarlyCretaceous" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-albian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous" ;
+  rdfs:label "Albian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-aptian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous" ;
+  rdfs:label "Aptian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-barremian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous" ;
+  rdfs:label "Barremian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-hauterivian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous" ;
+  rdfs:label "Hauterivian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-valanginian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous" ;
+  rdfs:label "Valanginian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-berriasian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous" ;
+  rdfs:label "Berriasian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic" ;
+  rdfs:label "Jurassic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic-tithonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic-kimmeridgian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic-oxfordian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic" ;
+  rdfs:label "Upper/LateJurassic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic-tithonian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic" ;
+  rdfs:label "Tithonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic-kimmeridgian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic" ;
+  rdfs:label "Kimmeridgian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic-oxfordian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-upperlatejurassic" ;
+  rdfs:label "Oxfordian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic-callovian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic-bathonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic-bajocian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic-aalenian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic" ;
+  rdfs:label "MiddleJurassic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic-callovian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic" ;
+  rdfs:label "Callovian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic-bathonian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic" ;
+  rdfs:label "Bathonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic-bajocian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic" ;
+  rdfs:label "Bajocian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic-aalenian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-middlejurassic" ;
+  rdfs:label "Aalenian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-toarcian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-pliensbachian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-sinemurian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-hettangian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic" ;
+  rdfs:label "Lower/EarlyJurassic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-toarcian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic" ;
+  rdfs:label "Toarcian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-pliensbachian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic" ;
+  rdfs:label "Pliensbachian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-sinemurian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic" ;
+  rdfs:label "Sinemurian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-hettangian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-jurassic-lowerearlyjurassic" ;
+  rdfs:label "Hettangian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-middletriassic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-lowerearlytriassic" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic" ;
+  rdfs:label "Triassic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic-rhaetian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic-norian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic-carnian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic" ;
+  rdfs:label "Upper/LateTriassic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic-rhaetian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic" ;
+  rdfs:label "Rhaetian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic-norian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic" ;
+  rdfs:label "Norian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic-carnian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-upperlatetriassic" ;
+  rdfs:label "Carnian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-middletriassic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-middletriassic-ladinian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-middletriassic-anisian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic" ;
+  rdfs:label "MiddleTriassic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-middletriassic-ladinian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-middletriassic" ;
+  rdfs:label "Ladinian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-middletriassic-anisian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-middletriassic" ;
+  rdfs:label "Anisian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-lowerearlytriassic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-lowerearlytriassic-olenekian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-lowerearlytriassic-induan" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic" ;
+  rdfs:label "Lower/EarlyTriassic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-lowerearlytriassic-olenekian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-lowerearlytriassic" ;
+  rdfs:label "Olenekian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-lowerearlytriassic-induan>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-mesozoic-triassic-lowerearlytriassic" ;
+  rdfs:label "Induan" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic" ;
+  rdfs:label "Paleozoic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-lopingian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic" ;
+  rdfs:label "Permian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-lopingian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-lopingian-changhsingian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-lopingian-wuchiapingian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian" ;
+  rdfs:label "Lopingian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-lopingian-changhsingian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-lopingian" ;
+  rdfs:label "Changhsingian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-lopingian-wuchiapingian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-lopingian" ;
+  rdfs:label "Wuchiapingian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian-capitanian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian-wordian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian-roadian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian" ;
+  rdfs:label "Guadalupian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian-capitanian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian" ;
+  rdfs:label "Capitanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian-wordian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian" ;
+  rdfs:label "Wordian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian-roadian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-guadalupian" ;
+  rdfs:label "Roadian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian-kungurian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian-artinskian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian-sakmarian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian-asselian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian" ;
+  rdfs:label "Cisuralian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian-kungurian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian" ;
+  rdfs:label "Kungurian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian-artinskian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian" ;
+  rdfs:label "Artinskian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian-sakmarian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian" ;
+  rdfs:label "Sakmarian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian-asselian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-permian-cisuralian" ;
+  rdfs:label "Asselian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic" ;
+  rdfs:label "Carboniferous" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous" ;
+  rdfs:label "Pennsylvanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-kasimovian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-gzhelian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian" ;
+  rdfs:label "Upper/LatePennsylvanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-kasimovian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian" ;
+  rdfs:label "Kasimovian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-gzhelian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian" ;
+  rdfs:label "Gzhelian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian-moscovian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian" ;
+  rdfs:label "MiddlePennsylvanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian-moscovian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian" ;
+  rdfs:label "Moscovian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian-bashkirian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian" ;
+  rdfs:label "Lower/EarlyPennsylvanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian-bashkirian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian" ;
+  rdfs:label "Bashkirian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous" ;
+  rdfs:label "Mississippian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian-serpukhovian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian" ;
+  rdfs:label "Upper/LateMississippian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian-serpukhovian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian" ;
+  rdfs:label "Serpukhovian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian-visean" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian" ;
+  rdfs:label "MiddleMississippian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian-visean>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian" ;
+  rdfs:label "Visean" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian-tournaisian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian" ;
+  rdfs:label "Lower/EarlyMississippian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian-tournaisian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian" ;
+  rdfs:label "Tournaisian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-upperlatedevonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-middledevonian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic" ;
+  rdfs:label "Devonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-upperlatedevonian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-upperlatedevonian-famennian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-upperlatedevonian-frasnian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian" ;
+  rdfs:label "Upper/LateDevonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-upperlatedevonian-famennian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-upperlatedevonian" ;
+  rdfs:label "Famennian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-upperlatedevonian-frasnian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-upperlatedevonian" ;
+  rdfs:label "Frasnian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-middledevonian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-middledevonian-givetian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-middledevonian-eifelian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian" ;
+  rdfs:label "MiddleDevonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-middledevonian-givetian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-middledevonian" ;
+  rdfs:label "Givetian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-middledevonian-eifelian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-middledevonian" ;
+  rdfs:label "Eifelian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian-emsian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian-pragian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian-lochkovian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian" ;
+  rdfs:label "Lower/EarlyDevonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian-emsian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian" ;
+  rdfs:label "Emsian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian-pragian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian" ;
+  rdfs:label "Pragian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian-lochkovian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-devonian-lowerearlydevonian" ;
+  rdfs:label "Lochkovian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-pridoli", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-ludlow", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-wenlock", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic" ;
+  rdfs:label "Silurian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-pridoli>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian" ;
+  rdfs:label "Pridoli" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-ludlow>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-ludlow-ludfordian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-ludlow-gorstian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian" ;
+  rdfs:label "Ludlow" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-ludlow-ludfordian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-ludlow" ;
+  rdfs:label "Ludfordian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-ludlow-gorstian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-ludlow" ;
+  rdfs:label "Gorstian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-wenlock>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-wenlock-homerian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-wenlock-sheinwoodian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian" ;
+  rdfs:label "Wenlock" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-wenlock-homerian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-wenlock" ;
+  rdfs:label "Homerian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-wenlock-sheinwoodian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-wenlock" ;
+  rdfs:label "Sheinwoodian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery-telychian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery-aeronian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery-rhuddanian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian" ;
+  rdfs:label "Llandovery" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery-telychian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery" ;
+  rdfs:label "Telychian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery-aeronian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery" ;
+  rdfs:label "Aeronian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery-rhuddanian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-silurian-llandovery" ;
+  rdfs:label "Rhuddanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-middleordovician", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-lowerearlyordovician" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic" ;
+  rdfs:label "Ordovician" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician-hirnantian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician-katian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician-sandbian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician" ;
+  rdfs:label "Upper/LateOrdovician" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician-hirnantian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician" ;
+  rdfs:label "Hirnantian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician-katian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician" ;
+  rdfs:label "Katian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician-sandbian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-upperlateordovician" ;
+  rdfs:label "Sandbian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-middleordovician>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-middleordovician-darriwilian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-middleordovician-dapingian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician" ;
+  rdfs:label "MiddleOrdovician" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-middleordovician-darriwilian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-middleordovician" ;
+  rdfs:label "Darriwilian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-middleordovician-dapingian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-middleordovician" ;
+  rdfs:label "Dapingian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-lowerearlyordovician>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-lowerearlyordovician-floian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-lowerearlyordovician-tremadocian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician" ;
+  rdfs:label "Lower/EarlyOrdovician" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-lowerearlyordovician-floian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-lowerearlyordovician" ;
+  rdfs:label "Floian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-lowerearlyordovician-tremadocian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-ordovician-lowerearlyordovician" ;
+  rdfs:label "Tremadocian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries2", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-terreneuvian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic" ;
+  rdfs:label "Cambrian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian-cambrianstage10", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian-jiangshanian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian-paibian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian" ;
+  rdfs:label "Furongian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian-cambrianstage10>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian" ;
+  rdfs:label "CambrianStage10" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian-jiangshanian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian" ;
+  rdfs:label "Jiangshanian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian-paibian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-furongian" ;
+  rdfs:label "Paibian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3-guzhangian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3-drumian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3-cambrianstage5" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian" ;
+  rdfs:label "CambrianSeries3" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3-guzhangian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3" ;
+  rdfs:label "Guzhangian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3-drumian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3" ;
+  rdfs:label "Drumian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3-cambrianstage5>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries3" ;
+  rdfs:label "CambrianStage5" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries2>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage4", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage3" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian" ;
+  rdfs:label "CambrianSeries2" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage4>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries2" ;
+  rdfs:label "CambrianStage4" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage3>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-cambrianseries2" ;
+  rdfs:label "CambrianStage3" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-terreneuvian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-terreneuvian-cambrianstage2", "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-terreneuvian-fortunian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian" ;
+  rdfs:label "Terreneuvian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-terreneuvian-cambrianstage2>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-terreneuvian" ;
+  rdfs:label "CambrianStage2" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-terreneuvian-fortunian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/phanerozoic-paleozoic-cambrian-terreneuvian" ;
+  rdfs:label "Fortunian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-hadean" ;
+  rdfs:label "Precambrian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian" ;
+  rdfs:label "Proterozoic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic-ediacaran", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic-cryogenian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic-tonian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic" ;
+  rdfs:label "Neoproterozoic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic-ediacaran>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic" ;
+  rdfs:label "Ediacaran" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic-cryogenian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic" ;
+  rdfs:label "Cryogenian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic-tonian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-neoproterozoic" ;
+  rdfs:label "Tonian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic-stenian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic-ectasian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic-calymmian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic" ;
+  rdfs:label "Mesoproterozoic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic-stenian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic" ;
+  rdfs:label "Stenian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic-ectasian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic" ;
+  rdfs:label "Ectasian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic-calymmian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-mesoproterozoic" ;
+  rdfs:label "Calymmian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic-statherian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic-orosirian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic-rhyacian", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic-siderian" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic" ;
+  rdfs:label "Paleoproterozoic" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic-statherian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic" ;
+  rdfs:label "Statherian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic-orosirian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic" ;
+  rdfs:label "Orosirian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic-rhyacian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic" ;
+  rdfs:label "Rhyacian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic-siderian>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-proterozoic-paleoproterozoic" ;
+  rdfs:label "Siderian" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean-eoarchean", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean-mesoarchean", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean-neoarchean", "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean-paleoarchean" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian" ;
+  rdfs:label "Archean" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean-eoarchean>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean" ;
+  rdfs:label "Eoarchean" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean-mesoarchean>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean" ;
+  rdfs:label "Mesoarchean" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean-neoarchean>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean" ;
+  rdfs:label "Neoarchean" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean-paleoarchean>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-archean" ;
+  rdfs:label "Paleoarchean" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian-hadean>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geologicalage/1.0/precambrian" ;
+  rdfs:label "Hadean" .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.0/formationofearth>
+  a skos:Concept ;
+  rdfs:label "FormationOfEarth" .
+
