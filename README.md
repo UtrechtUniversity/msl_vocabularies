@@ -10,15 +10,15 @@ encourage others to use and improve the provided vocabularies within this reposi
 ## Vocabularies
 
 We currently publish the following vocabularies:
-- analogue
-- geochemistry
-- geologicalage
-- geologicalsetting
-- materials
-- microscopy
-- paleomagnetism
-- porefluids
-- rockphysics
+- Analogue modelling of geological processes (referred to as "analogue")
+- Geochemistry
+- Geological age
+- Geological setting
+- Materials
+- Microscopy and tomography (referred to as "microscopy")
+- Paleomagnetism
+- Pore fluids
+- Rock and melt physics (referred to as "rockphysics")
 
 ## Repository structure
 
