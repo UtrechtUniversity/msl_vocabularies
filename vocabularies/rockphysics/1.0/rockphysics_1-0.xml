@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization</skos:narrower>
+    <rdfs:label>Apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus</skos:broader>
+    <rdfs:label>deformation testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-biaxial_compression_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-brazilian_testing_setup</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-chevron-notch_test_setup</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-confining_pressure_vessel</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-deformation-dia</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-diamond_anvil_cell</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-flexural_testing_machine</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-load_stamp</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-microcantilever</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-micropillar</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-multi-anvil</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-nanoindenter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-plate_bearing_test_setup</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-point_load_test_setup</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-split_hopkinson_pressure_bar_-_compression</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-vickers_hardness_test_setup</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing</skos:broader>
+    <rdfs:label>compression testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-confining_pressure_vessel">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>confining pressure vessel</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus-uniaxial_oedometer_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus-uniaxial_unconfined_apparatus_-_compression</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>uniaxial compression apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus-uniaxial_oedometer_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus</skos:broader>
+    <rdfs:label>uniaxial (oedometer) apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus-uniaxial_unconfined_apparatus_-_compression">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus</skos:broader>
+    <rdfs:label>uniaxial (unconfined) apparatus - compression</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-biaxial_compression_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>biaxial compression apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus-conventional_triaxial_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus-true_triaxial_apparatus</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>triaxial compression apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus-conventional_triaxial_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus</skos:broader>
+    <rdfs:label>conventional triaxial apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus-true_triaxial_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus</skos:broader>
+    <rdfs:label>true triaxial apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-diamond_anvil_cell">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>diamond anvil cell</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-deformation-dia">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>deformation-DIA</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-multi-anvil">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>multi-anvil</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-brazilian_testing_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>Brazilian testing setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-flexural_testing_machine">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>flexural testing machine</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-load_stamp">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>load stamp</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-chevron-notch_test_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>Chevron-notch test setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-nanoindenter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>nanoindenter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-micropillar">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>micropillar</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-microcantilever">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>microcantilever</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-vickers_hardness_test_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>Vickers hardness test setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-plate_bearing_test_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>plate bearing test setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-point_load_test_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>point load test setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing-split_hopkinson_pressure_bar_-_compression">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-compression_testing</skos:broader>
+    <rdfs:label>split Hopkinson pressure bar - compression</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-conventional_triaxial_apparatus_-_extension</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-dilatometer</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-direct_tension_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-pull_test_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-split_hopkinson_pressure_bar_-_extension</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-uniaxial_unconfined_apparatus_-_extension</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing</skos:broader>
+    <rdfs:label>extension testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-conventional_triaxial_apparatus_-_extension">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing</skos:broader>
+    <rdfs:label>conventional triaxial apparatus - extension</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-uniaxial_unconfined_apparatus_-_extension">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing</skos:broader>
+    <rdfs:label>uniaxial (unconfined) apparatus - extension</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-direct_tension_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing</skos:broader>
+    <rdfs:label>direct tension apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-pull_test_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing</skos:broader>
+    <rdfs:label>pull test apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-split_hopkinson_pressure_bar_-_extension">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing</skos:broader>
+    <rdfs:label>split Hopkinson pressure bar - extension</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing-dilatometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-extension_testing</skos:broader>
+    <rdfs:label>dilatometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-biaxial_apparatus_direct_shear</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-conventional_triaxial_apparatus_direct_shear</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-conventional_triaxial_apparatus_saw-cut</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-rotary_shear_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-true_triaxial_apparatus_shear</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing</skos:broader>
+    <rdfs:label>shear testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-biaxial_apparatus_direct_shear">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing</skos:broader>
+    <rdfs:label>biaxial apparatus: direct shear</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-rotary_shear_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing</skos:broader>
+    <rdfs:label>rotary shear apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-conventional_triaxial_apparatus_direct_shear">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing</skos:broader>
+    <rdfs:label>conventional triaxial apparatus: direct shear</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-conventional_triaxial_apparatus_saw-cut">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing</skos:broader>
+    <rdfs:label>conventional triaxial apparatus: saw-cut</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing-true_triaxial_apparatus_shear">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-shear_testing</skos:broader>
+    <rdfs:label>true triaxial apparatus shear</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing-conventional_triaxial_apparatus_-_torsion</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing-double_torsion_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing-split_hopkinson_pressure_bar_-_torsion</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing-uniaxial_unconfined_apparatus_-_torsion</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing</skos:broader>
+    <rdfs:label>torsion testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing-conventional_triaxial_apparatus_-_torsion">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing</skos:broader>
+    <rdfs:label>conventional triaxial apparatus - torsion</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing-uniaxial_unconfined_apparatus_-_torsion">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing</skos:broader>
+    <rdfs:label>uniaxial (unconfined) apparatus - torsion</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing-double_torsion_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing</skos:broader>
+    <rdfs:label>double torsion apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing-split_hopkinson_pressure_bar_-_torsion">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-deformation_testing-torsion_testing</skos:broader>
+    <rdfs:label>split Hopkinson pressure bar - torsion</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus</skos:broader>
+    <rdfs:label>fluid transport testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter-permeameter_-_pore_pressure_oscillation_method</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter-permeameter_-_pressure_transient_pulse_decay_method</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter-permeameter_-_steady_state_flow_method</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing</skos:broader>
+    <rdfs:label>permeameter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter-permeameter_-_steady_state_flow_method">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter</skos:broader>
+    <rdfs:label>permeameter - steady state flow method</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter-permeameter_-_pore_pressure_oscillation_method">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter</skos:broader>
+    <rdfs:label>permeameter - pore pressure oscillation method</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter-permeameter_-_pressure_transient_pulse_decay_method">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-permeameter</skos:broader>
+    <rdfs:label>permeameter - pressure transient pulse decay method</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing-multi-phase_flow_test_apparatus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing-rheometer</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing-viscometer</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing</skos:broader>
+    <rdfs:label>fluid rheology testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing-rheometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing</skos:broader>
+    <rdfs:label>rheometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing-viscometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing</skos:broader>
+    <rdfs:label>viscometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing-multi-phase_flow_test_apparatus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-fluid_transport_testing-fluid_rheology_testing</skos:broader>
+    <rdfs:label>multi-phase flow test apparatus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-humidity_control</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus</skos:broader>
+    <rdfs:label>environmental control</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control-cryostat</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control-furnace</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control-incubator</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control</skos:broader>
+    <rdfs:label>temperature control</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control-cryostat">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control</skos:broader>
+    <rdfs:label>cryostat</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control-furnace">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control</skos:broader>
+    <rdfs:label>furnace</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control-incubator">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-temperature_control</skos:broader>
+    <rdfs:label>incubator</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-humidity_control">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-humidity_control-humidity_controlled_chamber</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control</skos:broader>
+    <rdfs:label>humidity control</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-humidity_control-humidity_controlled_chamber">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-environmental_control-humidity_control</skos:broader>
+    <rdfs:label>humidity controlled chamber</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus</skos:broader>
+    <rdfs:label>general sample characterization</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination-densimeter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination-porosity_meter_archimedes_method</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination-porosity_meter_mercury_porosimeter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination-pycnometer</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization</skos:broader>
+    <rdfs:label>porosity and density determination</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination-densimeter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination</skos:broader>
+    <rdfs:label>densimeter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination-porosity_meter_archimedes_method">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination</skos:broader>
+    <rdfs:label>porosity meter: Archimedes method </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination-porosity_meter_mercury_porosimeter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination</skos:broader>
+    <rdfs:label>porosity meter: mercury porosimeter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination-pycnometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-porosity_and_density_determination</skos:broader>
+    <rdfs:label>pycnometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis-particle_analyser</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis-profilometer</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis-roughness_testing_equipment</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization</skos:broader>
+    <rdfs:label>size and shape analysis</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis-particle_analyser">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis</skos:broader>
+    <rdfs:label>particle analyser</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis-profilometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis</skos:broader>
+    <rdfs:label>profilometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis-roughness_testing_equipment">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-size_and_shape_analysis</skos:broader>
+    <rdfs:label>roughness testing equipment</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination-conductivity_cell</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination-contact_resistivity_cell</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination-electric_resistivity_meter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination-tensiometer</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization</skos:broader>
+    <rdfs:label>electrical property determination</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination-conductivity_cell">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination</skos:broader>
+    <rdfs:label>conductivity cell </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination-contact_resistivity_cell">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination</skos:broader>
+    <rdfs:label>contact resistivity cell</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination-electric_resistivity_meter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination</skos:broader>
+    <rdfs:label>electric resistivity meter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination-tensiometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-electrical_property_determination</skos:broader>
+    <rdfs:label>tensiometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination-calorimeter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination-differential_thermal_analysis_setup</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination-thermal_conductivity_test_setup</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination-thermal_diffusivity_test_setup</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization</skos:broader>
+    <rdfs:label>thermal property determination</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination-calorimeter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination</skos:broader>
+    <rdfs:label>calorimeter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination-differential_thermal_analysis_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination</skos:broader>
+    <rdfs:label>differential thermal analysis setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination-thermal_conductivity_test_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination</skos:broader>
+    <rdfs:label>thermal conductivity test setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination-thermal_diffusivity_test_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-thermal_property_determination</skos:broader>
+    <rdfs:label>thermal diffusivity test setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-cherchar_equipment</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-core_scratcher</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-schmidt_hammer</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-sclerometer</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-slake_durability_setup</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization</skos:broader>
+    <rdfs:label>mechanical property determination</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-cherchar_equipment">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination</skos:broader>
+    <rdfs:label>Cherchar equipment</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-core_scratcher">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination</skos:broader>
+    <rdfs:label>core scratcher</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-schmidt_hammer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination</skos:broader>
+    <rdfs:label>Schmidt hammer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-sclerometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination</skos:broader>
+    <rdfs:label>sclerometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination-slake_durability_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/apparatus-general_sample_characterization-mechanical_property_determination</skos:broader>
+    <rdfs:label>Slake durability setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_passive</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging</skos:narrower>
+    <rdfs:label>Ancillary equipment</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-camera_imaging_during_testing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-infrared_camera</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-infrared_spectroscope</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-photoelastic_setup</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment</skos:broader>
+    <rdfs:label>syn-deformation imaging</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-camera_imaging_during_testing">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging</skos:broader>
+    <rdfs:label>camera imaging during testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-infrared_camera">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging</skos:broader>
+    <rdfs:label>infrared camera</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing-x-ray_imaging_of_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing-x-ray_imaging_of_fluid_transport</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging</skos:broader>
+    <rdfs:label>X-ray imaging during testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing-x-ray_imaging_of_fluid_transport">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing</skos:broader>
+    <rdfs:label>X-ray imaging of fluid transport</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing-x-ray_imaging_of_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing</skos:broader>
+    <rdfs:label>X-ray imaging of deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing-neutron_imaging_of_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing-neutron_imaging_of_fluid_transport</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging</skos:broader>
+    <rdfs:label>neutron imaging during testing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing-neutron_imaging_of_fluid_transport">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing</skos:broader>
+    <rdfs:label>neutron imaging of fluid transport</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing-neutron_imaging_of_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing</skos:broader>
+    <rdfs:label>neutron imaging of deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-infrared_spectroscope">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging</skos:broader>
+    <rdfs:label>infrared spectroscope</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging-photoelastic_setup">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-syn-deformation_imaging</skos:broader>
+    <rdfs:label>photoelastic setup</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source-accelerometer</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source-laser_vibrometer</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source-ultrasonic_imaging_equipment</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source-ultrasound_monitoring_equipment</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment</skos:broader>
+    <rdfs:label>acoustic measurement - active source</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source-accelerometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source</skos:broader>
+    <rdfs:label>accelerometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source-laser_vibrometer">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source</skos:broader>
+    <rdfs:label>laser vibrometer</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source-ultrasonic_imaging_equipment">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source</skos:broader>
+    <rdfs:label>ultrasonic imaging equipment</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source-ultrasound_monitoring_equipment">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_active_source</skos:broader>
+    <rdfs:label>ultrasound monitoring equipment</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_passive">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_passive-acoustic_emission_ae_monitoring_equipment_-_continuous</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_passive-acoustic_emission_ae_monitoring_equipment_-_triggered</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment</skos:broader>
+    <rdfs:label>acoustic measurement - passive</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_passive-acoustic_emission_ae_monitoring_equipment_-_triggered">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_passive</skos:broader>
+    <rdfs:label>acoustic emission (AE) monitoring equipment - triggered</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_passive-acoustic_emission_ae_monitoring_equipment_-_continuous">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-acoustic_measurement_-_passive</skos:broader>
+    <rdfs:label>acoustic emission (AE) monitoring equipment - continuous</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing-distributed_acoustic_sensing_das_system</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing-distributed_strain_sensing_dss_system</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing-distributed_temperature_sensing_dts_system</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment</skos:broader>
+    <rdfs:label>distributed fibre sensing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing-distributed_acoustic_sensing_das_system">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing</skos:broader>
+    <rdfs:label>distributed acoustic sensing (DAS) system</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing-distributed_strain_sensing_dss_system">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing</skos:broader>
+    <rdfs:label>distributed strain sensing (DSS) system</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing-distributed_temperature_sensing_dts_system">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-distributed_fibre_sensing</skos:broader>
+    <rdfs:label>distributed temperature sensing (DTS) system</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement_-coriolis_meter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement_-flow_meter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement_-in-line_ph_meter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement_-relative_humidity_meter</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment</skos:broader>
+    <rdfs:label>in-line fluid property measurement </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement_-in-line_ph_meter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement</skos:broader>
+    <rdfs:label>in-line pH meter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement_-flow_meter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement</skos:broader>
+    <rdfs:label>flow meter </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement_-coriolis_meter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement</skos:broader>
+    <rdfs:label>Coriolis meter </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement_-relative_humidity_meter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/ancillary_equipment-in-line_fluid_property_measurement</skos:broader>
+    <rdfs:label>relative humidity meter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-hydrological_effects</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-fracture_and_crack_toughness</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_stress</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-grain_size_distribution</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-pore_fluid_pressure</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-porosity</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-roughness</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-slake_durability</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain_rate_-_creep_constant_stress</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-stress_relaxation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-thermal_properties</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-viscosity</skos:narrower>
+    <rdfs:label>Measured property</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-hydrostatic_compressive_strength_s1s2s3</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-plastic_flow_strength</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-residual_strength</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-shear_strength</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-tensile_strength</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-torsion_strength</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-triaxial_compressive_strength_s1-s2s3</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-true_tension_strength</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-true_triaxial_strength_s1-s2-s3</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-unconfined_compressive_strength_ucs</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-yield_strength</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>strength </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-unconfined_compressive_strength_ucs">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>unconfined compressive strength (UCS)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-tensile_strength">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>tensile strength</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-true_tension_strength">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>true tension strength</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-hydrostatic_compressive_strength_s1s2s3">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>hydrostatic compressive strength (s1=s2=s3)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-triaxial_compressive_strength_s1-s2s3">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>triaxial compressive strength (s1&gt;s2=s3)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-true_triaxial_strength_s1-s2-s3">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>true triaxial strength (s1&gt;s2&gt;s3)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-yield_strength">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>yield strength</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-shear_strength">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>shear strength</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-torsion_strength">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>torsion strength</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-residual_strength">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>residual strength</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-plastic_flow_strength">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-plastic_flow_strength-plastic_flow_law_stress_exponent</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength</skos:broader>
+    <rdfs:label>plastic flow strength</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-plastic_flow_strength-plastic_flow_law_stress_exponent">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strength_-plastic_flow_strength</skos:broader>
+    <rdfs:label>plastic flow law stress exponent</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-fracture_and_crack_toughness">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-fracture_and_crack_toughness-linear-elastic_critical_stress_intensity_factor_kic</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-fracture_and_crack_toughness-plastic-elastic_fracture_toughness_jic</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>fracture and crack toughness</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-fracture_and_crack_toughness-linear-elastic_critical_stress_intensity_factor_kic">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-fracture_and_crack_toughness</skos:broader>
+    <rdfs:label>linear-elastic (critical stress intensity factor KIC)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-fracture_and_crack_toughness-plastic-elastic_fracture_toughness_jic">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-fracture_and_crack_toughness</skos:broader>
+    <rdfs:label>plastic-elastic fracture toughness (JIC)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-cohesion</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-dilatancy_parameter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-linker-dieterich_parameter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-rate_and_state_friction_rsf_parameters</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-slip_weakening_parameters</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-stress_drop</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>friction - controlled slip rate</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-frictional_strength_recovery</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-kinetic_friction_coefficient</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-peak_friction_coefficient</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-reactivation_friction_coefficient</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-steady_state_friction_coefficient</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate</skos:broader>
+    <rdfs:label>friction coefficient</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-peak_friction_coefficient">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient</skos:broader>
+    <rdfs:label>peak friction coefficient</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-kinetic_friction_coefficient">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient</skos:broader>
+    <rdfs:label>kinetic friction coefficient</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-steady_state_friction_coefficient">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient</skos:broader>
+    <rdfs:label>steady state friction coefficient</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-reactivation_friction_coefficient">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient</skos:broader>
+    <rdfs:label>reactivation friction coefficient</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient-frictional_strength_recovery">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-friction_coefficient</skos:broader>
+    <rdfs:label>frictional strength recovery</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-rate_and_state_friction_rsf_parameters">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate</skos:broader>
+    <rdfs:label>rate and state friction (RSF) parameters</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-slip_weakening_parameters">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate</skos:broader>
+    <rdfs:label>slip weakening parameters</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-stress_drop">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate</skos:broader>
+    <rdfs:label>stress drop</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-cohesion">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate</skos:broader>
+    <rdfs:label>cohesion</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-dilatancy_parameter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate</skos:broader>
+    <rdfs:label>dilatancy parameter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate-linker-dieterich_parameter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_slip_rate</skos:broader>
+    <rdfs:label>Linker-Dieterich parameter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_stress">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_stress_-slip_rate</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>friction - controlled stress </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_stress_-slip_rate">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-friction_-_controlled_stress</skos:broader>
+    <rdfs:label>slip rate</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain-anelastic_strain</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain-elastic_strain</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain-inelastic_strain</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain-strain_partitioning</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>strain</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain-elastic_strain">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain</skos:broader>
+    <rdfs:label>elastic strain</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain-anelastic_strain">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain</skos:broader>
+    <rdfs:label>anelastic strain</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain-inelastic_strain">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain</skos:broader>
+    <rdfs:label>inelastic strain</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain-strain_partitioning">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain</skos:broader>
+    <rdfs:label>strain partitioning</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-strain_rate_-_creep_constant_stress">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>strain rate - creep (constant stress)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-stress_relaxation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>stress relaxation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-pore_fluid_pressure">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>pore fluid pressure</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects-force_of_crystallization_foc</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects-pore_fluid_composition</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects-rate_of_crack_growth</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects-rate_of_pressure_solution</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>coupled  mechanical-chemical effects</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects-force_of_crystallization_foc">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects</skos:broader>
+    <rdfs:label>force of crystallization (FOC)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects-rate_of_crack_growth">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects</skos:broader>
+    <rdfs:label>rate of crack growth</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects-rate_of_pressure_solution">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects</skos:broader>
+    <rdfs:label>rate of pressure solution</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects-pore_fluid_composition">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-chemical_effects</skos:broader>
+    <rdfs:label>pore fluid composition </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-coupled_mechanical-hydrological_effects">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>coupled mechanical-hydrological effects </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change-endothermic_reaction</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change-exothermic_reaction</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change-frictional_heating</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>temperature change</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change-endothermic_reaction">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change</skos:broader>
+    <rdfs:label>endothermic reaction</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change-exothermic_reaction">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change</skos:broader>
+    <rdfs:label>exothermic reaction</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change-frictional_heating">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-temperature_change</skos:broader>
+    <rdfs:label>frictional heating</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-axial_compressibility</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-biot_coefficient</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-bulk_compressibility</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-bulk_modulus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-indentation_modulus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-lame_parameter</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-modulus_attenuation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-modulus_dispersion</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-poisson_ratio</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-shear_modulus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-storageloss_modulus</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-youngs_modulus</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>elasticity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-youngs_modulus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>Young's modulus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-bulk_modulus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>bulk modulus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-shear_modulus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>shear modulus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-poisson_ratio">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>Poisson ratio</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-biot_coefficient">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>Biot coefficient</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-axial_compressibility">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>axial compressibility</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-bulk_compressibility">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>bulk compressibility</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-lame_parameter">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>Lamé parameter</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-indentation_modulus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>indentation modulus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-modulus_dispersion">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>modulus dispersion</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-modulus_attenuation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>modulus attenuation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity-storageloss_modulus">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elasticity</skos:broader>
+    <rdfs:label>storage/loss modulus</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-p-wave</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-s-wave</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-s1-wave</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-s2-wave</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-wave_attenuation</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>elastic wave velocity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-p-wave">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity</skos:broader>
+    <rdfs:label>P-wave</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-s-wave">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity</skos:broader>
+    <rdfs:label>S-wave</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-s1-wave">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity</skos:broader>
+    <rdfs:label>S1-wave</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-s2-wave">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity</skos:broader>
+    <rdfs:label>S2-wave</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity-wave_attenuation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-elastic_wave_velocity</skos:broader>
+    <rdfs:label>wave attenuation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae-acoustic_emission_ae_count</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae-acoustic_emission_ae_energy</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae-acoustic_emission_ae_location</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>acoustic emission (AE)</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae-acoustic_emission_ae_energy">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae</skos:broader>
+    <rdfs:label>acoustic emission (AE) energy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae-acoustic_emission_ae_count">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae</skos:broader>
+    <rdfs:label>acoustic emission (AE) count</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae-acoustic_emission_ae_location">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-acoustic_emission_ae</skos:broader>
+    <rdfs:label>acoustic emission (AE) location</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-porosity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>porosity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-absolute_permeability</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-bulk_sample_permeability</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-capillary_effects</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-fluid_hold-up</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-fracture_permeability</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-klinkenberg_constant</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-relative_permeability</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-storativity</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>permeability</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-absolute_permeability">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:broader>
+    <rdfs:label>absolute permeability</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-relative_permeability">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:broader>
+    <rdfs:label>relative permeability</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-fracture_permeability">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:broader>
+    <rdfs:label>fracture permeability</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-bulk_sample_permeability">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:broader>
+    <rdfs:label>bulk sample permeability</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-storativity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:broader>
+    <rdfs:label>storativity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-klinkenberg_constant">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:broader>
+    <rdfs:label>Klinkenberg constant</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-capillary_effects">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:broader>
+    <rdfs:label>capillary effects</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability-fluid_hold-up">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-permeability</skos:broader>
+    <rdfs:label>fluid hold-up</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-thermal_properties">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-thermal_properties-heat_capacity</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-thermal_properties-thermal_conductivity</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>thermal properties</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-thermal_properties-heat_capacity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-thermal_properties</skos:broader>
+    <rdfs:label>heat capacity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-thermal_properties-thermal_conductivity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-thermal_properties</skos:broader>
+    <rdfs:label>thermal conductivity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties-electrical_capacity</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties-electrical_conductivity</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties-electrical_resistivity</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties-frequency_dependent_conductivity</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>electrical properties</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties-electrical_conductivity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties</skos:broader>
+    <rdfs:label>electrical conductivity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties-electrical_resistivity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties</skos:broader>
+    <rdfs:label>electrical resistivity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties-electrical_capacity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties</skos:broader>
+    <rdfs:label>electrical capacity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties-frequency_dependent_conductivity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-electrical_properties</skos:broader>
+    <rdfs:label>frequency dependent conductivity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy_-elastic_anisotropy</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy_-permeability_anisotropy</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy_-seismic_anisotropy</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy_-strength_anisotropy</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>anisotropy </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy_-strength_anisotropy">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy</skos:broader>
+    <rdfs:label>strength anisotropy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy_-elastic_anisotropy">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy</skos:broader>
+    <rdfs:label>elastic anisotropy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy_-permeability_anisotropy">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy</skos:broader>
+    <rdfs:label>permeability anisotropy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy_-seismic_anisotropy">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-anisotropy</skos:broader>
+    <rdfs:label>seismic anisotropy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-roughness">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-roughness-grain_surface_roughness</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-roughness-rock_surface_roughness</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>roughness</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-roughness-grain_surface_roughness">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-roughness</skos:broader>
+    <rdfs:label>grain surface roughness</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-roughness-rock_surface_roughness">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-roughness</skos:broader>
+    <rdfs:label>rock surface roughness</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-slake_durability">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>Slake durability</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-viscosity">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>viscosity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property-grain_size_distribution">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/measured_property</skos:broader>
+    <rdfs:label>grain size distribution</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-energy_partitioning</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:narrower>
+    <rdfs:label>Inferred deformation behavior</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-anelastic_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-brittle_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-brittle-ductile_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-brittle-viscous_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-ductile_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-flow_law</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-frictional_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-hysteresis</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-inelastic_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-poroelastic_deformation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-viscous_deformation</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior</skos:broader>
+    <rdfs:label>deformation behaviour</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-poroelastic_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>poroelastic deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-anelastic_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>anelastic deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-inelastic_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>inelastic deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-hysteresis">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>hysteresis</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-brittle_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>brittle deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-frictional_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>frictional deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-ductile_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>ductile deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-brittle-ductile_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>brittle-ductile deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-brittle-viscous_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>brittle-viscous deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-viscous_deformation">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>viscous deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor-deviatoric_strain_tensor</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor-elastic_strain_tensor</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor-inelastic_strain_tensor</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor-mean_strain_tensor</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>strain tensor</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor-mean_strain_tensor">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor</skos:broader>
+    <rdfs:label>mean strain tensor</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor-deviatoric_strain_tensor">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor</skos:broader>
+    <rdfs:label>deviatoric strain tensor </rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor-elastic_strain_tensor">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor</skos:broader>
+    <rdfs:label>elastic strain tensor</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor-inelastic_strain_tensor">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-strain_tensor</skos:broader>
+    <rdfs:label>inelastic strain tensor</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-flow_law">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-flow_law-associated_flow</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-flow_law-nonassociated_flow</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>flow law</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-flow_law-associated_flow">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-flow_law</skos:broader>
+    <rdfs:label>associated flow</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-flow_law-nonassociated_flow">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-flow_law</skos:broader>
+    <rdfs:label>nonassociated flow</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-compaction_band</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-dilation_band</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-riedel_shear</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-shear_band</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-shear_failure</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour</skos:broader>
+    <rdfs:label>localized deformation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-shear_failure">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation</skos:broader>
+    <rdfs:label>shear failure</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-compaction_band">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation</skos:broader>
+    <rdfs:label>compaction band</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-dilation_band">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation</skos:broader>
+    <rdfs:label>dilation band</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-shear_band">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation</skos:broader>
+    <rdfs:label>shear band</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation-riedel_shear">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-deformation_behaviour-localized_deformation</skos:broader>
+    <rdfs:label>Riedel shear</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_absorption</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_adsorption</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_desorption</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-frictional_heating</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-intergranular_cracking</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-intergranular_slip</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-intragranular_cracking</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-transgranular_cracking</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior</skos:broader>
+    <rdfs:label>microphysical deformation mechanism</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-intragranular_cracking">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>intragranular cracking</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-intergranular_cracking">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>intergranular cracking</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-transgranular_cracking">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>transgranular cracking</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-intergranular_slip">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>intergranular slip</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_desorption">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>fluid desorption</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism">
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-crystal_plasticity_-_diffusion_creep</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-crystal_plasticity_-_dislocation_creep</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-pressure_solution</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-stress_corrosion_cracking</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-sub-critical_crack_growth</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>time-dependent mechanism</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-pressure_solution">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism</skos:broader>
+    <rdfs:label>pressure solution</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-sub-critical_crack_growth">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism</skos:broader>
+    <rdfs:label>sub-critical crack growth</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-stress_corrosion_cracking">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism</skos:broader>
+    <rdfs:label>stress corrosion cracking</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-crystal_plasticity_-_dislocation_creep">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism</skos:broader>
+    <rdfs:label>crystal plasticity - dislocation creep</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-crystal_plasticity_-_diffusion_creep">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism</skos:broader>
+    <rdfs:label>crystal plasticity - diffusion creep</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_adsorption">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>fluid adsorption</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_absorption">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>fluid absorption</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism-frictional_heating">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-microphysical_deformation_mechanism</skos:broader>
+    <rdfs:label>frictional heating</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior-energy_partitioning">
+    <skos:broader>https://epos-msl.uu.nl/voc/rockphysics/1.0/inferred_deformation_behavior</skos:broader>
+    <rdfs:label>energy partitioning</rdfs:label>
+  </skos:Concept>
+
+</rdf:RDF>
