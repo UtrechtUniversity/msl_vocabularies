@@ -828,7 +828,7 @@
         "id": "0cf1ca58a63ae6674e439c2b1ce0a49c",
         "lab_portal_name": "Analogue Modelling Laboratory at Tectonics and Geodynamics (RWTH Aachen University, Germany)",
         "lab_editor_name": "Analogue Modelling Laboratory at Tectonics and Geodynamics (Aachen, Germany)",
-		"affiliation": "RWTH Aachen University, Germany",
+        "affiliation": "RWTH Aachen University, Germany",
         "id_inputstring": "Analogue Modelling Laboratory at Tectonics and Geodynamics (Aachen, Germany)"
     },
 	{
@@ -836,7 +836,7 @@
         "id": "b126f2211fed83bcfeb034a4cf2ceaf4",
         "lab_portal_name": "UHH-Tec - Experimental tectonics laboratory (University of Hamburg, Germany)",
         "lab_editor_name": "UHH-Tec - Experimental tectonics laboratory (University of Hamburg, Germany)",
-		"affiliation": "University of Hamburg, Germany",
+        "affiliation": "University of Hamburg, Germany",
         "id_inputstring": "UHH-Tec - Experimental tectonics laboratory (University of Hamburg, Germany)"
     },
 	{
@@ -844,7 +844,7 @@
         "id": "5ec0a7ac68ea8971ba7dcdbaae87a4a4",
         "lab_portal_name": "Kuenen-Escher Geodynamics Laboratory (KEG Lab) (Vrije Universiteit Amsterdam, The Netherlands)",
         "lab_editor_name": "Kuenen-Escher Geodynamics Laboratory (KEG Lab) (Vrije Universiteit Amsterdam, The Netherlands)",
-		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
         "id_inputstring": "Kuenen-Escher Geodynamics Laboratory (KEG Lab) (Vrije Universiteit Amsterdam, The Netherlands)"
     },
 	{
@@ -852,7 +852,7 @@
         "id": "ad9d1d9487407914745c98bd65074edc",
         "lab_portal_name": "Laboratorios Analítícos de Geología (University of Barcelona - CCiT, Spain)",
         "lab_editor_name": "Laboratorios Analítícos de Geología (University of Barcelona - CCiT, Spain)",
-		"affiliation": "University of Barcelona - CCiT, Spain",
+        "affiliation": "University of Barcelona - CCiT, Spain",
         "id_inputstring": "Laboratorios Analítícos de Geología (University of Barcelona - CCiT, Spain)"
     },
 	{
@@ -860,7 +860,7 @@
         "id": "e01ea0c79fbfb537e8a57e674d8ec346",
         "lab_portal_name": "The Netherlands Geochemistry Laboratory (NiGeL) (Vrije Universiteit Amsterdam, The Netherlands)",
         "lab_editor_name": "The Netherlands Geochemistry Laboratory (NiGeL) (Vrije Universiteit Amsterdam, The Netherlands)",
-		"affiliation": "",
+        "affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
         "id_inputstring": "The Netherlands Geochemistry Laboratory (NiGeL) (Vrije Universiteit Amsterdam, The Netherlands)"
     },
 	{
@@ -868,7 +868,7 @@
         "id": "d373893f8b31bfe1647a941367f05e72",
         "lab_portal_name": "Argon Geochronology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
         "lab_editor_name": "Argon Geochronology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
-		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
         "id_inputstring": "Argon Geochronology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)"
     },
 	{
@@ -876,7 +876,7 @@
         "id": "60f6273e8979f57ca0d43832af24e432",
         "lab_portal_name": "Geobiology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
         "lab_editor_name": "Geobiology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
-		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
         "id_inputstring": "Geobiology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)"
     },
 	{
@@ -884,7 +884,7 @@
         "id": "769f645557d5d3149c038d0666f03fd2",
         "lab_portal_name": "Mineral Separation Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
         "lab_editor_name": "Mineral Separation Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
-		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
         "id_inputstring": "Mineral Separation Laboratory (Vrije Universiteit Amsterdam, The Netherlands)"
     },
 	{
@@ -892,7 +892,7 @@
         "id": "09df67bf1872a881e983556b65c50622",
         "lab_portal_name": "Earth Sciences Stable Isotope Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
         "lab_editor_name": "Earth Sciences Stable Isotope Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
-		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
         "id_inputstring": "Earth Sciences Stable Isotope Laboratory (Vrije Universiteit Amsterdam, The Netherlands)"
     },
 	{
@@ -900,7 +900,7 @@
         "id": "a5b3ec1787f0393c8c7b03e6b63948d2",
         "lab_portal_name": "Scientific Center for Optical and Electron Microscopy (ScopeM) (ETH: Swiss Federal Institute of Technology in Zürich, Switzerland)",
         "lab_editor_name": "Scientific Center for Optical and Electron Microscopy (ScopeM) (ETH: Swiss Federal Institute of Technology in Zürich, Switzerland)",
-		"affiliation": "ETH: Swiss Federal Institute of Technology in Zürich, Switzerland",
+        "affiliation": "ETH: Swiss Federal Institute of Technology in Zürich, Switzerland",
         "id_inputstring": "Scientific Center for Optical and Electron Microscopy (ScopeM) (ETH: Swiss Federal Institute of Technology in Zürich, Switzerland)"
     },
 	{
@@ -908,7 +908,7 @@
         "id": "f31ccc8913e82ba9522c3221e237c7b3",
         "lab_portal_name": "Laboratory for Paleomagnetism and Environmental Studies (Institute of Geophysics, Polish Academy of Sciences, Poland)",
         "lab_editor_name": "Laboratory for Paleomagnetism and Environmental Studies (Institute of Geophysics, Polish Academy of Sciences, Poland)",
-		"affiliation": "Institute of Geophysics, Polish Academy of Sciences, Poland",
+        "affiliation": "Institute of Geophysics, Polish Academy of Sciences, Poland",
         "id_inputstring": "Laboratory for Paleomagnetism and Environmental Studies (Institute of Geophysics, Polish Academy of Sciences, Poland)"
     },
 	{
@@ -916,7 +916,7 @@
         "id": "953b030cda729a389b846ddf8172c1ff",
         "lab_portal_name": "Institute Dom Luiz (IDL) (University of Lisbon, Portugal)",
         "lab_editor_name": "Institute Dom Luiz (IDL) (University of Lisbon, Portugal)",
-		"affiliation": "University of Lisbon, Portugal",
+        "affiliation": "University of Lisbon, Portugal",
         "id_inputstring": "Institute Dom Luiz (IDL) (University of Lisbon, Portugal)"
     },
 	{
@@ -924,7 +924,7 @@
         "id": "4b785d8c71da65b82b6e76c1dfd40d93",
         "lab_portal_name": "Lunar planetary lab (Vrije Universiteit Amsterdam, The Netherlands)",
         "lab_editor_name": "Lunar planetary lab (Vrije Universiteit Amsterdam, The Netherlands)",
-		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
         "id_inputstring": "Lunar planetary lab (Vrije Universiteit Amsterdam, The Netherlands)"
     },
 	{
@@ -932,7 +932,7 @@
         "id": "973f953f1a2b63b7ce2377268b4041e9",
         "lab_portal_name": "Applied Geoscience Laboratory (University of Edinburgh, United Kingdom)",
         "lab_editor_name": "Applied Geoscience Laboratory (University of Edinburgh, United Kingdom)",
-		"affiliation": "University of Edinburgh, United Kingdom",
+        "affiliation": "University of Edinburgh, United Kingdom",
         "id_inputstring": "Applied Geoscience Laboratory (University of Edinburgh, United Kingdom)"
     },
 	{
@@ -940,7 +940,7 @@
         "id": "ece44a25524274a91251910c0f7c4d85",
         "lab_portal_name": "Geodynamics Lab (ISTO: Earth Sciences Institute of Orléans, France)",
         "lab_editor_name": "Geodynamics Lab (ISTO: Earth Sciences Institute of Orléans, France)",
-		"affiliation": "ISTO: Earth Sciences Institute of Orléans, France",
+        "affiliation": "ISTO: Earth Sciences Institute of Orléans, France",
         "id_inputstring": "Geodynamics Lab (ISTO: Earth Sciences Institute of Orléans, France)"
     }
 ]
