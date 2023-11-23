@@ -1,0 +1,946 @@
+[
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "1b9abbf97c7caa2d763b647d476b2910",
+        "lab_portal_name": "TecMOD - FASTmodel (CNRS-Paris Sud Orsay University, France)",
+        "lab_editor_name": "FASTmodel- Laboratoire de modélisation analogique Fluides Automatique et Systèmes Thermiques (CNRS-Paris Sud Orsay University, France)",
+        "affiliation": "CNRS-Paris Sud Orsay University, Paris, France",
+        "id_inputstring": "FASTmodel- Laboratoire de modélisation analogique Fluides Automatique et Systèmes Thermiques (CNRS-Paris Sud Orsay University,  France)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "9cd562c216daa82792972a074a222c52",
+        "lab_portal_name": "Fragmentation Lab (Ludwig-Maximilians-University Munich, Germany)",
+        "lab_editor_name": "Fragmentation Lab (Ludwig-Maximilians-University Munich, Germany)",
+        "affiliation": "Ludwig-Maximilians-University Munich, Munich, Germany",
+        "id_inputstring": "Fragmentation Lab (Ludwig-Maximilians-University Munich,  Germany)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "09e434194091574963c80f83d586875d",
+        "lab_portal_name": "TecMOD - GRmodel (CNRS-Rennes 1 University, France)",
+        "lab_editor_name": "TecMOD - GRmodel (CNRS-Rennes 1 University, France)",
+        "affiliation": "CNRS-Rennes 1 University, Rennes, France",
+        "id_inputstring": "Grmodel - Laboratoire de modélisation analogique Géosciences Rennes  (CNRS-Rennes 1 University,  France)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "f780441f60a30a86b752e00adb66f107",
+        "lab_portal_name": "TecMOD - GMmodel",
+        "lab_editor_name": "Gmmodel - Laboratoire de modélisation analogique Géosciences Montpellier (CNRS-Montpellier University, France)",
+        "affiliation": "CNRS-Montpellier University, Montpellier, France",
+        "id_inputstring": "Gmmodel - Laboratoire de modélisation analogique Géosciences Montpellier (CNRS-Montpellier University,  France)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "cdc8a61ba9f1327a72b75602773a8aa4",
+        "lab_portal_name": "TecMOD - Geoϕlab (CNRS-Maine University, France)",
+        "lab_editor_name": "Geoϕlab - Laboratoire de modélisation analogique Géosciences Le Mans (CNRS-Maine University, France)",
+        "affiliation": "CNRS-Maine University, Le Mans, France",
+        "id_inputstring": "Geoϕlab - Laboratoire de modélisation analogique Géosciences Le Mans (CNRS-Maine University,  France)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "3a9d5ca4a33e7f95d0a2eaa1e8479a13",
+        "lab_portal_name": "TecMOD - GECmodel (CNRS-Cergy-Pontoise University, France)",
+        "lab_editor_name": "TecMOD - GECmodel (CNRS-Cergy-Pontoise University, France)",
+        "affiliation": "CNRS-Cergy-Pontoise University, Cergy-Pontoise, France ",
+        "id_inputstring": "GECmodel - Laboratoire de modélisation analogique Géosciences et Environnement (CNRS-Cergy-Pontoise University,  France )"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "2fbc7ed93520ec97286452aac791c0bc",
+        "lab_portal_name": "TecMOD - GEOAZURmodel (CNRS-Nice Sophia Antipolis University, France)",
+        "lab_editor_name": "GEOAZURmodel - Laboratoire de modélisation analogique Géoazur (CNRS-Nice Sophia Antipolis University, France)",
+        "affiliation": "CNRS-Nice Sophia Antipolis University, Nice, France",
+        "id_inputstring": "GEOAZURmodel - Laboratoire de modélisation analogique Géoazur (CNRS-Nice Sophia Antipolis University,  France)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "02b7608a7e58bf889973a20d82d217fe",
+        "lab_portal_name": "GEOMODELS Lab (Universitat de Barcelona, Spain)",
+        "lab_editor_name": "GEOMODELS Analogue Modelling Laboratory (Universitat de Barcelona, Spain)",
+        "affiliation": "Universitat de Barcelona, Barcelona, Spain",
+        "id_inputstring": "GEOMODELS Analogue Modelling Laboratory (Universitat de Barcelona,  Spain)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "d3ee46d9f26bd5d38cd9212b2a107b2d",
+        "lab_portal_name": "TecMOD - GETmodel (CNRS-Toulouse University, France)",
+        "lab_editor_name": "GETmodel - Laboratoire de modélisation analogique Géosciences Environnement (CNRS-Toulouse University, France)",
+        "affiliation": "CNRS-Toulouse University, Toulouse, France",
+        "id_inputstring": "GETmodel - Laboratoire de modélisation analogique Géosciences Environnement (CNRS-Toulouse University,  France)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "9ba34c109b827b177aab36e0266b1643",
+        "lab_portal_name": "HelTec - Helmholtz Laboratory for Tectonic Modelling (GFZ Potsdam, Germany)",
+        "lab_editor_name": "HelTec - Helmholtz Laboratory for Tectonic Modelling (GFZ Potsdam, Germany)",
+        "affiliation": "GFZ German Research Centre for Geosciences, Potsdam, Germany",
+        "id_inputstring": "HelTec - Helmholtz Laboratory for Tectonic Modelling (GFZ German Research Centre for Geosciences,  Germany)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "c8a8a396b310eb8b6aff45dc25c64864",
+        "lab_portal_name": "Laboratorio de Modelización Analógica de Estructuras Geológicas (Universidad de Granada, Spain)",
+        "lab_editor_name": "Laboratorio de Modelización Analógica de Estructuras Geológicas (Universidad de Granada, Spain)",
+        "affiliation": "Universidad de Granada, Granada, Spain",
+        "id_inputstring": "Laboratorio de Modelización Analógica de Estructuras Geológicas (Universidad de Granada,  Spain)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "84af0ba9f213bc36b12db7903c31e358",
+        "lab_portal_name": "Laboratorio de Modelización Analógica (Universidad de Zaragoza-IGME, Spain)",
+        "lab_editor_name": "Laboratorio de Modelización Analógica (Universidad de Zaragoza-IGME, Spain)",
+        "affiliation": "Universidad de Zaragoza-IGME, Zaragoza, Spain",
+        "id_inputstring": "Laboratorio de Modelización Analógica (Universidad de Zaragoza-IGME,  Spain)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "c708c8a6df37eef7e827312f182ea80d",
+        "lab_portal_name": "Laboratorio de Deformació Experimental (Universitat Autònoma de Barcelona, Spain)",
+        "lab_editor_name": "Laboratori de Deformació Experimental (Universitat Autònoma de Barcelona, Spain)",
+        "affiliation": "Universitat Autònoma de Barcelona, Barcelona, Spain",
+        "id_inputstring": "Laboratorio de Deformació Experimental (Universitat Autònoma de Barcelona,  Spain)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "3f93794e1a57b5c3906698aab2c630bc",
+        "lab_portal_name": "Laboratory of Experimental Tectonics (Universitá degli studi \"Roma TRE\", Italy)",
+        "lab_editor_name": "Laboratory of Experimental Tectonics (Universitá degli studi \"Roma TRE\", Italy)",
+        "affiliation": "Universitá degli studi \"Roma TRE\", Rome, Italy",
+        "id_inputstring": "Laboratory of Experimental Tectonics (University of Roma TRE,  Italy)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "912d3d031446daf09e7e6152038f64d3",
+        "lab_portal_name": "TecMOD - LMVmodel (CNRS-Clermont-Ferrand University, France)",
+        "lab_editor_name": "LMVmodel - Laboratoire de modélisation analogique Magmas et Volcans (CNRS-Clermont-Ferrand University, France)",
+        "affiliation": "CNRS-Clermont-Ferrand University, Clermont-Ferrand, France",
+        "id_inputstring": "LMVmodel - Laboratoire de modélisation analogique Magmas et Volcans (CNRS-Clermont-Ferrand University,  France)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "25c2850521e61ccfc1056acf7a172a07",
+        "lab_portal_name": "TecMOD - LOGmodel (CNRS-Lille 1 University, France)",
+        "lab_editor_name": "LOGmodel - Laboratoire de modélisation analogique d’Océanologie et de Géosciences (CNRS-Lille 1 University, France)",
+        "affiliation": "CNRS-Lille 1 University, Lille, France",
+        "id_inputstring": "LOGmodel - Laboratoire de modélisation analogique d’Océanologie et de Géosciences (CNRS-Lille 1 University,  France)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "31e69c18936ab14ffdecfb7f8695b78a",
+        "lab_portal_name": "Magma Chamber Analogue Modelling Laboratory (CSIC-ICTJA, Spain)",
+        "lab_editor_name": "Magma Chamber Analogue Modelling Laboratory (CSIC-ICTJA, Spain)",
+        "affiliation": "CSIC-ICTJA, Barcelona, Spain",
+        "id_inputstring": "Magma Chamber Analogue Modelling Laboratory (CSIC-ICTJA,  Spain)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "aa45f98e5c098237d0c57b58e5f953e1",
+        "lab_portal_name": "TecLab - Tectonic Modelling Laboratory (Utrecht University, The Netherlands)",
+        "lab_editor_name": "TecLab - Tectonic Modelling Laboratory (Utrecht University, The Netherlands)",
+        "affiliation": "Utrecht University, Utrecht, The Netherlands",
+        "id_inputstring": "TecLab - Tectonic  Modelling Laboratory  (Utrecht University,  The Netherlands)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "5f7c8ccbe6dc7fa403b3f7c6041a76a8",
+        "lab_portal_name": "Tectonics Modelling Laboratory - Firenze (IGG-CNR, Italy)",
+        "lab_editor_name": "Tectonics Modelling Laboratory - Firenze (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR, Florence, Italy",
+        "id_inputstring": "Tectonics Modelling Laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "66dea222f20d276d6db8d51f29c6525f",
+        "lab_portal_name": "ANDALCHRON (CSIC-IACT, Spain)",
+        "lab_editor_name": "ANDALCHRON (CSIC-IACT, Spain)",
+        "affiliation": "CSIC-IACT,  Spain",
+        "id_inputstring": "ANDALCHRON (CSIC-IACT,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "ea0ba15ea6bf983b1d8d8568829aa943",
+        "lab_portal_name": "Ar-Ar Geochronology laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Ar-Ar Geochronology laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Ar-Ar Geochronology laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "c1308c50e38b0be85a39688bd6b1ec56",
+        "lab_portal_name": "Archeometry and microstratigraphic coring laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Archeometry and microstratigraphic coring laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Archeometry and microstratigraphic coring laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "3469c2abf3a0d3902c83e3adae683647",
+        "lab_portal_name": "C.A.I. of Geochronology and Isotope Geochemistry (Universidad Complutense de Madrid (UCM), Spain)",
+        "lab_editor_name": "C.A.I. of Geochronology and Isotope Geochemistry (Universidad Complutense de Madrid (UCM), Spain)",
+        "affiliation": "Universidad Complutense de Madrid (UCM),  Spain",
+        "id_inputstring": "C.A.I. of Geochronology and Isotope Geochemistry (Universidad Complutense de Madrid (UCM),  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "462c4266a34a608173dd2c0dd5eea0da",
+        "lab_portal_name": "Cristallography and crystal chemistry laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Cristallography and crystal chemistry laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Cristallography and crystal chemistry laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "f9e0f3b0be7565fb3b95d1c2ece8978c",
+        "lab_portal_name": "Electron Microscopy Facilities (Utrecht University, The Netherlands)",
+        "lab_editor_name": "Electron Microscopy Facilities (Utrecht University, The Netherlands)",
+        "affiliation": "Utrecht University,  The Netherlands",
+        "id_inputstring": "Electron Microscopy Facilities (Utrecht University,  The Netherlands)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "3b8fed72cf84e5c6bcccb0a74562a95d",
+        "lab_portal_name": "Electron Microprobe (LNEG-UCTM, Portugal)",
+        "lab_editor_name": "Electron Microprobe (LNEG-UCTM, Portugal)",
+        "affiliation": "LNEG-UCTM,  Portugal",
+        "id_inputstring": "Electron Microprobe (LNEG-UCTM,  Portugal)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "e85bd300aa400f9bdb807912adb8c518",
+        "lab_portal_name": "Electron Microprobe, XRD, FTIR and XRF (FCUL, Portugal)",
+        "lab_editor_name": "Electron Microprobe, XRD, FTIR and XRF (FCUL, Portugal)",
+        "affiliation": "FCUL,  Portugal",
+        "id_inputstring": "Electron Microprobe, XRD, FTIR and XRF (FCUL,  Portugal)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "65021cb629dc653b5c5323112dbabc2d",
+        "lab_portal_name": "Fission Track Laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Fission Track Laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Fission Track Laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "630c5c2bb83ae93e4cb8933c780b836e",
+        "lab_portal_name": "Fluid geochemistry laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Fluid geochemistry laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Fluid geochemistry laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "6755019ede4f10b7393b127965236096",
+        "lab_portal_name": "Geochronology and Isotope Geochemistry Facility-SGIker (Universidad del Pais Vasco, Spain)",
+        "lab_editor_name": "Geochronology and Isotope Geochemistry Facility-SGIker (Universidad del Pais Vasco, Spain)",
+        "affiliation": "Universidad del Pais Vasco,  Spain",
+        "id_inputstring": "Geochronology and Isotope Geochemistry Facility-SGIker (Universidad del Pais Vasco,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "3f145405812f5c7f69206bbd78b33a86",
+        "lab_portal_name": "HP-HT Laboratory of Experimental Volcanology and Geophysics (INGV, Italy)",
+        "lab_editor_name": "HP-HT Laboratory of Experimental Volcanology and Geophysics (INGV, Italy)",
+        "affiliation": "INGV,  Italy",
+        "id_inputstring": "HP-HT Laboratory of Experimental Volcanolgy and Geophysics (INGV, Rome,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "0d2892477f7ab2a23fdbbd22496e9d90",
+        "lab_portal_name": "IBERSIMS-SHRIMP Laboratory (Centro de Instrumentación Científica, Universidad de Granada, Spain)",
+        "lab_editor_name": "IBERSIMS-SHRIMP Laboratory (Centro de Instrumentación Científica, Universidad de Granada, Spain)",
+        "affiliation": "Universidad de Granada,  Spain",
+        "id_inputstring": "IBERSIMS Facility (Universidad de Granada,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "8ba860e8b22b52bec2f96a214f9e2568",
+        "lab_portal_name": "Laboratory of X-ray Diffraction (CSIC-ICTJA, Spain)",
+        "lab_editor_name": "Laboratory of X-ray Diffraction (CSIC-ICTJA, Spain)",
+        "affiliation": "CSIC-ICTJA,  Spain",
+        "id_inputstring": "Laboratory of X-ray Diffraction (CSIC-ICTJA,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "bf6f97618f5714e5c7a3886628315687",
+        "lab_portal_name": "Laboratory of Geochemistry labGEOTOP (CSIC-ICTJA, Spain)",
+        "lab_editor_name": "Laboratory of Geochemistry labGEOTOP (CSIC-ICTJA, Spain)",
+        "affiliation": "CSIC-ICTJA,  Spain",
+        "id_inputstring": "Laboratory of Geochemistry labGEOTOP (CSIC-ICTJA,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "9133c6af15c88c70ec4979321d4ef44b",
+        "lab_portal_name": "Laboratori analisi con microsonda eletrronica (IGG-CNR, Italy)",
+        "lab_editor_name": "Laboratori analisi con microsonda eletrronica (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Laboratori analisi con microsonda eletrronica (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "abffc206fde4d92e6a99314edff00f98",
+        "lab_portal_name": "Analytical Laboratories IGME ",
+        "lab_editor_name": "Analytical Laboratories IGME ",
+        "affiliation": "IGME-Universidad de Zaragoza,  Spain",
+        "id_inputstring": "Laboratorios Analíticos (IGME-Universidad de Zaragoza,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "5d7c0ecb67f5442088ae3b38946d41e3",
+        "lab_portal_name": "Laboratorio de Geocronología (Universidad de Cádiz, Spain)",
+        "lab_editor_name": "Laboratorio de Geocronología (Universidad de Cádiz, Spain)",
+        "affiliation": "Universidad de Cádiz,  Spain",
+        "id_inputstring": "Laboratorio de Geocronología (Universidad de Cádiz,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "3ffb26ba67914aeb2ec22f93415088a8",
+        "lab_portal_name": "Laboratorios Analíticos de Geoquímica (Universidad de Oviedo, Spain)",
+        "lab_editor_name": "Laboratorios Analíticos de Geoquímica (Universidad de Oviedo, Spain)",
+        "affiliation": "Universidad de Oviedo,  Spain",
+        "id_inputstring": "Laboratorios Analíticos de Geoquímica (Universidad de Oviedo,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "15074907275ed2aab90a655e971429b9",
+        "lab_portal_name": "MAiMA Isòtops estables i Mineralogia (Universitat de Barcelona, Spain)",
+        "lab_editor_name": "MAiMA Isòtops estables i Mineralogia (Universitat de Barcelona, Spain)",
+        "affiliation": "Universitat de Barcelona,  Spain",
+        "id_inputstring": "Laboratorios Analítícos de Geología (Universitat de Barcelona,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "72f006ac24b7b6bc5588d3096ea0111f",
+        "lab_portal_name": "Laboratory of Stable Isotopes and Noble Gas NUCLEUS (Universidad de Salamanca, Spain)",
+        "lab_editor_name": "Laboratory of Stable Isotopes and Noble Gas NUCLEUS (Universidad de Salamanca, Spain)",
+        "affiliation": "Universidad de Salamanca,  Spain",
+        "id_inputstring": "Laboratory of Stable Isotopes and Noble Gas NUCLEUS (Universidad de Salamanca,  Spain)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "5432344142c578b52daf04e580d3ea14",
+        "lab_portal_name": "LCGM Laboratory for Characterization of Geological Materials (FCUP, Portugal)",
+        "lab_editor_name": "LCGM Laboratory for Characterization of Geological Materials (FCUP, Portugal)",
+        "affiliation": "FCUP,  Portugal",
+        "id_inputstring": "LCGM Laboratory for Characterization of Geological Materials (FCUP,  Portugal)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "d67c9a04c0a838a931ef0363edc9f5b2",
+        "lab_portal_name": "Mass spectrometry la-icp laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Mass spectrometry la-icp laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Mass spectrometry la-icp laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "a7bb56c14b2a1e34c94b29ab6dba7cf2",
+        "lab_portal_name": "Rare gases mass spectrometry laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Rare gases mass spectrometry laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Rare gases mass spectrometry laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "27d80c967351a6ae6b84c5343aa0d05b",
+        "lab_portal_name": "Secondary-ion-mass-spectrometry-sims-ion-microporbe laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Secondary-ion-mass-spectrometry-sims-ion-microporbe laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Secondary-ion-mass-spectrometry-sims-ion-microporbe laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "acaf6a251b15f25564dbc0252883b702",
+        "lab_portal_name": "Stable Isotopes laboratory (IGG-CNR, Italy)",
+        "lab_editor_name": "Stable Isotopes laboratory (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "Stable Isotopes laboratory (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "ee6638b045a3678b09d3c90ff8de8908",
+        "lab_portal_name": "TIMS laboratories (IGG-CNR, Italy)",
+        "lab_editor_name": "TIMS laboratories (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR,  Italy",
+        "id_inputstring": "TIMS laboratories (IGG-CNR,  Italy)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "c3fff0d9ca9fe9caae131ff2b11f6e67",
+        "lab_portal_name": "Archeomagnetism Laboratory (CENIEH Burgos, Spain)",
+        "lab_editor_name": "Archeomagnetism Laboratory (CENIEH Burgos, Spain)",
+        "affiliation": "CENIEH Burgos, Burgos, Spain",
+        "id_inputstring": "Archeomagnetism Laboratory (CENIEH Burgos,  Spain)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "009b51690050c9179ad1ff09fc8b5fdd",
+        "lab_portal_name": "Group of Magnetic Applications (Universitat Autònoma de Barcelona (UAB), Spain)",
+        "lab_editor_name": "Group of Magnetic Applications (Universitat Autònoma de Barcelona (UAB), Spain)",
+        "affiliation": "Universitat Autònoma de Barcelona (UAB), Barcelona, Spain",
+        "id_inputstring": "Group of Magnetic Applications (Universitat Autònoma de Barcelona (UAB),  Spain)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "642d15e4962339445cd6b60aebb8571c",
+        "lab_portal_name": "Laboratory of AMS (Paleomagnetism) and Geophysical Prospection (IGME-Universidad de Zaragoza, Spain)",
+        "lab_editor_name": "Laboratory of AMS (Paleomagnetism) and Geophysical Prospection (IGME-Universidad de Zaragoza, Spain)",
+        "affiliation": "IGME-Universidad de Zaragoza, Zaragoza, Spain",
+        "id_inputstring": "Laboratory of AMS (Paleomagnetism) and Geophysical Prospection (IGME-Universidad de Zaragoza,  Spain)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "87b3ae0257c35ac0ce98017d394a4b91",
+        "lab_portal_name": "Laboratory of Paleomagnetism (CSIC-ICTJA and Universitat de Barcelona, Spain)",
+        "lab_editor_name": "Laboratory of Paleomagnetism (CSIC-ICTJA and Universitat de Barcelona, Spain)",
+        "affiliation": "CSIC-ICTJA and Universitat de Barcelona, Barcelona, Spain",
+        "id_inputstring": "Laboratory of Paleomagnetism (CSIC-ICTJA and Universitat de Barcelona,  Spain)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "92d921228718acdf875d1a919ddd10f3",
+        "lab_portal_name": "Laboratory of Paleomagnetism (CSIC-IPNA, Spain)",
+        "lab_editor_name": "Laboratory of Paleomagnetism (CSIC-IPNA, Spain)",
+        "affiliation": "CSIC-IPNA, Santa Cruz de Tenerife - Islas Canarias, Spain",
+        "id_inputstring": "Laboratory of Paleomagnetism (CSIC-IPNA,  Spain)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "db25441a67790eed816ac92fd9937d4e",
+        "lab_portal_name": "Laboratory of Paleomagnetism (Universidad Complutense de Madrid (UCM) and CSIC-IGEO, Spain)",
+        "lab_editor_name": "Laboratory of Paleomagnetism (Universidad Complutense de Madrid (UCM) and CSIC-IGEO, Spain)",
+        "affiliation": "Universidad Complutense de Madrid (UCM) and CSIC-IGEO, Madrid, Spain",
+        "id_inputstring": "Laboratory of Paleomagnetism (Universidad Complutense de Madrid (UCM) and CSIC-IGEO,  Spain)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "a9a7b6123f48f6a0ce4bdaea1558c84d",
+        "lab_portal_name": "Laboratory of Paleomagnetism (Universidad de Vigo, Spain)",
+        "lab_editor_name": "Laboratory of Paleomagnetism (Universidad de Vigo, Spain)",
+        "affiliation": "Universidad de Vigo, Vigo, Spain",
+        "id_inputstring": "Laboratory of Paleomagnetism (Universidad de Vigo,  Spain)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "0cf823da3e5c151a2bd825a91d3b8454",
+        "lab_portal_name": "Paleomagnetic Laboratory Fort Hoofddijk (Utrecht University, The Netherlands)",
+        "lab_editor_name": "Paleomagnetic Laboratory Fort Hoofddijk (Utrecht University, The Netherlands)",
+        "affiliation": "Utrecht University, Utrecht, The Netherlands",
+        "id_inputstring": "Paleomagnetic Laboratory Fort Hoofddijk  (Utrecht University, The Netherlands)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "2cf0b82b7ad792977e26c32eaf79cbb3",
+        "lab_portal_name": "Paleomagnetic Laboratory (INGV, Italy)",
+        "lab_editor_name": "Paleomagnetic Laboratory (INGV, Italy)",
+        "affiliation": "INGV, Rome, Italy",
+        "id_inputstring": "Paleomagnetic Laboratory (INGV,  Italy)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "6c110ea0c47b7a32bbe553b6da1ce193",
+        "lab_portal_name": "Paleomagnetic Laboratory (Università di Roma TRE, Italy)",
+        "lab_editor_name": "Paleomagnetic Laboratory (Università di Roma TRE, Italy)",
+        "affiliation": "Universitá degli studi \"Roma TRE\", Rome, Italy",
+        "id_inputstring": "Paleomagnetic Laboratory (Università di Roma TRE,  Italy)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "e96d53bc1aafb9357191cc78283cf013",
+        "lab_portal_name": "Paleomagnetic and Rock Magnetic Laboratory (Universidad de Burgos, Spain)",
+        "lab_editor_name": "Paleomagnetic and Rock Magnetic Laboratory (Universidad de Burgos, Spain)",
+        "affiliation": "Universidad de Burgos, Burgos, Spain",
+        "id_inputstring": "Paleomagnetic and Rock Magnetic Laboratory (Universidad de Burgos,  Spain)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "ff0d8b7e60ac0b69e22ea6b8ecd0ac0d",
+        "lab_portal_name": "Paléomagnétisme IPG Paris (CNRS-Sorbonne Paris Cité University, France)",
+        "lab_editor_name": "Paléomagnétisme IPG Paris (CNRS-Sorbonne Paris Cité University, France)",
+        "affiliation": "CNRS-Sorbonne Paris Cité University, Paris, France",
+        "id_inputstring": "Paléomagnétisme IPG Paris (CNRS-Sorbonne Paris Cité University,  France)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "818754e4579a6ad6e7fdfd8b97168ab5",
+        "lab_portal_name": "Paléomagnétisme LSCE Gif sur Yvette (CNRS-Versailles St Quentin University, France)",
+        "lab_editor_name": "Paléomagnétisme LSCE Gif sur Yvette (CNRS-Versailles St Quentin University, France)",
+        "affiliation": "CNRS-Versailles St Quentin University, Versailles, France",
+        "id_inputstring": "Paléomagnétisme LSCE Gif sur Yvette (CNRS-Versailles St Quentin University,  France)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "9b8d69fde0d11979bf57761d190bf479",
+        "lab_portal_name": "Paléomagnétisme Géosciences Rennes (CNRS-Rennes 1 University, France)",
+        "lab_editor_name": "Paléomagnétisme Géosciences Rennes (CNRS-Rennes 1 University, France)",
+        "affiliation": "CNRS-Rennes 1 University, Rennes, France",
+        "id_inputstring": "Paléomagnétisme Géosciences Rennes (CNRS-Rennes 1 University,  France)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "a964b1861b23b1a3ab45366737a6c096",
+        "lab_portal_name": "Paléomagnétisme Géosciences Environnement (CNRS-Toulouse University, France)",
+        "lab_editor_name": "Paléomagnétisme Géosciences Environnement (CNRS-Toulouse University, France)",
+        "affiliation": "CNRS-Toulouse University, Toulouse, France",
+        "id_inputstring": "Paléomagnétisme Géosciences Environnement (CNRS-Toulouse University,  France)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "f0a8cd7e3e62ad8998ec863a7db63132",
+        "lab_portal_name": "Paléomagnétisme Géosciences Montpellier (CNRS-Montpellier University, France)",
+        "lab_editor_name": "Paléomagnétisme Géosciences Montpellier (CNRS-Montpellier University, France)",
+        "affiliation": "CNRS-Montpellier University, Montpellier, France",
+        "id_inputstring": "Paléomagnétisme Géosciences Montpellier (CNRS-Montpellier University,  France)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "1dc5d11b9353599d153f139c02d9e458",
+        "lab_portal_name": "Paléomagnétisme CEREGE Aix en Provence (CNRS-Aix Marseille University, France)",
+        "lab_editor_name": "Paléomagnétisme CEREGE Aix en Provence (CNRS-Aix Marseille University, France)",
+        "affiliation": "CNRS-Aix Marseille University, Aix en Provence, France",
+        "id_inputstring": "Paléomagnétisme CEREGE Aix en Provence (CNRS-Aix Marseille University,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "9134453f876c393718c740124f7feaf3",
+        "lab_portal_name": "Experimental Geoscience Facility (The University of Edinburgh, UK)",
+        "lab_editor_name": "Experimental Geoscience Facility (The University of Edinburgh, UK)",
+        "affiliation": "The University of Edinburgh, Edinburgh, UK",
+        "id_inputstring": "Experimental Geoscience Facility (The University of Edinburgh,  UK)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "e3a4f5d02528d02c516dbea19c20b32c",
+        "lab_portal_name": "Experimental rock deformation/HPT-Lab (Utrecht University, The Netherlands)",
+        "lab_editor_name": "Experimental rock deformation/HPT-Lab (Utrecht University, The Netherlands)",
+        "affiliation": "Utrecht University, Utrecht, The Netherlands",
+        "id_inputstring": "Experimental rock deformation/HPT-Lab (Utrecht University,  The Netherlands)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "5580650c9a079144208b62291de6e4fe",
+        "lab_portal_name": "Geomechanics Laboratory, GEOLAB-CERENA (Instituto Superior Técnico, Portugal)",
+        "lab_editor_name": "Geomechanics Laboratory, GEOLAB-CERENA (Instituto Superior Técnico, Portugal)",
+        "affiliation": "Instituto Superior Técnico, Lisbon, Portugal",
+        "id_inputstring": "Geomechanics Laboratory, GEOLAB-CERENA (Instituto Superior Técnico,  Portugal)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "1d216a0482566fbfb46c6677211968f4",
+        "lab_portal_name": "GeoRessources (CNRS-Université de Lorraine, France)",
+        "lab_editor_name": "GeoRessources (CNRS-Université de Lorraine, France)",
+        "affiliation": "CNRS-Université de Lorraine, Nancy, France",
+        "id_inputstring": "Georessources (CNRS-Université de Lorraine,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "f40f7fd30b6eb223669ffa5df445b85e",
+        "lab_portal_name": "Geosciences Montpellier (CNRS-Université de Montpellier, France)",
+        "lab_editor_name": "Geosciences Montpellier (CNRS-Université de Montpellier, France)",
+        "affiliation": "CNRS-Université de Montpellier, Montpellier, France",
+        "id_inputstring": "Geosciences Montpellier (CNRS-Université de Montpellier,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "f28005bf8cf9ec0d284d123f0369131b",
+        "lab_portal_name": "ISTERRE (CNRS-Université de Grenoble Alpes, France)",
+        "lab_editor_name": "ISTERRE (CNRS-Université de Grenoble Alpes, France)",
+        "affiliation": "CNRS-Université de Grenoble Alpes, Grenoble, France",
+        "id_inputstring": "ISTERRE (CNRS-Université de Grenoble Alpes,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "2613a7211e1498423ed604baff8efef9",
+        "lab_portal_name": "HP-HT Laboratory of Experimental Volcanolgy and Geophysics (INGV, Italy)",
+        "lab_editor_name": "HP-HT Laboratory of Experimental Volcanolgy and Geophysics (INGV, Italy)",
+        "affiliation": "INGV, Rome, Italy",
+        "id_inputstring": "HP-HT Laboratory of Experimental Volcanolgy and Geophysics (INGV,  Italy)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "d0133f39c5081a996fa8edfc6bdbaade",
+        "lab_portal_name": "Laboratoire de Géologie (CNRS-Ecole Normale Supérieure, Paris, France)",
+        "lab_editor_name": "Laboratoire de Géologie (CNRS-Ecole Normale Supérieure, Paris, France)",
+        "affiliation": "CNRS-Ecole Normale Supérieure, Paris, Paris, France",
+        "id_inputstring": "Laboratoire de Géologie (CNRS-Ecole Normale Supérieure, Paris,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "423b1218dc5426c1569326c050081fbd",
+        "lab_portal_name": "Laboratoire de mécaniques des solides (Ecole Polytechnique, France)",
+        "lab_editor_name": "Laboratoire de mécaniques des solides (Ecole Polytechnique, France)",
+        "affiliation": "Ecole Polytechnique, Paris, France",
+        "id_inputstring": "Laboratoire de mécaniques des solides (Ecole Polytechnique,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "5a9b77c98dbf6251c55f7074043e87fd",
+        "lab_portal_name": "Laboratoire de déformation (CNRS-EOST/Université de Strasbourg, France)",
+        "lab_editor_name": "Laboratoire de déformation (CNRS-EOST/Université de Strasbourg, France)",
+        "affiliation": "CNRS-EOST/Université of Strasbourg, Strasbourg, France",
+        "id_inputstring": "Laboratoire de déformation (CNRS-EOST/Université of Strasbourg,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "2a7a775bbfe0e2a9ba8438fc250a2a1d",
+        "lab_portal_name": "Laboratoire 3S-R (CNRS-Université de Grenoble, France)",
+        "lab_editor_name": "Laboratoire 3S-R (CNRS-Université de Grenoble, France)",
+        "affiliation": "CNRS-Université de Grenoble, Grenoble, France",
+        "id_inputstring": "Laboratoire 3S-R (CNRS-Université de Grenoble,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "b03f4137ada3325fff270b348555d5d5",
+        "lab_portal_name": "Laboratoire des fluides complexes et leur réservoirs (CNRS-Université de Pau, France)",
+        "lab_editor_name": "Laboratoire des fluides complexes et leur réservoirs (CNRS-Université de Pau, France)",
+        "affiliation": "CNRS-Université de Pau, Pau, France",
+        "id_inputstring": "Laboratoire des fluides complexes et leur réservoirs (CNRS-Université de Pau,  France)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "8c098870d3c06b9a98cbde1a50f88027",
+        "lab_portal_name": "Melt and magma thermal analysis lab/High temperature melt lab (Ludwig-Maximilians-University Munich, Germany)",
+        "lab_editor_name": "Melt and magma thermal analysis lab/High temperature melt lab (Ludwig-Maximilians-University Munich, Germany)",
+        "affiliation": "Ludwig-Maximilians-University Munich, Munich, Germany",
+        "id_inputstring": "Melt and magma thermal analysis lab/High temperature melt lab (Ludwig-Maximilians-University Munich,  Germany)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "9d8748975fd5d8b44cfef516b8deb098",
+        "lab_portal_name": "Microseismology and Rock Physics Laboratory (ISEL - Physics Department, Portugal)",
+        "lab_editor_name": "Microseismology and Rock Physics Laboratory (ISEL - Physics Department, Portugal)",
+        "affiliation": "ISEL - Physics Department, Lisbon, Portugal",
+        "id_inputstring": "Microseismology and Rock Physics Laboratory (ISEL - Physics Department,  Portugal)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "9aa3578c25154d16a83d9902de774de4",
+        "lab_portal_name": "RMPL - The Rock Mechanics and Physics Laboratory (BGS British Geological Survey, UK)",
+        "lab_editor_name": "RMPL - The Rock Mechanics and Physics Laboratory (BGS British Geological Survey, UK)",
+        "affiliation": "BGS British Geological Survey, Keyworth, UK",
+        "id_inputstring": "RMPL- The Rock Mechanics and Physics Laboratory  (BGS British Geological Survey,  UK)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "519e854908885ee38b7671fd82aca203",
+        "lab_portal_name": "Rock & Ice Physics Laboratory (UCL University College London, UK)",
+        "lab_editor_name": "Rock & Ice Physics Laboratory (UCL University College London, UK)",
+        "affiliation": "UCL University College London, London, UK",
+        "id_inputstring": "Rock & Ice Physics Laboratory (UCL University College London,  UK)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "fc52ed0d9e03a9603828eddc12bdfb7c",
+        "lab_portal_name": "Rock Physics and Mechanics Laboratory (ETHZ, Switzerland)",
+        "lab_editor_name": "Rock Physics and Mechanics Laboratory (ETHZ, Switzerland)",
+        "affiliation": "ETHZ, Zurich, Switzerland",
+        "id_inputstring": "Rock Deformation Laboratory (ETHZ,  Switzerland)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "f2973460d7af47a4cf1dd7853ffb03d7",
+        "lab_portal_name": "Laboratories for Geothermal Rock and Fluid Physics",
+        "lab_editor_name": "Laboratories for Geothermal Rock and Fluid Physics",
+        "affiliation": "GFZ German Research Centre for Geosciences, Potsdam, Germany",
+        "id_inputstring": "Rock Deformation Laboratory (GFZ German Research Centre for Geosciences,  Germany)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "bbbd439a8b031538e65b67ed37fd88d6",
+        "lab_portal_name": "Rock Mechanics Laboratory (University of Portsmouth, UK)",
+        "lab_editor_name": "Rock Mechanics Laboratory (University of Portsmouth, UK)",
+        "affiliation": "University of Portsmouth, Portsmouth, UK",
+        "id_inputstring": "Rock Mechanics Laboratory (University of Portsmouth,  UK)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "48df4be4c4d6662ed4273f16b00343f6",
+        "lab_portal_name": "Rock Mechanics Laboratory (Durham University, UK)",
+        "lab_editor_name": "Rock Mechanics Laboratory (Durham University, UK)",
+        "affiliation": "Durham University, Durham, UK",
+        "id_inputstring": "Rock Mechanics Laboratory (Durham University,  UK)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "9663fcbde23eac71f07cd28ac73e9cc0",
+        "lab_portal_name": "Laboratory of Geochemistry and Stable Isotope (IGG-CNR, Italy)",
+        "lab_editor_name": "Laboratory of Geochemistry and Stable Isotopes",
+        "affiliation": "IGG-CNR",
+        "id_inputstring": "Laboratory of Geochemistry and Stable Isotope (IGG-CNR, Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "ed51809ac7b925c52734482e642fa617",
+        "lab_portal_name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa2 (IGG-CNR, Italy)",
+        "lab_editor_name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa2 (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR",
+        "id_inputstring": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa2 (IGG-CNR, Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "01b0a80e0f68171f033be6b785d25063",
+        "lab_portal_name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Firenze (IGG-CNR, Italy)",
+        "lab_editor_name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Firenze (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR",
+        "id_inputstring": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Firenze (IGG-CNR, Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "de06d05ebede454776df07c5de7f0c90",
+        "lab_portal_name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa1 (IGG-CNR, Italy)",
+        "lab_editor_name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa1 (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR",
+        "id_inputstring": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa1 (IGG-CNR, Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "4132b6be2d53d0eb91b007e8f9c14d41",
+        "lab_portal_name": "Laboratory of Geochemical Microanalysis - Padova (IGG-CNR, Italy)",
+        "lab_editor_name": "Laboratory of Geochemical Microanalysis - Padova (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR",
+        "id_inputstring": "Laboratory of Geochemical Microanalysis - Padova (IGG-CNR, Italy)"
+    },
+    {
+        "domain": "Analytical laboratories",
+        "id": "8a1ad1734bdabed2b5ef05f0b6956895",
+        "lab_portal_name": "Laboratory of Geochemical Microanalysis - Pavia (IGG-CNR, Italy)",
+        "lab_editor_name": "Laboratory of Geochemical Microanalysis - Pavia (IGG-CNR, Italy)",
+        "affiliation": "IGG-CNR",
+        "id_inputstring": "Laboratory of Geochemical Microanalysis - Pavia (IGG-CNR, Italy)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "f4b21c52c84ed94a290c0fe62ed8c647",
+        "lab_portal_name": "Core Logging LAB (OGS-National Institute of Oceanography and Applied Geophysics and University of Trieste, Italy)",
+        "lab_editor_name": "Core Logging LAB (OGS-National Institute of Oceanography and Applied Geophysics and University of Trieste, Italy)",
+        "affiliation": "OGS-National Institute of Oceanography and Applied Geophysics, and University of Trieste",
+        "id_inputstring": "Core Logging LAB (OGS-National Institute of Oceanography and Applied Geophysics and University of Trieste, Italy)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "cfe0c2589c74e06fba23d5577f82122a",
+        "lab_portal_name": "Laboratory for Environmental Magnetism (KMI, Belgium)",
+        "lab_editor_name": "Laboratory for Environmental Magnetism (KMI, Belgium)",
+        "affiliation": "KMI",
+        "id_inputstring": "Laboratory for Environmental Magnetism (KMI, Belgium)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "363d2afb2530e6969d25becf07ad0db4",
+        "lab_portal_name": "Paleomagnetic Laboratory (NIGGG - BAS, Bulgaria)",
+        "lab_editor_name": "Paleomagnetic Laboratory (NIGGG - BAS, Bulgaria)",
+        "affiliation": "NIGGG - BAS",
+        "id_inputstring": "Paleomagnetic Laboratory (NIGGG - BAS, Bulgaria)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "1be8f332e9733337357933a9d72ea232",
+        "lab_portal_name": "Rock Deformation Laboratory (GFZ Potsdam, Germany)",
+        "lab_editor_name": "Rock Deformation Laboratory (GFZ Potsdam, Germany)",
+        "affiliation": "GFZ German Research Centre for Geosciences, Potsdam, Germany",
+        "id_inputstring": "Rock Deformation Laboratory (GFZ Potsdam, Germany)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "a4475d854a5a02d4c1dd5e716ccadda6",
+        "lab_portal_name": "Rock Physics Laboratories (University of Tromsø, Norway)",
+        "lab_editor_name": "Rock Physics Laboratories (University of Tromsø, Norway)",
+        "affiliation": "University of Tromsø, Norway",
+        "id_inputstring": "Rock Physics Laboratories (University of Tromsø, Norway)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "dd35a3d4b656f3c9bb0d88fe2ff654a2",
+        "lab_portal_name": "Tectonic Modelling Laboratory at the Institute for Geological Sciences (TecLab Bern, Switzerland)",
+        "lab_editor_name": "Tectonic Modelling Laboratory at the Institute for Geological Sciences (TecLab Bern, Switzerland)",
+        "affiliation": "Bern University, Switzerland",
+        "id_inputstring": "Tectonic Modelling Laboratory at the Institute for Geological Sciences (TecLab Bern, Switzerland)"
+    },
+    {
+        "domain": "Analytical and microscopy data",
+        "id": "1f9441ee30e9c0a73ef438dc97487997",
+        "lab_portal_name": "Electron Microscopy Laboratory",
+        "lab_editor_name": "Electron Microscopy Laboratory (University of Liverpool, UK)",
+        "affiliation": "University of Liverpool, UK",
+        "id_inputstring": "Electron Microscopy Laboratory (University of Liverpool, UK)"
+    },
+    {
+        "domain": "Analytical and microscopy data",
+        "id": "6bbcefeb5044068ce59644e8bb97b558",
+        "lab_portal_name": "Potsdam Imaging and Spectral Analysis (PISA) Facility",
+        "lab_editor_name": "Potsdam Imaging and Spectral Analysis (PISA) Facility (GFZ, Germany)",
+        "affiliation": "GFZ Potsdam, Germany",
+        "id_inputstring": "Potsdam Imaging and Spectral Analysis (PISA) Facility (GFZ, Germany)"
+    },
+    {
+        "domain": "Analytical and microscopy data",
+        "id": "ce5d8e47870f8569af48c8fd17a563c5",
+        "lab_portal_name": "Micro-CT laboratory",
+        "lab_editor_name": "Micro-CT laboratory (INGV, Italy)",
+        "affiliation": "INGV, Italy",
+        "id_inputstring": "Micro-CT laboratory (INGV, Italy)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "8843bd50fa372f59ddc97d1a6f21f12f",
+        "lab_portal_name": "Eurotank Flume Laboratory",
+        "lab_editor_name": "Eurotank Flume Laboratory (Utrecht University, The Netherlands)",
+        "affiliation": "Utrecht University, The Netherlands",
+        "id_inputstring": "Eurotank Flume Laboratory (Utrecht University, The Netherlands)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "01bcc30a6f69953ad32d1a764e4f4676",
+        "lab_portal_name": "Geomagnetism Laboratory (University of Liverpool, UK)",
+        "lab_editor_name": "Geomagnetism Laboratory (University of Liverpool, UK)",
+        "affiliation": "University of Liverpool, UK",
+        "id_inputstring": "Geomagnetism Laboratory (University of Liverpool, UK)"
+    },
+    {
+        "domain": "Rock/melt physical properties",
+        "id": "1259a6ad177ab284e13d97f79a88ba88",
+        "lab_portal_name": "Laboratory of Geoscience and Engineering (TU Delft, The Netherlands)",
+        "lab_editor_name": "Laboratory of Geoscience and Engineering (TU Delft, The Netherlands)",
+        "affiliation": "TU Delft, The Netherlands",
+        "id_inputstring": "Laboratory of Geoscience and Engineering (TU Delft, The Netherlands)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "678bf025db670fe7e28987a3eaf75f94",
+        "lab_portal_name": "Laboratory of the Institute of Geophysics (Czech Academy of Science, Czech Republic)",
+        "lab_editor_name": "Laboratory of the Institute of Geophysics (Czech Academy of Science, Czech Republic)",
+        "affiliation": "Institute of Geophysics of the Czech Academy of Sciences, Prague, Czech Republic",
+        "id_inputstring": "Laboratory of the Institute of Geophysics of the Czech Academy of Science (Prag, Czech Republic)"
+    },
+    {
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "93b73710539931581c897e99c9332ea2",
+        "lab_portal_name": "Laboratory for Paleo- and Rock Magnetism (GFZ German Research Centre for Geosciences, Potsdam, Germany)",
+        "lab_editor_name": "Laboratory for Paleo- and Rock Magnetism (Potsdam, Germany)",
+        "affiliation": "GFZ German Research Centre for Geosciences, Potsdam, Germany",
+        "id_inputstring": "Laboratory for Paleo- and Rock Magnetism (Potsdam, Germany)"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "id": "0cf1ca58a63ae6674e439c2b1ce0a49c",
+        "lab_portal_name": "Analogue Modelling Laboratory at Tectonics and Geodynamics (RWTH Aachen University, Germany)",
+        "lab_editor_name": "Analogue Modelling Laboratory at Tectonics and Geodynamics (Aachen, Germany)",
+		"affiliation": "RWTH Aachen University, Germany",
+        "id_inputstring": "Analogue Modelling Laboratory at Tectonics and Geodynamics (Aachen, Germany)"
+    },
+	{
+        "domain": "Analogue modelling of geologic processes",
+        "id": "b126f2211fed83bcfeb034a4cf2ceaf4",
+        "lab_portal_name": "UHH-Tec - Experimental tectonics laboratory (University of Hamburg, Germany)",
+        "lab_editor_name": "UHH-Tec - Experimental tectonics laboratory (University of Hamburg, Germany)",
+		"affiliation": "University of Hamburg, Germany",
+        "id_inputstring": "UHH-Tec - Experimental tectonics laboratory (University of Hamburg, Germany)"
+    },
+	{
+        "domain": "Analogue modelling of geologic processes",
+        "id": "5ec0a7ac68ea8971ba7dcdbaae87a4a4",
+        "lab_portal_name": "Kuenen-Escher Geodynamics Laboratory (KEG Lab) (Vrije Universiteit Amsterdam, The Netherlands)",
+        "lab_editor_name": "Kuenen-Escher Geodynamics Laboratory (KEG Lab) (Vrije Universiteit Amsterdam, The Netherlands)",
+		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "id_inputstring": "Kuenen-Escher Geodynamics Laboratory (KEG Lab) (Vrije Universiteit Amsterdam, The Netherlands)"
+    },
+	{
+        "domain": "Analytical laboratories",
+        "id": "ad9d1d9487407914745c98bd65074edc",
+        "lab_portal_name": "Laboratorios Anal�t�cos de Geolog�a (University of Barcelona - CCiT, Spain)",
+        "lab_editor_name": "Laboratorios Anal�t�cos de Geolog�a (University of Barcelona - CCiT, Spain)",
+		"affiliation": "University of Barcelona - CCiT, Spain",
+        "id_inputstring": "Laboratorios Anal�t�cos de Geolog�a (University of Barcelona - CCiT, Spain)"
+    },
+	{
+        "domain": "Analytical laboratories",
+        "id": "e01ea0c79fbfb537e8a57e674d8ec346",
+        "lab_portal_name": "The Netherlands Geochemistry Laboratory (NiGeL) (Vrije Universiteit Amsterdam, The Netherlands)",
+        "lab_editor_name": "The Netherlands Geochemistry Laboratory (NiGeL) (Vrije Universiteit Amsterdam, The Netherlands)",
+		"affiliation": "",
+        "id_inputstring": "The Netherlands Geochemistry Laboratory (NiGeL) (Vrije Universiteit Amsterdam, The Netherlands)"
+    },
+	{
+        "domain": "Analytical laboratories",
+        "id": "d373893f8b31bfe1647a941367f05e72",
+        "lab_portal_name": "Argon Geochronology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
+        "lab_editor_name": "Argon Geochronology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
+		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "id_inputstring": "Argon Geochronology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)"
+    },
+	{
+        "domain": "Analytical laboratories",
+        "id": "60f6273e8979f57ca0d43832af24e432",
+        "lab_portal_name": "Geobiology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
+        "lab_editor_name": "Geobiology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
+		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "id_inputstring": "Geobiology Laboratory (Vrije Universiteit Amsterdam, The Netherlands)"
+    },
+	{
+        "domain": "Analytical laboratories",
+        "id": "769f645557d5d3149c038d0666f03fd2",
+        "lab_portal_name": "Mineral Separation Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
+        "lab_editor_name": "Mineral Separation Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
+		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "id_inputstring": "Mineral Separation Laboratory (Vrije Universiteit Amsterdam, The Netherlands)"
+    },
+	{
+        "domain": "Analytical laboratories",
+        "id": "09df67bf1872a881e983556b65c50622",
+        "lab_portal_name": "Earth Sciences Stable Isotope Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
+        "lab_editor_name": "Earth Sciences Stable Isotope Laboratory (Vrije Universiteit Amsterdam, The Netherlands)",
+		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "id_inputstring": "Earth Sciences Stable Isotope Laboratory (Vrije Universiteit Amsterdam, The Netherlands)"
+    },
+	{
+        "domain": "Analytical and microscopy data",
+        "id": "a5b3ec1787f0393c8c7b03e6b63948d2",
+        "lab_portal_name": "Scientific Center for Optical and�Electron Microscopy (ScopeM) (ETH: Swiss Federal Institute of Technology in Z�rich, Switzerland)",
+        "lab_editor_name": "Scientific Center for Optical and�Electron Microscopy (ScopeM) (ETH: Swiss Federal Institute of Technology in Z�rich, Switzerland)",
+		"affiliation": "ETH: Swiss Federal Institute of Technology in Z�rich, Switzerland",
+        "id_inputstring": "Scientific Center for Optical and�Electron Microscopy (ScopeM) (ETH: Swiss Federal Institute of Technology in Z�rich, Switzerland)"
+    },
+	{
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "f31ccc8913e82ba9522c3221e237c7b3",
+        "lab_portal_name": "Laboratory for Paleomagnetism and Environmental Studies (Institute of Geophysics, Polish Academy of Sciences, Poland)",
+        "lab_editor_name": "Laboratory for Paleomagnetism and Environmental Studies (Institute of Geophysics, Polish Academy of Sciences, Poland)",
+		"affiliation": "Institute of Geophysics, Polish Academy of Sciences, Poland",
+        "id_inputstring": "Laboratory for Paleomagnetism and Environmental Studies (Institute of Geophysics, Polish Academy of Sciences, Poland)"
+    },
+	{
+        "domain": "Paleomagnetic and magnetic data",
+        "id": "953b030cda729a389b846ddf8172c1ff",
+        "lab_portal_name": "Institute Dom Luiz (IDL) (University of Lisbon, Portugal)",
+        "lab_editor_name": "Institute Dom Luiz (IDL) (University of Lisbon, Portugal)",
+		"affiliation": "University of Lisbon, Portugal",
+        "id_inputstring": "Institute Dom Luiz (IDL) (University of Lisbon, Portugal)"
+    },
+	{
+        "domain": "Rock/melt physical properties",
+        "id": "4b785d8c71da65b82b6e76c1dfd40d93",
+        "lab_portal_name": "Lunar planetary lab (Vrije Universiteit Amsterdam, The Netherlands)",
+        "lab_editor_name": "Lunar planetary lab (Vrije Universiteit Amsterdam, The Netherlands)",
+		"affiliation": "Vrije Universiteit Amsterdam, The Netherlands",
+        "id_inputstring": "Lunar planetary lab (Vrije Universiteit Amsterdam, The Netherlands)"
+    },
+	{
+        "domain": "Rock/melt physical properties",
+        "id": "973f953f1a2b63b7ce2377268b4041e9",
+        "lab_portal_name": "Applied Geoscience Laboratory (University of Edinburgh, United Kingdom)",
+        "lab_editor_name": "Applied Geoscience Laboratory (University of Edinburgh, United Kingdom)",
+		"affiliation": "University of Edinburgh, United Kingdom",
+        "id_inputstring": "Applied Geoscience Laboratory (University of Edinburgh, United Kingdom)"
+    },
+	{
+        "domain": "Rock/melt physical properties",
+        "id": "ece44a25524274a91251910c0f7c4d85",
+        "lab_portal_name": "Geodynamics Lab (ISTO: Earth Sciences Institute of Orl�ans, France)",
+        "lab_editor_name": "Geodynamics Lab (ISTO: Earth Sciences Institute of Orl�ans, France)",
+		"affiliation": "ISTO: Earth Sciences Institute of Orl�ans, France",
+        "id_inputstring": "Geodynamics Lab (ISTO: Earth Sciences Institute of Orl�ans, France)"
+    }
+]
