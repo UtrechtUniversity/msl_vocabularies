@@ -1,0 +1,1573 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-atomic_force_microscope_afm", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-microchemical_analysis", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-neutron_computed_tomographic_scanner", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-x-ray_computed_tomographic_ct_scanner" ;
+  rdfs:label "Apparatus" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-atomic_force_microscope_afm>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus" ;
+  rdfs:label "atomic force microscope (AFM)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-microchemical_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-microchemical_analysis-electron_probe_micro_analyser_epma" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus" ;
+  rdfs:label "microchemical analysis" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-microchemical_analysis-electron_probe_micro_analyser_epma>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-microchemical_analysis" ;
+  rdfs:label "electron probe micro analyser (EPMA)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy-focused_ion_beam_-_scanning_electron_microscope_fib-sem", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy-scanning_electron_microscope_sem", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy-scanning_transmission_electron_microscope_stem", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy-transmission_electron_microscope_tem" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus" ;
+  rdfs:label "electron microscopy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy-focused_ion_beam_-_scanning_electron_microscope_fib-sem>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy" ;
+  rdfs:label "focused ion beam - scanning electron microscope (FIB-SEM)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy-scanning_electron_microscope_sem>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy" ;
+  rdfs:label "scanning electron microscope (SEM)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy-scanning_transmission_electron_microscope_stem>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy" ;
+  rdfs:label "scanning transmission electron microscope (STEM)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy-transmission_electron_microscope_tem>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-electron_microscopy" ;
+  rdfs:label "transmission electron microscope (TEM)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy-reflected_light_microscope", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy-slide_scanner_microscope", "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy-transmitted_light_microscope" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus" ;
+  rdfs:label "optical microscopy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy-reflected_light_microscope>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy" ;
+  rdfs:label "reflected light microscope" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy-slide_scanner_microscope>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy" ;
+  rdfs:label "slide scanner microscope" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy-transmitted_light_microscope>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-optical_microscopy" ;
+  rdfs:label "transmitted light microscope" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-x-ray_computed_tomographic_ct_scanner>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus" ;
+  rdfs:label "X-ray computed tomographic (CT) scanner" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus-neutron_computed_tomographic_scanner>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/apparatus" ;
+  rdfs:label "neutron computed tomographic scanner" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging" ;
+  rdfs:label "Ancillary equipment" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-14_lambda_plate", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-bertrand_lense", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-collimator", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-cross_polarizer", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-gypsum_plate", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-light_condensor", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-light_filter", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-plane_polarizer", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-quartz_plate" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment" ;
+  rdfs:label "hardware filtering" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-14_lambda_plate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "1/4 lambda plate" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-cross_polarizer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "cross polarizer" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-gypsum_plate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "gypsum plate" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-plane_polarizer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "plane polarizer" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-quartz_plate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "quartz plate" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-bertrand_lense>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "Bertrand lense" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-light_condensor>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "light condensor" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-light_filter>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "light filter" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering-collimator>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-hardware_filtering" ;
+  rdfs:label "collimator" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-microcantilever", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-micropillar", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-nanoindenter", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-neutron_transparent_cell", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-x-ray_transparent_cell" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment" ;
+  rdfs:label "syn-deformation imaging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-nanoindenter>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging" ;
+  rdfs:label "nanoindenter" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-micropillar>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging" ;
+  rdfs:label "micropillar" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-microcantilever>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging" ;
+  rdfs:label "microcantilever" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-x-ray_transparent_cell>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging" ;
+  rdfs:label "X-ray transparent cell" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging-neutron_transparent_cell>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-syn-deformation_imaging" ;
+  rdfs:label "neutron transparent cell" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry-analyser_grating", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry-phase_grating", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry-source_grating" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment" ;
+  rdfs:label "beam interferometry" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry-source_grating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry" ;
+  rdfs:label "source grating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry-phase_grating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry" ;
+  rdfs:label "phase grating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry-analyser_grating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-beam_interferometry" ;
+  rdfs:label "analyser grating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-charge_coupled_device_ccd_detector", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-complementary_metal_oxide_semiconductor_cmos_detector", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-energy_resolving_detector", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-flat_panel", "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-photon_counting_detector" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment" ;
+  rdfs:label "detector" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-flat_panel>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector" ;
+  rdfs:label "flat panel" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-charge_coupled_device_ccd_detector>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector" ;
+  rdfs:label "charge coupled device (CCD) detector" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-complementary_metal_oxide_semiconductor_cmos_detector>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector" ;
+  rdfs:label "complementary metal oxide semiconductor (CMOS) detector" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-energy_resolving_detector>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector" ;
+  rdfs:label "energy resolving detector" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector-photon_counting_detector>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/ancillary_equipment-detector" ;
+  rdfs:label "photon counting detector" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation" ;
+  rdfs:label "Technique" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-etching", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-staining" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique" ;
+  rdfs:label "section preperation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-chemical_polishing", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-ion_polishing", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-mechanical_polishing" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation" ;
+  rdfs:label "polishing" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-ion_polishing>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-ion_polishing-broad_ion_beam_bib_milling", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-ion_polishing-focussed_ion_beam_fib_milling" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing" ;
+  rdfs:label "ion polishing" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-ion_polishing-focussed_ion_beam_fib_milling>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-ion_polishing" ;
+  rdfs:label "focussed ion beam (FIB) milling" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-ion_polishing-broad_ion_beam_bib_milling>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-ion_polishing" ;
+  rdfs:label "broad ion beam (BIB) milling" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-chemical_polishing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing" ;
+  rdfs:label "chemical polishing" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing-mechanical_polishing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-polishing" ;
+  rdfs:label "mechanical polishing" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-staining>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation" ;
+  rdfs:label "staining" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-etching>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation" ;
+  rdfs:label "etching" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-carbon_coating", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-gold-platinum_coating", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-iridium_coating", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-osmium_coating", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-platinum-palladium_coating" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation" ;
+  rdfs:label "coating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-carbon_coating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating" ;
+  rdfs:label "carbon coating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-iridium_coating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating" ;
+  rdfs:label "iridium coating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-gold-platinum_coating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating" ;
+  rdfs:label "gold-platinum coating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-platinum-palladium_coating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating" ;
+  rdfs:label "platinum-palladium coating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating-osmium_coating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-section_preperation-coating" ;
+  rdfs:label "osmium coating" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-annular_dark_field_adf_imaging", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-backscatter_electron_bse_imaging", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-bright_field_bf_imaging", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-cathodoluminescence_cl_imaging", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-dark_field_df_imaging", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-electron_channeling_contrast_imaging_ecci", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-forescatter_electron_fse", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-high-angle_annular_dark-field_haadf", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-radiography", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-radioscopy", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-secondary_electron_se_imaging" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique" ;
+  rdfs:label "imaging (2D)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-forescatter_electron_fse>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "forescatter electron (FSE)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-high-angle_annular_dark-field_haadf>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "high-angle annular dark-field (HAADF)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-cathodoluminescence_cl_imaging>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-cathodoluminescence_cl_imaging-panchromatic_cl_image", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-cathodoluminescence_cl_imaging-wavelength_filtered_cl_image" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "cathodoluminescence (CL) imaging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-cathodoluminescence_cl_imaging-panchromatic_cl_image>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-cathodoluminescence_cl_imaging" ;
+  rdfs:label "panchromatic CL image" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-cathodoluminescence_cl_imaging-wavelength_filtered_cl_image>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-cathodoluminescence_cl_imaging" ;
+  rdfs:label "wavelength filtered CL image" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-secondary_electron_se_imaging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "secondary electron (SE) imaging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-backscatter_electron_bse_imaging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "backscatter electron (BSE) imaging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-bright_field_bf_imaging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "bright field (BF) imaging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-dark_field_df_imaging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "dark field (DF) imaging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-annular_dark_field_adf_imaging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "annular dark field (ADF) imaging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-electron_channeling_contrast_imaging_ecci>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "electron channeling contrast imaging (ECCI)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-radiography>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "radiography" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d-radioscopy>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_2d" ;
+  rdfs:label "radioscopy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-dual_mode_scan", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-dual_resolution_scan", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-ghost_imaging", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-holotomography", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-laminography", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-monochromotic_beam", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-multi-pass_scan", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-pink_beam", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-rheography", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-tomoscopy", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-white_beam" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique" ;
+  rdfs:label "imaging (3D)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-absorption_contrast_tomography", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-cone_beam_ct", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-dark_field_tomography", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-dual_energy_ct", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-fan_beam_ct", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-parallel_beam_ct", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-phase_contrast_tomography", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-region_of_interest_ct", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-spectral_ct", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-x-ray_diffraction" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "computed tomography (CT)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-cone_beam_ct>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "cone beam CT" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-fan_beam_ct>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "fan beam CT" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-parallel_beam_ct>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "parallel beam CT" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-region_of_interest_ct>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "region of interest CT" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-dual_energy_ct>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "dual energy CT" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-spectral_ct>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "spectral CT" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-dark_field_tomography>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "dark field tomography" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-absorption_contrast_tomography>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "absorption contrast tomography" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-phase_contrast_tomography>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "phase contrast tomography" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct-x-ray_diffraction>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-computed_tomography_ct" ;
+  rdfs:label "X-ray diffraction" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-tomoscopy>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "tomoscopy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-rheography>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "rheography" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-laminography>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "laminography" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-holotomography>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "holotomography" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-ghost_imaging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "ghost imaging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-multi-pass_scan>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "multi-pass scan" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-dual_mode_scan>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "dual mode scan" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-dual_resolution_scan>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "dual resolution scan" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-white_beam>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "white beam" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-pink_beam>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "pink beam" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d-monochromotic_beam>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-imaging_3d" ;
+  rdfs:label "monochromotic beam" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-cathodoluminescence_cl_spectroscopy", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-electron_energy_loss_spectroscopy_eels", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-raman_spectrometry_-_chemistry_and_mineralogy", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-wavelength-dispersive_x-ray_spectroscopy_wds" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique" ;
+  rdfs:label "chemical and mineralogical analysis" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-electron_energy_loss_spectroscopy_eels>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis" ;
+  rdfs:label "electron energy loss spectroscopy (EELS)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-wavelength-dispersive_x-ray_spectroscopy_wds>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis" ;
+  rdfs:label "wavelength-dispersive x-ray spectroscopy (WDS)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-raman_spectrometry_-_chemistry_and_mineralogy>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis" ;
+  rdfs:label "Raman spectrometry - chemistry and mineralogy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy-fourier_transform_infrared_spectroscopy_ftir" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis" ;
+  rdfs:label "infrared spectroscopy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy-fourier_transform_infrared_spectroscopy_ftir>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy" ;
+  rdfs:label "fourier transform infrared spectroscopy (FTIR)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-cathodoluminescence_cl_spectroscopy>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis" ;
+  rdfs:label "cathodoluminescence (CL) spectroscopy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx-eds_in_2d", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx-eds_in_3d" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis" ;
+  rdfs:label "energy dispersive x-ray spectroscopy (EDS EDX)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx-eds_in_2d>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx" ;
+  rdfs:label "EDS in 2D" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx-eds_in_3d>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx" ;
+  rdfs:label "EDS in 3D" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-automated_crystal_orientation_mapping_acom", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-raman_spectrometry_-_crystal_lattice" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique" ;
+  rdfs:label "crystal structure analysis" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-convergent_beam_electron_diffraction_cbed", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-electron_backscatter_diffraction_ebsd", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-large_area_convergent_beam_electron_diffraction_lacbed", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-nano_beam_diffraction_nbd", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-selected_area_electron_diffraction_saed", "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-transmission_kikuchi_diffraction_tkd" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis" ;
+  rdfs:label "electron diffraction" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-large_area_convergent_beam_electron_diffraction_lacbed>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction" ;
+  rdfs:label "large area convergent beam electron diffraction (LACBED)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-nano_beam_diffraction_nbd>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction" ;
+  rdfs:label "nano beam diffraction (NBD)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-selected_area_electron_diffraction_saed>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction" ;
+  rdfs:label "selected area electron diffraction (SAED)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-convergent_beam_electron_diffraction_cbed>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction" ;
+  rdfs:label "convergent beam electron diffraction (CBED)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-electron_backscatter_diffraction_ebsd>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction" ;
+  rdfs:label "electron backscatter diffraction (EBSD)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction-transmission_kikuchi_diffraction_tkd>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-electron_diffraction" ;
+  rdfs:label "transmission Kikuchi diffraction (TKD)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-raman_spectrometry_-_crystal_lattice>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis" ;
+  rdfs:label "Raman spectrometry - crystal lattice" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis-automated_crystal_orientation_mapping_acom>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/technique-crystal_structure_analysis" ;
+  rdfs:label "automated crystal orientation mapping (ACOM)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure" ;
+  rdfs:label "Analyzed feature" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "deformation microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-breccia_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intergranular_crack", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intergranular_slip", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-joint_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-pseudotachylite_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-shear_fracture_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-slickenline", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-slickenside", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-transgranular_crack" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure" ;
+  rdfs:label "brittle microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_density", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_distribution", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_orientation" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "intragranular crack" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_distribution>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack" ;
+  rdfs:label "intragranular crack distribution" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_orientation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack" ;
+  rdfs:label "intragranular crack orientation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_density>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack" ;
+  rdfs:label "intragranular crack density" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intergranular_crack>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "intergranular crack" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-intergranular_slip>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "intergranular slip" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-transgranular_crack>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "transgranular crack" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-joint_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "joint microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "fault microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-shear_fracture_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "shear fracture microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-p-foliation", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-r1_shear", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-riedel_shear_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-y_shear" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "fault gouge microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-riedel_shear_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure" ;
+  rdfs:label "Riedel shear microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-r1_shear>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure" ;
+  rdfs:label "R1 shear" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-y_shear>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure" ;
+  rdfs:label "Y shear" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-p-foliation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure" ;
+  rdfs:label "P-foliation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-pseudotachylite_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "pseudotachylite microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-slickenline>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "slickenline" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-slickenside>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "slickenside" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure-breccia_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-brittle_microstructure" ;
+  rdfs:label "breccia microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_twin", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-localized_extinction_band_leb", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-stacking_fault", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-undulose_extinction", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure" ;
+  rdfs:label "crystal plastic microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-undulose_extinction>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure" ;
+  rdfs:label "undulose extinction" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae-fine_extinction_band_feb_width_sub-5_micron", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae-short-wavelength_undulatory_extinction" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure" ;
+  rdfs:label "deformation lamellae" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae-fine_extinction_band_feb_width_sub-5_micron>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae" ;
+  rdfs:label "fine extinction band (FEB) width sub-5 micron" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae-short-wavelength_undulatory_extinction>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae" ;
+  rdfs:label "short-wavelength undulatory extinction" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web-intragranular_deformation_band", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web-intragranular_kink_band" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure" ;
+  rdfs:label "wide extinction band (WEB)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web-intragranular_deformation_band>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web" ;
+  rdfs:label "intragranular deformation band" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web-intragranular_kink_band>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web" ;
+  rdfs:label "intragranular kink band" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-localized_extinction_band_leb>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure" ;
+  rdfs:label "localized extinction band (LEB)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-core_and_mantle_subgrain_structure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_boundary_orientations", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_misorientations", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_size", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_size_hierarchy" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure" ;
+  rdfs:label "subgrains" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-core_and_mantle_subgrain_structure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains" ;
+  rdfs:label "core and mantle subgrain structure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_size>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains" ;
+  rdfs:label "subgrain size" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_size_hierarchy>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains" ;
+  rdfs:label "subgrain size hierarchy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_boundary_orientations>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains" ;
+  rdfs:label "subgrain boundary orientations" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_misorientations>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains" ;
+  rdfs:label "subgrain misorientations" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_twin>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure" ;
+  rdfs:label "deformation twin" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-burgers_vector", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-dislocation_density", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-glide_plane" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure" ;
+  rdfs:label "lattice dislocation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-dislocation_density>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation" ;
+  rdfs:label "dislocation density" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-burgers_vector>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation" ;
+  rdfs:label "Burger's vector" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-glide_plane>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation" ;
+  rdfs:label "glide plane" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-stacking_fault>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure" ;
+  rdfs:label "stacking fault" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-fluid_inclusion_planes", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-grain_indentation", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-microstylolites", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-overgrowths", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-sealed_fracture", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-solution_cleavage", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-solution_seam", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-strain_cap", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-strain_or_pressure_shadow", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-vein" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure" ;
+  rdfs:label "pressure solution microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features-growth_features", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features-solution_pits_and_ledges" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "surface dissolution and precipitation features" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features-solution_pits_and_ledges>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features" ;
+  rdfs:label "solution pits and ledges" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features-growth_features>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features" ;
+  rdfs:label "growth features" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-grain_indentation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "grain indentation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-strain_cap>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "strain cap" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-strain_or_pressure_shadow>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "strain or pressure shadow" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-solution_seam>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "solution seam" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-solution_cleavage>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "solution cleavage" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-microstylolites>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "microstylolites" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-overgrowths>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "overgrowths" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-fluid_inclusion_planes>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "fluid inclusion planes" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-sealed_fracture>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "sealed fracture" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-vein>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-pressure_solution_microstructure" ;
+  rdfs:label "vein" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-boudinage_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-cleavage", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-crenulation_cleavage", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformed_porphyroclast", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-foliation", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mica_fish", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-microfold", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-s-c_foliation", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-schistosity", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-shear_band_foliation" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure" ;
+  rdfs:label "generic deformation microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-cleavage>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "cleavage" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-crenulation_cleavage>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "crenulation cleavage" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-foliation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "foliation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-schistosity>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "schistosity" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-microfold>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "microfold" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-boudinage_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "boudinage microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-cataclastic_band_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-compaction_band_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-dilation_band_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-phyllosilicate_deformation_band_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-shear_band_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-solution_and_cementation_band_microstructure" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "deformation band" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-compaction_band_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band" ;
+  rdfs:label "compaction band microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-dilation_band_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band" ;
+  rdfs:label "dilation band microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-shear_band_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band" ;
+  rdfs:label "shear band microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-phyllosilicate_deformation_band_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band" ;
+  rdfs:label "phyllosilicate deformation band microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-cataclastic_band_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band" ;
+  rdfs:label "cataclastic band microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-solution_and_cementation_band_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band" ;
+  rdfs:label "solution and cementation band microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformed_porphyroclast>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "deformed porphyroclast" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-complex_porphyroclasts", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-delta_type_porphyroclasts", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-phi_type_porphyroclasts", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-sigma_type_porphyroclasts" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "mantled porphyroclasts" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-sigma_type_porphyroclasts>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts" ;
+  rdfs:label "sigma type porphyroclasts" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-delta_type_porphyroclasts>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts" ;
+  rdfs:label "delta type porphyroclasts" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-phi_type_porphyroclasts>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts" ;
+  rdfs:label "phi type porphyroclasts" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-complex_porphyroclasts>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts" ;
+  rdfs:label "complex porphyroclasts" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-shear_band_foliation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "shear band foliation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-s-c_foliation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "S-C foliation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mica_fish>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-deformation_microstructure-generic_deformation_microstructure" ;
+  rdfs:label "mica fish" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-amoeboid_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-decussate_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-diamond_grain_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-foam_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_geometry", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-growth_twins", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-interlobate_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-recrystallized_grains", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-ribbon_microstructure" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "grain aggregate microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-foam_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "foam microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-interlobate_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "interlobate microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-amoeboid_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "amoeboid microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-decussate_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "decussate microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-ribbon_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "ribbon microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-recrystallized_grains>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "recrystallized grains" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-growth_twins>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "growth twins" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-diamond_grain_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "diamond grain microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_geometry>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "grain boundary geometry" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-four-grain_junctions", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_alignments", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_triple_junctions", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_voids_and_openings" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "grain boundary features" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_triple_junctions>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features" ;
+  rdfs:label "grain boundary triple junctions" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-four-grain_junctions>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features" ;
+  rdfs:label "four-grain junctions" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_alignments>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features" ;
+  rdfs:label "grain boundary alignments" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_voids_and_openings>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features" ;
+  rdfs:label "grain boundary voids and openings" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-disclination_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-disconnection_microstructure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-grain_boundary_dislocations" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure" ;
+  rdfs:label "grain boundary defect" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-grain_boundary_dislocations>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect" ;
+  rdfs:label "grain boundary dislocations" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-disclination_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect" ;
+  rdfs:label "disclination microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-disconnection_microstructure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect" ;
+  rdfs:label "disconnection microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-fluid_inclusion", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_mineralogy", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "mineralogy and composition" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-igneous_classification", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-metamorphic_classification", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-sedimentary_classification", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-structural_classification" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition" ;
+  rdfs:label "qualitative rock classification" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-sedimentary_classification>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification" ;
+  rdfs:label "sedimentary classification" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-igneous_classification>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification" ;
+  rdfs:label "igneous classification" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-metamorphic_classification>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification" ;
+  rdfs:label "metamorphic classification" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-structural_classification>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification" ;
+  rdfs:label "structural classification" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-qualitative_mineralogy>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition" ;
+  rdfs:label "qualitative mineralogy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-microchemical_map", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-mineral_map", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-phase_map" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition" ;
+  rdfs:label "quantitative mineralogy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-mineral_map>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy" ;
+  rdfs:label "mineral map" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-phase_map>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy" ;
+  rdfs:label "phase map" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-microchemical_map>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy" ;
+  rdfs:label "microchemical map" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition-fluid_inclusion>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-mineralogy_and_composition" ;
+  rdfs:label "fluid inclusion" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-crystallographic_preferred_orientation_cpo", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-grain_size", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-misorientation_analysis", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-shape_preferred_orientation_spo", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-spatial_distribution_clustering", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-spatial_frequency_analysis_sfa" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "grain size and configuration" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-grain_size>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-grain_size-grain_size_distribution" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration" ;
+  rdfs:label "grain size" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-grain_size-grain_size_distribution>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-grain_size" ;
+  rdfs:label "grain size distribution" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-shape_preferred_orientation_spo>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration" ;
+  rdfs:label "shape preferred orientation (SPO)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-spatial_frequency_analysis_sfa>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration" ;
+  rdfs:label "spatial frequency analysis (SFA)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-crystallographic_preferred_orientation_cpo>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration" ;
+  rdfs:label "crystallographic preferred orientation (CPO)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-misorientation_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration" ;
+  rdfs:label "misorientation analysis" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration-spatial_distribution_clustering>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-grain_size_and_configuration" ;
+  rdfs:label "spatial distribution (clustering)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution-pore_shape", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution-pore_size", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution-pore_size_distribution" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "pore structure and distribution" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution-pore_size>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution" ;
+  rdfs:label "pore size" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution-pore_size_distribution>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution" ;
+  rdfs:label "pore size distribution" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution-pore_shape>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-pore_structure_and_distribution" ;
+  rdfs:label "pore shape" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-igneous_lamination", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-igneous_vesicle_lineation", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-lava_flow_banding", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-phenocryst", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-schlieren" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "igneous microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-igneous_vesicle_lineation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure" ;
+  rdfs:label "igneous vesicle lineation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-igneous_lamination>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure" ;
+  rdfs:label "igneous lamination" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-lava_flow_banding>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure" ;
+  rdfs:label "lava flow banding" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-schlieren>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure" ;
+  rdfs:label "Schlieren" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure-phenocryst>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-igneous_microstructure" ;
+  rdfs:label "phenocryst" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-mineral_polymorphism", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-oxidation_lamellae", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-oxide_exsolution", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroclast", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-reaction_rim", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-spinodal_decomposition", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-symplectite_and_exsolution" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "metamorphic microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroclast>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure" ;
+  rdfs:label "porphyroclast" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast-growth_twin", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast-inclusion_trail", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast-porphyroblast_zoning", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast-truncation_surface" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure" ;
+  rdfs:label "porphyroblast" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast-inclusion_trail>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast" ;
+  rdfs:label "inclusion trail" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast-porphyroblast_zoning>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast" ;
+  rdfs:label "porphyroblast zoning" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast-truncation_surface>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast" ;
+  rdfs:label "truncation surface" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast-growth_twin>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-porphyroblast" ;
+  rdfs:label "growth twin" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-symplectite_and_exsolution>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure" ;
+  rdfs:label "symplectite and exsolution" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-spinodal_decomposition>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure" ;
+  rdfs:label "spinodal decomposition" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-oxide_exsolution>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure" ;
+  rdfs:label "oxide exsolution" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-oxidation_lamellae>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure" ;
+  rdfs:label "oxidation lamellae" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-mineral_polymorphism>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure" ;
+  rdfs:label "mineral polymorphism" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure-reaction_rim>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_microstructure" ;
+  rdfs:label "reaction rim" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-ballen_structure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-diaplectic_glass", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-feather_structure", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-mosaicism", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-shock_microfracture" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "shock microstructure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf-pdf_orientation" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure" ;
+  rdfs:label "planar deformation feature (PDF)" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf-pdf_orientation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf" ;
+  rdfs:label "PDF orientation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-shock_microfracture>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure" ;
+  rdfs:label "shock microfracture" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-feather_structure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure" ;
+  rdfs:label "feather structure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-ballen_structure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure" ;
+  rdfs:label "ballen structure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-mosaicism>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure" ;
+  rdfs:label "mosaicism" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure-diaplectic_glass>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-shock_microstructure" ;
+  rdfs:label "diaplectic glass" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-amphibolite_metamorphic_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-eclogite_metamorphic_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-epidote_amphibolite_metamorphic_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-glaucophane_schist_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-granulite_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-greenschist_metamorphic_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-pyroxene_hornfels_metamorphic_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-sanidinite_metamorphic_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-subgreenschist_metamorphic_facies", "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-zeolite_metamorphic_facies" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature" ;
+  rdfs:label "metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-amphibolite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "amphibolite metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-eclogite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "eclogite metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-epidote_amphibolite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "epidote amphibolite metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-glaucophane_schist_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "glaucophane schist facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-granulite_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "granulite facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-greenschist_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "greenschist metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-pyroxene_hornfels_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "pyroxene hornfels metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-sanidinite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "sanidinite metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-subgreenschist_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "subgreenschist metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies-zeolite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/analyzed_feature-metamorphic_facies" ;
+  rdfs:label "zeolite metamorphic facies" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties" ;
+  rdfs:label "Inferred parameter" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions-inferred_fluid_pressure", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions-inferred_lithostatic_pressure", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions-inferred_shock_pressure_and_temperature", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions-inferred_temperature" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter" ;
+  rdfs:label "inferred metamorphic conditions" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions-inferred_lithostatic_pressure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions" ;
+  rdfs:label "inferred lithostatic pressure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions-inferred_fluid_pressure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions" ;
+  rdfs:label "inferred fluid pressure" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions-inferred_temperature>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions" ;
+  rdfs:label "inferred temperature" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions-inferred_shock_pressure_and_temperature>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_metamorphic_conditions" ;
+  rdfs:label "inferred shock pressure and temperature" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_finite_strain", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_shear_sense", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_strain_history", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_strain_rate", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_stress", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_vorticity_axis" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter" ;
+  rdfs:label "inferred deformation conditions" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_stress>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions" ;
+  rdfs:label "inferred stress" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_shear_sense>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions" ;
+  rdfs:label "inferred shear sense" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_strain_rate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions" ;
+  rdfs:label "inferred strain rate" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_finite_strain>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions" ;
+  rdfs:label "inferred finite strain" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_vorticity_axis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions" ;
+  rdfs:label "inferred vorticity axis" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions-inferred_strain_history>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_deformation_conditions" ;
+  rdfs:label "inferred strain history" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_internal_stored_stress", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_permeability", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_rheology", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_sesimic_anisotropy" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter" ;
+  rdfs:label "inferred properties" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_sesimic_anisotropy>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties" ;
+  rdfs:label "inferred sesimic anisotropy" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_internal_stored_stress>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties" ;
+  rdfs:label "inferred Internal stored stress" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties-dislocation_slip_systems" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties" ;
+  rdfs:label "inferred crystal plastic properties" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties-dislocation_slip_systems>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties" ;
+  rdfs:label "dislocation slip systems" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_permeability>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties" ;
+  rdfs:label "inferred permeability" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties-inferred_rheology>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_properties" ;
+  rdfs:label "inferred rheology" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_deformation_mechanisms", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter" ;
+  rdfs:label "inferred mechanisms" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-geometric_dynamic_recrystallization", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-grain_boundary_bulging", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-grain_boundary_migration", "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-subgrain_rotation" ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms" ;
+  rdfs:label "inferred recrystallization mechanisms" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-subgrain_rotation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms" ;
+  rdfs:label "subgrain rotation" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-grain_boundary_bulging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms" ;
+  rdfs:label "grain boundary bulging" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-grain_boundary_migration>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms" ;
+  rdfs:label "grain boundary migration" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-geometric_dynamic_recrystallization>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms" ;
+  rdfs:label "geometric dynamic recrystallization" .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms-inferred_deformation_mechanisms>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/microscopy/1.2/inferred_parameter-inferred_mechanisms" ;
+  rdfs:label "inferred deformation mechanisms" .
+
