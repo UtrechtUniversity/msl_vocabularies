@@ -1,0 +1,218 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adapt form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./treejs.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" integrity="sha512-gc3xjCmIy673V6MyOAZhIW93xhM9ei1I+gLbmFjUHIjocENRsLX/QUE1htk5q1XV2D/iie/VQ8DXI6Vu8bexvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js" integrity="sha512-ozq8xQKq6urvuU6jNgkfqAmT7jKN2XumbrX1JiB3TnF7tI48DPI4Gy1GXKD/V3EExgAs1V+pRO7vwtS1LHg0Gw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <style type="text/css">
+        .jstree-container-ul>li>a>i.jstree-checkbox
+        {
+            display:none
+        }
+        
+        #leaflet { height: 600px; }
+        
+        
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="">Keyword selector</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	      </ul>	      
+	    </div>
+	  </div>
+	</nav>
+    
+    <div class="container">
+    	<form method="post" action="">
+			<h1>Keyword selection</h1>
+				<div class="mb-3">
+  					<label>keywords</label>
+  					<ul class="list-group" id="sampleKeywords-form-list-group" style="margin-top: 5px; margin-bottom: 5px;"></ul>		  
+  					<button type="button" class="btn btn-light btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#sampleKeywords-keywords-modal">Select keywords</button>
+				</div>
+
+				<!-- Keyword Modal -->
+				<div class="modal modal-xl fade" id="sampleKeywords-keywords-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="keywordsModalLabel">Keywords</h5>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				      </div>
+				      <div class="modal-body">
+				      	<div class="container-fluid">
+				      		<div class="row">
+				      			<div class="col-md-12">
+				      				<div class="input-group">
+				      					<input id="search-input" class="form-control" placeholder="Search..." />
+				      					<button class="btn btn-outline-secondary" type="button" id="button-add-custom-keyword">Add</button>
+				      				</div>
+				      			</div>
+				      		</div>
+				      		<hr>
+				      		<div class="row">
+				      			<div class="col-md-6">
+				      				<div id="sampleKeywords-tree"></div>
+				  				</div>
+				  				<div class="col-md-6">
+				  					<ul class="list-group" id="sampleKeywords-modal-list-group">
+				                    </ul>
+				  				</div>
+				      		</div>
+				      		      			        		        
+				        </div>		        		        
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+	
+	<script src="./jstree.js"></script>
+	<script>
+	let counter = 1;
+    	
+	$('#button-add-custom-keyword').bind("click", function(){    		
+		if($('#search-input').val().length > 2) {
+			if(confirm('Are you sure the keyword you want to assign does not exist in the vocabularies? Findablity is greatly improved using shared terminology.')) {
+				addFreeTextElements($('#search-input').val());
+				$('#search-input').val('');
+			}
+		}
+	});
+	
+	function addFreeTextElements(text) {
+		var now = Date.now();
+	
+		$("#sampleKeywords-modal-list-group").append(
+			'<li class="list-group-item" id="sampleKeywords-modal-list-group-item-' + now +'"><i class="bi bi-pen"> ' + text + '<a href="#" id="sampleKeywords-modal-list-group-item-delete-' + now + '" title="remove keyword"><i class="bi bi-x text-danger"></i></a>' +
+			'<input type="hidden" name="sampleKeywords[' + counter + '][text]" value="' + text +'">' +
+			'<input type="hidden" name="sampleKeywords[' + counter + '][uri]" value="">' +  
+			'<input type="hidden" name="sampleKeywords[' + counter + '][vocab-uri]" value=""></li>'
+		);
+		
+		$('#sampleKeywords-modal-list-group-item-delete-' + now).bind("click", function() {
+			$('#sampleKeywords-modal-list-group-item-' + now).remove();
+			$('#sampleKeywords-form-list-group-item-' + now).remove();
+		});
+		
+		$("#sampleKeywords-form-list-group").append(
+			'<li class="list-group-item" id="sampleKeywords-form-list-group-item-' + now +'"><i class="bi bi-pen"> ' + text + '<a href="#" id="sampleKeywords-form-list-group-item-delete-' + now + '" title="remove keyword"><i class="bi bi-x text-danger"></i></a></li>'
+		);
+		
+		$('#sampleKeywords-form-list-group-item-delete-' + now).bind("click", function(){
+			$('#sampleKeywords-form-list-group-item-' + now).remove();
+			$('#sampleKeywords-modal-list-group-item-' + now).remove();
+		});
+		
+		counter = counter + 1;
+	}
+
+	function addModalElement(node) {
+		$("#sampleKeywords-modal-list-group").append(
+			'<li class="list-group-item" id="sampleKeywords-modal-list-group-item-' + node.id +'"><i class="bi bi-book"> ' + node.text + '<a href="#" id="sampleKeywords-modal-list-group-item-delete-' + node.id + '" title="remove keyword"><i class="bi bi-x text-danger"></i></a></li>'
+		);
+		
+		$('#sampleKeywords-modal-list-group-item-delete-' + node.id).bind("click", function(){
+			$('#sampleKeywords-modal-list-group-item-' + node.id).remove();
+			$("#sampleKeywords-tree").jstree("uncheck_node", node.id);
+		});
+	}
+	
+	function addFormElement(node) {
+		$("#sampleKeywords-form-list-group").append(
+			'<li class="list-group-item" id="sampleKeywords-form-list-group-item-' + node.id +'"><i class="bi bi-book"> ' + node.text + '<a href="#" id="sampleKeywords-form-list-group-item-delete-' + node.id + '" title="remove keyword"><i class="bi bi-x text-danger"></i></a>' +
+			'<input type="hidden" name="sampleKeywords[' + counter + '][text]" value="' + node.text +'">' +
+			'<input type="hidden" name="sampleKeywords[' + counter + '][uri]" value="' + node.original.extra.uri +'">' +  
+			'<input type="hidden" name="sampleKeywords[' + counter + '][vocab-uri]" value="' + node.original.extra.vocab_uri + '"></li>'
+		);    		
+		
+		$('#sampleKeywords-form-list-group-item-delete-' + node.id).bind("click", function(){
+			$('#sampleKeywords-form-list-group-item-' + node.id).remove();
+			$("#sampleKeywords-tree").jstree("uncheck_node", node.id);
+		});
+		
+		counter = counter + 1;
+	}    	
+
+	var vocabData;
+	
+	vocabData = (function() {
+	  var vocabData = null;
+	  $.ajax({
+	    'async': false,
+	    'global': false,
+	    'url': "https://raw.githubusercontent.com/UtrechtUniversity/msl_vocabularies/main/vocabularies/combined/editor/1.2/editor_1-2.json",
+	    'dataType': "json",
+	    'success': function(data) {
+	      vocabData = data;
+	    }
+	  });
+	  return vocabData;
+	})();	
+
+	$.jstree.defaults.core.themes.responsive = true;
+	$('#sampleKeywords-tree').jstree({
+		plugins: ["checkbox", "wholerow", "search"],
+		"types": {
+			"file": {
+				"icon": "jstree-file"
+			}
+		},
+		'core': {
+			'data': vocabData
+		},
+		checkbox: {
+			three_state : false, // to avoid that fact that checking a node also check others
+			whole_node : false,  // to avoid checking the box just clicking the node
+			tie_selection : false // for checking without selecting and selecting without checking
+		},
+		"search": {
+			"case_sensitive": false,
+			"show_only_matches": true
+		}
+	})
+	.on("check_node.jstree uncheck_node.jstree", function(e, data) {
+		if(e.type == "check_node") {
+			addModalElement(data.node);
+			addFormElement(data.node);
+		} else if (e.type == "uncheck_node") {
+			$('#sampleKeywords-modal-list-group-item-' + data.node.id).remove();
+			$('#sampleKeywords-form-list-group-item-' + data.node.id).remove();
+		}		  	
+	});		  		  
+
+	
+	$(document).ready(function () {
+        $("#search-input").keyup(function () {
+            var searchString = $(this).val();
+            $('#sampleKeywords-tree').jstree('search', searchString);
+        });
+    });
+</script>
+            
+  </body>
+</html>
