@@ -656,10 +656,13 @@
                                 "label": "superconducting quantum interference device (SQUID) microscope",
                                 "synonyms": [
                                     {
-                                        "value": "squid"
+                                        "value": "(squid)"
                                     },
                                     {
-                                        "value": "(squid)"
+                                        "value": "superconducting quantum interference device"
+                                    },
+                                    {
+                                        "value": "super-conducting quantum interference device"
                                     }
                                 ],
                                 "children": []

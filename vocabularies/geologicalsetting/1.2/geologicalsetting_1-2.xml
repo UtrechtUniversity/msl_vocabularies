@@ -278,8 +278,6 @@
     <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-narrow_rift</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-non-volcanic_rifted_margin</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-oceanic_core_complex</skos:narrower>
-    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_shoulder</skos:narrower>
-    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_valley</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_volcanism</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-symmetric_rifting</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-tilted_block_faulting</skos:narrower>
@@ -307,16 +305,6 @@
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-tilted_block_faulting">
     <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting</skos:broader>
     <rdfs:label>tilted block faulting</rdfs:label>
-  </skos:Concept>
-
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_shoulder">
-    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting</skos:broader>
-    <rdfs:label>rift shoulder</rdfs:label>
-  </skos:Concept>
-
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_valley">
-    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting</skos:broader>
-    <rdfs:label>rift valley</rdfs:label>
   </skos:Concept>
 
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-mantle_exhumation">
@@ -691,6 +679,106 @@
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/earths_structure-asthenosphere">
     <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/earths_structure</skos:broader>
     <rdfs:label>asthenosphere</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure">
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_shear_zone</skos:narrower>
+    <rdfs:label>tectonic deformation structure</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault">
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-detachment_fault</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-normal_fault</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-oblique-slip_fault</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-reverse_fault</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-scissor_fault</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-strike-slip_fault</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-thrust_fault</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-wrench_fault</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure</skos:broader>
+    <rdfs:label>tectonic fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-oblique-slip_fault">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:broader>
+    <rdfs:label>oblique-slip fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-reverse_fault">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:broader>
+    <rdfs:label>reverse fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-scissor_fault">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:broader>
+    <rdfs:label>scissor fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-strike-slip_fault">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:broader>
+    <rdfs:label>strike-slip fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-normal_fault">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:broader>
+    <rdfs:label>normal fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-thrust_fault">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:broader>
+    <rdfs:label>thrust fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-wrench_fault">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:broader>
+    <rdfs:label>wrench fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault-detachment_fault">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fault</skos:broader>
+    <rdfs:label>detachment fault</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold">
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold-anticline</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold-antiform</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold-syncline</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold-synform</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure</skos:broader>
+    <rdfs:label>tectonic fold</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold-anticline">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold</skos:broader>
+    <rdfs:label>anticline</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold-antiform">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold</skos:broader>
+    <rdfs:label>antiform</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold-syncline">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold</skos:broader>
+    <rdfs:label>syncline</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold-synform">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_fold</skos:broader>
+    <rdfs:label>synform</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_shear_zone">
+    <skos:narrower>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_shear_zone-riedel_shear</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure</skos:broader>
+    <rdfs:label>tectonic shear zone</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_shear_zone-riedel_shear">
+    <skos:broader>https://epos-msl.uu.nl/voc/geologicalsetting/1.2/tectonic_deformation_structure-tectonic_shear_zone</skos:broader>
+    <rdfs:label>Riedel shear</rdfs:label>
   </skos:Concept>
 
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/geologicalsetting/1.2/extra-terrestrial_setting">

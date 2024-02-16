@@ -121,7 +121,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "evaporite",
                 "label": "evaporite",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "evaporites"
+                    }
+                ],
                 "children": [
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/sedimentary_rock-evaporite-gypsum_or_anhydrite",
@@ -164,7 +168,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "limestone",
                 "label": "limestone",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "limestones"
+                    }
+                ],
                 "children": [
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/sedimentary_rock-limestone-anstrude_limestone",
@@ -357,7 +365,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "marl",
                 "label": "marl",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "marls"
+                    }
+                ],
                 "children": []
             },
             {
@@ -376,7 +388,11 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "claystone",
                         "label": "claystone",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "claystones"
+                            }
+                        ],
                         "children": [
                             {
                                 "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/sedimentary_rock-mudstone-claystone-boom_clay",
@@ -401,7 +417,11 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "shale",
                         "label": "shale",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "shales"
+                            }
+                        ],
                         "children": [
                             {
                                 "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/sedimentary_rock-mudstone-shale-barnett_shale",
@@ -526,7 +546,11 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "siltstone",
                         "label": "siltstone",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "siltstones"
+                            }
+                        ],
                         "children": []
                     }
                 ]
@@ -536,7 +560,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "sandstone",
                 "label": "sandstone",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "sandstones"
+                    }
+                ],
                 "children": [
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/sedimentary_rock-sandstone-arenite",
@@ -809,6 +837,9 @@
                         "synonyms": [
                             {
                                 "value": "granitic"
+                            },
+                            {
+                                "value": "granites"
                             }
                         ],
                         "children": [
@@ -958,6 +989,9 @@
                         "synonyms": [
                             {
                                 "value": "granodioritic"
+                            },
+                            {
+                                "value": "granodiorites"
                             }
                         ],
                         "children": [
@@ -1089,6 +1123,9 @@
                         "synonyms": [
                             {
                                 "value": "gabbroic"
+                            },
+                            {
+                                "value": "gabbros"
                             }
                         ],
                         "children": [
@@ -1151,6 +1188,9 @@
                         "synonyms": [
                             {
                                 "value": "dioritic"
+                            },
+                            {
+                                "value": "diorites"
                             }
                         ],
                         "children": []
@@ -1208,6 +1248,9 @@
                         "synonyms": [
                             {
                                 "value": "peridotitic"
+                            },
+                            {
+                                "value": "peridotites"
                             }
                         ],
                         "children": [
@@ -1269,6 +1312,9 @@
                         "synonyms": [
                             {
                                 "value": "pyroxenitic"
+                            },
+                            {
+                                "value": "pyroxenites"
                             }
                         ],
                         "children": [
@@ -1328,6 +1374,9 @@
                         "synonyms": [
                             {
                                 "value": "rhyolitic"
+                            },
+                            {
+                                "value": "rhyolites"
                             }
                         ],
                         "children": []
@@ -1365,6 +1414,9 @@
                         "synonyms": [
                             {
                                 "value": "basaltic"
+                            },
+                            {
+                                "value": "basalts"
                             }
                         ],
                         "children": [
@@ -1450,6 +1502,9 @@
                             },
                             {
                                 "value": "andesytic"
+                            },
+                            {
+                                "value": "andesites"
                             }
                         ],
                         "children": []
@@ -1727,14 +1782,25 @@
         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
         "value": "metamorphic rock",
         "label": "metamorphic rock",
-        "synonyms": [],
+        "synonyms": [
+            {
+                "value": "metamorphic rocks"
+            }
+        ],
         "children": [
             {
                 "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/metamorphic_rock-amphibolite",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "amphibolite",
                 "label": "amphibolite",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "amphibolites"
+                    },
+                    {
+                        "value": "amphibolitic"
+                    }
+                ],
                 "children": []
             },
             {
@@ -1745,6 +1811,9 @@
                 "synonyms": [
                     {
                         "value": "eclogitic"
+                    },
+                    {
+                        "value": "eclogites"
                     }
                 ],
                 "children": []
@@ -1787,7 +1856,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "granulite",
                 "label": "granulite",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "granulites"
+                    }
+                ],
                 "children": []
             },
             {
@@ -1803,7 +1876,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "marble",
                 "label": "marble",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "marbles"
+                    }
+                ],
                 "children": [
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/metamorphic_rock-marble-carrara_marble",
@@ -1899,6 +1976,9 @@
                 "synonyms": [
                     {
                         "value": "migmatitic"
+                    },
+                    {
+                        "value": "migmatites"
                     }
                 ],
                 "children": []
@@ -1908,7 +1988,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "mylonite",
                 "label": "mylonite",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "mylonites"
+                    }
+                ],
                 "children": []
             },
             {
@@ -1917,6 +2001,9 @@
                 "value": "phyllite",
                 "label": "phyllite",
                 "synonyms": [
+                    {
+                        "value": "phyllites"
+                    },
                     {
                         "value": "phyllitic"
                     }
@@ -1975,6 +2062,9 @@
                 "label": "schist",
                 "synonyms": [
                     {
+                        "value": "schists"
+                    },
+                    {
                         "value": "schistosity"
                     }
                 ],
@@ -2010,7 +2100,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "serpentinite",
                 "label": "serpentinite",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "serpentinites"
+                    }
+                ],
                 "children": []
             },
             {
@@ -2018,7 +2112,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "slate",
                 "label": "slate",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "slates"
+                    }
+                ],
                 "children": []
             }
         ]
@@ -2046,6 +2144,18 @@
             },
             {
                 "value": "fault microstructure"
+            },
+            {
+                "value": "faults rock"
+            },
+            {
+                "value": "faults rocks"
+            },
+            {
+                "value": "fault mirror"
+            },
+            {
+                "value": "fault mirrors"
             }
         ],
         "children": [
@@ -2078,6 +2188,9 @@
                     },
                     {
                         "value": "cataclistic"
+                    },
+                    {
+                        "value": "cataclasites"
                     }
                 ],
                 "children": []
@@ -2093,6 +2206,18 @@
                     },
                     {
                         "value": "fault gouge microstructure"
+                    },
+                    {
+                        "value": "gouge-bearing faults"
+                    },
+                    {
+                        "value": "gouge bearing faults"
+                    },
+                    {
+                        "value": "fault gauge"
+                    },
+                    {
+                        "value": "fault gauges"
                     }
                 ],
                 "children": [
@@ -2104,6 +2229,12 @@
                         "synonyms": [
                             {
                                 "value": "simulated fault gouges"
+                            },
+                            {
+                                "value": "simulated fault gauge"
+                            },
+                            {
+                                "value": "simulated fault gauges"
                             }
                         ],
                         "children": []
@@ -2127,6 +2258,9 @@
                     },
                     {
                         "value": "mylonitizised"
+                    },
+                    {
+                        "value": "mylonites"
                     }
                 ],
                 "children": []
@@ -2148,6 +2282,9 @@
                     },
                     {
                         "value": "pseudotachylitic"
+                    },
+                    {
+                        "value": "pseudotachylites"
                     }
                 ],
                 "children": []
@@ -2288,7 +2425,11 @@
         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
         "value": "meteorite",
         "label": "meteorite",
-        "synonyms": [],
+        "synonyms": [
+            {
+                "value": "meteorites"
+            }
+        ],
         "children": [
             {
                 "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/meteorite-chondrite_meteorite",
@@ -2376,6 +2517,9 @@
             },
             {
                 "value": "suevite"
+            },
+            {
+                "value": "impact rocks"
             }
         ],
         "children": []
@@ -2400,11 +2544,14 @@
                 "children": []
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates",
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
-                "value": "carbonates",
-                "label": "carbonates",
+                "value": "carbonate minerals",
+                "label": "carbonate minerals",
                 "synonyms": [
+                    {
+                        "value": "carbonates"
+                    },
                     {
                         "value": "carbonate sedimentary rock"
                     },
@@ -2413,11 +2560,17 @@
                     },
                     {
                         "value": "carbonitic rock"
+                    },
+                    {
+                        "value": "carbonate fault"
+                    },
+                    {
+                        "value": "carbonate faults"
                     }
                 ],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-ankerite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-ankerite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "ankerite",
                         "label": "ankerite",
@@ -2425,7 +2578,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-apatite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-apatite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "apatite",
                         "label": "apatite",
@@ -2433,7 +2586,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-aragonite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-aragonite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "aragonite",
                         "label": "aragonite",
@@ -2441,7 +2594,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-azurite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-azurite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "azurite",
                         "label": "azurite",
@@ -2449,7 +2602,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-bastnaesite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-bastnaesite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "bastnaesite",
                         "label": "bastnaesite",
@@ -2457,7 +2610,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-breunnerite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-breunnerite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "breunnerite",
                         "label": "breunnerite",
@@ -2465,7 +2618,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-calcite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-calcite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "calcite",
                         "label": "calcite",
@@ -2473,7 +2626,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-dolomite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-dolomite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "dolomite",
                         "label": "dolomite",
@@ -2481,7 +2634,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-magnesite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-magnesite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "magnesite",
                         "label": "magnesite",
@@ -2489,7 +2642,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-malachite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-malachite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "malachite",
                         "label": "malachite",
@@ -2497,7 +2650,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-manganocalcite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-manganocalcite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "manganocalcite",
                         "label": "manganocalcite",
@@ -2505,7 +2658,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-parisite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-parisite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "parisite",
                         "label": "parisite",
@@ -2513,7 +2666,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-rhodochrosite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-rhodochrosite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "rhodochrosite",
                         "label": "rhodochrosite",
@@ -2521,7 +2674,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-siderite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-siderite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "siderite",
                         "label": "siderite",
@@ -2529,7 +2682,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-smithsonite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-smithsonite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "smithsonite",
                         "label": "smithsonite",
@@ -2537,7 +2690,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-strontianite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-strontianite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "strontianite",
                         "label": "strontianite",
@@ -2545,7 +2698,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-trona",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-trona",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "trona",
                         "label": "trona",
@@ -2553,7 +2706,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonates-witherite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-carbonate_minerals-witherite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "witherite",
                         "label": "witherite",
@@ -2784,14 +2937,14 @@
                 ]
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides",
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
-                "value": "halides",
-                "label": "halides",
+                "value": "halide minerals",
+                "label": "halide minerals",
                 "synonyms": [],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides-atacamite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals-atacamite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "atacamite",
                         "label": "atacamite",
@@ -2799,7 +2952,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides-bischofite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals-bischofite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "bischofite",
                         "label": "bischofite",
@@ -2807,7 +2960,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides-carnallite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals-carnallite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "carnallite",
                         "label": "carnallite",
@@ -2815,7 +2968,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides-cerargyrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals-cerargyrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cerargyrite",
                         "label": "cerargyrite",
@@ -2823,7 +2976,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides-cryolite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals-cryolite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cryolite",
                         "label": "cryolite",
@@ -2831,7 +2984,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides-fluorite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals-fluorite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "fluorite",
                         "label": "fluorite",
@@ -2839,7 +2992,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides-halite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals-halite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "halite",
                         "label": "halite",
@@ -2847,7 +3000,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halides-sylvite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-halide_minerals-sylvite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "sylvite",
                         "label": "sylvite",
@@ -2857,14 +3010,14 @@
                 ]
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide",
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
-                "value": "oxide",
-                "label": "oxide",
+                "value": "oxide mineral",
+                "label": "oxide mineral",
                 "synonyms": [],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-anatase",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-anatase",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "anatase",
                         "label": "anatase",
@@ -2872,7 +3025,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-boehmite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-boehmite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "boehmite",
                         "label": "boehmite",
@@ -2880,7 +3033,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-brannerite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-brannerite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "brannerite",
                         "label": "brannerite",
@@ -2888,7 +3041,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-brucite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-brucite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "brucite",
                         "label": "brucite",
@@ -2896,7 +3049,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-carnotite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-carnotite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "carnotite",
                         "label": "carnotite",
@@ -2904,7 +3057,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-cassiterite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-cassiterite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cassiterite",
                         "label": "cassiterite",
@@ -2912,7 +3065,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-chromite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-chromite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "chromite",
                         "label": "chromite",
@@ -2920,7 +3073,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-chrysoberyl",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-chrysoberyl",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "chrysoberyl",
                         "label": "chrysoberyl",
@@ -2928,7 +3081,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-columbite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-columbite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "columbite",
                         "label": "columbite",
@@ -2936,7 +3089,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-coronadite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-coronadite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "coronadite",
                         "label": "coronadite",
@@ -2944,7 +3097,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-cryptomelane",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-cryptomelane",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cryptomelane",
                         "label": "cryptomelane",
@@ -2952,7 +3105,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-cuprite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-cuprite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cuprite",
                         "label": "cuprite",
@@ -2960,7 +3113,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-diaspore",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-diaspore",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "diaspore",
                         "label": "diaspore",
@@ -2968,7 +3121,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-ferberite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-ferberite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "ferberite",
                         "label": "ferberite",
@@ -2976,7 +3129,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-feroxyhyte",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-feroxyhyte",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "feroxyhyte",
                         "label": "feroxyhyte",
@@ -2984,7 +3137,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-ferrihydrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-ferrihydrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "ferrihydrite",
                         "label": "ferrihydrite",
@@ -2992,7 +3145,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-franklinite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-franklinite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "franklinite",
                         "label": "franklinite",
@@ -3000,7 +3153,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-gahnite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-gahnite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "gahnite",
                         "label": "gahnite",
@@ -3008,7 +3161,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-gibbsite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-gibbsite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "gibbsite",
                         "label": "gibbsite",
@@ -3016,7 +3169,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-goethite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-goethite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "goethite",
                         "label": "goethite",
@@ -3024,7 +3177,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-hausmannite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-hausmannite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "hausmannite",
                         "label": "hausmannite",
@@ -3032,7 +3185,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-hematite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-hematite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "hematite",
                         "label": "hematite",
@@ -3040,7 +3193,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-hercynite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-hercynite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "hercynite",
                         "label": "hercynite",
@@ -3048,7 +3201,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-hollandite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-hollandite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "hollandite",
                         "label": "hollandite",
@@ -3056,7 +3209,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-huebnerite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-huebnerite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "huebnerite",
                         "label": "huebnerite",
@@ -3064,7 +3217,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-ice",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-ice",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "ice",
                         "label": "ice",
@@ -3072,7 +3225,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-ilmenite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-ilmenite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "ilmenite",
                         "label": "ilmenite",
@@ -3080,7 +3233,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-jacobsite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-jacobsite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "jacobsite",
                         "label": "jacobsite",
@@ -3088,7 +3241,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-lepidocrocite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-lepidocrocite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "lepidocrocite",
                         "label": "lepidocrocite",
@@ -3096,7 +3249,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-leucoxene",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-leucoxene",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "leucoxene",
                         "label": "leucoxene",
@@ -3104,7 +3257,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-limonite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-limonite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "limonite",
                         "label": "limonite",
@@ -3112,7 +3265,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-maghemite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-maghemite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "maghemite",
                         "label": "maghemite",
@@ -3120,7 +3273,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-magnesioferrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-magnesioferrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "magnesioferrite",
                         "label": "magnesioferrite",
@@ -3128,7 +3281,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-magnetite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-magnetite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "magnetite",
                         "label": "magnetite",
@@ -3136,7 +3289,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-manganite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-manganite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "manganite",
                         "label": "manganite",
@@ -3144,7 +3297,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-perovskite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-perovskite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "perovskite",
                         "label": "perovskite",
@@ -3152,7 +3305,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-pyrochlore",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-pyrochlore",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "pyrochlore",
                         "label": "pyrochlore",
@@ -3160,7 +3313,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-pyrolusite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-pyrolusite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "pyrolusite",
                         "label": "pyrolusite",
@@ -3168,7 +3321,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-rutile",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-rutile",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "rutile",
                         "label": "rutile",
@@ -3176,7 +3329,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-spinel",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-spinel",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "spinel",
                         "label": "spinel",
@@ -3184,7 +3337,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-titanohematite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-titanohematite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "titanohematite",
                         "label": "titanohematite",
@@ -3192,7 +3345,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-titanomaghemite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-titanomaghemite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "titanomaghemite",
                         "label": "titanomaghemite",
@@ -3200,7 +3353,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-titanomagnetite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-titanomagnetite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "titanomagnetite",
                         "label": "titanomagnetite",
@@ -3208,7 +3361,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-todorokite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-todorokite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "todorokite",
                         "label": "todorokite",
@@ -3216,7 +3369,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-ulvospinel",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-ulvospinel",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "ulvospinel",
                         "label": "ulvospinel",
@@ -3224,7 +3377,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-uraninite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-uraninite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "uraninite",
                         "label": "uraninite",
@@ -3232,7 +3385,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-wolframite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-wolframite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "wolframite",
                         "label": "wolframite",
@@ -3240,7 +3393,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide-zincite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-oxide_mineral-zincite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "zincite",
                         "label": "zincite",
@@ -3250,14 +3403,14 @@
                 ]
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphates",
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphate_minerals",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
-                "value": "phosphates",
-                "label": "phosphates",
+                "value": "phosphate minerals",
+                "label": "phosphate minerals",
                 "synonyms": [],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphates-beudantite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphate_minerals-beudantite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "beudantite",
                         "label": "beudantite",
@@ -3265,7 +3418,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphates-durangite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphate_minerals-durangite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "durangite",
                         "label": "durangite",
@@ -3273,7 +3426,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphates-fluorapatite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphate_minerals-fluorapatite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "fluorapatite",
                         "label": "fluorapatite",
@@ -3281,7 +3434,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphates-mimetite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphate_minerals-mimetite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "mimetite",
                         "label": "mimetite",
@@ -3289,7 +3442,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphates-monazite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-phosphate_minerals-monazite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "monazite",
                         "label": "monazite",
@@ -3299,21 +3452,21 @@
                 ]
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates",
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
-                "value": "silicates",
-                "label": "silicates",
+                "value": "silicate minerals",
+                "label": "silicate minerals",
                 "synonyms": [],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-cyclosilicates",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-cyclosilicates",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cyclosilicates",
                         "label": "cyclosilicates",
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-cyclosilicates-axinite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-cyclosilicates-axinite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "axinite",
                                 "label": "axinite",
@@ -3321,7 +3474,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-cyclosilicates-beryl",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-cyclosilicates-beryl",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "beryl",
                                 "label": "beryl",
@@ -3333,7 +3486,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-cyclosilicates-cordierite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-cyclosilicates-cordierite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "cordierite",
                                 "label": "cordierite",
@@ -3341,7 +3494,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-cyclosilicates-tourmaline",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-cyclosilicates-tourmaline",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "tourmaline",
                                 "label": "tourmaline",
@@ -3351,21 +3504,21 @@
                         ]
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "inosilicates",
                         "label": "inosilicates",
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "amphibole",
                                 "label": "amphibole",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole-actinolite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole-actinolite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "actinolite",
                                         "label": "actinolite",
@@ -3373,7 +3526,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole-anthophyllite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole-anthophyllite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "anthophyllite",
                                         "label": "anthophyllite",
@@ -3381,7 +3534,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole-arfvedsonite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole-arfvedsonite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "arfvedsonite",
                                         "label": "arfvedsonite",
@@ -3389,7 +3542,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole-cummingtonite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole-cummingtonite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "cummingtonite",
                                         "label": "cummingtonite",
@@ -3397,7 +3550,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole-glaucophane",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole-glaucophane",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "glaucophane",
                                         "label": "glaucophane",
@@ -3405,7 +3558,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole-hornblende",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole-hornblende",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "hornblende",
                                         "label": "hornblende",
@@ -3413,7 +3566,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole-riebeckite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole-riebeckite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "riebeckite",
                                         "label": "riebeckite",
@@ -3421,7 +3574,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-amphibole-tremolite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-amphibole-tremolite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "tremolite",
                                         "label": "tremolite",
@@ -3431,7 +3584,7 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pectolite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pectolite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "pectolite",
                                 "label": "pectolite",
@@ -3439,7 +3592,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-prehnite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-prehnite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "prehnite",
                                 "label": "prehnite",
@@ -3447,14 +3600,14 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_clinopyroxene",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_clinopyroxene",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "pyroxene - clinopyroxene",
                                 "label": "pyroxene - clinopyroxene",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_clinopyroxene-augite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_clinopyroxene-augite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "augite",
                                         "label": "augite",
@@ -3462,7 +3615,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_clinopyroxene-diopside",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_clinopyroxene-diopside",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "diopside",
                                         "label": "diopside",
@@ -3470,7 +3623,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_clinopyroxene-hedenbergite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_clinopyroxene-hedenbergite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "hedenbergite",
                                         "label": "hedenbergite",
@@ -3478,7 +3631,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_clinopyroxene-jadeite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_clinopyroxene-jadeite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "jadeite",
                                         "label": "jadeite",
@@ -3486,7 +3639,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_clinopyroxene-pigeonite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_clinopyroxene-pigeonite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "pigeonite",
                                         "label": "pigeonite",
@@ -3494,7 +3647,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_clinopyroxene-spodumene",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_clinopyroxene-spodumene",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "spodumene",
                                         "label": "spodumene",
@@ -3504,14 +3657,14 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_orthopyroxene",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_orthopyroxene",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "pyroxene - orthopyroxene",
                                 "label": "pyroxene - orthopyroxene",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_orthopyroxene-enstatite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_orthopyroxene-enstatite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "enstatite",
                                         "label": "enstatite",
@@ -3519,7 +3672,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-pyroxene_-_orthopyroxene-ferrosilite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-pyroxene_-_orthopyroxene-ferrosilite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "ferrosilite",
                                         "label": "ferrosilite",
@@ -3529,7 +3682,7 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-rhodonite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-rhodonite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "rhodonite",
                                 "label": "rhodonite",
@@ -3537,7 +3690,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-inosilicates-wollastonite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-inosilicates-wollastonite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "wollastonite",
                                 "label": "wollastonite",
@@ -3547,14 +3700,14 @@
                         ]
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "nesosilicates",
                         "label": "nesosilicates",
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-andalusite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-andalusite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "andalusite",
                                 "label": "andalusite",
@@ -3562,7 +3715,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-braunite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-braunite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "braunite",
                                 "label": "braunite",
@@ -3570,7 +3723,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-coffinite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-coffinite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "coffinite",
                                 "label": "coffinite",
@@ -3578,7 +3731,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-datolite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-datolite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "datolite",
                                 "label": "datolite",
@@ -3586,14 +3739,14 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-garnet",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-garnet",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "garnet",
                                 "label": "garnet",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-garnet-almandine",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-garnet-almandine",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "almandine",
                                         "label": "almandine",
@@ -3601,7 +3754,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-garnet-andradite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-garnet-andradite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "andradite",
                                         "label": "andradite",
@@ -3609,7 +3762,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-garnet-grossular",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-garnet-grossular",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "grossular",
                                         "label": "grossular",
@@ -3617,7 +3770,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-garnet-pyrope",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-garnet-pyrope",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "pyrope",
                                         "label": "pyrope",
@@ -3625,7 +3778,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-garnet-spessartine",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-garnet-spessartine",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "spessartine",
                                         "label": "spessartine",
@@ -3633,7 +3786,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-garnet-uvarovite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-garnet-uvarovite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "uvarovite",
                                         "label": "uvarovite",
@@ -3643,7 +3796,7 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-kyanite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-kyanite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "kyanite",
                                 "label": "kyanite",
@@ -3651,14 +3804,14 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-olivine",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-olivine",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "olivine",
                                 "label": "olivine",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-olivine-fayalite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-olivine-fayalite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "fayalite",
                                         "label": "fayalite",
@@ -3666,7 +3819,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-olivine-forsterite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-olivine-forsterite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "forsterite",
                                         "label": "forsterite",
@@ -3676,14 +3829,14 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-phenakite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-phenakite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "phenakite",
                                 "label": "phenakite",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-phenakite-eucryptite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-phenakite-eucryptite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "eucryptite",
                                         "label": "eucryptite",
@@ -3691,7 +3844,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-phenakite-phenakite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-phenakite-phenakite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "phenakite",
                                         "label": "phenakite",
@@ -3699,7 +3852,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-phenakite-willemite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-phenakite-willemite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "willemite",
                                         "label": "willemite",
@@ -3709,7 +3862,7 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-sillimanite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-sillimanite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "sillimanite",
                                 "label": "sillimanite",
@@ -3717,7 +3870,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-staurolite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-staurolite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "staurolite",
                                 "label": "staurolite",
@@ -3725,7 +3878,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-titanite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-titanite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "titanite",
                                 "label": "titanite",
@@ -3733,7 +3886,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-topaz",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-topaz",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "topaz",
                                 "label": "topaz",
@@ -3741,7 +3894,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-nesosilicates-zircon",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-nesosilicates-zircon",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "zircon",
                                 "label": "zircon",
@@ -3751,14 +3904,14 @@
                         ]
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "phyllosilicates",
                         "label": "phyllosilicates",
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-apophyllite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-apophyllite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "apophyllite",
                                 "label": "apophyllite",
@@ -3766,7 +3919,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-bementite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-bementite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "bementite",
                                 "label": "bementite",
@@ -3774,14 +3927,14 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "clay",
                                 "label": "clay",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay-attapulgite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay-attapulgite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "attapulgite",
                                         "label": "attapulgite",
@@ -3789,7 +3942,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay-chlorite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay-chlorite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "chlorite",
                                         "label": "chlorite",
@@ -3797,7 +3950,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay-hectorite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay-hectorite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "hectorite",
                                         "label": "hectorite",
@@ -3805,7 +3958,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay-illite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay-illite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "illite",
                                         "label": "illite",
@@ -3813,7 +3966,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay-palygorskite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay-palygorskite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "palygorskite",
                                         "label": "palygorskite",
@@ -3823,14 +3976,18 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_kaolinite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_kaolinite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "clay - kaolinite",
                                 "label": "clay - kaolinite",
-                                "synonyms": [],
+                                "synonyms": [
+                                    {
+                                        "value": "kaolinite"
+                                    }
+                                ],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_kaolinite-chrysocolla",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_kaolinite-chrysocolla",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "chrysocolla",
                                         "label": "chrysocolla",
@@ -3838,7 +3995,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_kaolinite-dickite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_kaolinite-dickite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "dickite",
                                         "label": "dickite",
@@ -3846,7 +4003,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_kaolinite-kaolinite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_kaolinite-kaolinite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "kaolinite",
                                         "label": "kaolinite",
@@ -3854,7 +4011,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_kaolinite-neotocite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_kaolinite-neotocite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "neotocite",
                                         "label": "neotocite",
@@ -3864,18 +4021,21 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_smectite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_smectite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "clay - smectite",
                                 "label": "clay - smectite",
                                 "synonyms": [
                                     {
                                         "value": "swelling clay"
+                                    },
+                                    {
+                                        "value": "smectite"
                                     }
                                 ],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_smectite-beidellite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_smectite-beidellite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "beidellite",
                                         "label": "beidellite",
@@ -3883,7 +4043,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_smectite-bentonite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_smectite-bentonite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "bentonite",
                                         "label": "bentonite",
@@ -3891,7 +4051,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_smectite-montmorillonite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_smectite-montmorillonite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "montmorillonite",
                                         "label": "montmorillonite",
@@ -3899,7 +4059,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_smectite-nontronite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_smectite-nontronite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "nontronite",
                                         "label": "nontronite",
@@ -3907,7 +4067,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_smectite-pyrophyllite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_smectite-pyrophyllite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "pyrophyllite",
                                         "label": "pyrophyllite",
@@ -3915,7 +4075,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_smectite-saponite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_smectite-saponite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "saponite",
                                         "label": "saponite",
@@ -3923,7 +4083,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-clay_-_smectite-talc",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-clay_-_smectite-talc",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "talc",
                                         "label": "talc",
@@ -3933,7 +4093,7 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-mica",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-mica",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "mica",
                                 "label": "mica",
@@ -3944,7 +4104,7 @@
                                 ],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-mica-biotite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-mica-biotite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "biotite",
                                         "label": "biotite",
@@ -3952,7 +4112,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-mica-glauconite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-mica-glauconite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "glauconite",
                                         "label": "glauconite",
@@ -3960,7 +4120,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-mica-lepidolite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-mica-lepidolite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "lepidolite",
                                         "label": "lepidolite",
@@ -3968,7 +4128,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-mica-margarite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-mica-margarite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "margarite",
                                         "label": "margarite",
@@ -3976,7 +4136,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-mica-muscovite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-mica-muscovite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "muscovite",
                                         "label": "muscovite",
@@ -3984,7 +4144,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-mica-phlogopite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-mica-phlogopite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "phlogopite",
                                         "label": "phlogopite",
@@ -3992,7 +4152,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-mica-sericite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-mica-sericite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "sericite",
                                         "label": "sericite",
@@ -4002,7 +4162,7 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-petalite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-petalite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "petalite",
                                 "label": "petalite",
@@ -4010,14 +4170,14 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-serpentine",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-serpentine",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "serpentine",
                                 "label": "serpentine",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-serpentine-antigorite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-serpentine-antigorite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "antigorite",
                                         "label": "antigorite",
@@ -4025,7 +4185,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-serpentine-chrysotile",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-serpentine-chrysotile",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "chrysotile",
                                         "label": "chrysotile",
@@ -4033,7 +4193,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-phyllosilicates-serpentine-lizardite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-phyllosilicates-serpentine-lizardite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "lizardite",
                                         "label": "lizardite",
@@ -4045,21 +4205,21 @@
                         ]
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "sorosilicates",
                         "label": "sorosilicates",
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-epidote",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-epidote",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "epidote",
                                 "label": "epidote",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-epidote-clinozoisite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-epidote-clinozoisite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "clinozoisite",
                                         "label": "clinozoisite",
@@ -4067,7 +4227,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-epidote-epidote",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-epidote-epidote",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "epidote",
                                         "label": "epidote",
@@ -4075,7 +4235,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-epidote-zoisite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-epidote-zoisite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "zoisite",
                                         "label": "zoisite",
@@ -4085,7 +4245,7 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-hemimorphite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-hemimorphite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "hemimorphite",
                                 "label": "hemimorphite",
@@ -4093,7 +4253,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-lawsonite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-lawsonite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "lawsonite",
                                 "label": "lawsonite",
@@ -4101,7 +4261,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-niocalite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-niocalite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "niocalite",
                                 "label": "niocalite",
@@ -4109,7 +4269,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-pumpellyite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-pumpellyite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "pumpellyite",
                                 "label": "pumpellyite",
@@ -4117,7 +4277,7 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-sorosilicates-vesuvianite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-sorosilicates-vesuvianite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "vesuvianite",
                                 "label": "vesuvianite",
@@ -4127,14 +4287,14 @@
                         ]
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "tectosilicates",
                         "label": "tectosilicates",
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_k-feldspar",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_k-feldspar",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "feldspar - K-feldspar",
                                 "label": "feldspar - K-feldspar",
@@ -4145,7 +4305,7 @@
                                 ],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_k-feldspar-anorthoclase",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_k-feldspar-anorthoclase",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "anorthoclase",
                                         "label": "anorthoclase",
@@ -4153,7 +4313,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_k-feldspar-microcline",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_k-feldspar-microcline",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "microcline",
                                         "label": "microcline",
@@ -4161,7 +4321,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_k-feldspar-orthoclase",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_k-feldspar-orthoclase",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "orthoclase",
                                         "label": "orthoclase",
@@ -4169,7 +4329,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_k-feldspar-sanidine",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_k-feldspar-sanidine",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "sanidine",
                                         "label": "sanidine",
@@ -4179,7 +4339,7 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_plagioclase",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_plagioclase",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "feldspar - plagioclase",
                                 "label": "feldspar - plagioclase",
@@ -4190,7 +4350,7 @@
                                 ],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_plagioclase-albite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_plagioclase-albite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "albite",
                                         "label": "albite",
@@ -4198,7 +4358,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_plagioclase-andesine",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_plagioclase-andesine",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "andesine",
                                         "label": "andesine",
@@ -4206,7 +4366,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_plagioclase-anorthite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_plagioclase-anorthite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "anorthite",
                                         "label": "anorthite",
@@ -4214,7 +4374,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_plagioclase-bytownite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_plagioclase-bytownite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "bytownite",
                                         "label": "bytownite",
@@ -4222,7 +4382,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_plagioclase-labradorite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_plagioclase-labradorite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "labradorite",
                                         "label": "labradorite",
@@ -4230,7 +4390,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspar_-_plagioclase-oligoclase",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspar_-_plagioclase-oligoclase",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "oligoclase",
                                         "label": "oligoclase",
@@ -4240,14 +4400,14 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspathoid",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspathoid",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "feldspathoid",
                                 "label": "feldspathoid",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspathoid-lazurite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspathoid-lazurite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "lazurite",
                                         "label": "lazurite",
@@ -4255,7 +4415,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspathoid-nepheline",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspathoid-nepheline",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "nepheline",
                                         "label": "nepheline",
@@ -4263,7 +4423,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-feldspathoid-sodalite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-feldspathoid-sodalite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "sodalite",
                                         "label": "sodalite",
@@ -4273,14 +4433,14 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-quartz",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-quartz",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "quartz",
                                 "label": "quartz",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-quartz-chalcedony",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-quartz-chalcedony",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "chalcedony",
                                         "label": "chalcedony",
@@ -4292,7 +4452,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-quartz-chert",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-quartz-chert",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "chert",
                                         "label": "chert",
@@ -4300,7 +4460,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-quartz-cristobalite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-quartz-cristobalite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "cristobalite",
                                         "label": "cristobalite",
@@ -4308,7 +4468,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-quartz-jasper",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-quartz-jasper",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "jasper",
                                         "label": "jasper",
@@ -4316,7 +4476,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-quartz-opal",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-quartz-opal",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "opal",
                                         "label": "opal",
@@ -4324,7 +4484,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-quartz-tridymite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-quartz-tridymite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "tridymite",
                                         "label": "tridymite",
@@ -4334,14 +4494,14 @@
                                 ]
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-zeolite",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-zeolite",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                 "value": "zeolite",
                                 "label": "zeolite",
                                 "synonyms": [],
                                 "children": [
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-zeolite-analcime",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-zeolite-analcime",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "analcime",
                                         "label": "analcime",
@@ -4349,7 +4509,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-zeolite-chabazite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-zeolite-chabazite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "chabazite",
                                         "label": "chabazite",
@@ -4357,7 +4517,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-zeolite-heulandite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-zeolite-heulandite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "heulandite",
                                         "label": "heulandite",
@@ -4365,7 +4525,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-zeolite-leucite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-zeolite-leucite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "leucite",
                                         "label": "leucite",
@@ -4373,7 +4533,7 @@
                                         "children": []
                                     },
                                     {
-                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicates-tectosilicates-zeolite-natrolite",
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-silicate_minerals-tectosilicates-zeolite-natrolite",
                                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                                         "value": "natrolite",
                                         "label": "natrolite",
@@ -4387,14 +4547,14 @@
                 ]
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates",
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
-                "value": "sulfates",
-                "label": "sulfates",
+                "value": "sulfate minerals",
+                "label": "sulfate minerals",
                 "synonyms": [],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-anglesite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-anglesite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "anglesite",
                         "label": "anglesite",
@@ -4402,7 +4562,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-anhydrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-anhydrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "anhydrite",
                         "label": "anhydrite",
@@ -4410,7 +4570,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-antlerite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-antlerite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "antlerite",
                         "label": "antlerite",
@@ -4418,7 +4578,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-baryte",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-baryte",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "baryte",
                         "label": "baryte",
@@ -4426,7 +4586,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-celestite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-celestite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "celestite",
                         "label": "celestite",
@@ -4434,7 +4594,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-chalcanthite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-chalcanthite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "chalcanthite",
                         "label": "chalcanthite",
@@ -4442,7 +4602,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-epsomite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-epsomite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "epsomite",
                         "label": "epsomite",
@@ -4450,7 +4610,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-gypsum",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-gypsum",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "gypsum",
                         "label": "gypsum",
@@ -4458,7 +4618,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfates-scheelite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfate_minerals-scheelite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "scheelite",
                         "label": "scheelite",
@@ -4468,14 +4628,14 @@
                 ]
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides",
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
-                "value": "sulfides",
-                "label": "sulfides",
+                "value": "sulfide minerals",
+                "label": "sulfide minerals",
                 "synonyms": [],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-arsenopyrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-arsenopyrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "arsenopyrite",
                         "label": "arsenopyrite",
@@ -4483,7 +4643,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-bismuthinite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-bismuthinite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "bismuthinite",
                         "label": "bismuthinite",
@@ -4491,7 +4651,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-bornite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-bornite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "bornite",
                         "label": "bornite",
@@ -4499,7 +4659,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-bournonite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-bournonite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "bournonite",
                         "label": "bournonite",
@@ -4507,7 +4667,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-calaverite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-calaverite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "calaverite",
                         "label": "calaverite",
@@ -4515,7 +4675,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-carrollite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-carrollite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "carrollite",
                         "label": "carrollite",
@@ -4523,7 +4683,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-chalcocite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-chalcocite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "chalcocite",
                         "label": "chalcocite",
@@ -4531,7 +4691,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-chalcopyrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-chalcopyrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "chalcopyrite",
                         "label": "chalcopyrite",
@@ -4539,7 +4699,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-cinnabar",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-cinnabar",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cinnabar",
                         "label": "cinnabar",
@@ -4547,7 +4707,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-cobaltite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-cobaltite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cobaltite",
                         "label": "cobaltite",
@@ -4555,7 +4715,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-coloradoite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-coloradoite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "coloradoite",
                         "label": "coloradoite",
@@ -4563,7 +4723,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-cooperite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-cooperite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cooperite",
                         "label": "cooperite",
@@ -4571,7 +4731,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-covellite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-covellite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "covellite",
                         "label": "covellite",
@@ -4579,7 +4739,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-cubanite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-cubanite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "cubanite",
                         "label": "cubanite",
@@ -4587,7 +4747,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-daubreelite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-daubreelite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "daubreelite",
                         "label": "daubreelite",
@@ -4595,7 +4755,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-digenite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-digenite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "digenite",
                         "label": "digenite",
@@ -4603,7 +4763,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-enargite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-enargite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "enargite",
                         "label": "enargite",
@@ -4611,7 +4771,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-galena",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-galena",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "galena",
                         "label": "galena",
@@ -4619,7 +4779,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-gersdorffite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-gersdorffite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "gersdorffite",
                         "label": "gersdorffite",
@@ -4627,7 +4787,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-greenockite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-greenockite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "greenockite",
                         "label": "greenockite",
@@ -4635,7 +4795,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-greigite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-greigite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "greigite",
                         "label": "greigite",
@@ -4643,7 +4803,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-hessite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-hessite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "hessite",
                         "label": "hessite",
@@ -4651,7 +4811,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-jamesonite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-jamesonite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "jamesonite",
                         "label": "jamesonite",
@@ -4659,7 +4819,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-laurite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-laurite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "laurite",
                         "label": "laurite",
@@ -4667,7 +4827,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-loellingite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-loellingite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "loellingite",
                         "label": "loellingite",
@@ -4675,7 +4835,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-luzonite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-luzonite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "luzonite",
                         "label": "luzonite",
@@ -4683,7 +4843,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-mackinawite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-mackinawite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "mackinawite",
                         "label": "mackinawite",
@@ -4691,7 +4851,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-marcasite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-marcasite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "marcasite",
                         "label": "marcasite",
@@ -4699,7 +4859,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-maucherite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-maucherite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "maucherite",
                         "label": "maucherite",
@@ -4707,7 +4867,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-millerite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-millerite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "millerite",
                         "label": "millerite",
@@ -4715,7 +4875,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-molybdenite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-molybdenite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "molybdenite",
                         "label": "molybdenite",
@@ -4723,7 +4883,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-naumannite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-naumannite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "naumannite",
                         "label": "naumannite",
@@ -4731,7 +4891,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-orpiment",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-orpiment",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "orpiment",
                         "label": "orpiment",
@@ -4739,7 +4899,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-pararammelsbergite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-pararammelsbergite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "pararammelsbergite",
                         "label": "pararammelsbergite",
@@ -4747,7 +4907,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-pentlandite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-pentlandite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "pentlandite",
                         "label": "pentlandite",
@@ -4755,7 +4915,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-proustite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-proustite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "proustite",
                         "label": "proustite",
@@ -4763,7 +4923,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-pyrargyrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-pyrargyrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "pyrargyrite",
                         "label": "pyrargyrite",
@@ -4771,7 +4931,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-pyrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-pyrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "pyrite",
                         "label": "pyrite",
@@ -4779,7 +4939,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-pyrrhotite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-pyrrhotite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "pyrrhotite",
                         "label": "pyrrhotite",
@@ -4787,7 +4947,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-realgar",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-realgar",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "realgar",
                         "label": "realgar",
@@ -4795,7 +4955,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-skutterudite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-skutterudite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "skutterudite",
                         "label": "skutterudite",
@@ -4803,7 +4963,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-sperrylite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-sperrylite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "sperrylite",
                         "label": "sperrylite",
@@ -4811,7 +4971,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-sphalerite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-sphalerite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "sphalerite",
                         "label": "sphalerite",
@@ -4819,7 +4979,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-stannite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-stannite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "stannite",
                         "label": "stannite",
@@ -4827,7 +4987,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-stibnite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-stibnite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "stibnite",
                         "label": "stibnite",
@@ -4835,7 +4995,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-sylvanite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-sylvanite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "sylvanite",
                         "label": "sylvanite",
@@ -4843,7 +5003,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-tennantite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-tennantite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "tennantite",
                         "label": "tennantite",
@@ -4851,7 +5011,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-tetrahedrite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-tetrahedrite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "tetrahedrite",
                         "label": "tetrahedrite",
@@ -4859,7 +5019,7 @@
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfides-valleriite",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/minerals-sulfide_minerals-valleriite",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                         "value": "valleriite",
                         "label": "valleriite",
@@ -4875,14 +5035,22 @@
         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
         "value": "unconsolidated sediment",
         "label": "unconsolidated sediment",
-        "synonyms": [],
+        "synonyms": [
+            {
+                "value": "sediments"
+            }
+        ],
         "children": [
             {
                 "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/unconsolidated_sediment-biogenic_sediment",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "biogenic sediment",
                 "label": "biogenic sediment",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "biogenic sediments"
+                    }
+                ],
                 "children": [
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/unconsolidated_sediment-biogenic_sediment-carbonate_ooze",
@@ -4907,7 +5075,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "carbonate sediment",
                 "label": "carbonate sediment",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "carbonate sediments"
+                    }
+                ],
                 "children": [
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/unconsolidated_sediment-carbonate_sediment-carbonate_mud",
@@ -4932,7 +5104,11 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "clastic sediment",
                 "label": "clastic sediment",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "clastic sediments"
+                    }
+                ],
                 "children": [
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/unconsolidated_sediment-clastic_sediment-clay",
@@ -5038,7 +5214,17 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
                 "value": "organic rich sediment",
                 "label": "organic rich sediment",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "organic rich sediments"
+                    },
+                    {
+                        "value": "organic-rich sediment"
+                    },
+                    {
+                        "value": "organic-rich sediments"
+                    }
+                ],
                 "children": [
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/unconsolidated_sediment-organic_rich_sediment-peat",
@@ -5066,17 +5252,12 @@
                 "synonyms": [
                     {
                         "value": "pyroclastites"
+                    },
+                    {
+                        "value": "pyroclastite"
                     }
                 ],
                 "children": [
-                    {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/unconsolidated_sediment-tephra-ash",
-                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
-                        "value": "ash",
-                        "label": "ash",
-                        "synonyms": [],
-                        "children": []
-                    },
                     {
                         "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/unconsolidated_sediment-tephra-ash_breccia",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
@@ -5131,6 +5312,24 @@
                         "value": "scoria",
                         "label": "scoria",
                         "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/unconsolidated_sediment-tephra-volcanic_ash",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
+                        "value": "volcanic ash",
+                        "label": "volcanic ash",
+                        "synonyms": [
+                            {
+                                "value": "volcanic ashes"
+                            },
+                            {
+                                "value": "ash deposit"
+                            },
+                            {
+                                "value": "ash deposits"
+                            }
+                        ],
                         "children": []
                     }
                 ]
@@ -6094,7 +6293,7 @@
                                         "value": "pdms"
                                     },
                                     {
-                                        "value": "silicon  silly putty  pdms"
+                                        "value": "silicon silly putty"
                                     }
                                 ],
                                 "children": []

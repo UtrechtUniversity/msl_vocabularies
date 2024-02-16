@@ -37,74 +37,74 @@
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-detachment_fault",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_detachment_fault",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "detachment fault",
-                                "label": "detachment fault",
+                                "value": "modelled detachment fault",
+                                "label": "modelled detachment fault",
                                 "synonyms": [],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-normal_fault",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_normal_fault",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "normal fault",
-                                "label": "normal fault",
+                                "value": "modelled normal fault",
+                                "label": "modelled normal fault",
                                 "synonyms": [],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-oblique-slip_fault",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_oblique-slip_fault",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "oblique-slip fault",
-                                "label": "oblique-slip fault",
+                                "value": "modelled oblique-slip fault",
+                                "label": "modelled oblique-slip fault",
                                 "synonyms": [
                                     {
-                                        "value": "oblique slip fault"
+                                        "value": "modelled oblique slip fault"
                                     }
                                 ],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-reverse_fault",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_reverse_fault",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "reverse fault",
-                                "label": "reverse fault",
+                                "value": "modelled reverse fault",
+                                "label": "modelled reverse fault",
                                 "synonyms": [],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-scissor_fault",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_scissor_fault",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "scissor fault",
-                                "label": "scissor fault",
+                                "value": "modelled scissor fault",
+                                "label": "modelled scissor fault",
                                 "synonyms": [],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-strike-slip_fault",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_strike-slip_fault",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "strike-slip fault",
-                                "label": "strike-slip fault",
+                                "value": "modelled strike-slip fault",
+                                "label": "modelled strike-slip fault",
                                 "synonyms": [
                                     {
-                                        "value": "strike slip fault"
+                                        "value": "modelled strike slip fault"
                                     }
                                 ],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-thrust_fault",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_thrust_fault",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "thrust fault",
-                                "label": "thrust fault",
+                                "value": "modelled thrust fault",
+                                "label": "modelled thrust fault",
                                 "synonyms": [],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-wrench_fault",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_wrench_fault",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "wrench fault",
-                                "label": "wrench fault",
+                                "value": "modelled wrench fault",
+                                "label": "modelled wrench fault",
                                 "synonyms": [],
                                 "children": []
                             }
@@ -118,34 +118,34 @@
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fold-anticline",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_anticline",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "anticline",
-                                "label": "anticline",
+                                "value": "modelled anticline",
+                                "label": "modelled anticline",
                                 "synonyms": [],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fold-antiform",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_antiform",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "antiform",
-                                "label": "antiform",
+                                "value": "modelled antiform",
+                                "label": "modelled antiform",
                                 "synonyms": [],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fold-syncline",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_syncline",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "syncline",
-                                "label": "syncline",
+                                "value": "modelled syncline",
+                                "label": "modelled syncline",
                                 "synonyms": [],
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fold-synform",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_synform",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "synform",
-                                "label": "synform",
+                                "value": "modelled synform",
+                                "label": "modelled synform",
                                 "synonyms": [],
                                 "children": []
                             }
@@ -178,10 +178,10 @@
                         "label": "modelled orogen",
                         "synonyms": [
                             {
-                                "value": "orogen structure"
+                                "value": "modelled orogen structure"
                             },
                             {
-                                "value": "orogenic process"
+                                "value": "modelled orogenic process"
                             }
                         ],
                         "children": [
@@ -226,10 +226,10 @@
                         "synonyms": [],
                         "children": [
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_shear_zone-detachment_shear_zone",
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_deformation_structure-modelled_shear_zone-modelled_detachment_shear_zone",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                                "value": "detachment shear zone",
-                                "label": "detachment shear zone",
+                                "value": "modelled detachment shear zone",
+                                "label": "modelled detachment shear zone",
                                 "synonyms": [],
                                 "children": []
                             }
@@ -245,18 +245,50 @@
                 "synonyms": [],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-dike",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-magmatic_dike",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                        "value": "dike",
-                        "label": "dike",
+                        "value": "magmatic dike",
+                        "label": "magmatic dike",
                         "synonyms": [],
                         "children": []
                     },
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-fissure",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-magmatic_fissure",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                        "value": "fissure",
-                        "label": "fissure",
+                        "value": "magmatic fissure",
+                        "label": "magmatic fissure",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-magmatic_radial_dike",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
+                        "value": "magmatic radial dike",
+                        "label": "magmatic radial dike",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-magmatic_ring_dike",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
+                        "value": "magmatic ring dike",
+                        "label": "magmatic ring dike",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-magmatic_sill",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
+                        "value": "magmatic sill",
+                        "label": "magmatic sill",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-magmatic_vein",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
+                        "value": "magmatic vein",
+                        "label": "magmatic vein",
                         "synonyms": [],
                         "children": []
                     },
@@ -265,38 +297,6 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
                         "value": "pluton",
                         "label": "pluton",
-                        "synonyms": [],
-                        "children": []
-                    },
-                    {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-radial_dike",
-                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                        "value": "radial dike",
-                        "label": "radial dike",
-                        "synonyms": [],
-                        "children": []
-                    },
-                    {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-ring_dike",
-                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                        "value": "ring dike",
-                        "label": "ring dike",
-                        "synonyms": [],
-                        "children": []
-                    },
-                    {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-sill",
-                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                        "value": "sill",
-                        "label": "sill",
-                        "synonyms": [],
-                        "children": []
-                    },
-                    {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/modeled_structure-modelled_magmatic_structure-vein",
-                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
-                        "value": "vein",
-                        "label": "vein",
                         "synonyms": [],
                         "children": []
                     }

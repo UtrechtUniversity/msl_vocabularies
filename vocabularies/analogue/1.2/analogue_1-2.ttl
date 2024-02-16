@@ -8,7 +8,7 @@
 
 <https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure>
   a skos:Concept ;
-  skos:narrower "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-dike", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-fissure", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-pluton", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-radial_dike", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-ring_dike", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-sill", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-vein" ;
+  skos:narrower "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_dike", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_fissure", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_radial_dike", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_ring_dike", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_sill", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_vein", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-pluton" ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure" ;
   rdfs:label "modelled magmatic structure" .
 
@@ -17,35 +17,35 @@
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure" ;
   rdfs:label "pluton" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-vein>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_vein>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure" ;
-  rdfs:label "vein" .
+  rdfs:label "magmatic vein" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-fissure>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_fissure>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure" ;
-  rdfs:label "fissure" .
+  rdfs:label "magmatic fissure" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-ring_dike>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_ring_dike>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure" ;
-  rdfs:label "ring dike" .
+  rdfs:label "magmatic ring dike" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-radial_dike>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_radial_dike>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure" ;
-  rdfs:label "radial dike" .
+  rdfs:label "magmatic radial dike" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-sill>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_sill>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure" ;
-  rdfs:label "sill" .
+  rdfs:label "magmatic sill" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-dike>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure-magmatic_dike>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_magmatic_structure" ;
-  rdfs:label "dike" .
+  rdfs:label "magmatic dike" .
 
 <https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure>
   a skos:Concept ;
@@ -65,49 +65,49 @@
 
 <https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault>
   a skos:Concept ;
-  skos:narrower "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-detachment_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-normal_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-oblique-slip_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-reverse_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-scissor_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-strike-slip_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-thrust_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-wrench_fault" ;
+  skos:narrower "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_detachment_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_normal_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_oblique-slip_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_reverse_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_scissor_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_strike-slip_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_thrust_fault", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_wrench_fault" ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure" ;
   rdfs:label "modelled fault" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-oblique-slip_fault>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_oblique-slip_fault>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault" ;
-  rdfs:label "oblique-slip fault" .
+  rdfs:label "modelled oblique-slip fault" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-reverse_fault>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_reverse_fault>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault" ;
-  rdfs:label "reverse fault" .
+  rdfs:label "modelled reverse fault" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-scissor_fault>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_scissor_fault>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault" ;
-  rdfs:label "scissor fault" .
+  rdfs:label "modelled scissor fault" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-strike-slip_fault>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_strike-slip_fault>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault" ;
-  rdfs:label "strike-slip fault" .
+  rdfs:label "modelled strike-slip fault" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-normal_fault>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_normal_fault>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault" ;
-  rdfs:label "normal fault" .
+  rdfs:label "modelled normal fault" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-thrust_fault>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_thrust_fault>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault" ;
-  rdfs:label "thrust fault" .
+  rdfs:label "modelled thrust fault" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-wrench_fault>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_wrench_fault>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault" ;
-  rdfs:label "wrench fault" .
+  rdfs:label "modelled wrench fault" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-detachment_fault>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault-modelled_detachment_fault>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fault" ;
-  rdfs:label "detachment fault" .
+  rdfs:label "modelled detachment fault" .
 
 <https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_kink_band>
   a skos:Concept ;
@@ -116,14 +116,14 @@
 
 <https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_shear_zone>
   a skos:Concept ;
-  skos:narrower "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_shear_zone-detachment_shear_zone" ;
+  skos:narrower "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_shear_zone-modelled_detachment_shear_zone" ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure" ;
   rdfs:label "modelled shear zone" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_shear_zone-detachment_shear_zone>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_shear_zone-modelled_detachment_shear_zone>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_shear_zone" ;
-  rdfs:label "detachment shear zone" .
+  rdfs:label "modelled detachment shear zone" .
 
 <https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_riedel_shear>
   a skos:Concept ;
@@ -132,29 +132,29 @@
 
 <https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold>
   a skos:Concept ;
-  skos:narrower "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-anticline", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-antiform", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-syncline", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-synform" ;
+  skos:narrower "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_anticline", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_antiform", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_syncline", "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_synform" ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure" ;
   rdfs:label "modelled fold" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-anticline>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_anticline>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold" ;
-  rdfs:label "anticline" .
+  rdfs:label "modelled anticline" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-antiform>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_antiform>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold" ;
-  rdfs:label "antiform" .
+  rdfs:label "modelled antiform" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-syncline>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_syncline>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold" ;
-  rdfs:label "syncline" .
+  rdfs:label "modelled syncline" .
 
-<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-synform>
+<https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold-modelled_synform>
   a skos:Concept ;
   skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_fold" ;
-  rdfs:label "synform" .
+  rdfs:label "modelled synform" .
 
 <https://epos-msl.uu.nl/voc/analoguemodelling/1.2/modeled_structure-modelled_deformation_structure-modelled_boudinage>
   a skos:Concept ;

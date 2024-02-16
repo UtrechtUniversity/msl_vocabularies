@@ -1315,6 +1315,12 @@
                     },
                     {
                         "value": "fibre optics"
+                    },
+                    {
+                        "value": "optical fibers"
+                    },
+                    {
+                        "value": "optical fibres"
                     }
                 ],
                 "children": [
@@ -2848,7 +2854,7 @@
                         "label": "brittle deformation",
                         "synonyms": [
                             {
-                                "value": "fracturing"
+                                "value": "shear fracturing"
                             },
                             {
                                 "value": "cataclastic deformation"
@@ -3056,6 +3062,12 @@
                             },
                             {
                                 "value": "fault gouge microstructure"
+                            },
+                            {
+                                "value": "slip behavior"
+                            },
+                            {
+                                "value": "fault weakening"
                             }
                         ],
                         "children": []
@@ -3401,7 +3413,10 @@
                         "label": "frictional heating",
                         "synonyms": [
                             {
-                                "value": "flash heating"
+                                "value": "frictional flash heating"
+                            },
+                            {
+                                "value": "flash frictional heating"
                             },
                             {
                                 "value": "friction heating"

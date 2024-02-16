@@ -754,22 +754,6 @@
                                 "children": []
                             },
                             {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_shoulder",
-                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
-                                "value": "rift shoulder",
-                                "label": "rift shoulder",
-                                "synonyms": [],
-                                "children": []
-                            },
-                            {
-                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_valley",
-                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
-                                "value": "rift valley",
-                                "label": "rift valley",
-                                "synonyms": [],
-                                "children": []
-                            },
-                            {
                                 "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_volcanism",
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
                                 "value": "rift volcanism",
@@ -1412,6 +1396,400 @@
         ]
     },
     {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+        "value": "tectonic deformation structure",
+        "label": "tectonic deformation structure",
+        "synonyms": [
+            {
+                "value": "tectonic rock deformation structures"
+            },
+            {
+                "value": "rock deformation structure"
+            },
+            {
+                "value": "rock deformation structures"
+            },
+            {
+                "value": "crust deformation structure"
+            },
+            {
+                "value": "crustal deformation structure"
+            },
+            {
+                "value": "crust deformation structures"
+            },
+            {
+                "value": "crustal deformations structures"
+            }
+        ],
+        "children": [
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                "value": "tectonic fault",
+                "label": "tectonic fault",
+                "synonyms": [
+                    {
+                        "value": "tectonic faults"
+                    },
+                    {
+                        "value": "tectonic fracture"
+                    },
+                    {
+                        "value": "tectonic faulting"
+                    },
+                    {
+                        "value": "tectonic fracturing"
+                    },
+                    {
+                        "value": "fault zone"
+                    },
+                    {
+                        "value": "fault zones"
+                    },
+                    {
+                        "value": "seismic fault"
+                    },
+                    {
+                        "value": "aseismic fault"
+                    },
+                    {
+                        "value": "fault slip"
+                    },
+                    {
+                        "value": "fault weakening"
+                    },
+                    {
+                        "value": "fault reactivation"
+                    },
+                    {
+                        "value": "fault reactivating"
+                    },
+                    {
+                        "value": "faults reactivating"
+                    },
+                    {
+                        "value": "slip weakening"
+                    },
+                    {
+                        "value": "fault gouge"
+                    },
+                    {
+                        "value": "fault rock"
+                    },
+                    {
+                        "value": "faultrelatedmaterial"
+                    },
+                    {
+                        "value": "fault rocks"
+                    },
+                    {
+                        "value": "faultrocks"
+                    },
+                    {
+                        "value": "faultrock"
+                    },
+                    {
+                        "value": "natural fault rocks"
+                    },
+                    {
+                        "value": "fault microstructure"
+                    },
+                    {
+                        "value": "faults rock"
+                    },
+                    {
+                        "value": "faults rocks"
+                    },
+                    {
+                        "value": "fault mirror"
+                    },
+                    {
+                        "value": "fault mirrors"
+                    },
+                    {
+                        "value": "fault movement"
+                    },
+                    {
+                        "value": "crustal fault"
+                    },
+                    {
+                        "value": "crustal faults"
+                    },
+                    {
+                        "value": "fault friction"
+                    },
+                    {
+                        "value": "displaced fault"
+                    },
+                    {
+                        "value": "faults in the crust"
+                    }
+                ],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault-detachment_fault",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "detachment fault",
+                        "label": "detachment fault",
+                        "synonyms": [
+                            {
+                                "value": "detachment faulting"
+                            },
+                            {
+                                "value": "detachment faults"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault-normal_fault",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "normal fault",
+                        "label": "normal fault",
+                        "synonyms": [
+                            {
+                                "value": "normal faulting"
+                            },
+                            {
+                                "value": "normal faults"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault-oblique-slip_fault",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "oblique-slip fault",
+                        "label": "oblique-slip fault",
+                        "synonyms": [
+                            {
+                                "value": "oblique slip fault"
+                            },
+                            {
+                                "value": "oblique slip fault"
+                            },
+                            {
+                                "value": "oblique slip faulting"
+                            },
+                            {
+                                "value": "oblique-slip faults"
+                            },
+                            {
+                                "value": "oblique slip faults"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault-reverse_fault",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "reverse fault",
+                        "label": "reverse fault",
+                        "synonyms": [
+                            {
+                                "value": "reverse faulting"
+                            },
+                            {
+                                "value": "reverse faults"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault-scissor_fault",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "scissor fault",
+                        "label": "scissor fault",
+                        "synonyms": [
+                            {
+                                "value": "scissor faulting"
+                            },
+                            {
+                                "value": "scissor faults"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault-strike-slip_fault",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "strike-slip fault",
+                        "label": "strike-slip fault",
+                        "synonyms": [
+                            {
+                                "value": "strike slip fault"
+                            },
+                            {
+                                "value": "strike slip faulting"
+                            },
+                            {
+                                "value": "strike-slip faulting"
+                            },
+                            {
+                                "value": "strike-slip faults"
+                            },
+                            {
+                                "value": "strike slip faults"
+                            },
+                            {
+                                "value": "strikeslip faults"
+                            },
+                            {
+                                "value": "strikeslip fault"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault-thrust_fault",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "thrust fault",
+                        "label": "thrust fault",
+                        "synonyms": [
+                            {
+                                "value": "thrust faulting"
+                            },
+                            {
+                                "value": "thrust deformation"
+                            },
+                            {
+                                "value": "thrust displacement"
+                            },
+                            {
+                                "value": "thrust faults"
+                            },
+                            {
+                                "value": "megathrust"
+                            },
+                            {
+                                "value": "megathrusts"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fault-wrench_fault",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "wrench fault",
+                        "label": "wrench fault",
+                        "synonyms": [
+                            {
+                                "value": "wrench faulting"
+                            },
+                            {
+                                "value": "wrench faults"
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fold",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                "value": "tectonic fold",
+                "label": "tectonic fold",
+                "synonyms": [
+                    {
+                        "value": "tectonic folds"
+                    },
+                    {
+                        "value": "tectonic folding"
+                    }
+                ],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fold-anticline",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "anticline",
+                        "label": "anticline",
+                        "synonyms": [
+                            {
+                                "value": "anticlyne"
+                            },
+                            {
+                                "value": "anti-cline"
+                            },
+                            {
+                                "value": "anti-clyne"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fold-antiform",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "antiform",
+                        "label": "antiform",
+                        "synonyms": [
+                            {
+                                "value": "anti-form"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fold-syncline",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "syncline",
+                        "label": "syncline",
+                        "synonyms": [
+                            {
+                                "value": "synclyne"
+                            },
+                            {
+                                "value": "syn-clyne"
+                            },
+                            {
+                                "value": "syn-cline"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_fold-synform",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "synform",
+                        "label": "synform",
+                        "synonyms": [
+                            {
+                                "value": "syn-form"
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_shear_zone",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                "value": "tectonic shear zone",
+                "label": "tectonic shear zone",
+                "synonyms": [
+                    {
+                        "value": "tectonic shear zones"
+                    }
+                ],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/tectonic_deformation_structure-tectonic_shear_zone-riedel_shear",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+                        "value": "Riedel shear",
+                        "label": "Riedel shear",
+                        "synonyms": [
+                            {
+                                "value": "riedel shears"
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/extra-terrestrial_setting",
         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
         "value": "extra-terrestrial setting",
@@ -1741,6 +2119,9 @@
                 "synonyms": [
                     {
                         "value": "induced earthquake"
+                    },
+                    {
+                        "value": "induced seismic"
                     }
                 ],
                 "children": []

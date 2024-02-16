@@ -67,6 +67,9 @@
                             },
                             {
                                 "value": "scanning electron microscope"
+                            },
+                            {
+                                "value": "sem images"
                             }
                         ],
                         "children": []
@@ -217,6 +220,24 @@
                     },
                     {
                         "value": "x-ray imaging during testing"
+                    },
+                    {
+                        "value": "ct-scan"
+                    },
+                    {
+                        "value": "ct-scans"
+                    },
+                    {
+                        "value": "ct scan"
+                    },
+                    {
+                        "value": "ct scans"
+                    },
+                    {
+                        "value": "ct scanning"
+                    },
+                    {
+                        "value": "ct-scanning"
                     }
                 ],
                 "children": []
@@ -2417,7 +2438,11 @@
                                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/microscopy\/1.2\/",
                                 "value": "grain size distribution",
                                 "label": "grain size distribution",
-                                "synonyms": [],
+                                "synonyms": [
+                                    {
+                                        "value": "particle size distribution"
+                                    }
+                                ],
                                 "children": []
                             }
                         ]
