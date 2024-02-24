@@ -198,7 +198,11 @@
 	.on("check_node.jstree uncheck_node.jstree", function(e, data) {
 		if(e.type == "check_node") {
 			addModalElement(data.node);
-			addFormElement(data.node);
+			
+			// check all parent nodes
+			data.node.parents.forEach((element) => {
+			    $('#sampleKeywords-tree').jstree('check_node', element);
+			});
 		} else if (e.type == "uncheck_node") {
 			$('#sampleKeywords-modal-list-group-item-' + data.node.id).remove();
 			$('#sampleKeywords-form-list-group-item-' + data.node.id).remove();
