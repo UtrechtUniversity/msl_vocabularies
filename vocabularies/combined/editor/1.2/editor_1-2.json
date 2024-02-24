@@ -2,7 +2,8 @@
     {
         "text": "materials",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.2\/"
         },
         "children": [
             {
@@ -5681,7 +5682,8 @@
     {
         "text": "porefluids",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/porefluids\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/porefluids\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/porefluids\/1.2\/"
         },
         "children": [
             {
@@ -5870,7 +5872,8 @@
     {
         "text": "rockphysics",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/rockphysics\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/rockphysics\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/rockphysics\/1.2\/"
         },
         "children": [
             {
@@ -7995,7 +7998,8 @@
     {
         "text": "analogue",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.2\/"
         },
         "children": [
             {
@@ -13379,7 +13383,8 @@
     {
         "text": "geologicalage",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.2\/"
         },
         "children": [
             {
@@ -14863,7 +14868,8 @@
     {
         "text": "geologicalsetting",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.2\/"
         },
         "children": [
             {
@@ -16353,7 +16359,8 @@
     {
         "text": "paleomagnetism",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/paleomagnetism\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/paleomagnetism\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/paleomagnetism\/1.2\/"
         },
         "children": [
             {
@@ -18060,7 +18067,8 @@
     {
         "text": "geochemistry",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/geochemistry\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/geochemistry\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geochemistry\/1.2\/"
         },
         "children": [
             {
@@ -23262,7 +23270,8 @@
     {
         "text": "microscopy",
         "extra": {
-            "uri": "https:\/\/epos-msl.uu.nl\/voc\/microscopy\/1.2\/"
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/microscopy\/1.2\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/microscopy\/1.2\/"
         },
         "children": [
             {
