@@ -198,6 +198,7 @@
 	.on("check_node.jstree uncheck_node.jstree", function(e, data) {
 		if(e.type == "check_node") {
 			addModalElement(data.node);
+			addFormElement(data.node);
 			
 			// check all parent nodes
 			data.node.parents.forEach((element) => {
