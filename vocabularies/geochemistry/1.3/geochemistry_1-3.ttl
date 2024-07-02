@@ -1,0 +1,1660 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-commodities_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-gas_geochemistry", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-hydrogeochemistry", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-mineralogical_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis" ;
+  rdfs:label "analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-commodities_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-commodities_analysis-coal_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-commodities_analysis-ore_analysis" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "commodities analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-commodities_analysis-ore_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-commodities_analysis" ;
+  rdfs:label "ore analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-commodities_analysis-coal_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-commodities_analysis" ;
+  rdfs:label "coal analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-argon-argon_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-carbon-14_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-lead-lead_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-lutetium-hafnium_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-potassium-argon_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-radium-thorium_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-rhenium-osmium_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-rubidium-strontium_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-samarium-neodymium_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-thorium-lead_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "geochronology" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-argon-argon_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "argon-argon dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-carbon-14_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "carbon-14 dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-lead-lead_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "lead-lead dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-lutetium-hafnium_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "lutetium-hafnium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-potassium-argon_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "potassium-argon dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-rubidium-strontium_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "rubidium-strontium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-radium-thorium_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "radium-thorium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-rhenium-osmium_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "rhenium-osmium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-samarium-neodymium_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "samarium-neodymium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-thorium-lead_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "thorium-lead dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating-uranium-lead_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating-uranium-paladium_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating-uranium-thorium_dating", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating-uranium-thorium-helium_dating" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology" ;
+  rdfs:label "uranium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating-uranium-paladium_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating" ;
+  rdfs:label "uranium-paladium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating-uranium-lead_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating" ;
+  rdfs:label "uranium-lead dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating-uranium-thorium_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating" ;
+  rdfs:label "uranium-thorium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating-uranium-thorium-helium_dating>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-geochronology-uranium_dating" ;
+  rdfs:label "uranium-thorium-helium dating" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-gas_geochemistry>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "gas geochemistry" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-hydrogeochemistry>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "hydrogeochemistry" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-delta_11b", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-delta_13c", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-delta_18o", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-delta_34s", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-hydrogen_isotopic_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-lead_isotopic_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-mercury_isotopic_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-neodymium_isotopic_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-nitrogen_isotopic_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-rubidium_isotopic_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-samarium_isotopic_analysis", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-strontium_isotopic_analysis" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-delta_11b>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "delta 11B" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-delta_13c>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "delta 13C" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-delta_18o>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "delta 18O" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-delta_34s>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "delta 34S" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-hydrogen_isotopic_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "hydrogen isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-mercury_isotopic_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "mercury isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-neodymium_isotopic_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "neodymium isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-nitrogen_isotopic_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "nitrogen isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-lead_isotopic_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "lead isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-rubidium_isotopic_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "rubidium isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-strontium_isotopic_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "strontium isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis-samarium_isotopic_analysis>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-isotopic_analysis" ;
+  rdfs:label "samarium isotopic analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-mineralogical_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-mineralogical_analysis-qualitative_mineral_identification", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-mineralogical_analysis-quantitative_mineral_identification" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "mineralogical analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-mineralogical_analysis-qualitative_mineral_identification>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-mineralogical_analysis" ;
+  rdfs:label "qualitative mineral identification" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-mineralogical_analysis-quantitative_mineral_identification>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-mineralogical_analysis" ;
+  rdfs:label "quantitative mineral identification" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis-2d_microchemical_map", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis-3d_microchemical_map", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis-major_elements", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis-trace_elements" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "microchemical analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis-major_elements>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis" ;
+  rdfs:label "major elements" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis-trace_elements>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis" ;
+  rdfs:label "trace elements" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis-2d_microchemical_map>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis" ;
+  rdfs:label "2D microchemical map" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis-3d_microchemical_map>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-microchemical_analysis" ;
+  rdfs:label "3D microchemical map" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-fusion_sample_prepration", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-mineral_separation", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-partial_sample_digestion", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_crushing", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_drying", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_pressed_pellet", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_pulverization", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_splitting", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-selective_sample_extraction", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-total_sample_digestion" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "sample preparation for geochemical analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_splitting>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "sample splitting" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_drying>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "sample drying" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_crushing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "sample crushing" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_pulverization>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "sample pulverization" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-mineral_separation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "mineral separation" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-partial_sample_digestion>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "partial sample digestion" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-total_sample_digestion>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "total sample digestion" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-selective_sample_extraction>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "selective sample extraction" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-sample_pressed_pellet>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "sample pressed pellet" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis-fusion_sample_prepration>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-sample_preparation_for_geochemical_analysis" ;
+  rdfs:label "fusion sample prepration" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis-loss_on_ignition", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis-major_elements", "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis-trace_elements" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis" ;
+  rdfs:label "whole rock analysis" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis-major_elements>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis" ;
+  rdfs:label "major elements" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis-loss_on_ignition>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis" ;
+  rdfs:label "loss on ignition" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis-trace_elements>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/analysis-whole_rock_analysis" ;
+  rdfs:label "trace elements" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-alpha_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_absorption_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_emission_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-electron_probe_micro-analyzer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-elemental_analyzer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-gamma-ray_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-instrumental_neutron_activation_analysis_system", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-ion_chromatograph", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-spectrophotometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-titrator", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_diffractometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer" ;
+  rdfs:label "equipment" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_absorption_spectrometer>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_absorption_spectrometer-graphite_furnace-atomic_absorption_spectrometer" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "atomic absorption spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_absorption_spectrometer-graphite_furnace-atomic_absorption_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_absorption_spectrometer" ;
+  rdfs:label "graphite furnace-atomic absorption spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_emission_spectrometer>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_emission_spectrometer-inductively_coupled_plasma-atomic_emission_spectrometer" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "atomic emission spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_emission_spectrometer-inductively_coupled_plasma-atomic_emission_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-atomic_emission_spectrometer" ;
+  rdfs:label "inductively coupled plasma-atomic emission spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-alpha_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "alpha spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-elemental_analyzer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "elemental analyzer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-electron_probe_micro-analyzer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "electron probe micro-analyzer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-gamma-ray_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "gamma-ray spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-ion_chromatograph>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "ion chromatograph" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-accelerator_mass_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-gas_chromatograph-mass_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-inductively_coupled_plasma-mass_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-isotope_ratio_mass_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-laser_ablation-inductively_coupled_plasma-mass_spectrometry", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-laser_ablation-multicollector_inductively_coupled_plasma-mass_spectrometry", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-laser_ablation-single_collector-inductively_coupled_plasma-mass_spectrometry", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-multicollector-inductively_coupled_plasma-mass_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-secondary_ionization_mass_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-single_collector-inductively_coupled_plasma-mass_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-thermal_ionization-mass_spectrometer" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-accelerator_mass_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "accelerator mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-isotope_ratio_mass_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "isotope ratio mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-gas_chromatograph-mass_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "gas chromatograph-mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-inductively_coupled_plasma-mass_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "inductively coupled plasma-mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-single_collector-inductively_coupled_plasma-mass_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "single collector-inductively coupled plasma-mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-multicollector-inductively_coupled_plasma-mass_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "multicollector-inductively coupled plasma-mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-laser_ablation-inductively_coupled_plasma-mass_spectrometry>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "laser ablation-inductively coupled plasma-mass spectrometry" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-laser_ablation-single_collector-inductively_coupled_plasma-mass_spectrometry>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "laser ablation-single collector-inductively coupled plasma-mass spectrometry" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-laser_ablation-multicollector_inductively_coupled_plasma-mass_spectrometry>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "laser ablation-multicollector inductively coupled plasma-mass spectrometry" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-secondary_ionization_mass_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "secondary ionization mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer-thermal_ionization-mass_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-mass_spectrometer" ;
+  rdfs:label "thermal ionization-mass spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-instrumental_neutron_activation_analysis_system>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "instrumental neutron activation analysis system" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-spectrophotometer>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-spectrophotometer-fourier-transforminfrared_spectrophotometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-spectrophotometer-uv-vis_spectrophotometer" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "spectrophotometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-spectrophotometer-uv-vis_spectrophotometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-spectrophotometer" ;
+  rdfs:label "UV-Vis spectrophotometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-spectrophotometer-fourier-transforminfrared_spectrophotometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-spectrophotometer" ;
+  rdfs:label "Fourier-Transform Infrared spectrophotometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-titrator>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "titrator" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_diffractometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "x-ray diffractometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer-energy-dispersive_x-ray_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer-x-ray_absorption_near-edge_structure_spectrometer", "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer-x-ray_fluorescence_spectrometer" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment" ;
+  rdfs:label "x-ray spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer-x-ray_absorption_near-edge_structure_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer" ;
+  rdfs:label "x-ray absorption near-edge structure spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer-energy-dispersive_x-ray_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer" ;
+  rdfs:label "energy-dispersive x-ray spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer-x-ray_fluorescence_spectrometer>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/equipment-x-ray_spectrometer" ;
+  rdfs:label "x-ray fluorescence spectrometer" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-acetate", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-aluminium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ammonia", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ammonium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-antimony", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-argon_ar", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-arsenic", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-barium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-beryllium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-bismuth", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-boron", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-bromide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-bromium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cadmium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cerium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cesium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chlorine", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chromium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cobalt", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-dysprosium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-erbium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-europium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-fluorine", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-francium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gadolinium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gallium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-germanium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gold_au", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hafnium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-helium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-holmium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-indium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iodine", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iridium_ir", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-krypton", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lanthanum", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lead_pb", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lithium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lutetium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-magnesium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-mercury", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-molybdenum", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-neodymium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-neon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nickel", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-niobium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-osmium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-oxygen", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-palladium_pd", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ph", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-platinum_pt", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-polonium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-potassium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-praseodymium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-protactinium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-radium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-rhenium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-rhodium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-rubidium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ruthenium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-samarium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-scandium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-selenium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silver_ag", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sodium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-strontium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tantalum", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tellurium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-terbium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thallium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thorium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thulium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tin", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tungsten", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-xenon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ytterbium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-yttrium", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zirconium" ;
+  rdfs:label "measured property" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-acetate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "acetate" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-argon-argon_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-carbon-14_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-lead-lead_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-lutetium-hafnium_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-potassium-argon_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-radium-thorium_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-rhenium-osmium_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-rubidium-strontium_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-samarium-neodymium_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-thorium-lead_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "age of sample" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-argon-argon_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "argon-argon age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-carbon-14_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "carbon-14 age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-lead-lead_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "lead-lead age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-lutetium-hafnium_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "lutetium-hafnium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-potassium-argon_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "potassium-argon age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-rubidium-strontium_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "rubidium-strontium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-radium-thorium_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "radium-thorium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-rhenium-osmium_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "rhenium-osmium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-samarium-neodymium_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "samarium-neodymium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-thorium-lead_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "thorium-lead age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age-uranium-lead_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age-uranium-paladium_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age-uranium-thorium_age", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age-uranium-thorium-helium_age" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample" ;
+  rdfs:label "uranium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age-uranium-paladium_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age" ;
+  rdfs:label "uranium-paladium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age-uranium-lead_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age" ;
+  rdfs:label "uranium-lead age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age-uranium-thorium_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age" ;
+  rdfs:label "uranium-thorium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age-uranium-thorium-helium_age>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-age_of_sample-uranium_age" ;
+  rdfs:label "uranium-thorium-helium age" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-aluminium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "aluminium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ammonia>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "ammonia" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ammonium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "ammonium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-antimony>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "antimony" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-argon_ar>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "argon (Ar)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-arsenic>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "arsenic" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-barium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "barium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-beryllium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "beryllium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-bismuth>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "bismuth" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-boron>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-boron-delta_11b" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "boron" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-boron-delta_11b>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-boron" ;
+  rdfs:label "delta 11B" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-bromium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "bromium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-bromide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "bromide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-bicarbonate", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-carbon_dioxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-carbon_monoxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-delta_13c", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-dissolved_inorganic_carbon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-inorganic_carbon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-methane", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-non-carbonate_carbon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-organic_carbon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-total_carbon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-total_inorganic_carbon", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-total_organic_carbon" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "carbon (C)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-inorganic_carbon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "inorganic carbon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-dissolved_inorganic_carbon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "dissolved inorganic carbon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-total_inorganic_carbon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "total inorganic carbon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-organic_carbon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "organic carbon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-total_organic_carbon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "total organic carbon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-total_carbon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "total carbon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-non-carbonate_carbon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "non-carbonate carbon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-carbon_monoxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "carbon monoxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-carbon_dioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "carbon dioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-methane>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "methane" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-bicarbonate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "bicarbonate" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c-delta_13c>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-carbon_c" ;
+  rdfs:label "delta 13C" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium-calcium_carbonate", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium-calcium_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium-calcium_sulfate", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium-delta_44ca" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "calcium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium-calcium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium" ;
+  rdfs:label "calcium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium-calcium_sulfate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium" ;
+  rdfs:label "calcium sulfate" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium-calcium_carbonate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium" ;
+  rdfs:label "calcium carbonate" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium-delta_44ca>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-calcium" ;
+  rdfs:label "delta 44Ca" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cadmium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "cadmium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cerium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cerium-cerium_dioxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cerium-cerium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "cerium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cerium-cerium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cerium" ;
+  rdfs:label "cerium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cerium-cerium_dioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cerium" ;
+  rdfs:label "cerium dioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chlorine>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chlorine-chloride", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chlorine-delta_37cl" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "chlorine" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chlorine-chloride>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chlorine" ;
+  rdfs:label "chloride" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chlorine-delta_37cl>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chlorine" ;
+  rdfs:label "delta 37Cl" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cobalt>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cobalt-cobalt_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "cobalt" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cobalt-cobalt_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cobalt" ;
+  rdfs:label "cobalt oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chromium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chromium-chromium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "chromium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chromium-chromium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-chromium" ;
+  rdfs:label "chromium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-cesium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "cesium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper-copper_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper-cuprous_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper-delta_65cu" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "copper" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper-cuprous_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper" ;
+  rdfs:label "cuprous oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper-copper_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper" ;
+  rdfs:label "copper oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper-delta_65cu>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-copper" ;
+  rdfs:label "delta 65Cu" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-dysprosium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-dysprosium-dysprosium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "dysprosium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-dysprosium-dysprosium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-dysprosium" ;
+  rdfs:label "dysprosium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-erbium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-erbium-erbium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "erbium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-erbium-erbium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-erbium" ;
+  rdfs:label "erbium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-europium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-europium-europium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "europium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-europium-europium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-europium" ;
+  rdfs:label "europium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-fluorine>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "fluorine" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-francium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "francium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gallium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "gallium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gadolinium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gadolinium-gadolinium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "gadolinium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gadolinium-gadolinium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gadolinium" ;
+  rdfs:label "gadolinium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-germanium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "germanium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-gold_au>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "gold (Au)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h-delta_d", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h-hydrogen_sulfide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h-water_h2o" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "hydrogen (H)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h-water_h2o>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h" ;
+  rdfs:label "water (H2O)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h-hydrogen_sulfide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h" ;
+  rdfs:label "hydrogen sulfide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h-delta_d>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hydrogen_h" ;
+  rdfs:label "delta D" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-helium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "helium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hafnium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hafnium-hafnium_dioxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hafnium-hafnium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "hafnium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hafnium-hafnium_dioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hafnium" ;
+  rdfs:label "hafnium dioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hafnium-hafnium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-hafnium" ;
+  rdfs:label "hafnium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-holmium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-holmium-holmium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "holmium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-holmium-holmium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-holmium" ;
+  rdfs:label "holmium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iodine>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "iodine" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-indium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "indium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iridium_ir>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "iridium (Ir)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-delta_fe56_calculated_as_fe56fe54__sample__fe56fe54_irmm-014_-11000", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferric_iron_oxide_tri-valent_iron", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrosoferric_oxide_iron_iiiii_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrous_iron_oxide_di-valent", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrous_sulfide_di-valent", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-iron_ferrite_fefe2o4", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-iron_sulfide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ratio_of_feric_iron_to_total_iron", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-siderite", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-total_iron_oxide_content_reported_as_ferric_tri-valent_iron" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "iron" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferric_iron_oxide_tri-valent_iron>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "ferric iron oxide (tri-valent iron)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-total_iron_oxide_content_reported_as_ferric_tri-valent_iron>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "total iron oxide content reported as ferric (tri-valent) iron" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrosoferric_oxide_iron_iiiii_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "ferrosoferric oxide (Iron (II,III) oxide)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ratio_of_feric_iron_to_total_iron>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "ratio of feric iron to total iron " .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-siderite>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "siderite" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-iron_ferrite_fefe2o4>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "iron ferrite (FeFe2O4)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrous_iron_oxide_di-valent>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrous_iron_oxide_di-valent-total_iron_oxide_content_reported_as_ferrous_di-valent_iron" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "ferrous iron oxide (di-valent)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrous_iron_oxide_di-valent-total_iron_oxide_content_reported_as_ferrous_di-valent_iron>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrous_iron_oxide_di-valent" ;
+  rdfs:label "total iron oxide content reported as ferrous (di-valent) iron" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-ferrous_sulfide_di-valent>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "ferrous sulfide (di-valent)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-iron_sulfide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "iron sulfide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron-delta_fe56_calculated_as_fe56fe54__sample__fe56fe54_irmm-014_-11000>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-iron" ;
+  rdfs:label "delta_Fe56 calculated as (Fe56/Fe54_ sample / Fe56/Fe54_IRMM-014 -1)*1000" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-krypton>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "krypton" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lanthanum>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lanthanum-lanthanum_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "lanthanum" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lanthanum-lanthanum_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lanthanum" ;
+  rdfs:label "lanthanum oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lead_pb>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lead_pb-lead_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "lead (Pb)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lead_pb-lead_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lead_pb" ;
+  rdfs:label "lead oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lithium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lithium-delta_7li", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lithium-delta_li6" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "lithium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lithium-delta_li6>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lithium" ;
+  rdfs:label "delta Li6" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lithium-delta_7li>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lithium" ;
+  rdfs:label "delta 7Li" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lutetium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lutetium-lutetium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "lutetium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lutetium-lutetium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-lutetium" ;
+  rdfs:label "lutetium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-magnesium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-magnesium-magnesium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "magnesium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-magnesium-magnesium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-magnesium" ;
+  rdfs:label "magnesium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese-manganese_carbonate", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese-manganese_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese-manganese_tetroxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "manganese" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese-manganese_tetroxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese" ;
+  rdfs:label "manganese tetroxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese-manganese_carbonate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese" ;
+  rdfs:label "manganese carbonate" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese-manganese_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-manganese" ;
+  rdfs:label "manganese oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-mercury>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "mercury" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-molybdenum>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-molybdenum-delta_98mo" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "molybdenum" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-molybdenum-delta_98mo>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-molybdenum" ;
+  rdfs:label "delta 98Mo" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-neodymium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-neodymium-neodymium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "neodymium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-neodymium-neodymium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-neodymium" ;
+  rdfs:label "neodymium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-neon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "neon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nickel>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nickel-delta_60ni", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nickel-nickel_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "nickel" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nickel-nickel_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nickel" ;
+  rdfs:label "nickel oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nickel-delta_60ni>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nickel" ;
+  rdfs:label "delta 60Ni" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-niobium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-niobium-niobium_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-niobium-niobium_pentoxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "niobium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-niobium-niobium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-niobium" ;
+  rdfs:label "niobium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-niobium-niobium_pentoxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-niobium" ;
+  rdfs:label "niobium pentoxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-delt_15n", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-nitrate", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-nitrogen_dioxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-organic_nitrogen", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-total_nitrogen" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "nitrogen" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-organic_nitrogen>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen" ;
+  rdfs:label "organic nitrogen" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-total_nitrogen>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen" ;
+  rdfs:label "total nitrogen" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-nitrogen_dioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen" ;
+  rdfs:label "nitrogen dioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-nitrate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen" ;
+  rdfs:label "nitrate" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen-delt_15n>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-nitrogen" ;
+  rdfs:label "delt 15N" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-oxygen>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-oxygen-delta_17o", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-oxygen-delta_18o" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "oxygen" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-oxygen-delta_17o>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-oxygen" ;
+  rdfs:label "delta 17O" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-oxygen-delta_18o>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-oxygen" ;
+  rdfs:label "delta 18O" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-osmium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "osmium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-palladium_pd>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "palladium (Pd)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ph>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "pH" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus-phosphate", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus-phosphorous_organic", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus-phosphorus_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus-phosphorus_trioxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "phosphorus" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus-phosphorous_organic>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus" ;
+  rdfs:label "phosphorous, organic" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus-phosphorus_trioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus" ;
+  rdfs:label "phosphorus trioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus-phosphorus_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus" ;
+  rdfs:label "phosphorus oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus-phosphate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-phosphorus" ;
+  rdfs:label "phosphate" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-platinum_pt>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-platinum_pt-ratio_of_platinum_isotope_pt190_to_osmium_isotope_os188" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "platinum (Pt)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-platinum_pt-ratio_of_platinum_isotope_pt190_to_osmium_isotope_os188>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-platinum_pt" ;
+  rdfs:label "ratio of platinum isotope Pt190 to osmium isotope Os188" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-polonium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-polonium-polonium_isotope_po210_reported_as_activity", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-polonium-ratio_of_polonium_isotope_po210_to_lead_isotope_pb210" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "polonium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-polonium-polonium_isotope_po210_reported_as_activity>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-polonium" ;
+  rdfs:label "polonium isotope Po210, reported as activity" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-polonium-ratio_of_polonium_isotope_po210_to_lead_isotope_pb210>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-polonium" ;
+  rdfs:label "ratio of polonium isotope Po210 to lead isotope Pb210" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-potassium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-potassium-potassium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "potassium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-potassium-potassium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-potassium" ;
+  rdfs:label "potassium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-protactinium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "protactinium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-praseodymium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "praseodymium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-radium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "radium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-rhenium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "rhenium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-rhodium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "rhodium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-rubidium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "rubidium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ruthenium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "ruthenium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-samarium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-samarium-samarium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "samarium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-samarium-samarium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-samarium" ;
+  rdfs:label "samarium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-scandium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-scandium-scandium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "scandium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-scandium-scandium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-scandium" ;
+  rdfs:label "scandium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-selenium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "selenium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-delta_29si", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-delta_30si", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicic_acid", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicon_dioxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "silicon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicon_dioxide>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicon_dioxide-amorphous_silica", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicon_dioxide-sio2_high_pressure" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon" ;
+  rdfs:label "silicon dioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicon_dioxide-sio2_high_pressure>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicon_dioxide" ;
+  rdfs:label "SiO2, high pressure" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicon_dioxide-amorphous_silica>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicon_dioxide" ;
+  rdfs:label "amorphous silica" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-silicic_acid>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon" ;
+  rdfs:label "silicic acid" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-delta_29si>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon" ;
+  rdfs:label "delta 29Si" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon-delta_30si>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silicon" ;
+  rdfs:label "delta 30Si" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sodium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sodium-sodium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "sodium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sodium-sodium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sodium" ;
+  rdfs:label "sodium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-silver_ag>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "silver (Ag)" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-strontium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-strontium-strontium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "strontium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-strontium-strontium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-strontium" ;
+  rdfs:label "strontium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-delta_33s", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-delta_34s", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-delta_36s", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphate", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphur_dioxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphur_present_as_sulphide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphur_present_in_pyrite_form", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphur_trioxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "sulphur" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphur_dioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur" ;
+  rdfs:label "sulphur dioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphur_trioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur" ;
+  rdfs:label "sulphur trioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphate>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur" ;
+  rdfs:label "sulphate" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphur_present_as_sulphide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur" ;
+  rdfs:label "sulphur present as sulphide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-sulphur_present_in_pyrite_form>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur" ;
+  rdfs:label "sulphur present in pyrite form" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-delta_33s>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur" ;
+  rdfs:label "delta 33S" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-delta_34s>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur" ;
+  rdfs:label "delta 34S" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur-delta_36s>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-sulphur" ;
+  rdfs:label "delta 36S" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tantalum>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tantalum-tantalum_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "tantalum" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tantalum-tantalum_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tantalum" ;
+  rdfs:label "tantalum oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tellurium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "tellurium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-terbium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-terbium-terbium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "terbium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-terbium-terbium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-terbium" ;
+  rdfs:label "terbium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thallium>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "thallium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thorium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thorium-thorium_dioxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thorium-thorium_monoxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "thorium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thorium-thorium_monoxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thorium" ;
+  rdfs:label "thorium monoxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thorium-thorium_dioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thorium" ;
+  rdfs:label "thorium dioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thulium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thulium-thulium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "thulium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thulium-thulium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-thulium" ;
+  rdfs:label "thulium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tin>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "tin" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium-delta_49ti", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium-titanium_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium-titanium_ii_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium-titanium_iii_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "titanium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium-titanium_iii_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium" ;
+  rdfs:label "titanium(III) oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium-titanium_ii_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium" ;
+  rdfs:label "titanium(II) oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium-titanium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium" ;
+  rdfs:label "titanium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium-delta_49ti>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-titanium" ;
+  rdfs:label "delta 49Ti" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tungsten>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tungsten-tungsten_trioxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "tungsten" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tungsten-tungsten_trioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-tungsten" ;
+  rdfs:label "tungsten trioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium-delta_234u", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium-delta_238u", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium-uranium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "uranium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium-uranium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium" ;
+  rdfs:label "uranium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium-delta_234u>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium" ;
+  rdfs:label "delta 234U" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium-delta_238u>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-uranium" ;
+  rdfs:label "delta 238U" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium-delta_51v", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium-vanadium_pentoxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium-vanadium_sesquioxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "vanadium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium-vanadium_sesquioxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium" ;
+  rdfs:label "vanadium sesquioxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium-vanadium_pentoxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium" ;
+  rdfs:label "vanadium pentoxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium-delta_51v>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-vanadium" ;
+  rdfs:label "delta 51V" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-xenon>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "xenon" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-yttrium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-yttrium-yttrium_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-yttrium-yttrium_iii_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "yttrium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-yttrium-yttrium_iii_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-yttrium" ;
+  rdfs:label "yttrium(III) oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-yttrium-yttrium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-yttrium" ;
+  rdfs:label "yttrium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ytterbium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ytterbium-ytterbium_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "ytterbium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ytterbium-ytterbium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-ytterbium" ;
+  rdfs:label "ytterbium oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc-delta_66zn", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc-delta_68zn", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc-zinc_oxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "zinc" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc-zinc_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc" ;
+  rdfs:label "zinc oxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc-delta_66zn>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc" ;
+  rdfs:label "delta 66Zn" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc-delta_68zn>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zinc" ;
+  rdfs:label "delta 68Zn" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zirconium>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zirconium-zirconium_oxide", "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zirconium-zirconium_pentoxide" ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property" ;
+  rdfs:label "zirconium" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zirconium-zirconium_pentoxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zirconium" ;
+  rdfs:label "zirconium pentoxide" .
+
+<https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zirconium-zirconium_oxide>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/geochemistry/1.3/measured_property-zirconium" ;
+  rdfs:label "zirconium oxide" .
+
