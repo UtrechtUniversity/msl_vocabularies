@@ -1,6 +1,6 @@
 [
     {
-        "text": "",
+        "text": "Material",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.3\/"
@@ -5680,7 +5680,7 @@
         ]
     },
     {
-        "text": "",
+        "text": "Pore fluid",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/porefluids\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/porefluids\/1.3\/"
@@ -5870,7 +5870,7 @@
         ]
     },
     {
-        "text": "",
+        "text": "Rock and melt physics",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/rockphysics\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/rockphysics\/1.3\/"
@@ -7996,7 +7996,7 @@
         ]
     },
     {
-        "text": "",
+        "text": "Analogue modelling of geological processes",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.3\/"
@@ -13381,7 +13381,7 @@
         ]
     },
     {
-        "text": "",
+        "text": "Geological age",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.3\/"
@@ -14866,7 +14866,7 @@
         ]
     },
     {
-        "text": "",
+        "text": "Geological setting",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalsetting\/1.3\/"
@@ -16357,7 +16357,7 @@
         ]
     },
     {
-        "text": "",
+        "text": "Paleomagnetism",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/paleomagnetism\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/paleomagnetism\/1.3\/"
@@ -18057,7 +18057,7 @@
         ]
     },
     {
-        "text": "",
+        "text": "Geochemistry",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/geochemistry\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geochemistry\/1.3\/"
@@ -20680,7 +20680,7 @@
         ]
     },
     {
-        "text": "",
+        "text": "Microscopy and tomography",
         "extra": {
             "uri": "https:\/\/epos-msl.uu.nl\/voc\/microscopy\/1.3\/",
             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/microscopy\/1.3\/"
