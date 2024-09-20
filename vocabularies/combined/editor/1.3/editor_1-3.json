@@ -23171,5 +23171,1198 @@
                 ]
             }
         ]
+    },
+    {
+        "text": "(sub)surface utilization setting",
+        "extra": {
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+        },
+        "children": [
+            {
+                "text": "subsurface storage",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "CO2 storage in the subsurface",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-co2_storage_in_the_subsurface",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "compressed air storage in the subsurface",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-compressed_air_storage_in_the_subsurface",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "gas storage in the subsurface",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-gas_storage_in_the_subsurface",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "hydrogen storage in the subsurface",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-hydrogen_storage_in_the_subsurface",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "nitrogen storage in the subsurface",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-nitrogen_storage_in_the_subsurface",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "oil storage in the subsurface",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-oil_storage_in_the_subsurface",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "storage in depleted oil reservoir",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-storage_in_depleted_oil_reservoir",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "thermal energy storage in the subsurface",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "aquifer thermal energy storage",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-aquifer_thermal_energy_storage",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "borehole thermal energy storage",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-borehole_thermal_energy_storage",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "cavern thermal energy storage",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-cavern_thermal_energy_storage",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "high-temperature aquifer thermal energy storage",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-high-temperature_aquifer_thermal_energy_storage",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "low-temperature aquifer thermal energy storage",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-low-temperature_aquifer_thermal_energy_storage",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "medium-temperature aquifer thermal energy storage",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-medium-temperature_aquifer_thermal_energy_storage",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "mine thermal energy storage",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-mine_thermal_energy_storage",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "waste storage in the subsurface",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-waste_storage_in_the_subsurface",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "radioactive waste disposal in the subsurface",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-waste_storage_in_the_subsurface-radioactive_waste_disposal_in_the_subsurface",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "wastewater storage in the subsurface",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-waste_storage_in_the_subsurface-wastewater_storage_in_the_subsurface",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "subsurface energy production",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "geothermal energy extraction",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "advanced geothermal system",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-advanced_geothermal_system",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "closed loop system",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-closed_loop_system",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "deep geothermal energy",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-deep_geothermal_energy",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "enhanced geothermal system",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-enhanced_geothermal_system",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "geothermal doublet",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-geothermal_doublet",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "geothermal reservoir",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-geothermal_reservoir",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "geothermal reservoir temperature",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-geothermal_reservoir_temperature",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "high enthalpy geothermal energy",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-high_enthalpy_geothermal_energy",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "hydrothermal reservoir",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-hydrothermal_reservoir",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "low enthalpy geothermal energy",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-low_enthalpy_geothermal_energy",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "mine geothermal energy provision",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-mine_geothermal_energy_provision",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "open loop system",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-open_loop_system",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "shallow geothermal energy",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-shallow_geothermal_energy",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hydrocarbon energy production",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrocarbon_energy_production",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "gas field",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrocarbon_energy_production-gas_field",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "oil field",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrocarbon_energy_production-oil_field",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hydrogen energy production",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "methane pyrolysis",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-methane_pyrolysis",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "native hydrogen",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-native_hydrogen",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "polymer electrolyte membrane electrolysis",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-polymer_electrolyte_membrane_electrolysis",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "steam methane reforming",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-steam_methane_reforming",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "steam methane reforming with carbon capture and storage",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-steam_methane_reforming_with_carbon_capture_and_storage",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "ore mine",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/ore_mine",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "mine tailing",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/ore_mine-mine_tailing",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "text": "civil engineered setting",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "building foundation",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-building_foundation",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "dam construction - geological aspects",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-dam_construction_-_geological_aspects",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "road construction - geotechnical aspects",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-road_construction_-_geotechnical_aspects",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "tunnel",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-tunnel",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "underground research facility",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-underground_research_facility",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "text": "induced seismicity",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/induced_seismicity",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                },
+                "children": []
+            },
+            {
+                "text": "surface subsidence",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/surface_subsidence",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "sinkhole",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/surface_subsidence-sinkhole",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Geo-energy test beds",
+        "extra": {
+            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
+            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+        },
+        "children": [
+            {
+                "text": "Facility names",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "Bedretto Underground Laboratory for Geosciences and Geoenergies",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-bedretto_underground_laboratory_for_geosciences_and_geoenergies",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Bochum Research and Exploration Drilling Rig",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-bochum_research_and_exploration_drilling_rig",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "BRGM\u2019s Geothermal Testing Facility",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-brgms_geothermal_testing_facility",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "CATenoy experimental site",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-catenoy_experimental_site",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "ECCSEL Svelvik CO2 Field Lab",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-eccsel_svelvik_co2_field_lab",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Energy Technology Fraunhofer IEG",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-energy_technology_fraunhofer_ieg",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Geotechnology Laboratory Fraunhofer IEG",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-geotechnology_laboratory_fraunhofer_ieg",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Geothermal Project on TU Delft campus",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-geothermal_project_on_tu_delft_campus",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Geothermal research platform Gro\u00df Sch\u00f6nebeck",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-geothermal_research_platform_gros_schonebeck",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Krafla Magma Testbed",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-krafla_magma_testbed",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Pilot site for geological storage of CO2 Ketzin",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-pilot_site_for_geological_storage_of_co2_ketzin",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "PITOP Borehole Geophysical Test Site",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-pitop_borehole_geophysical_test_site",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Reallabore Weisweiler",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-reallabore_weisweiler",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Rijswijk Centre for Sustainable Geo-energy",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-rijswijk_centre_for_sustainable_geo-energy",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Sotacarbo Fault Laboratory",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-sotacarbo_fault_laboratory",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "TRUDI underground laboratory",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-trudi_underground_laboratory",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "UK GeoEnergy Research Centre",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-uk_geoenergy_research_centre",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "UK Geos",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-uk_geos",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "Underground research laboratory Andra",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_names-underground_research_laboratory_andra",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "text": "Facility types",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "field-scale laboratory - active testing",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-field-scale_laboratory_-_active_testing",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "field-scale observatory - passive monitoring",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-field-scale_observatory_-_passive_monitoring",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "full-scale testing laboratory",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-full-scale_testing_laboratory",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "geoenergy testbed",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-geoenergy_testbed",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "in-situ laboratory",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-in-situ_laboratory",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "monitoring borehole",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-monitoring_borehole",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "text": "Equipment",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "borehole drilling",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "borehole and geofluid simulator",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-borehole_and_geofluid_simulator",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "drilling test rig",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-drilling_test_rig",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "measurement while drilling",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-measurement_while_drilling",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "mud logging",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-mud_logging",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "rock samples",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-rock_samples",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "borehole logging",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_logging",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "open-hole logging",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_logging-open-hole_logging",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "borehole monitoring",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_monitoring",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "borehole geophone",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_monitoring-borehole_geophone",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "downhole electric conductivity sensing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_monitoring-downhole_electric_conductivity_sensing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "downhole electromagnetic sensing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_monitoring-downhole_electromagnetic_sensing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "downhole soil gas probe",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_monitoring-downhole_soil_gas_probe",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "borehole testing",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "formation integrity test",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing-formation_integrity_test",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "heat pump mobile unit",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing-heat_pump_mobile_unit",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "heat pump test rig",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing-heat_pump_test_rig",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "injection testing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing-injection_testing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "intervention and stimulation equipment",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing-intervention_and_stimulation_equipment",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "pressure performance system",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing-pressure_performance_system",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "production testing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing-production_testing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "thermal response testing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_testing-thermal_response_testing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "distributed fibre optic sensing",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-distributed_fibre_optic_sensing",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "distributed acoustic sensing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-distributed_fibre_optic_sensing-distributed_acoustic_sensing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "distributed pressure sensing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-distributed_fibre_optic_sensing-distributed_pressure_sensing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "distributed strain sensing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-distributed_fibre_optic_sensing-distributed_strain_sensing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "distributed temperature sensing",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-distributed_fibre_optic_sensing-distributed_temperature_sensing",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "geothermal heating and cooling",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "heat pump mobile unit",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling-heat_pump_mobile_unit",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "heat pump test rig",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling-heat_pump_test_rig",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "seismic monitoring",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-seismic_monitoring",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "three-component seismic station",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-seismic_monitoring-three-component_seismic_station",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "tilt strain gauge",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-seismic_monitoring-tilt_strain_gauge",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "Models",
+                "extra": {
+                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models",
+                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                },
+                "children": [
+                    {
+                        "text": "field system model",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "borehole heat exchanger model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-borehole_heat_exchanger_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "chemical model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-chemical_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "coupled thermo-hydraulic-mechanical model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-coupled_thermo-hydraulic-mechanical_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "flow and thermal transport model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-flow_and_thermal_transport_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "flow model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-flow_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "geothermal reservoir simulation",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-geothermal_reservoir_simulation",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "geothermal well model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-geothermal_well_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "hydrocarbon reservoir simulation",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-hydrocarbon_reservoir_simulation",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "hydrogen reservoir simulation",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-hydrogen_reservoir_simulation",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "induced seismicity model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-induced_seismicity_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "pore pressure diffusion model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-pore_pressure_diffusion_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "reactive transport model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-reactive_transport_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "storage model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-storage_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "thermal transport model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-field_system_model-thermal_transport_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "text": "subsurface digital twin",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_digital_twin",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "text": "subsurface property modelling",
+                        "extra": {
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling",
+                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                        },
+                        "children": [
+                            {
+                                "text": "fluid composition field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-fluid_composition_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "formation stress model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-formation_stress_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "geochemistry field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-geochemistry_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "geomechanical property field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-geomechanical_property_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "gravity field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-gravity_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "magnetic field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-magnetic_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "pore pressure field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-pore_pressure_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "porosity-permeability field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-porosity-permeability_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "reservoir structural model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-reservoir_structural_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "seismic velocity field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-seismic_velocity_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
+                                "text": "temperature field model",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/models-subsurface_property_modelling-temperature_field_model",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
