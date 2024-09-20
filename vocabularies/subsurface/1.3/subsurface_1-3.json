@@ -1,0 +1,820 @@
+[
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+        "value": "subsurface storage",
+        "label": "subsurface storage",
+        "synonyms": [
+            {
+                "value": "subsurface energy storage"
+            },
+            {
+                "value": "subsurface disposal"
+            },
+            {
+                "value": "geological storage"
+            },
+            {
+                "value": "underground energy storage"
+            },
+            {
+                "value": "underground storage system"
+            }
+        ],
+        "children": [
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-co2_storage_in_the_subsurface",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "CO2 storage in the subsurface",
+                "label": "CO2 storage in the subsurface",
+                "synonyms": [
+                    {
+                        "value": "co2 storage in subsurface"
+                    },
+                    {
+                        "value": "carbon dioxide storage in the subsurface"
+                    },
+                    {
+                        "value": "subsurface co2 storage"
+                    },
+                    {
+                        "value": "subsurface carbon dioxide storage"
+                    },
+                    {
+                        "value": "subsurface hydrocarbon storage"
+                    },
+                    {
+                        "value": "geological storage of co2"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-compressed_air_storage_in_the_subsurface",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "compressed air storage in the subsurface",
+                "label": "compressed air storage in the subsurface",
+                "synonyms": [
+                    {
+                        "value": "(caes)"
+                    },
+                    {
+                        "value": "compressed air storage in subsurface"
+                    },
+                    {
+                        "value": "subsurface storage of compressed air"
+                    },
+                    {
+                        "value": "underground storage of compressed air"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-gas_storage_in_the_subsurface",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "gas storage in the subsurface",
+                "label": "gas storage in the subsurface",
+                "synonyms": [
+                    {
+                        "value": "subsurface gas storage"
+                    },
+                    {
+                        "value": "underground gas storage"
+                    },
+                    {
+                        "value": "underground storage of gas"
+                    },
+                    {
+                        "value": "subsurface storage of gas"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-hydrogen_storage_in_the_subsurface",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "hydrogen storage in the subsurface",
+                "label": "hydrogen storage in the subsurface",
+                "synonyms": [
+                    {
+                        "value": "hydrogen storage in subsurface"
+                    },
+                    {
+                        "value": "underground hydrogen storage"
+                    },
+                    {
+                        "value": "(uhs)"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-nitrogen_storage_in_the_subsurface",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "nitrogen storage in the subsurface",
+                "label": "nitrogen storage in the subsurface",
+                "synonyms": [
+                    {
+                        "value": "n2 storage in the subsurface"
+                    },
+                    {
+                        "value": "subsurface nitrogen storage"
+                    },
+                    {
+                        "value": "subsurface n2 storage"
+                    },
+                    {
+                        "value": "underground nitrogen storage"
+                    },
+                    {
+                        "value": "underground n2 storage"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-oil_storage_in_the_subsurface",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "oil storage in the subsurface",
+                "label": "oil storage in the subsurface",
+                "synonyms": [
+                    {
+                        "value": "subsurface oil storage"
+                    },
+                    {
+                        "value": "subsurface hydrocarbon storage"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-storage_in_depleted_oil_reservoir",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "storage in depleted oil reservoir",
+                "label": "storage in depleted oil reservoir",
+                "synonyms": [
+                    {
+                        "value": "storage in depleted hydrocarbon reservoir"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "thermal energy storage in the subsurface",
+                "label": "thermal energy storage in the subsurface",
+                "synonyms": [
+                    {
+                        "value": "underground thermal energy storage"
+                    },
+                    {
+                        "value": "(utes)"
+                    },
+                    {
+                        "value": "subsurface thermal energy storage"
+                    }
+                ],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-aquifer_thermal_energy_storage",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "aquifer thermal energy storage",
+                        "label": "aquifer thermal energy storage",
+                        "synonyms": [
+                            {
+                                "value": "(ates)"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-borehole_thermal_energy_storage",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "borehole thermal energy storage",
+                        "label": "borehole thermal energy storage",
+                        "synonyms": [
+                            {
+                                "value": "(btes)"
+                            },
+                            {
+                                "value": "ground-source heat pump"
+                            },
+                            {
+                                "value": "geothermal heat pump"
+                            },
+                            {
+                                "value": "geothermal heat pump system"
+                            },
+                            {
+                                "value": "geothermal heat exchanger"
+                            },
+                            {
+                                "value": "geothermal probe"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-cavern_thermal_energy_storage",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "cavern thermal energy storage",
+                        "label": "cavern thermal energy storage",
+                        "synonyms": [
+                            {
+                                "value": "(ctes)"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-high-temperature_aquifer_thermal_energy_storage",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "high-temperature aquifer thermal energy storage",
+                        "label": "high-temperature aquifer thermal energy storage",
+                        "synonyms": [
+                            {
+                                "value": "(ht-ates)"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-low-temperature_aquifer_thermal_energy_storage",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "low-temperature aquifer thermal energy storage",
+                        "label": "low-temperature aquifer thermal energy storage",
+                        "synonyms": [
+                            {
+                                "value": "(lt-ates)"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-medium-temperature_aquifer_thermal_energy_storage",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "medium-temperature aquifer thermal energy storage",
+                        "label": "medium-temperature aquifer thermal energy storage",
+                        "synonyms": [
+                            {
+                                "value": "(mt-ates)"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-thermal_energy_storage_in_the_subsurface-mine_thermal_energy_storage",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "mine thermal energy storage",
+                        "label": "mine thermal energy storage",
+                        "synonyms": [
+                            {
+                                "value": "(mtes)"
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-waste_storage_in_the_subsurface",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "waste storage in the subsurface",
+                "label": "waste storage in the subsurface",
+                "synonyms": [
+                    {
+                        "value": "underground waste storage"
+                    },
+                    {
+                        "value": "subsurface waste storage"
+                    },
+                    {
+                        "value": "underground storage of waste"
+                    },
+                    {
+                        "value": "subsurface storage of waste"
+                    }
+                ],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-waste_storage_in_the_subsurface-radioactive_waste_disposal_in_the_subsurface",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "radioactive waste disposal in the subsurface",
+                        "label": "radioactive waste disposal in the subsurface",
+                        "synonyms": [
+                            {
+                                "value": "radioactive waste storage in the subsurface"
+                            },
+                            {
+                                "value": "rad waste disposal in the subsurface"
+                            },
+                            {
+                                "value": "nuclear waste storage in the subsurface"
+                            },
+                            {
+                                "value": "radioactive waste storage in the subsurface"
+                            },
+                            {
+                                "value": "rad waste disposal in the subsurface"
+                            },
+                            {
+                                "value": "nuclear waste storage in the subsurface"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_storage-waste_storage_in_the_subsurface-wastewater_storage_in_the_subsurface",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "wastewater storage in the subsurface",
+                        "label": "wastewater storage in the subsurface",
+                        "synonyms": [
+                            {
+                                "value": "wastewater disposal in the subsurface"
+                            },
+                            {
+                                "value": "subsurface wastewater disposal"
+                            },
+                            {
+                                "value": "underground wastewater disposal"
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+        "value": "subsurface energy production",
+        "label": "subsurface energy production",
+        "synonyms": [
+            {
+                "value": "subsurface energy provision"
+            },
+            {
+                "value": "subsurface energy extraction"
+            },
+            {
+                "value": "fluid production from the subsurface"
+            },
+            {
+                "value": "subsurface fluid production"
+            },
+            {
+                "value": "energy production from the subsurface"
+            },
+            {
+                "value": "subsurface fluid production"
+            }
+        ],
+        "children": [
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "geothermal energy extraction",
+                "label": "geothermal energy extraction",
+                "synonyms": [
+                    {
+                        "value": "geothermal energy field"
+                    },
+                    {
+                        "value": "geothermal"
+                    },
+                    {
+                        "value": "krafla"
+                    }
+                ],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-advanced_geothermal_system",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "advanced geothermal system",
+                        "label": "advanced geothermal system",
+                        "synonyms": [
+                            {
+                                "value": "(ags)"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-closed_loop_system",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "closed loop system",
+                        "label": "closed loop system",
+                        "synonyms": [
+                            {
+                                "value": "closed-loop system"
+                            },
+                            {
+                                "value": "borehole heat exchanger"
+                            },
+                            {
+                                "value": "(bhe)"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-deep_geothermal_energy",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "deep geothermal energy",
+                        "label": "deep geothermal energy",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-enhanced_geothermal_system",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "enhanced geothermal system",
+                        "label": "enhanced geothermal system",
+                        "synonyms": [
+                            {
+                                "value": "(egs)"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-geothermal_doublet",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "geothermal doublet",
+                        "label": "geothermal doublet",
+                        "synonyms": [
+                            {
+                                "value": "hydrothermal doublet"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-geothermal_reservoir",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "geothermal reservoir",
+                        "label": "geothermal reservoir",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-geothermal_reservoir_temperature",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "geothermal reservoir temperature",
+                        "label": "geothermal reservoir temperature",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-high_enthalpy_geothermal_energy",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "high enthalpy geothermal energy",
+                        "label": "high enthalpy geothermal energy",
+                        "synonyms": [
+                            {
+                                "value": "high enthalpy system"
+                            },
+                            {
+                                "value": "high enthalphy reservoir"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-hydrothermal_reservoir",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "hydrothermal reservoir",
+                        "label": "hydrothermal reservoir",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-low_enthalpy_geothermal_energy",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "low enthalpy geothermal energy",
+                        "label": "low enthalpy geothermal energy",
+                        "synonyms": [
+                            {
+                                "value": "low enthalpy system"
+                            },
+                            {
+                                "value": "direct use geothermal system"
+                            },
+                            {
+                                "value": "dugs"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-mine_geothermal_energy_provision",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "mine geothermal energy provision",
+                        "label": "mine geothermal energy provision",
+                        "synonyms": [
+                            {
+                                "value": "abandoned mine"
+                            },
+                            {
+                                "value": "mine tailings"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-open_loop_system",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "open loop system",
+                        "label": "open loop system",
+                        "synonyms": [
+                            {
+                                "value": "open-loop system"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-geothermal_energy_extraction-shallow_geothermal_energy",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "shallow geothermal energy",
+                        "label": "shallow geothermal energy",
+                        "synonyms": [],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrocarbon_energy_production",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "hydrocarbon energy production",
+                "label": "hydrocarbon energy production",
+                "synonyms": [],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrocarbon_energy_production-gas_field",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "gas field",
+                        "label": "gas field",
+                        "synonyms": [
+                            {
+                                "value": "hydrocarbon field"
+                            },
+                            {
+                                "value": "gas reservoir"
+                            },
+                            {
+                                "value": "hydrocarbon reservoir"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrocarbon_energy_production-oil_field",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "oil field",
+                        "label": "oil field",
+                        "synonyms": [
+                            {
+                                "value": "oil reservoir"
+                            },
+                            {
+                                "value": "hydrocarbon field"
+                            },
+                            {
+                                "value": "hydrocarbon reservoir"
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "hydrogen energy production",
+                "label": "hydrogen energy production",
+                "synonyms": [],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-methane_pyrolysis",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "methane pyrolysis",
+                        "label": "methane pyrolysis",
+                        "synonyms": [
+                            {
+                                "value": "turquoise hydrogen production"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-native_hydrogen",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "native hydrogen",
+                        "label": "native hydrogen",
+                        "synonyms": [],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-polymer_electrolyte_membrane_electrolysis",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "polymer electrolyte membrane electrolysis",
+                        "label": "polymer electrolyte membrane electrolysis",
+                        "synonyms": [
+                            {
+                                "value": "green hydrogen production"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-steam_methane_reforming",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "steam methane reforming",
+                        "label": "steam methane reforming",
+                        "synonyms": [
+                            {
+                                "value": "grey hydrogen production"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/subsurface_energy_production-hydrogen_energy_production-steam_methane_reforming_with_carbon_capture_and_storage",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                        "value": "steam methane reforming with carbon capture and storage",
+                        "label": "steam methane reforming with carbon capture and storage",
+                        "synonyms": [
+                            {
+                                "value": "blue hydrogen production"
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/ore_mine",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+        "value": "ore mine",
+        "label": "ore mine",
+        "synonyms": [
+            {
+                "value": "mineral mine"
+            },
+            {
+                "value": "ore deposit"
+            }
+        ],
+        "children": [
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/ore_mine-mine_tailing",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "mine tailing",
+                "label": "mine tailing",
+                "synonyms": [
+                    {
+                        "value": "mine wastes"
+                    },
+                    {
+                        "value": "mine waste"
+                    },
+                    {
+                        "value": "mine waste disposal"
+                    },
+                    {
+                        "value": "mine disposal"
+                    }
+                ],
+                "children": []
+            }
+        ]
+    },
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+        "value": "civil engineered setting",
+        "label": "civil engineered setting",
+        "synonyms": [
+            {
+                "value": "civil engineering"
+            },
+            {
+                "value": "civil engineered"
+            }
+        ],
+        "children": [
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-building_foundation",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "building foundation",
+                "label": "building foundation",
+                "synonyms": [],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-dam_construction_-_geological_aspects",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "dam construction - geological aspects",
+                "label": "dam construction - geological aspects",
+                "synonyms": [],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-road_construction_-_geotechnical_aspects",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "road construction - geotechnical aspects",
+                "label": "road construction - geotechnical aspects",
+                "synonyms": [],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-tunnel",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "tunnel",
+                "label": "tunnel",
+                "synonyms": [
+                    {
+                        "value": "highway tunnel"
+                    },
+                    {
+                        "value": "road tunnel"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/civil_engineered_setting-underground_research_facility",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "underground research facility",
+                "label": "underground research facility",
+                "synonyms": [
+                    {
+                        "value": "underground science lab"
+                    }
+                ],
+                "children": []
+            }
+        ]
+    },
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/induced_seismicity",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+        "value": "induced seismicity",
+        "label": "induced seismicity",
+        "synonyms": [
+            {
+                "value": "induced earthquake"
+            },
+            {
+                "value": "induced seismic"
+            },
+            {
+                "value": "bedrottolab"
+            },
+            {
+                "value": "bedrotto lab"
+            },
+            {
+                "value": "bedrotto underground"
+            },
+            {
+                "value": "bedrottolaboratory"
+            },
+            {
+                "value": "bedrotto laboratory"
+            }
+        ],
+        "children": []
+    },
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/surface_subsidence",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+        "value": "surface subsidence",
+        "label": "surface subsidence",
+        "synonyms": [
+            {
+                "value": "subsidence"
+            }
+        ],
+        "children": [
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/surface_subsidence-sinkhole",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/subsurface\/1.3\/",
+                "value": "sinkhole",
+                "label": "sinkhole",
+                "synonyms": [
+                    {
+                        "value": "sink hole"
+                    }
+                ],
+                "children": []
+            }
+        ]
+    }
+]

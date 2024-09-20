@@ -1,0 +1,462 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-bedretto_underground_laboratory_for_geosciences_and_geoenergies", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-bochum_research_and_exploration_drilling_rig", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-brgms_geothermal_testing_facility", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-catenoy_experimental_site", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-eccsel_svelvik_co2_field_lab", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-energy_technology_fraunhofer_ieg", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-geotechnology_laboratory_fraunhofer_ieg", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-geothermal_project_on_tu_delft_campus", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-geothermal_research_platform_gros_schonebeck", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-krafla_magma_testbed", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-pilot_site_for_geological_storage_of_co2_ketzin", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-pitop_borehole_geophysical_test_site", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-reallabore_weisweiler", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-rijswijk_centre_for_sustainable_geo-energy", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-sotacarbo_fault_laboratory", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-trudi_underground_laboratory", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-uk_geoenergy_research_centre", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-uk_geos", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-underground_research_laboratory_andra" ;
+  rdfs:label "Facility names" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-geothermal_research_platform_gros_schonebeck>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Geothermal research platform Groß Schönebeck" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-pilot_site_for_geological_storage_of_co2_ketzin>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Pilot site for geological storage of CO2 Ketzin" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-geotechnology_laboratory_fraunhofer_ieg>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Geotechnology Laboratory Fraunhofer IEG" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-bochum_research_and_exploration_drilling_rig>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Bochum Research and Exploration Drilling Rig" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-energy_technology_fraunhofer_ieg>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Energy Technology Fraunhofer IEG" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-trudi_underground_laboratory>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "TRUDI underground laboratory" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-reallabore_weisweiler>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Reallabore Weisweiler" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-geothermal_project_on_tu_delft_campus>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Geothermal Project on TU Delft campus" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-uk_geos>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "UK Geos" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-uk_geoenergy_research_centre>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "UK GeoEnergy Research Centre" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-bedretto_underground_laboratory_for_geosciences_and_geoenergies>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Bedretto Underground Laboratory for Geosciences and Geoenergies" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-rijswijk_centre_for_sustainable_geo-energy>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Rijswijk Centre for Sustainable Geo-energy" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-eccsel_svelvik_co2_field_lab>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "ECCSEL Svelvik CO2 Field Lab" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-brgms_geothermal_testing_facility>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "BRGM’s Geothermal Testing Facility" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-sotacarbo_fault_laboratory>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Sotacarbo Fault Laboratory" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-underground_research_laboratory_andra>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Underground research laboratory Andra" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-catenoy_experimental_site>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "CATenoy experimental site" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-pitop_borehole_geophysical_test_site>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "PITOP Borehole Geophysical Test Site" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names-krafla_magma_testbed>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_names" ;
+  rdfs:label "Krafla Magma Testbed" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-field-scale_laboratory_-_active_testing", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-field-scale_observatory_-_passive_monitoring", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-full-scale_testing_laboratory", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-geoenergy_testbed", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-in-situ_laboratory", "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-monitoring_borehole" ;
+  rdfs:label "Facility types" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-geoenergy_testbed>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types" ;
+  rdfs:label "geoenergy testbed" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-in-situ_laboratory>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types" ;
+  rdfs:label "in-situ laboratory" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-field-scale_laboratory_-_active_testing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types" ;
+  rdfs:label "field-scale laboratory - active testing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-field-scale_observatory_-_passive_monitoring>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types" ;
+  rdfs:label "field-scale observatory - passive monitoring" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-full-scale_testing_laboratory>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types" ;
+  rdfs:label "full-scale testing laboratory" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-monitoring_borehole>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types" ;
+  rdfs:label "monitoring borehole" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring" ;
+  rdfs:label "Equipment" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring-three-component_seismic_station", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring-tilt_strain_gauge" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment" ;
+  rdfs:label "seismic monitoring" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring-three-component_seismic_station>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring" ;
+  rdfs:label "three-component seismic station" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring-tilt_strain_gauge>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring" ;
+  rdfs:label "tilt strain gauge" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing-distributed_acoustic_sensing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing-distributed_pressure_sensing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing-distributed_strain_sensing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing-distributed_temperature_sensing" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment" ;
+  rdfs:label "distributed fibre optic sensing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing-distributed_acoustic_sensing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing" ;
+  rdfs:label "distributed acoustic sensing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing-distributed_strain_sensing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing" ;
+  rdfs:label "distributed strain sensing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing-distributed_temperature_sensing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing" ;
+  rdfs:label "distributed temperature sensing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing-distributed_pressure_sensing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing" ;
+  rdfs:label "distributed pressure sensing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring-borehole_geophone", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring-downhole_electric_conductivity_sensing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring-downhole_electromagnetic_sensing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring-downhole_soil_gas_probe" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment" ;
+  rdfs:label "borehole monitoring" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring-borehole_geophone>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring" ;
+  rdfs:label "borehole geophone" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring-downhole_electromagnetic_sensing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring" ;
+  rdfs:label "downhole electromagnetic sensing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring-downhole_electric_conductivity_sensing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring" ;
+  rdfs:label "downhole electric conductivity sensing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring-downhole_soil_gas_probe>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring" ;
+  rdfs:label "downhole soil gas probe" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-formation_integrity_test", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-heat_pump_mobile_unit", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-heat_pump_test_rig", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-injection_testing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-intervention_and_stimulation_equipment", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-pressure_performance_system", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-production_testing", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-thermal_response_testing" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment" ;
+  rdfs:label "borehole testing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-formation_integrity_test>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing" ;
+  rdfs:label "formation integrity test" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-production_testing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing" ;
+  rdfs:label "production testing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-injection_testing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing" ;
+  rdfs:label "injection testing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-intervention_and_stimulation_equipment>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing" ;
+  rdfs:label "intervention and stimulation equipment" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-pressure_performance_system>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing" ;
+  rdfs:label "pressure performance system" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-heat_pump_test_rig>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing" ;
+  rdfs:label "heat pump test rig" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-heat_pump_mobile_unit>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing" ;
+  rdfs:label "heat pump mobile unit" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing-thermal_response_testing>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing" ;
+  rdfs:label "thermal response testing" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-borehole_and_geofluid_simulator", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-drilling_test_rig", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-measurement_while_drilling", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-mud_logging", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-rock_samples" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment" ;
+  rdfs:label "borehole drilling" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-measurement_while_drilling>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling" ;
+  rdfs:label "measurement while drilling" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-mud_logging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling" ;
+  rdfs:label "mud logging" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-drilling_test_rig>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling" ;
+  rdfs:label "drilling test rig" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-borehole_and_geofluid_simulator>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling" ;
+  rdfs:label "borehole and geofluid simulator" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-rock_samples>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling" ;
+  rdfs:label "rock samples" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging-open-hole_logging" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment" ;
+  rdfs:label "borehole logging" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging-open-hole_logging>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging" ;
+  rdfs:label "open-hole logging" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling-heat_pump_mobile_unit", "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling-heat_pump_test_rig" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment" ;
+  rdfs:label "geothermal heating and cooling" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling-heat_pump_test_rig>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling" ;
+  rdfs:label "heat pump test rig" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling-heat_pump_mobile_unit>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling" ;
+  rdfs:label "heat pump mobile unit" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_digital_twin", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "Models" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_digital_twin>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models" ;
+  rdfs:label "subsurface digital twin" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-fluid_composition_field_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-formation_stress_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-geochemistry_field_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-geomechanical_property_field_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-gravity_field_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-magnetic_field_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-pore_pressure_field_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-porosity-permeability_field_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-reservoir_structural_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-seismic_velocity_field_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-temperature_field_model" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models" ;
+  rdfs:label "subsurface property modelling" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-reservoir_structural_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "reservoir structural model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-temperature_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "temperature field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-pore_pressure_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "pore pressure field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-fluid_composition_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "fluid composition field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-gravity_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "gravity field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-magnetic_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "magnetic field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-formation_stress_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "formation stress model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-seismic_velocity_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "seismic velocity field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-porosity-permeability_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "porosity-permeability field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-geomechanical_property_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "geomechanical property field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling-geochemistry_field_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-subsurface_property_modelling" ;
+  rdfs:label "geochemistry field model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model>
+  a skos:Concept ;
+  skos:narrower "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-borehole_heat_exchanger_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-chemical_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-coupled_thermo-hydraulic-mechanical_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-flow_and_thermal_transport_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-flow_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-geothermal_reservoir_simulation", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-geothermal_well_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-hydrocarbon_reservoir_simulation", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-hydrogen_reservoir_simulation", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-induced_seismicity_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-pore_pressure_diffusion_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-reactive_transport_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-storage_model", "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-thermal_transport_model" ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models" ;
+  rdfs:label "field system model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-flow_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "flow model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-flow_and_thermal_transport_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "flow and thermal transport model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-coupled_thermo-hydraulic-mechanical_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "coupled thermo-hydraulic-mechanical model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-pore_pressure_diffusion_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "pore pressure diffusion model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-thermal_transport_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "thermal transport model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-chemical_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "chemical model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-reactive_transport_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "reactive transport model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-borehole_heat_exchanger_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "borehole heat exchanger model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-geothermal_reservoir_simulation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "geothermal reservoir simulation" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-hydrocarbon_reservoir_simulation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "hydrocarbon reservoir simulation" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-hydrogen_reservoir_simulation>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "hydrogen reservoir simulation" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-storage_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "storage model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-induced_seismicity_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "induced seismicity model" .
+
+<https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model-geothermal_well_model>
+  a skos:Concept ;
+  skos:broader "https://epos-msl.uu.nl/voc/testbeds/1.3/models-field_system_model" ;
+  rdfs:label "geothermal well model" .
+

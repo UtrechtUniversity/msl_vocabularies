@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-co2_storage_in_the_subsurface</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-compressed_air_storage_in_the_subsurface</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-gas_storage_in_the_subsurface</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-hydrogen_storage_in_the_subsurface</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-nitrogen_storage_in_the_subsurface</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-oil_storage_in_the_subsurface</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-storage_in_depleted_oil_reservoir</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-waste_storage_in_the_subsurface</skos:narrower>
+    <rdfs:label>subsurface storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-storage_in_depleted_oil_reservoir">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>storage in depleted oil reservoir</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-gas_storage_in_the_subsurface">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>gas storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-co2_storage_in_the_subsurface">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>CO2 storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-oil_storage_in_the_subsurface">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>oil storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-nitrogen_storage_in_the_subsurface">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>nitrogen storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-hydrogen_storage_in_the_subsurface">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>hydrogen storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-compressed_air_storage_in_the_subsurface">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>compressed air storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-waste_storage_in_the_subsurface">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-waste_storage_in_the_subsurface-radioactive_waste_disposal_in_the_subsurface</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-waste_storage_in_the_subsurface-wastewater_storage_in_the_subsurface</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>waste storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-waste_storage_in_the_subsurface-wastewater_storage_in_the_subsurface">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-waste_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>wastewater storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-waste_storage_in_the_subsurface-radioactive_waste_disposal_in_the_subsurface">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-waste_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>radioactive waste disposal in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-aquifer_thermal_energy_storage</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-borehole_thermal_energy_storage</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-cavern_thermal_energy_storage</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-high-temperature_aquifer_thermal_energy_storage</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-low-temperature_aquifer_thermal_energy_storage</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-medium-temperature_aquifer_thermal_energy_storage</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-mine_thermal_energy_storage</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage</skos:broader>
+    <rdfs:label>thermal energy storage in the subsurface</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-mine_thermal_energy_storage">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>mine thermal energy storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-aquifer_thermal_energy_storage">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>aquifer thermal energy storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-high-temperature_aquifer_thermal_energy_storage">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>high-temperature aquifer thermal energy storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-medium-temperature_aquifer_thermal_energy_storage">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>medium-temperature aquifer thermal energy storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-low-temperature_aquifer_thermal_energy_storage">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>low-temperature aquifer thermal energy storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-borehole_thermal_energy_storage">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>borehole thermal energy storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface-cavern_thermal_energy_storage">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_storage-thermal_energy_storage_in_the_subsurface</skos:broader>
+    <rdfs:label>cavern thermal energy storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrocarbon_energy_production</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production</skos:narrower>
+    <rdfs:label>subsurface energy production</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-advanced_geothermal_system</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-closed_loop_system</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-deep_geothermal_energy</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-enhanced_geothermal_system</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-geothermal_doublet</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-geothermal_reservoir</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-geothermal_reservoir_temperature</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-high_enthalpy_geothermal_energy</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-hydrothermal_reservoir</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-low_enthalpy_geothermal_energy</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-mine_geothermal_energy_provision</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-open_loop_system</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-shallow_geothermal_energy</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production</skos:broader>
+    <rdfs:label>geothermal energy extraction</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-advanced_geothermal_system">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>advanced geothermal system</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-enhanced_geothermal_system">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>enhanced geothermal system</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-geothermal_doublet">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>geothermal doublet</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-low_enthalpy_geothermal_energy">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>low enthalpy geothermal energy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-high_enthalpy_geothermal_energy">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>high enthalpy geothermal energy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-deep_geothermal_energy">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>deep geothermal energy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-shallow_geothermal_energy">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>shallow geothermal energy</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-geothermal_reservoir">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>geothermal reservoir</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-hydrothermal_reservoir">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>hydrothermal reservoir</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-geothermal_reservoir_temperature">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>geothermal reservoir temperature</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-closed_loop_system">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>closed loop system</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-open_loop_system">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>open loop system</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction-mine_geothermal_energy_provision">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-geothermal_energy_extraction</skos:broader>
+    <rdfs:label>mine geothermal energy provision</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-methane_pyrolysis</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-native_hydrogen</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-polymer_electrolyte_membrane_electrolysis</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-steam_methane_reforming</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-steam_methane_reforming_with_carbon_capture_and_storage</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production</skos:broader>
+    <rdfs:label>hydrogen energy production</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-native_hydrogen">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production</skos:broader>
+    <rdfs:label>native hydrogen</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-steam_methane_reforming">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production</skos:broader>
+    <rdfs:label>steam methane reforming</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-steam_methane_reforming_with_carbon_capture_and_storage">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production</skos:broader>
+    <rdfs:label>steam methane reforming with carbon capture and storage</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-methane_pyrolysis">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production</skos:broader>
+    <rdfs:label>methane pyrolysis</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production-polymer_electrolyte_membrane_electrolysis">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrogen_energy_production</skos:broader>
+    <rdfs:label>polymer electrolyte membrane electrolysis</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrocarbon_energy_production">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrocarbon_energy_production-gas_field</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrocarbon_energy_production-oil_field</skos:narrower>
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production</skos:broader>
+    <rdfs:label>hydrocarbon energy production</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrocarbon_energy_production-gas_field">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrocarbon_energy_production</skos:broader>
+    <rdfs:label>gas field</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrocarbon_energy_production-oil_field">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/subsurface_energy_production-hydrocarbon_energy_production</skos:broader>
+    <rdfs:label>oil field</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/ore_mine">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/ore_mine-mine_tailing</skos:narrower>
+    <rdfs:label>ore mine</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/ore_mine-mine_tailing">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/ore_mine</skos:broader>
+    <rdfs:label>mine tailing</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-building_foundation</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-dam_construction_-_geological_aspects</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-road_construction_-_geotechnical_aspects</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-tunnel</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-underground_research_facility</skos:narrower>
+    <rdfs:label>civil engineered setting</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-underground_research_facility">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting</skos:broader>
+    <rdfs:label>underground research facility</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-tunnel">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting</skos:broader>
+    <rdfs:label>tunnel</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-dam_construction_-_geological_aspects">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting</skos:broader>
+    <rdfs:label>dam construction - geological aspects</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-road_construction_-_geotechnical_aspects">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting</skos:broader>
+    <rdfs:label>road construction - geotechnical aspects</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting-building_foundation">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/civil_engineered_setting</skos:broader>
+    <rdfs:label>building foundation</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/induced_seismicity">
+    <rdfs:label>induced seismicity</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/surface_subsidence">
+    <skos:narrower>https://epos-msl.uu.nl/voc/subsurface/1.3/surface_subsidence-sinkhole</skos:narrower>
+    <rdfs:label>surface subsidence</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/subsurface/1.3/surface_subsidence-sinkhole">
+    <skos:broader>https://epos-msl.uu.nl/voc/subsurface/1.3/surface_subsidence</skos:broader>
+    <rdfs:label>sinkhole</rdfs:label>
+  </skos:Concept>
+
+</rdf:RDF>
