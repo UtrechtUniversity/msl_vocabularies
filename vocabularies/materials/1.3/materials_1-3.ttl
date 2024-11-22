@@ -1285,7 +1285,7 @@
 
 <https://epos-msl.uu.nl/voc/materials/1.3/minerals>
   a skos:Concept ;
-  skos:narrower "https://epos-msl.uu.nl/voc/materials/1.3/minerals-", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-borates", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-chemical_elements", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-halide_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-oxide_mineral", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-phosphate_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-silicate_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-sulfate_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-sulfide_minerals" ;
+  skos:narrower "https://epos-msl.uu.nl/voc/materials/1.3/minerals-borates", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-chemical_elements", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-halide_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-oxide_mineral", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-phosphate_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-silicate_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-sulfate_minerals", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-sulfide_minerals" ;
   rdfs:label "minerals" .
 
 <https://epos-msl.uu.nl/voc/materials/1.3/minerals-chemical_elements>
@@ -1963,100 +1963,100 @@
   skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-oxide_mineral" ;
   rdfs:label "zincite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals->
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals>
   a skos:Concept ;
-  skos:narrower "https://epos-msl.uu.nl/voc/materials/1.3/minerals--ankerite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--apatite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--aragonite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--azurite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--bastnaesite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--breunnerite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--calcite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--dolomite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--magnesite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--malachite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--manganocalcite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--parisite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--rhodochrosite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--siderite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--smithsonite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--strontianite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--trona", "https://epos-msl.uu.nl/voc/materials/1.3/minerals--witherite" ;
+  skos:narrower "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-ankerite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-apatite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-aragonite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-azurite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-bastnaesite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-breunnerite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-calcite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-dolomite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-magnesite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-malachite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-manganocalcite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-parisite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-rhodochrosite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-siderite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-smithsonite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-strontianite", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-trona", "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-witherite" ;
   skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals" ;
-  rdfs:label "" .
+  rdfs:label "carbonate minerals" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--ankerite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-ankerite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "ankerite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--apatite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-apatite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "apatite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--aragonite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-aragonite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "aragonite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--azurite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-azurite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "azurite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--bastnaesite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-bastnaesite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "bastnaesite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--breunnerite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-breunnerite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "breunnerite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--calcite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-calcite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "calcite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--dolomite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-dolomite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "dolomite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--magnesite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-magnesite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "magnesite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--malachite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-malachite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "malachite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--manganocalcite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-manganocalcite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "manganocalcite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--parisite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-parisite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "parisite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--rhodochrosite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-rhodochrosite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "rhodochrosite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--siderite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-siderite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "siderite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--smithsonite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-smithsonite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "smithsonite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--strontianite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-strontianite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "strontianite" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--trona>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-trona>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "trona" .
 
-<https://epos-msl.uu.nl/voc/materials/1.3/minerals--witherite>
+<https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals-witherite>
   a skos:Concept ;
-  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-" ;
+  skos:broader "https://epos-msl.uu.nl/voc/materials/1.3/minerals-carbonate_minerals" ;
   rdfs:label "witherite" .
 
 <https://epos-msl.uu.nl/voc/materials/1.3/minerals-borates>
