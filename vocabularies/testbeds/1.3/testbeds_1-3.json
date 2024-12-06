@@ -402,7 +402,17 @@
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                 "value": "field-scale laboratory - active testing",
                 "label": "field-scale laboratory - active testing",
-                "synonyms": [],
+                "synonyms": [
+                    {
+                        "value": "full-scale testing laboratory"
+                    },
+                    {
+                        "value": "full scale testing laboratory"
+                    },
+                    {
+                        "value": "testing at full-scale"
+                    }
+                ],
                 "children": []
             },
             {
@@ -424,28 +434,13 @@
                 "children": []
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-full-scale_testing_laboratory",
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-geo-energy_testbed",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
-                "value": "full-scale testing laboratory",
-                "label": "full-scale testing laboratory",
+                "value": "geo-energy testbed",
+                "label": "geo-energy testbed",
                 "synonyms": [
                     {
-                        "value": "full scale testing laboratory"
-                    },
-                    {
-                        "value": "testing at full-scale"
-                    }
-                ],
-                "children": []
-            },
-            {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-geoenergy_testbed",
-                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
-                "value": "geoenergy testbed",
-                "label": "geoenergy testbed",
-                "synonyms": [
-                    {
-                        "value": "geo-energy testbed"
+                        "value": "geoenergy testbed"
                     },
                     {
                         "value": "geoenergy test bed"
@@ -485,6 +480,18 @@
                     },
                     {
                         "value": "bedrottolab"
+                    },
+                    {
+                        "value": "insitu lab"
+                    },
+                    {
+                        "value": "in situ lab"
+                    },
+                    {
+                        "value": "nsitu laboratory"
+                    },
+                    {
+                        "value": "in situ laboratory"
                     }
                 ],
                 "children": []
@@ -497,6 +504,9 @@
                 "synonyms": [
                     {
                         "value": "monitoring wellbore"
+                    },
+                    {
+                        "value": "monitoring well"
                     }
                 ],
                 "children": []
@@ -529,7 +539,47 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                         "value": "borehole and geofluid simulator",
                         "label": "borehole and geofluid simulator",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "borehole simulator"
+                            },
+                            {
+                                "value": "geofluid simulator"
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-drill_core",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
+                        "value": "drill core",
+                        "label": "drill core",
+                        "synonyms": [
+                            {
+                                "value": "drilling cuttings"
+                            },
+                            {
+                                "value": "core scanning"
+                            },
+                            {
+                                "value": "cutting samples"
+                            },
+                            {
+                                "value": "drillcore"
+                            },
+                            {
+                                "value": "core samples"
+                            },
+                            {
+                                "value": "downhole coring"
+                            },
+                            {
+                                "value": "wellbore coring"
+                            },
+                            {
+                                "value": "well coring"
+                            }
+                        ],
                         "children": []
                     },
                     {
@@ -537,7 +587,17 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                         "value": "drilling test rig",
                         "label": "drilling test rig",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "drill test rig"
+                            },
+                            {
+                                "value": "drill testrig"
+                            },
+                            {
+                                "value": "drilling testrig"
+                            }
+                        ],
                         "children": []
                     },
                     {
@@ -563,26 +623,18 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                         "value": "mud logging",
                         "label": "mud logging",
-                        "synonyms": [],
-                        "children": []
-                    },
-                    {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-rock_samples",
-                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
-                        "value": "rock samples",
-                        "label": "rock samples",
                         "synonyms": [
                             {
-                                "value": "drill core"
+                                "value": "mud logger"
                             },
                             {
-                                "value": "core"
+                                "value": "mud log"
                             },
                             {
-                                "value": "drilling cuttings"
+                                "value": "mudlog"
                             },
                             {
-                                "value": "reservoir water"
+                                "value": "mudlogging"
                             }
                         ],
                         "children": []
@@ -607,10 +659,10 @@
                 ],
                 "children": [
                     {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_logging-open-hole_logging",
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_logging-open_hole_logging",
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
-                        "value": "open-hole logging",
-                        "label": "open-hole logging",
+                        "value": "open hole logging",
+                        "label": "open hole logging",
                         "synonyms": [
                             {
                                 "value": "cased-hole logging"
@@ -620,6 +672,9 @@
                             },
                             {
                                 "value": "sidewall coring"
+                            },
+                            {
+                                "value": "open-hole logging"
                             }
                         ],
                         "children": []
@@ -648,7 +703,14 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                         "value": "borehole geophone",
                         "label": "borehole geophone",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "downhole geophone"
+                            },
+                            {
+                                "value": "borehole triaxial geophone"
+                            }
+                        ],
                         "children": []
                     },
                     {
@@ -656,7 +718,41 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                         "value": "downhole electric conductivity sensing",
                         "label": "downhole electric conductivity sensing",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "downhole electric conductivity sensor"
+                            },
+                            {
+                                "value": "borehole electric conductivity sensing"
+                            },
+                            {
+                                "value": "borehole electric conductivity sensor"
+                            },
+                            {
+                                "value": "downhole specific conductance sensing"
+                            },
+                            {
+                                "value": "downhole specific conductance sensor"
+                            },
+                            {
+                                "value": "borehole specific conductance sensing"
+                            },
+                            {
+                                "value": "borehole specific conductance sensor"
+                            },
+                            {
+                                "value": "downhole ec sensing"
+                            },
+                            {
+                                "value": "downhole ec sensor"
+                            },
+                            {
+                                "value": "borehole ec sensing"
+                            },
+                            {
+                                "value": "borehole ec sensor"
+                            }
+                        ],
                         "children": []
                     },
                     {
@@ -664,7 +760,41 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                         "value": "downhole electromagnetic sensing",
                         "label": "downhole electromagnetic sensing",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "downhole electromagnetic sensors"
+                            },
+                            {
+                                "value": "borehole electromagnetic sensing"
+                            },
+                            {
+                                "value": "borehole electromagnetic sensor"
+                            },
+                            {
+                                "value": "downhole em sensing"
+                            },
+                            {
+                                "value": "downhole em sensors"
+                            },
+                            {
+                                "value": "borehole em sensing"
+                            },
+                            {
+                                "value": "borehole em sensor"
+                            },
+                            {
+                                "value": "downhole magnetoelastic sensing"
+                            },
+                            {
+                                "value": "borehole magnetoelastic sensing"
+                            },
+                            {
+                                "value": "downhole magnetoelastic sensor"
+                            },
+                            {
+                                "value": "borehole magnetoelastic sensor"
+                            }
+                        ],
                         "children": []
                     },
                     {
@@ -672,7 +802,23 @@
                         "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                         "value": "downhole soil gas probe",
                         "label": "downhole soil gas probe",
-                        "synonyms": [],
+                        "synonyms": [
+                            {
+                                "value": "downhole soil gas monitoring"
+                            },
+                            {
+                                "value": "downhole soil gas sensor"
+                            },
+                            {
+                                "value": "borehole soil gas probe"
+                            },
+                            {
+                                "value": "borehole soil gas monitoring"
+                            },
+                            {
+                                "value": "borehole soil gas sensor"
+                            }
+                        ],
                         "children": []
                     }
                 ]
@@ -741,6 +887,30 @@
                         "synonyms": [
                             {
                                 "value": "(ise)"
+                            },
+                            {
+                                "value": "intervention and stimulation solutions"
+                            },
+                            {
+                                "value": "intervention and stimulation solution"
+                            },
+                            {
+                                "value": "well intervention"
+                            },
+                            {
+                                "value": "well stimulation"
+                            },
+                            {
+                                "value": "borehole ntervention"
+                            },
+                            {
+                                "value": "borehole stimulation"
+                            },
+                            {
+                                "value": "wellbore ntervention"
+                            },
+                            {
+                                "value": "wellbore stimulation"
                             }
                         ],
                         "children": []
@@ -753,6 +923,12 @@
                         "synonyms": [
                             {
                                 "value": "(pps)"
+                            },
+                            {
+                                "value": "pressure transient testing"
+                            },
+                            {
+                                "value": "pressure performance"
                             }
                         ],
                         "children": []
@@ -862,31 +1038,6 @@
                 ]
             },
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling",
-                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
-                "value": "geothermal heating and cooling",
-                "label": "geothermal heating and cooling",
-                "synonyms": [],
-                "children": [
-                    {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling-heat_pump_mobile_unit",
-                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
-                        "value": "heat pump mobile unit",
-                        "label": "heat pump mobile unit",
-                        "synonyms": [],
-                        "children": []
-                    },
-                    {
-                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling-heat_pump_test_rig",
-                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
-                        "value": "heat pump test rig",
-                        "label": "heat pump test rig",
-                        "synonyms": [],
-                        "children": []
-                    }
-                ]
-            },
-            {
                 "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-seismic_monitoring",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/",
                 "value": "seismic monitoring",
@@ -911,6 +1062,12 @@
                             },
                             {
                                 "value": "seismic monitoring borehole"
+                            },
+                            {
+                                "value": "three-component seismometer"
+                            },
+                            {
+                                "value": "three component seismometer"
                             }
                         ],
                         "children": []
@@ -929,6 +1086,9 @@
                             },
                             {
                                 "value": "tilt meter"
+                            },
+                            {
+                                "value": "tilt-strain gauge"
                             }
                         ],
                         "children": []

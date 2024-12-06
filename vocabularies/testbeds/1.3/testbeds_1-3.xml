@@ -124,16 +124,15 @@
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types">
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-field-scale_laboratory_-_active_testing</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-field-scale_observatory_-_passive_monitoring</skos:narrower>
-    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-full-scale_testing_laboratory</skos:narrower>
-    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-geoenergy_testbed</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-geo-energy_testbed</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-in-situ_laboratory</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-monitoring_borehole</skos:narrower>
     <rdfs:label>Facility types</rdfs:label>
   </skos:Concept>
 
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-geoenergy_testbed">
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-geo-energy_testbed">
     <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types</skos:broader>
-    <rdfs:label>geoenergy testbed</rdfs:label>
+    <rdfs:label>geo-energy testbed</rdfs:label>
   </skos:Concept>
 
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-in-situ_laboratory">
@@ -151,11 +150,6 @@
     <rdfs:label>field-scale observatory - passive monitoring</rdfs:label>
   </skos:Concept>
 
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-full-scale_testing_laboratory">
-    <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types</skos:broader>
-    <rdfs:label>full-scale testing laboratory</rdfs:label>
-  </skos:Concept>
-
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types-monitoring_borehole">
     <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/facility_types</skos:broader>
     <rdfs:label>monitoring borehole</rdfs:label>
@@ -167,7 +161,6 @@
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_monitoring</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_testing</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-distributed_fibre_optic_sensing</skos:narrower>
-    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-seismic_monitoring</skos:narrower>
     <rdfs:label>Equipment</rdfs:label>
   </skos:Concept>
@@ -302,10 +295,10 @@
 
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling">
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-borehole_and_geofluid_simulator</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-drill_core</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-drilling_test_rig</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-measurement_while_drilling</skos:narrower>
     <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-mud_logging</skos:narrower>
-    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-rock_samples</skos:narrower>
     <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment</skos:broader>
     <rdfs:label>borehole drilling</rdfs:label>
   </skos:Concept>
@@ -330,37 +323,20 @@
     <rdfs:label>borehole and geofluid simulator</rdfs:label>
   </skos:Concept>
 
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-rock_samples">
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling-drill_core">
     <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_drilling</skos:broader>
-    <rdfs:label>rock samples</rdfs:label>
+    <rdfs:label>drill core</rdfs:label>
   </skos:Concept>
 
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging">
-    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging-open-hole_logging</skos:narrower>
+    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging-open_hole_logging</skos:narrower>
     <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment</skos:broader>
     <rdfs:label>borehole logging</rdfs:label>
   </skos:Concept>
 
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging-open-hole_logging">
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging-open_hole_logging">
     <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-borehole_logging</skos:broader>
-    <rdfs:label>open-hole logging</rdfs:label>
-  </skos:Concept>
-
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling">
-    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling-heat_pump_mobile_unit</skos:narrower>
-    <skos:narrower>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling-heat_pump_test_rig</skos:narrower>
-    <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment</skos:broader>
-    <rdfs:label>geothermal heating and cooling</rdfs:label>
-  </skos:Concept>
-
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling-heat_pump_test_rig">
-    <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling</skos:broader>
-    <rdfs:label>heat pump test rig</rdfs:label>
-  </skos:Concept>
-
-  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling-heat_pump_mobile_unit">
-    <skos:broader>https://epos-msl.uu.nl/voc/testbeds/1.3/equipment-geothermal_heating_and_cooling</skos:broader>
-    <rdfs:label>heat pump mobile unit</rdfs:label>
+    <rdfs:label>open hole logging</rdfs:label>
   </skos:Concept>
 
   <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/testbeds/1.3/models">

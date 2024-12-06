@@ -23815,17 +23815,9 @@
                         "children": []
                     },
                     {
-                        "text": "full-scale testing laboratory",
+                        "text": "geo-energy testbed",
                         "extra": {
-                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-full-scale_testing_laboratory",
-                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
-                        },
-                        "children": []
-                    },
-                    {
-                        "text": "geoenergy testbed",
-                        "extra": {
-                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-geoenergy_testbed",
+                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/facility_types-geo-energy_testbed",
                             "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
                         },
                         "children": []
@@ -23871,6 +23863,14 @@
                                 "children": []
                             },
                             {
+                                "text": "drill core",
+                                "extra": {
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-drill_core",
+                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
+                                },
+                                "children": []
+                            },
+                            {
                                 "text": "drilling test rig",
                                 "extra": {
                                     "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-drilling_test_rig",
@@ -23893,14 +23893,6 @@
                                     "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
                                 },
                                 "children": []
-                            },
-                            {
-                                "text": "rock samples",
-                                "extra": {
-                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_drilling-rock_samples",
-                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
-                                },
-                                "children": []
                             }
                         ]
                     },
@@ -23912,9 +23904,9 @@
                         },
                         "children": [
                             {
-                                "text": "open-hole logging",
+                                "text": "open hole logging",
                                 "extra": {
-                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_logging-open-hole_logging",
+                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-borehole_logging-open_hole_logging",
                                     "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
                                 },
                                 "children": []
@@ -24070,31 +24062,6 @@
                                 "text": "distributed temperature sensing",
                                 "extra": {
                                     "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-distributed_fibre_optic_sensing-distributed_temperature_sensing",
-                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
-                                },
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "text": "geothermal heating and cooling",
-                        "extra": {
-                            "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling",
-                            "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
-                        },
-                        "children": [
-                            {
-                                "text": "heat pump mobile unit",
-                                "extra": {
-                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling-heat_pump_mobile_unit",
-                                    "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
-                                },
-                                "children": []
-                            },
-                            {
-                                "text": "heat pump test rig",
-                                "extra": {
-                                    "uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/equipment-geothermal_heating_and_cooling-heat_pump_test_rig",
                                     "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/testbeds\/1.3\/"
                                 },
                                 "children": []
