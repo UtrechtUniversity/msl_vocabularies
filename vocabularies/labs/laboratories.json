@@ -1,692 +1,548 @@
 [
     {
-        "identifier": "c4ca4238a0b923820dcc509a6f75849b",
+        "identifier": "f9e0f3b0be7565fb3b95d1c2ece8978c",
         "name": "EM Centre",
         "affiliation_name": "Universiteit Utrecht (UU)",
         "affiliation_ror": "https:\/\/ror.org\/04pp8hn57"
     },
     {
-        "identifier": "37693cfc748049e45d87b8c7d8b9aacd",
-        "name": "LNEG",
-        "affiliation_name": "Universidade da Beira Interior (UBI)",
-        "affiliation_ror": "https:\/\/ror.org\/03nf36p02"
-    },
-    {
-        "identifier": "1ff1de774005f8da13f42943881c655f",
+        "identifier": "e85bd300aa400f9bdb807912adb8c518",
         "name": "FCUL",
         "affiliation_name": "Universidade da Beira Interior (UBI)",
         "affiliation_ror": "https:\/\/ror.org\/03nf36p02"
     },
     {
-        "identifier": "33e75ff09dd601bbe69f351039152189",
+        "identifier": "3f145405812f5c7f69206bbd78b33a86",
         "name": "INGV-RM1 - HPHT lab: microanalytical facility",
         "affiliation_name": "Istituto Nazionale di Geofisica e Vulcanologia (INGV)",
         "affiliation_ror": "https:\/\/ror.org\/00qps9a02"
     },
     {
-        "identifier": "6ea9ab1baa0efb9e19094440c317e21b",
+        "identifier": "ce5d8e47870f8569af48c8fd17a563c5",
         "name": "INGV-OV",
         "affiliation_name": "Istituto Nazionale di Geofisica e Vulcanologia (INGV)",
         "affiliation_ror": "https:\/\/ror.org\/00qps9a02"
     },
     {
-        "identifier": "34173cb38f07f89ddbebc2ac9128303f",
+        "identifier": "1259a6ad177ab284e13d97f79a88ba88",
         "name": "Delft Petrophysics Lab",
         "affiliation_name": "Technische Universiteit Delft (TU Delft)",
         "affiliation_ror": "https:\/\/ror.org\/02e2c7k09"
     },
     {
-        "identifier": "182be0c5cdcd5072bb1864cdee4d3d6e",
+        "identifier": "aa45f98e5c098237d0c57b58e5f953e1",
         "name": "TecLab - Tectonic Modelling Laboratory",
         "affiliation_name": "Universiteit Utrecht (UU)",
         "affiliation_ror": "https:\/\/ror.org\/04pp8hn57"
     },
     {
-        "identifier": "e369853df766fa44e1ed0ff613f563bd",
+        "identifier": "01bcc30a6f69953ad32d1a764e4f4676",
         "name": "Geomagnetism Laboratory",
         "affiliation_name": "University of Liverpool",
         "affiliation_ror": "https:\/\/ror.org\/04xs57h96"
     },
     {
-        "identifier": "1c383cd30b7c298ab50293adfecb7b18",
+        "identifier": "c3fff0d9ca9fe9caae131ff2b11f6e67",
         "name": "Archeomagnetism Laboratory",
         "affiliation_name": "CENIEH: National Research Center on Human Evolution",
         "affiliation_ror": ""
     },
     {
-        "identifier": "19ca14e7ea6328a42e0eb13d585e4c22",
+        "identifier": "cfe0c2589c74e06fba23d5577f82122a",
         "name": "Laboratory for Environmental Magnetism",
         "affiliation_name": "Royal Meteorological Institute (KMI)",
         "affiliation_ror": ""
     },
     {
-        "identifier": "a5bfc9e07964f8dddeb95fc584cd965d",
-        "name": "Laboratory of Paleomagnetism",
-        "affiliation_name": "Geociencias Barcelona (Geo3BCN - CSIC)",
-        "affiliation_ror": "https:\/\/ror.org\/01nsd7y51"
-    },
-    {
-        "identifier": "a5771bce93e200c36f7cd9dfd0e5deaa",
+        "identifier": "ff0d8b7e60ac0b69e22ea6b8ecd0ac0d",
         "name": "Paléomagnétisme IPG Paris",
         "affiliation_name": "Institut de physique du globe de Paris (IPGP)",
         "affiliation_ror": "https:\/\/ror.org\/004gzqz66"
     },
     {
-        "identifier": "d645920e395fedad7bbbed0eca3fe2e0",
+        "identifier": "bf6f97618f5714e5c7a3886628315687",
         "name": "labGEOTOP",
         "affiliation_name": "Geociencias Barcelona (Geo3BCN - CSIC)",
         "affiliation_ror": "https:\/\/ror.org\/01nsd7y51"
     },
     {
-        "identifier": "3416a75f4cea9109507cacd8e2f2aefc",
+        "identifier": "8ba860e8b22b52bec2f96a214f9e2568",
         "name": "Laboratory of X-Ray Diffraction",
         "affiliation_name": "Geociencias Barcelona (Geo3BCN - CSIC)",
         "affiliation_ror": "https:\/\/ror.org\/01nsd7y51"
     },
     {
-        "identifier": "a1d0c6e83f027327d8461063f4ac58a6",
+        "identifier": "66dea222f20d276d6db8d51f29c6525f",
         "name": "Andalchron",
         "affiliation_name": "Andalusian Earth Sciences Institute (IACT) - CSIC",
         "affiliation_ror": "https:\/\/ror.org\/00v0g9w49"
     },
     {
-        "identifier": "17e62166fc8586dfa4d1bc0e1742c08b",
+        "identifier": "31e69c18936ab14ffdecfb7f8695b78a",
         "name": "Magma Chamber Analogue Modelling Laboratory",
         "affiliation_name": "Geociencias Barcelona (Geo3BCN - CSIC)",
         "affiliation_ror": "https:\/\/ror.org\/01nsd7y51"
     },
     {
-        "identifier": "f7177163c833dff4b38fc8d2872f1ec6",
+        "identifier": "c8a8a396b310eb8b6aff45dc25c64864",
         "name": "Laboratorio de Modelización Analógica de Estructuras Geológicas",
         "affiliation_name": "Universidad de Granada (UGR)",
         "affiliation_ror": "https:\/\/ror.org\/04njjy449"
     },
     {
-        "identifier": "6c8349cc7260ae62e3b1396831a8398f",
-        "name": "HelTec - Laboratory for experimental tectonics at the Helmholtz Centre Potsdam GFZ",
+        "identifier": "9ba34c109b827b177aab36e0266b1643",
+        "name": "HelTec - Laboratory for experimental tectonics at the GFZ Helmholtz Centre for Geosciences",
         "affiliation_name": "Deutsches GeoForschungsZentrum Potsdam (GFZ)",
         "affiliation_ror": "https:\/\/ror.org\/04z8jg394"
     },
     {
-        "identifier": "d9d4f495e875a2e075a1a4a6e1b9770f",
+        "identifier": "3f93794e1a57b5c3906698aab2c630bc",
         "name": "Laboratory of Experimental Tectonics",
         "affiliation_name": "Roma Tre University",
         "affiliation_ror": "https:\/\/ror.org\/05vf0dg29"
     },
     {
-        "identifier": "67c6a1e7ce56d3d6fa748ab6d9af3fd7",
+        "identifier": "9cd562c216daa82792972a074a222c52",
         "name": "Fragmentation Lab",
         "affiliation_name": "Ludwig-Maximilians-Universität München (LMU)",
         "affiliation_ror": "https:\/\/ror.org\/05591te55"
     },
     {
-        "identifier": "642e92efb79421734881b53e1e1b18b6",
-        "name": "Tectonic Modelling Laboratory (TOOLab) - Firenze",
-        "affiliation_name": "Istituto di Geoscienze e Georisorse (IGG-CNR)",
-        "affiliation_ror": "https:\/\/ror.org\/015bmra78"
-    },
-    {
-        "identifier": "f457c545a9ded88f18ecee47145a72c0",
+        "identifier": "dd35a3d4b656f3c9bb0d88fe2ff654a2",
         "name": "TecLab Bern",
         "affiliation_name": "University of Bern",
         "affiliation_ror": "https:\/\/ror.org\/02k7v4d05"
     },
     {
-        "identifier": "c0c7c76d30bd3dcaefc96f40275bdc0a",
+        "identifier": "0cf1ca58a63ae6674e439c2b1ce0a49c",
         "name": "Analogue Modelling Laboratory at Tectonics and Geodynamics",
         "affiliation_name": "RWTH Aachen University",
         "affiliation_ror": "https:\/\/ror.org\/04xfq0f34"
     },
     {
-        "identifier": "2838023a778dfaecdc212708f721b788",
+        "identifier": "3a9d5ca4a33e7f95d0a2eaa1e8479a13",
         "name": "TecMOD - GECmodel",
         "affiliation_name": "CY Cergy Paris University",
         "affiliation_ror": "https:\/\/ror.org\/043htjv09"
     },
     {
-        "identifier": "9a1158154dfa42caddbd0694a4e9bdc8",
+        "identifier": "84af0ba9f213bc36b12db7903c31e358",
         "name": "Laboratorio de Modelización Analógica",
         "affiliation_name": "University of Zaragoza",
         "affiliation_ror": "https:\/\/ror.org\/012a91z28"
     },
     {
-        "identifier": "d82c8d1619ad8176d665453cfb2e55f0",
+        "identifier": "25c2850521e61ccfc1056acf7a172a07",
         "name": "Bruno Vendeville Analogue Modelling Laboratory",
         "affiliation_name": "Centre National de la Recherche Scientifique (CNRS)",
         "affiliation_ror": "https:\/\/ror.org\/02feahw73"
     },
     {
-        "identifier": "a684eceee76fc522773286a895bc8436",
+        "identifier": "1b9abbf97c7caa2d763b647d476b2910",
         "name": "TecMOD - FASTmodel",
         "affiliation_name": "Centre National de la Recherche Scientifique (CNRS)",
         "affiliation_ror": "https:\/\/ror.org\/02feahw73"
     },
     {
-        "identifier": "b53b3a3d6ab90ce0268229151c9bde11",
+        "identifier": "f780441f60a30a86b752e00adb66f107",
         "name": "TecMOD-F",
         "affiliation_name": "Centre National de la Recherche Scientifique (CNRS)",
         "affiliation_ror": "https:\/\/ror.org\/02feahw73"
     },
     {
-        "identifier": "9f61408e3afb633e50cdf1b20de6f466",
+        "identifier": "c708c8a6df37eef7e827312f182ea80d",
         "name": "Laboratorio de Deformació Experimental",
         "affiliation_name": "Universitat Autònoma de Barcelona",
         "affiliation_ror": "https:\/\/ror.org\/052g8jq94"
     },
     {
-        "identifier": "72b32a1f754ba1c09b3695e0cb6cde7f",
+        "identifier": "912d3d031446daf09e7e6152038f64d3",
         "name": "TecMOD - LMVmodel",
         "affiliation_name": "Centre National de la Recherche Scientifique (CNRS)",
         "affiliation_ror": "https:\/\/ror.org\/02feahw73"
     },
     {
-        "identifier": "66f041e16a60928b05a7e228a89c3799",
+        "identifier": "f4b21c52c84ed94a290c0fe62ed8c647",
         "name": "Core Logging Lab",
         "affiliation_name": "National Institute of Oceanography and Applied Geophysics (OGS)",
         "affiliation_ror": "https:\/\/ror.org\/04y4t7k95"
     },
     {
-        "identifier": "093f65e080a295f8076b1c5722a46aa2",
+        "identifier": "8c098870d3c06b9a98cbde1a50f88027",
         "name": "Melt and magma thermal analysis lab\/High temperature melt lab",
         "affiliation_name": "Ludwig-Maximilians-Universität München (LMU)",
         "affiliation_ror": "https:\/\/ror.org\/05591te55"
     },
     {
-        "identifier": "7f39f8317fbdb1988ef4c628eba02591",
+        "identifier": "2cf0b82b7ad792977e26c32eaf79cbb3",
         "name": "Paleomagnetic Laboratory",
         "affiliation_name": "Istituto Nazionale di Geofisica e Vulcanologia (INGV)",
         "affiliation_ror": "https:\/\/ror.org\/00qps9a02"
     },
     {
-        "identifier": "44f683a84163b3523afe57c2e008bc8c",
+        "identifier": "363d2afb2530e6969d25becf07ad0db4",
         "name": "Paleomagnetic Laboratory",
         "affiliation_name": "National Institute of Geophysics, Geodesy and Geography (NIGGG)",
         "affiliation_ror": "https:\/\/ror.org\/00gywet31"
     },
     {
-        "identifier": "03afdbd66e7929b125f8597834fa83a4",
+        "identifier": "6c110ea0c47b7a32bbe553b6da1ce193",
         "name": "Paleomagnetic laboratory",
         "affiliation_name": "Roma Tre University",
         "affiliation_ror": "https:\/\/ror.org\/05vf0dg29"
     },
     {
-        "identifier": "ea5d2f1c4608232e07d3aa3d998e5135",
+        "identifier": "e96d53bc1aafb9357191cc78283cf013",
         "name": "Paleomagnetic and Rock Magnetic Laboratory",
         "affiliation_name": "University of Burgos",
         "affiliation_ror": "https:\/\/ror.org\/049da5t36"
     },
     {
-        "identifier": "fc490ca45c00b1249bbe3554a4fdf6fb",
+        "identifier": "5a9b77c98dbf6251c55f7074043e87fd",
         "name": "Laboratoire de déformation",
         "affiliation_name": "Centre National de la Recherche Scientifique (CNRS)",
         "affiliation_ror": "https:\/\/ror.org\/02feahw73"
     },
     {
-        "identifier": "3295c76acbf4caaed33c36b1b5fc2cb1",
+        "identifier": "1be8f332e9733337357933a9d72ea232",
         "name": "Rock Deformation Laboratory",
         "affiliation_name": "Deutsches GeoForschungsZentrum Potsdam (GFZ)",
         "affiliation_ror": "https:\/\/ror.org\/04z8jg394"
     },
     {
-        "identifier": "735b90b4568125ed6c3f678819b6e058",
+        "identifier": "9aa3578c25154d16a83d9902de774de4",
         "name": "The Rock Mechanics and Physics Laboratory (RMPL)",
         "affiliation_name": "British Geological Survey (BGS)",
         "affiliation_ror": "https:\/\/ror.org\/04a7gbp98"
     },
     {
-        "identifier": "a3f390d88e4c41f2747bfa2f1b5f87db",
+        "identifier": "bbbd439a8b031538e65b67ed37fd88d6",
         "name": "Rock Mechanics Laboratory",
         "affiliation_name": "University of Portsmouth",
         "affiliation_ror": "https:\/\/ror.org\/03ykbk197"
     },
     {
-        "identifier": "28dd2c7955ce926456240b2ff0100bde",
-        "name": "Geothermal Research Well on TU Delft Campus",
-        "affiliation_name": "Technische Universiteit Delft (TU Delft)",
-        "affiliation_ror": "https:\/\/ror.org\/02e2c7k09"
-    },
-    {
-        "identifier": "35f4a8d465e6e1edc05f3d8ab658c551",
-        "name": "UK Geoenergy Observatory in Glasgow",
-        "affiliation_name": "British Geological Survey (BGS)",
-        "affiliation_ror": "https:\/\/ror.org\/04a7gbp98"
-    },
-    {
-        "identifier": "d1fe173d08e959397adf34b1d77e88d7",
+        "identifier": "e3a4f5d02528d02c516dbea19c20b32c",
         "name": "High Pressure and Temperature (HPT) Laboratory (Earth Simulation Lab)",
         "affiliation_name": "Universiteit Utrecht (UU)",
         "affiliation_ror": "https:\/\/ror.org\/04pp8hn57"
     },
     {
-        "identifier": "f033ab37c30201f73f142449d037028d",
-        "name": "Scientific Center for Optical and Electron Microscopy (ScopeM)",
-        "affiliation_name": "ETH Zurich",
-        "affiliation_ror": "https:\/\/ror.org\/05a28rw58"
-    },
-    {
-        "identifier": "43ec517d68b6edd3015b3edc9a11367b",
+        "identifier": "e01ea0c79fbfb537e8a57e674d8ec346",
         "name": "The Netherlands Isotope Geochemistry Laboratory (NIGeL)",
         "affiliation_name": "Vrije Universiteit Amsterdam",
         "affiliation_ror": "https:\/\/ror.org\/008xxew50"
     },
     {
-        "identifier": "9778d5d219c5080b9a6a17bef029331c",
+        "identifier": "d373893f8b31bfe1647a941367f05e72",
         "name": "VU Argon Geochronology Laboratory",
         "affiliation_name": "Vrije Universiteit Amsterdam",
         "affiliation_ror": "https:\/\/ror.org\/008xxew50"
     },
     {
-        "identifier": "fe9fc289c3ff0af142b6d3bead98a923",
+        "identifier": "60f6273e8979f57ca0d43832af24e432",
         "name": "VU Geobiology Laboratory",
         "affiliation_name": "Vrije Universiteit Amsterdam",
         "affiliation_ror": "https:\/\/ror.org\/008xxew50"
     },
     {
-        "identifier": "68d30a9594728bc39aa24be94b319d21",
+        "identifier": "09df67bf1872a881e983556b65c50622",
         "name": "VU Stable Isotope Laboratory",
         "affiliation_name": "Vrije Universiteit Amsterdam",
         "affiliation_ror": "https:\/\/ror.org\/008xxew50"
     },
     {
-        "identifier": "3ef815416f775098fe977004015c6193",
+        "identifier": "769f645557d5d3149c038d0666f03fd2",
         "name": "VU Mineral Separation Laboratory",
         "affiliation_name": "Vrije Universiteit Amsterdam",
         "affiliation_ror": "https:\/\/ror.org\/008xxew50"
     },
     {
-        "identifier": "93db85ed909c13838ff95ccfa94cebd9",
+        "identifier": "4b785d8c71da65b82b6e76c1dfd40d93",
         "name": "VU Lunar and planetary laboratory",
         "affiliation_name": "Vrije Universiteit Amsterdam",
         "affiliation_ror": "https:\/\/ror.org\/008xxew50"
     },
     {
-        "identifier": "c7e1249ffc03eb9ded908c236bd1996d",
+        "identifier": "5ec0a7ac68ea8971ba7dcdbaae87a4a4",
         "name": "Kuenen-Escher Geodynamics Laboratory (KEG Lab)",
         "affiliation_name": "Vrije Universiteit Amsterdam",
         "affiliation_ror": "https:\/\/ror.org\/008xxew50"
     },
     {
-        "identifier": "2a38a4a9316c49e5a833517c45d31070",
+        "identifier": "0cf823da3e5c151a2bd825a91d3b8454",
         "name": "Paleomagnetic Laboratory Fort Hoofddijk",
         "affiliation_name": "Universiteit Utrecht (UU)",
         "affiliation_ror": "https:\/\/ror.org\/04pp8hn57"
     },
     {
-        "identifier": "7647966b7343c29048673252e490f736",
+        "identifier": "8843bd50fa372f59ddc97d1a6f21f12f",
         "name": "Eurotank Flume Laboratory",
         "affiliation_name": "Universiteit Utrecht (UU)",
         "affiliation_ror": "https:\/\/ror.org\/04pp8hn57"
     },
     {
-        "identifier": "8613985ec49eb8f757ae6439e879bb2a",
+        "identifier": "1f9441ee30e9c0a73ef438dc97487997",
         "name": "Scanning Electron Microscopy Shared Research Facility",
         "affiliation_name": "University of Liverpool",
         "affiliation_ror": "https:\/\/ror.org\/04xs57h96"
     },
     {
-        "identifier": "54229abfcfa5649e7003b83dd4755294",
-        "name": "Experimental tectonics laboratory (UHH-Tec)",
-        "affiliation_name": "University of Hamburg",
-        "affiliation_ror": "https:\/\/ror.org\/00g30e956"
-    },
-    {
-        "identifier": "92cc227532d17e56e07902b254dfad10",
+        "identifier": "15074907275ed2aab90a655e971429b9",
         "name": "MAiMA Isòtops estables i Mineralogia",
         "affiliation_name": "Universitat de Barcelona",
         "affiliation_ror": "https:\/\/ror.org\/021018s57"
     },
     {
-        "identifier": "98dce83da57b0395e163467c9dae521b",
+        "identifier": "ad9d1d9487407914745c98bd65074edc",
         "name": "Molecular and Elemental Isotopic Characterization Unit, Scientific and Technological Centers (CCiTUB)",
         "affiliation_name": "Universitat de Barcelona",
         "affiliation_ror": "https:\/\/ror.org\/021018s57"
     },
     {
-        "identifier": "f4b9ec30ad9f68f89b29639786cb62ef",
+        "identifier": "02b7608a7e58bf889973a20d82d217fe",
         "name": "GEOMODELS Lab",
         "affiliation_name": "Universitat de Barcelona",
         "affiliation_ror": "https:\/\/ror.org\/021018s57"
     },
     {
-        "identifier": "812b4ba287f5ee0bc9d43bbf5bbe87fb",
+        "identifier": "009b51690050c9179ad1ff09fc8b5fdd",
         "name": "Group of Magnetic Applications",
         "affiliation_name": "Universitat Autònoma de Barcelona",
         "affiliation_ror": "https:\/\/ror.org\/052g8jq94"
     },
     {
-        "identifier": "26657d5ff9020d2abefe558796b99584",
+        "identifier": "6755019ede4f10b7393b127965236096",
         "name": "Geochronology and Isotope Geochemistry Facility-SGIker",
         "affiliation_name": "University of the Basque Country",
         "affiliation_ror": "https:\/\/ror.org\/000xsnr85"
     },
     {
-        "identifier": "e2ef524fbf3d9fe611d5a8e90fefdc9c",
+        "identifier": "48df4be4c4d6662ed4273f16b00343f6",
         "name": "Rock Mechanics Laboratory",
         "affiliation_name": "Durham University",
         "affiliation_ror": "https:\/\/ror.org\/01v29qb04"
     },
     {
-        "identifier": "ed3d2c21991e3bef5e069713af9fa6ca",
+        "identifier": "72f006ac24b7b6bc5588d3096ea0111f",
         "name": "Laboratory of Stable Isotopes and Noble Gas NUCLEUS",
         "affiliation_name": "University of Salamanca",
         "affiliation_ror": "https:\/\/ror.org\/02f40zc51"
     },
     {
-        "identifier": "ac627ab1ccbdb62ec96e702f07f6425b",
+        "identifier": "3ffb26ba67914aeb2ec22f93415088a8",
         "name": "Laboratorios Analíticos de Geoquímica",
         "affiliation_name": "University of Oviedo",
         "affiliation_ror": "https:\/\/ror.org\/006gksa02"
     },
     {
-        "identifier": "f899139df5e1059396431415e770c6dd",
+        "identifier": "0d2892477f7ab2a23fdbbd22496e9d90",
         "name": "IBERSIMS-SHRIMP Laboratory",
         "affiliation_name": "Universidad de Granada (UGR)",
         "affiliation_ror": "https:\/\/ror.org\/04njjy449"
     },
     {
-        "identifier": "38b3eff8baf56627478ec76a704e9b52",
+        "identifier": "3469c2abf3a0d3902c83e3adae683647",
         "name": "TIMS laboratory for Geochronology and Isotopic Geochemistry",
         "affiliation_name": "Complutense University of Madrid",
         "affiliation_ror": "https:\/\/ror.org\/02p0gd045"
     },
     {
-        "identifier": "ec8956637a99787bd197eacd77acce5e",
+        "identifier": "519e854908885ee38b7671fd82aca203",
         "name": "Rock & Ice Physics Laboratory",
         "affiliation_name": "University College London",
         "affiliation_ror": "https:\/\/ror.org\/02jx3x895"
     },
     {
-        "identifier": "6974ce5ac660610b44d9b9fed0ff9548",
+        "identifier": "973f953f1a2b63b7ce2377268b4041e9",
         "name": "Applied Geoscience Hydrogen and CO2 Laboratory",
         "affiliation_name": "University of Edinburgh (UEDIN)",
         "affiliation_ror": "https:\/\/ror.org\/01nrxwf90"
     },
     {
-        "identifier": "c9e1074f5b3f9fc8ea15d152add07294",
+        "identifier": "ece44a25524274a91251910c0f7c4d85",
         "name": "Earth Sciences Institute of Orléans",
         "affiliation_name": "Institut des Sciences de la Terre d'Orléans",
         "affiliation_ror": "https:\/\/ror.org\/02t2hg116"
     },
     {
-        "identifier": "65b9eea6e1cc6bb9f0cd2a47751a186f",
+        "identifier": "9d8748975fd5d8b44cfef516b8deb098",
         "name": "Microseismology and Rock Physics Laboratory",
         "affiliation_name": "Instituto Politécnico de Lisboa",
         "affiliation_ror": "ttps:\/\/ror.org\/04ea70f07"
     },
     {
-        "identifier": "f0935e4cd5920aa6c7c996a5ee53a70f",
+        "identifier": "5580650c9a079144208b62291de6e4fe",
         "name": "Geomechanics Laboratory, GEOLAB-CERENA",
         "affiliation_name": "Instituto Superior Técnico",
         "affiliation_ror": "https:\/\/ror.org\/03db2by73"
     },
     {
-        "identifier": "a97da629b098b75c294dffdc3e463904",
+        "identifier": "953b030cda729a389b846ddf8172c1ff",
         "name": "Paleomagnetic Laboratory - IDL",
         "affiliation_name": "Instituto Dom Luiz",
         "affiliation_ror": "https:\/\/ror.org\/046ggxs83"
     },
     {
-        "identifier": "a3c65c2974270fd093ee8a9bf8ae7d0b",
-        "name": "Prokop Závada",
-        "affiliation_name": "Czech Academy of Sciences",
-        "affiliation_ror": "https:\/\/ror.org\/053avzc18"
-    },
-    {
-        "identifier": "2723d092b63885e0d7c260cc007e8b9d",
+        "identifier": "2613a7211e1498423ed604baff8efef9",
         "name": "Laboratory for High Pressures and High Temperatures of Experimental Geophysics and Volcanology (HPHT Lab)",
         "affiliation_name": "Istituto Nazionale di Geofisica e Vulcanologia (INGV)",
         "affiliation_ror": "https:\/\/ror.org\/00qps9a02"
     },
     {
-        "identifier": "5f93f983524def3dca464469d2cf9f3e",
+        "identifier": "642d15e4962339445cd6b60aebb8571c",
         "name": "Laboratory of AMS",
         "affiliation_name": "University of Zaragoza",
         "affiliation_ror": "https:\/\/ror.org\/012a91z28"
     },
     {
-        "identifier": "698d51a19d8a121ce581499d7b701668",
+        "identifier": "abffc206fde4d92e6a99314edff00f98",
         "name": "Analytical Laboratories",
         "affiliation_name": "Instituto Geológico y Minero de España (IGME)",
         "affiliation_ror": "https:\/\/ror.org\/04cadha73"
     },
     {
-        "identifier": "7f6ffaa6bb0b408017b62254211691b5",
+        "identifier": "8a1ad1734bdabed2b5ef05f0b6956895",
         "name": "Laboratory of Geochemical Microanalysis - Pavia",
         "affiliation_name": "Istituto di Geoscienze e Georisorse (IGG-CNR)",
         "affiliation_ror": "https:\/\/ror.org\/015bmra78"
     },
     {
-        "identifier": "73278a4a86960eeb576a8fd4c9ec6997",
+        "identifier": "a7bb56c14b2a1e34c94b29ab6dba7cf2",
         "name": "Noble gases laboratory",
         "affiliation_name": "Istituto di Geoscienze e Georisorse (IGG-CNR)",
         "affiliation_ror": "https:\/\/ror.org\/015bmra78"
     },
     {
-        "identifier": "5fd0b37cd7dbbb00f97ba6ce92bf5add",
-        "name": "Ar-Ar Geochronology Laboratory - Pisa",
-        "affiliation_name": "Istituto di Geoscienze e Georisorse (IGG-CNR)",
-        "affiliation_ror": "https:\/\/ror.org\/015bmra78"
-    },
-    {
-        "identifier": "2b44928ae11fb9384c4cf38708677c48",
-        "name": "Laboratory of Geochemistry and Stable Isotopes - Pisa",
-        "affiliation_name": "Istituto di Geoscienze e Georisorse (IGG-CNR)",
-        "affiliation_ror": "https:\/\/ror.org\/015bmra78"
-    },
-    {
-        "identifier": "c45147dee729311ef5b5c3003946c48f",
+        "identifier": "01b0a80e0f68171f033be6b785d25063",
         "name": "Laboratory of Thermochronology - Firenze",
         "affiliation_name": "Istituto di Geoscienze e Georisorse (IGG-CNR)",
         "affiliation_ror": "https:\/\/ror.org\/015bmra78"
     },
     {
-        "identifier": "eb160de1de89d9058fcb0b968dbbbd68",
+        "identifier": "de06d05ebede454776df07c5de7f0c90",
         "name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa",
         "affiliation_name": "Istituto di Geoscienze e Georisorse (IGG-CNR)",
         "affiliation_ror": "https:\/\/ror.org\/015bmra78"
     },
     {
-        "identifier": "5ef059938ba799aaa845e1c2e8a762bd",
+        "identifier": "5f7c8ccbe6dc7fa403b3f7c6041a76a8",
         "name": "Laboratory of Paleomagnetism",
         "affiliation_name": "University of Vigo",
         "affiliation_ror": "https:\/\/ror.org\/05rdf8595"
     },
     {
-        "identifier": "07e1cd7dca89a1678042477183b7ac3f",
+        "identifier": "f2973460d7af47a4cf1dd7853ffb03d7",
         "name": "Laboratories for Geothermal Rock and Fluid Physics",
         "affiliation_name": "Deutsches GeoForschungsZentrum Potsdam (GFZ)",
         "affiliation_ror": "https:\/\/ror.org\/04z8jg394"
     },
     {
-        "identifier": "da4fb5c6e93e74d3df8527599fa62642",
-        "name": "Magnetic Material Laboratory of GeoSphere Austria",
-        "affiliation_name": "GeoSphere Austria",
-        "affiliation_ror": "https:\/\/ror.org\/0181cy234"
-    },
-    {
-        "identifier": "4c56ff4ce4aaf9573aa5dff913df997a",
-        "name": "Paleomagnetic Laboratory Conrad Observatory",
-        "affiliation_name": "GeoSphere Austria",
-        "affiliation_ror": "https:\/\/ror.org\/0181cy234"
-    },
-    {
-        "identifier": "a0a080f42e6f13b3a2df133f073095dd",
-        "name": "Fraunhofer Research Institution for Energy Infrastructures and Geothermal Systems IEG",
-        "affiliation_name": "Fraunhofer Research Institution for Energy Infrastructures and Geothermal Systems IEG",
-        "affiliation_ror": "https:\/\/ror.org\/00y718461"
-    },
-    {
-        "identifier": "202cb962ac59075b964b07152d234b70",
+        "identifier": "3b8fed72cf84e5c6bcccb0a74562a95d",
         "name": "Electron Microprobe, XRD, FTIR and XRF",
         "affiliation_name": "University of Lisbon",
         "affiliation_ror": "https:\/\/ror.org\/01c27hj86"
     },
     {
-        "identifier": "c8ffe9a587b126f152ed3d89a146b445",
+        "identifier": "423b1218dc5426c1569326c050081fbd",
         "name": "Laboratoire de mécaniques des solides",
         "affiliation_name": "École Polytechnique",
         "affiliation_ror": "https:\/\/ror.org\/05hy3tk52"
     },
     {
-        "identifier": "3def184ad8f4755ff269862ea77393dd",
+        "identifier": "b03f4137ada3325fff270b348555d5d5",
         "name": "Laboratoire des fluides complexes et leur réservoirs",
         "affiliation_name": "Universite de Pau et des Pays de l'Adour (UPPA)",
         "affiliation_ror": "https:\/\/ror.org\/01frn9647"
     },
     {
-        "identifier": "069059b7ef840f0c74a814ec9237b6ec",
+        "identifier": "1dc5d11b9353599d153f139c02d9e458",
         "name": "CEREGE Rock Magnetism Laboratory",
         "affiliation_name": "Aix-Marseille University",
         "affiliation_ror": "https:\/\/ror.org\/035xkbk20"
     },
     {
-        "identifier": "ec5decca5ed3d6b8079e2e7e7bacc9f2",
+        "identifier": "d0133f39c5081a996fa8edfc6bdbaade",
         "name": "Laboratoire de Géologie",
         "affiliation_name": "École Normale Supérieure (ENS)",
         "affiliation_ror": "https:\/\/ror.org\/05a0dhs15"
     },
     {
-        "identifier": "76dc611d6ebaafc66cc0879c71b5db5c",
+        "identifier": "a964b1861b23b1a3ab45366737a6c096",
         "name": "Paléomagnétisme Géosciences Environnement",
         "affiliation_name": "Université de Toulouse",
         "affiliation_ror": "https:\/\/ror.org\/004raaa70"
     },
     {
-        "identifier": "d1f491a404d6854880943e5c3cd9ca25",
+        "identifier": "818754e4579a6ad6e7fdfd8b97168ab5",
         "name": "Paléomagnétisme LSCE (CEA)",
         "affiliation_name": "Université de Versailles Saint-Quentin-en-Yvelines",
         "affiliation_ror": "https:\/\/ror.org\/03mkjjy25"
     },
     {
-        "identifier": "9b8619251a19057cff70779273e95aa6",
+        "identifier": "cdc8a61ba9f1327a72b75602773a8aa4",
         "name": "TecMOD - Geoϕlab",
         "affiliation_name": "Le Mans Université",
         "affiliation_ror": "https:\/\/ror.org\/01mtcc283"
     },
     {
-        "identifier": "1afa34a7f984eeabdbb0a7d494132ee5",
+        "identifier": "f0a8cd7e3e62ad8998ec863a7db63132",
         "name": "Paléomagnétisme Géosciences Montpellier",
         "affiliation_name": "Université de Montpellier",
         "affiliation_ror": "https:\/\/ror.org\/051escj72"
     },
     {
-        "identifier": "65ded5353c5ee48d0b7d48c591b8f430",
+        "identifier": "2fbc7ed93520ec97286452aac791c0bc",
         "name": "TecMOD - GEOAZURmodel",
         "affiliation_name": "Centre National de la Recherche Scientifique (CNRS)",
         "affiliation_ror": "https:\/\/ror.org\/02feahw73"
     },
     {
-        "identifier": "9fc3d7152ba9336a670e36d0ed79bc43",
+        "identifier": "9b8d69fde0d11979bf57761d190bf479",
         "name": "Paléomagnétisme Géosciences Rennes",
         "affiliation_name": "University of Rennes",
         "affiliation_ror": "https:\/\/ror.org\/015m7wh34"
     },
     {
-        "identifier": "02522a2b2726fb0a03bb19f2d8d9524d",
+        "identifier": "09e434194091574963c80f83d586875d",
         "name": "TecMOD - GRmodel",
         "affiliation_name": "University of Rennes",
         "affiliation_ror": "https:\/\/ror.org\/015m7wh34"
     },
     {
-        "identifier": "7f1de29e6da19d22b51c68001e7e0e54",
+        "identifier": "d3ee46d9f26bd5d38cd9212b2a107b2d",
         "name": "GET-EXP-MOD - GETmodel",
         "affiliation_name": "Université de Toulouse",
         "affiliation_ror": "https:\/\/ror.org\/004raaa70"
     },
     {
-        "identifier": "42a0e188f5033bc65bf8d78622277c4e",
+        "identifier": "f28005bf8cf9ec0d284d123f0369131b",
         "name": "ISTERRE",
         "affiliation_name": "Grenoble Alpes University",
         "affiliation_ror": "https:\/\/ror.org\/02rx3b187"
     },
     {
-        "identifier": "3988c7f88ebcb58c6ce932b957b6f332",
+        "identifier": "2a7a775bbfe0e2a9ba8438fc250a2a1d",
         "name": "Laboratoire 3S-R",
         "affiliation_name": "Grenoble Alpes University",
         "affiliation_ror": "https:\/\/ror.org\/02rx3b187"
     },
     {
-        "identifier": "013d407166ec4fa56eb1e1f8cbe183b9",
+        "identifier": "1d216a0482566fbfb46c6677211968f4",
         "name": "Georessources",
         "affiliation_name": "Grenoble Alpes University",
         "affiliation_ror": "https:\/\/ror.org\/02rx3b187"
     },
     {
-        "identifier": "e00da03b685a0dd18fb6a08af0923de0",
+        "identifier": "f40f7fd30b6eb223669ffa5df445b85e",
         "name": "Geosciences Montpellier",
         "affiliation_name": "Université de Montpellier",
         "affiliation_ror": "https:\/\/ror.org\/051escj72"
     },
     {
-        "identifier": "1385974ed5904a438616ff7bdb3f7439",
-        "name": "Laboratory of Paleomagnetism",
-        "affiliation_name": "Complutense University of Madrid",
-        "affiliation_ror": "https:\/\/ror.org\/02p0gd045"
-    },
-    {
-        "identifier": "0f28b5d49b3020afeecd95b4009adf4c",
+        "identifier": "fc52ed0d9e03a9603828eddc12bdfb7c",
         "name": "Rock Physics and Mechanics Laboratory",
         "affiliation_name": "ETH Zurich",
         "affiliation_ror": "https:\/\/ror.org\/05a28rw58"
-    },
-    {
-        "identifier": "a8baa56554f96369ab93e4f3bb068c22",
-        "name": "Rock mechanics and earthquake physics lab",
-        "affiliation_name": "Sapienza University of Rome",
-        "affiliation_ror": "https:\/\/ror.org\/02be6w209"
-    },
-    {
-        "identifier": "1d7f7abc18fcb43975065399b0d1e48e",
-        "name": "LCGM- Laboratory for Characterization of Geological Materials",
-        "affiliation_name": "University of Porto",
-        "affiliation_ror": "https:\/\/ror.org\/043pwc612"
-    },
-    {
-        "identifier": "2a79ea27c279e471f4d180b08d62b00a",
-        "name": "Laboratorio de Magnetismo de Materiales y Magnetismo Ambiental (L-MAGMA)",
-        "affiliation_name": "Instituto Geográfico Nacional (IGN)",
-        "affiliation_ror": "https:\/\/ror.org\/03yycdv57"
-    },
-    {
-        "identifier": "1c9ac0159c94d8d0cbedc973445af2da",
-        "name": "Geological Marine Reference Collections (GMRC)",
-        "affiliation_name": "Institut de Ciències del Mar",
-        "affiliation_ror": "https:\/\/ror.org\/05ect0289"
-    },
-    {
-        "identifier": "6c4b761a28b734fe93831e3fb400ce87",
-        "name": "ICM-CSIC Sedimentology, Geochemistry and Geotechnics Lab",
-        "affiliation_name": "Institut de Ciències del Mar",
-        "affiliation_ror": "https:\/\/ror.org\/05ect0289"
-    },
-    {
-        "identifier": "06409663226af2f3114485aa4e0a23b4",
-        "name": "Rock Mechanics Laboratory, LaMeRoc",
-        "affiliation_name": "Universidade da Coruña",
-        "affiliation_ror": "https:\/\/ror.org\/01qckj285"
-    },
-    {
-        "identifier": "140f6969d5213fd0ece03148e62e461e",
-        "name": "Archaeometry and Archaeological Analysis Unit",
-        "affiliation_name": "Complutense University of Madrid",
-        "affiliation_ror": "https:\/\/ror.org\/02p0gd045"
-    },
-    {
-        "identifier": "b73ce398c39f506af761d2277d853a92",
-        "name": "Sapienza Laboratory of Stable Isotopes (SLSI)",
-        "affiliation_name": "Sapienza University of Rome",
-        "affiliation_ror": "https:\/\/ror.org\/02be6w209"
-    },
-    {
-        "identifier": "bd4c9ab730f5513206b999ec0d90d1fb",
-        "name": "Bedretto Underground Laboratory for Geosciences and Geoenergies (BedrettoLab)",
-        "affiliation_name": "ETH Zurich",
-        "affiliation_ror": "https:\/\/ror.org\/05a28rw58"
-    },
-    {
-        "identifier": "82aa4b0af34c2313a562076992e50aa3",
-        "name": "Laboratory for Paleomagnetism and Environmental Studies",
-        "affiliation_name": "Institute of Geophysics - Polish Academy of Sciences",
-        "affiliation_ror": "https:\/\/ror.org\/04rc9d057"
     }
 ]
