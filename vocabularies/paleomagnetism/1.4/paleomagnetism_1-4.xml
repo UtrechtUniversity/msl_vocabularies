@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+  <skos:ConceptScheme rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/">
+    <skos:prefLabel>Paleomagnetism</skos:prefLabel>
+    <skos:hasTopConcept rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus"/>
+    <skos:hasTopConcept rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control"/>
+    <skos:hasTopConcept rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+    <skos:hasTopConcept rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-sampling_and_preparation"/>
+    <skos:topConceptOf rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+    <skos:prefLabel>Apparatus</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-astatic_magnetometer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement"/>
+        <skos:prefLabel>astatic magnetometer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-cryogenic_magnetometer"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-microwave_palaeointensity_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement"/>
+        <skos:prefLabel>microwave palaeointensity system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-optically_pumped_rock_magnetometer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement"/>
+        <skos:prefLabel>optically pumped rock magnetometer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-spinner_magnetometer"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-vibrating_sample_magnetometer_vsm"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus"/>
+    <skos:prefLabel>natural remanent magnetisation measurement</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-cryogenic_magnetometer">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-cryogenic_magnetometer-cryogenic_magnetometer_for_discrete_samples">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-cryogenic_magnetometer"/>
+        <skos:prefLabel>cryogenic magnetometer for discrete samples</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-cryogenic_magnetometer-cryogenic_magnetometer_for_long_core">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-cryogenic_magnetometer"/>
+        <skos:prefLabel>cryogenic magnetometer for long core</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>cryogenic magnetometer</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-spinner_magnetometer">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-spinner_magnetometer-agico_spinner_magnetometer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-spinner_magnetometer"/>
+        <skos:prefLabel>AGICO spinner magnetometer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-spinner_magnetometer-molspin_minispin">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-spinner_magnetometer"/>
+        <skos:prefLabel>Molspin minispin</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-spinner_magnetometer-molspin_spinner">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-spinner_magnetometer"/>
+        <skos:prefLabel>Molspin spinner</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>spinner magnetometer</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-vibrating_sample_magnetometer_vsm">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-vibrating_sample_magnetometer_vsm-single_axis_vsm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-vibrating_sample_magnetometer_vsm"/>
+        <skos:prefLabel>single axis VSM</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-vibrating_sample_magnetometer_vsm-triaxe">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-vibrating_sample_magnetometer_vsm"/>
+        <skos:prefLabel>Triaxe</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-vibrating_sample_magnetometer_vsm-triaxial_vsm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement-vibrating_sample_magnetometer_vsm"/>
+        <skos:prefLabel>triaxial VSM</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-natural_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>vibrating sample magnetometer (VSM)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-bitter_patterns">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+        <skos:prefLabel>Bitter patterns</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-coercitivity_spectrometer"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-variable_field_translation_balance_vftb"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus"/>
+    <skos:prefLabel>laboratory induced remanent magnetisation measurement</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm-2g_in_line_isothermal_remanent_magnetisation_irm_device">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm"/>
+        <skos:prefLabel>2G in line isothermal remanent magnetisation (IRM) device</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm-2g_pulse_magnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm"/>
+        <skos:prefLabel>2G pulse magnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm-agico_pulse_magnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm"/>
+        <skos:prefLabel>AGICO pulse magnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm-asc_pulse_magnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm"/>
+        <skos:prefLabel>ASC pulse magnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm-m2t_pulse_magnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm"/>
+        <skos:prefLabel>M2T pulse magnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm-magnetic_measurements_pulse_magnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-isothermal_remanent_magnetiser_irm"/>
+        <skos:prefLabel>magnetic measurements pulse magnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>isothermal remanent magnetiser (IRM)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm-2g_in_line_anhysteretic_magnetiser_unit_amu">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm"/>
+        <skos:prefLabel>2G in line anhysteretic magnetiser unit (AMU)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm-agico_anhysteretic_magnetiser_unit_amu">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm"/>
+        <skos:prefLabel>AGICO anhysteretic magnetiser unit (AMU)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm-asc_dtech2000_in_line_anysteretic_magnetiser_unit_amu">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm"/>
+        <skos:prefLabel>ASC DTech2000 in line anysteretic magnetiser unit (AMU)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm-molspin_in-line_anysteretic_magnetiser_unit_amu">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm"/>
+        <skos:prefLabel>Molspin in-line anysteretic magnetiser unit (AMU)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm-schonsted_anhysteretic_magnetiser_unit_amu">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-anhysteretic_remanence_magnetiser_arm"/>
+        <skos:prefLabel>Schonsted anhysteretic magnetiser unit (AMU)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>anhysteretic remanence magnetiser (ARM)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm-asc_scientific_thermal_demagnetiser_-_dual_chamber_with_controlled_field_coil">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm"/>
+        <skos:prefLabel>ASC Scientific thermal demagnetiser - dual chamber with controlled field coil</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm-asc_scientific_thermal_demagnetiser_-_single_chamber_with_controlled_field_coil">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm"/>
+        <skos:prefLabel>ASC Scientific thermal demagnetiser - single chamber with controlled field coil</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm-magnetic_measurements_super-cooled_thermal_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm"/>
+        <skos:prefLabel>Magnetic measurements super-cooled thermal demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm-magnetic_measurements_thermal_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm"/>
+        <skos:prefLabel>Magnetic measurements thermal demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm-pyrox_scientific_thermal_demagnetiser_with_controlled_field_coil">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm"/>
+        <skos:prefLabel>Pyrox Scientific thermal demagnetiser with controlled field coil</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm-triaxe">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-thermoremanent_magnetiser_trm"/>
+        <skos:prefLabel>Triaxe</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>thermoremanent magnetiser (TRM)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-coercitivity_spectrometer">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-coercitivity_spectrometer-mossbauer_spectrometer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-coercitivity_spectrometer"/>
+        <skos:prefLabel>Mössbauer spectrometer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>coercitivity spectrometer</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-variable_field_translation_balance_vftb">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-variable_field_translation_balance_vftb-mag_instruments_variable_field_translation_balance">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-variable_field_translation_balance_vftb"/>
+        <skos:prefLabel>MAG instruments variable field translation balance</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-variable_field_translation_balance_vftb-modified_horizontal_translation_curie_balance">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-variable_field_translation_balance_vftb"/>
+        <skos:prefLabel>modified horizontal translation Curie balance</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>variable field translation balance (VFTB)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-ac_hysteresis_meter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties"/>
+        <skos:prefLabel>AC hysteresis meter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-alternating_gradient_magnetometer_agm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties"/>
+        <skos:prefLabel>alternating gradient magnetometer (AGM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-magnetic_properties_measurement_system_mpms">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties"/>
+        <skos:prefLabel>magnetic properties measurement system (MPMS)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-physical_property_measurement_system_ppms">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties"/>
+        <skos:prefLabel>physical property measurement system (PPMS)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-vibrating_sample_magnetometer_vsm_-_hysteresis_properties"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>hysteresis properties</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-vibrating_sample_magnetometer_vsm_-_hysteresis_properties">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-vibrating_sample_magnetometer_vsm_-_hysteresis_properties-single_axis_vsm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-vibrating_sample_magnetometer_vsm_-_hysteresis_properties"/>
+        <skos:prefLabel>single axis VSM</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-vibrating_sample_magnetometer_vsm_-_hysteresis_properties-triaxial_vsm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties-vibrating_sample_magnetometer_vsm_-_hysteresis_properties"/>
+        <skos:prefLabel>triaxial VSM</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-hysteresis_properties"/>
+    <skos:prefLabel>vibrating sample magnetometer (VSM) - hysteresis properties</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning-atomic_force_microscope_afm_magnetic_scanning">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning"/>
+        <skos:prefLabel>atomic force microscope (AFM) magnetic scanning</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning-magnetic_force_microscope_mfm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning"/>
+        <skos:prefLabel>magnetic force microscope (MFM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning-magneto_optic_kerr_effect_moke">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning"/>
+        <skos:prefLabel>magneto optic Kerr effect (MOKE)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning-quantum_diamond_microscope_qdm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning"/>
+        <skos:prefLabel>quantum diamond microscope (QDM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning-superconducting_quantum_interference_device_squid_microscope">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement-microscope_magnetic_scanning"/>
+        <skos:prefLabel>superconducting quantum interference device (SQUID) microscope</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-laboratory_induced_remanent_magnetisation_measurement"/>
+    <skos:prefLabel>microscope magnetic scanning</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus"/>
+    <skos:prefLabel>magnetic susceptibility measurements</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter-agico_kappabridge_susceptibility_meter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter"/>
+        <skos:prefLabel>AGICO Kappabridge susceptibility meter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter-bartington_magnetic_susceptibility_meter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter"/>
+        <skos:prefLabel>Bartington magnetic susceptibility meter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter-dynomag_ac_susceptibility_meter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter"/>
+        <skos:prefLabel>DynoMag AC susceptibility meter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter-lakeshore_susceptibility_meter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter"/>
+        <skos:prefLabel>Lakeshore susceptibility meter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter-magnon_susceptibility_meter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter"/>
+        <skos:prefLabel>Magnon susceptibility meter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter-mpms_susceptibility_meter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter"/>
+        <skos:prefLabel>MPMS susceptibility meter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter-sapphire_instruments_susceptibility_meter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements-susceptibility_meter"/>
+        <skos:prefLabel>Sapphire Instruments susceptibility meter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-magnetic_susceptibility_measurements"/>
+    <skos:prefLabel>susceptibility meter</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus"/>
+    <skos:prefLabel>demagnetiser</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser-2g_in-line_af_degausser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser"/>
+        <skos:prefLabel>2G in-line AF degausser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser-agico_af_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser"/>
+        <skos:prefLabel>AGICO AF demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser-asc_af_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser"/>
+        <skos:prefLabel>ASC AF demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser-molspin_af_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser"/>
+        <skos:prefLabel>Molspin AF demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser-rmi_af_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser"/>
+        <skos:prefLabel>RMI AF demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser-schonstedt_af_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-alternating_field_af_demagnetiser"/>
+        <skos:prefLabel>Schonstedt AF demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser"/>
+    <skos:prefLabel>alternating field (AF) demagnetiser</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser-asc_scientific_thermal_demagnetiser_-_absolute_paleointensity">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+        <skos:prefLabel>ASC Scientific thermal demagnetiser - absolute paleointensity</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser-asc_scientific_thermal_demagnetiser_-_dual_chamber">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+        <skos:prefLabel>ASC Scientific thermal demagnetiser - dual chamber</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser-asc_scientific_thermal_demagnetiser_-_single_chamber">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+        <skos:prefLabel>ASC Scientific thermal demagnetiser - single chamber</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser-magnetic_measurements_super-cooled_thermal_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+        <skos:prefLabel>Magnetic measurements super-cooled thermal demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser-magnetic_measurements_thermal_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+        <skos:prefLabel>Magnetic measurements thermal demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser-pyrox_scientific_thermal_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+        <skos:prefLabel>Pyrox Scientific thermal demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser-schonstedt_thermal_demagnetiser">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+        <skos:prefLabel>Schonstedt thermal demagnetiser</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser-triaxe">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser-thermal_demagnetiser"/>
+        <skos:prefLabel>Triaxe</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-demagnetiser"/>
+    <skos:prefLabel>thermal demagnetiser</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-sampling_and_preparation">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-sampling_and_preparation-franz_magnetic_separator">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-sampling_and_preparation"/>
+        <skos:prefLabel>Franz magnetic separator</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-sampling_and_preparation-magnetic_extraction_system_in_aqueous_phase">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-sampling_and_preparation"/>
+        <skos:prefLabel>magnetic extraction system in aqueous phase</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus"/>
+    <skos:prefLabel>sampling and preparation</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_gradiometer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement"/>
+        <skos:prefLabel>portable gradiometer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_magnetometer"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus"/>
+    <skos:prefLabel>on-site measurement</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_magnetometer">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_magnetometer-bartington_single_axis_fluxgate">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_magnetometer"/>
+        <skos:prefLabel>Bartington single axis fluxgate</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_magnetometer-overhauser_magnetometer_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_magnetometer"/>
+        <skos:prefLabel>Overhauser magnetometer system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_magnetometer-portable_spinning_magnetometer_psm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_magnetometer"/>
+        <skos:prefLabel>Portable spinning magnetometer (PSM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement"/>
+    <skos:prefLabel>portable magnetometer</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg-bartington_psg">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg"/>
+        <skos:prefLabel>Bartington PSG</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg-gf_instruments_psg">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg"/>
+        <skos:prefLabel>GF Instruments PSG</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg-si2b_psg">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg"/>
+        <skos:prefLabel>SI2B PSG</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg-terraplus_psg">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg"/>
+        <skos:prefLabel>TerraPlus PSG</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg-zh_instruments_psg">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement-portable_susceptibility_meter_psg"/>
+        <skos:prefLabel>ZH Instruments PSG</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/apparatus-on-site_measurement"/>
+    <skos:prefLabel>portable susceptibility meter (PSG)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control"/>
+    <skos:topConceptOf rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+    <skos:prefLabel>Environment control</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-helmholtz_coils"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control"/>
+    <skos:prefLabel>contolled magnetic field area</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room-lodestar_magnetics_chamber">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room"/>
+        <skos:prefLabel>Lodestar magnetics chamber</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room-mu_metal_chamber">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room"/>
+        <skos:prefLabel>Mu metal chamber</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room-soft_iron_chamber">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room"/>
+        <skos:prefLabel>soft iron chamber</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room-soudupin_chamber">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-shielded_room"/>
+        <skos:prefLabel>Soudupin chamber</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area"/>
+    <skos:prefLabel>shielded room</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-helmholtz_coils">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-helmholtz_coils-magnetic_measurements_active_shielding">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-helmholtz_coils"/>
+        <skos:prefLabel>Magnetic Measurements active shielding</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-helmholtz_coils-magnetic_measurements_low_field_cage">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area-helmholtz_coils"/>
+        <skos:prefLabel>Magnetic Measurements low field cage</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-contolled_magnetic_field_area"/>
+    <skos:prefLabel>Helmholtz coils</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control-cryostat_paleomagnetism">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control"/>
+        <skos:prefLabel>cryostat (paleomagnetism)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control-oven_paleomagnetism"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control"/>
+    <skos:prefLabel>temperature control</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control-oven_paleomagnetism">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control-oven_paleomagnetism-muffle_furnace">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control-oven_paleomagnetism"/>
+        <skos:prefLabel>muffle furnace</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control-oven_paleomagnetism-slow_cooling_oven">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control-oven_paleomagnetism"/>
+        <skos:prefLabel>slow cooling oven</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-temperature_control"/>
+    <skos:prefLabel>oven (paleomagnetism)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system-air_atmosphere">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system"/>
+        <skos:prefLabel>air atmosphere</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system-argon_atmosphere">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system"/>
+        <skos:prefLabel>argon atmosphere</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system-carbon_dioxide_atmosphere">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system"/>
+        <skos:prefLabel>carbon dioxide atmosphere</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system-carbon_monoxide_atmosphere">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system"/>
+        <skos:prefLabel>carbon monoxide atmosphere</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system-evacuated_atmosphere_vacuum">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system"/>
+        <skos:prefLabel>evacuated atmosphere (vacuum)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system-helium_atmosphere">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system"/>
+        <skos:prefLabel>helium atmosphere</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system-nitrogen_atmosphere">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control-atmosphere_control_system"/>
+        <skos:prefLabel>nitrogen atmosphere</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/environment_control"/>
+    <skos:prefLabel>atmosphere control system</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-first_order_reversal_curve_forc">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+        <skos:prefLabel>first order reversal curve (FORC)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_remanence_demagnetisation_curves">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+        <skos:prefLabel>magnetic remanence demagnetisation curves</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetisation_acquisition_curves">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+        <skos:prefLabel>magnetisation acquisition curves</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-paleointensity"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-thermomagnetic_magnetisation_curves"/>
+    <skos:topConceptOf rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+    <skos:prefLabel>Measured property</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-paleointensity">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-paleointensity-absolute_paleointensity">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-paleointensity"/>
+        <skos:prefLabel>absolute paleointensity</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-paleointensity-relative_paleointensity">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-paleointensity"/>
+        <skos:prefLabel>relative paleointensity</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+    <skos:prefLabel>paleointensity</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation-alternating_field_af_demagnetisation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation"/>
+        <skos:prefLabel>alternating field (AF) demagnetisation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation-chemical_demagnetisation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation"/>
+        <skos:prefLabel>chemical demagnetisation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation-low_temperature_demagnetisation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation"/>
+        <skos:prefLabel>low temperature demagnetisation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation-microwave_demagnetisation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation"/>
+        <skos:prefLabel>microwave demagnetisation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation-thermal_demagnetisation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-demagnetisation"/>
+        <skos:prefLabel>thermal demagnetisation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+    <skos:prefLabel>demagnetisation</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-anhysteretic_remanent_magnetisation_arm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>anhysteretic remanent magnetisation (ARM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-backfield_remanence_coercivity_brc">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>backfield remanence coercivity (BRC)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-chemical_remanent_magnetisation_crm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>chemical remanent magnetisation (CRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-depositional_remanent_magnetisation_drm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>depositional remanent magnetisation (DRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-gyromagnetic_remanent_magnetisation_grm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>gyromagnetic remanent magnetisation (GRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-isothermal_remanent_magnetisation_irm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>isothermal remanent magnetisation (IRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-natural_remanent_magnetisation_nrm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>natural remanent magnetisation (NRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-partial_anhysteretic_remanent_magnetisation_parm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>partial anhysteretic remanent magnetisation (pARM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-post-depositional_remanent_magnetisation_pdrm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>post-depositional remanent magnetisation (pDRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-reversed_thermoremanent_magnetisation_rtrm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>reversed thermoremanent magnetisation (rTRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation-thermoremanent_magnetisation_trm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-remanent_magnetisation"/>
+        <skos:prefLabel>thermoremanent magnetisation (TRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+    <skos:prefLabel>remanent magnetisation</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy-anisotropy_of_anhysteretic_remanent_magnetisation_aarm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy"/>
+        <skos:prefLabel>anisotropy of anhysteretic remanent magnetisation (AARM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy-anisotropy_of_isothermal_remanent_magnetisation_airm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy"/>
+        <skos:prefLabel>anisotropy of isothermal remanent magnetisation (AIRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy-anisotropy_of_magnetic_susceptibility_ams">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy"/>
+        <skos:prefLabel>anisotropy of magnetic susceptibility (AMS)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy-anisotropy_of_partial_anhysteretic_remanent_magnetisation_paarm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy"/>
+        <skos:prefLabel>anisotropy of partial anhysteretic remanent magnetisation (pAARM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy-anisotropy_of_thermalremanent_magnetisation_atrm">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_anisotropy"/>
+        <skos:prefLabel>anisotropy of thermalremanent magnetisation (ATRM)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+    <skos:prefLabel>magnetic anisotropy</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters"/>
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+    <skos:prefLabel>magnetic hysteresis curves</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters-bias_exchange_field">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters"/>
+        <skos:prefLabel>bias exchange field</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters-coercive_force">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters"/>
+        <skos:prefLabel>coercive force</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters-high-field_susceptibility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters"/>
+        <skos:prefLabel>high-field susceptibility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters-hysteresis_shape_parameter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters"/>
+        <skos:prefLabel>hysteresis shape parameter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters-remanent_coercive_force">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters"/>
+        <skos:prefLabel>remanent coercive force</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters-saturation_magnetisation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters"/>
+        <skos:prefLabel>saturation magnetisation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters-saturation_remanence">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves-hysteresis_parameters"/>
+        <skos:prefLabel>saturation remanence</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_hysteresis_curves"/>
+    <skos:prefLabel>hysteresis parameters</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-thermomagnetic_magnetisation_curves">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-thermomagnetic_magnetisation_curves-high_temperature_thermomagnetic_curves">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-thermomagnetic_magnetisation_curves"/>
+        <skos:prefLabel>high temperature thermomagnetic curves</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-thermomagnetic_magnetisation_curves-low_temperature_thermomagnetic_curves">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-thermomagnetic_magnetisation_curves"/>
+        <skos:prefLabel>low temperature thermomagnetic curves</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+    <skos:prefLabel>thermomagnetic magnetisation curves</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility-bulk_magnetic_susceptibility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility"/>
+        <skos:prefLabel>bulk magnetic susceptibility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility-field_dependent_magnetic_susceptibility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility"/>
+        <skos:prefLabel>field dependent magnetic susceptibility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility-frequency_dependendent_magnetic_susceptibility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility"/>
+        <skos:prefLabel>frequency dependendent magnetic susceptibility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility-high_temperature_magnetic_susceptibility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility"/>
+        <skos:prefLabel>high temperature magnetic susceptibility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility-in-phase_magnetic_susceptibility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility"/>
+        <skos:prefLabel>in-phase magnetic susceptibility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility-low_temperature_magnetic_susceptibility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility"/>
+        <skos:prefLabel>low temperature magnetic susceptibility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility-out-of-phase_magnetic_susceptibility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property-magnetic_susceptibility"/>
+        <skos:prefLabel>out-of-phase magnetic susceptibility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/measured_property"/>
+    <skos:prefLabel>magnetic susceptibility</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+    <skos:topConceptOf rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+    <skos:prefLabel>Inferred behavior</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-deformation_and_compaction_in_sediments">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>deformation and compaction in sediments</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-dike_flow_direction">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>dike flow direction</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-ductile_deformation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>ductile deformation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-emplacement_of_ore_body">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>emplacement of ore body</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-lava_flow_direction">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>lava flow direction</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_degree">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>magnetic anisotropy degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anomalies">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>magnetic anomalies</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_foliation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>magnetic foliation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_lineation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>magnetic lineation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-natural_remanent_magnetisation_nrm_orientation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>natural remanent magnetisation (NRM) orientation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-paleo-magnetic_current_direction">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>paleo-magnetic current direction</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-principal_axes_of_magnetic_susceptibility_and_remancence">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+        <skos:prefLabel>principal axes of magnetic susceptibility and remancence</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior"/>
+    <skos:prefLabel>anisotropy of magnetic susceptibility and remanence</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure-magnetic_anisotropy_through_crystallographic_preferred_orientation_cpo">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure"/>
+        <skos:prefLabel>magnetic anisotropy through crystallographic preferred orientation (CPO)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure-magnetic_anisotropy_through_mineralogical_structure">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure"/>
+        <skos:prefLabel>magnetic anisotropy through mineralogical structure</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure-magnetic_anisotropy_through_sedimentary_structure">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure"/>
+        <skos:prefLabel>magnetic anisotropy through sedimentary structure</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure-magnetic_anisotropy_through_shape_preferred_orientation_spo">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence-magnetic_anisotropy_through_rock_structure"/>
+        <skos:prefLabel>magnetic anisotropy through shape preferred orientation (SPO)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-anisotropy_of_magnetic_susceptibility_and_remanence"/>
+    <skos:prefLabel>magnetic anisotropy through rock structure</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-archaeological_environment">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>archaeological environment</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-environmental_pollution">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>environmental pollution</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-heating_potential_of_magnetic_nanoparticles">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>heating potential of magnetic nanoparticles</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-inferred_paleoclimate">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>inferred paleoclimate</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-inferred_paleoenvironment">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>inferred paleoenvironment</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-magnetic_domain_state">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>magnetic domain state</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-mineral_phase_analysis">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>mineral phase analysis</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-origin_of_remanence">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>origin of remanence</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses-remanent_magnetisation_stability">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-magnetic_mineralogy_analyses"/>
+        <skos:prefLabel>remanent magnetisation stability</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior"/>
+    <skos:prefLabel>magnetic mineralogy analyses</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-_paleo-secular_variation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>(paleo-)secular variation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-absolute_palaeointensity">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>absolute palaeointensity</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-archeomagnetic_dating">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>archeomagnetic dating</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-archeomagnetism">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>archeomagnetism</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-crustal_block_rotation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>crustal block rotation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-dating_volcanic_products">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>dating volcanic products</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-geodynamic_and_tectonic_processes">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>geodynamic and tectonic processes</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-geomagnetic_polarity_time_scale_gpts">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>geomagnetic polarity time scale (GPTS)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-inferred_paleogeography">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>inferred paleogeography</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-magnetostratigraphy">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>magnetostratigraphy</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing-relative_paleointensity">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior-natural_remanent_magnetisation_processing"/>
+        <skos:prefLabel>relative paleointensity</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/inferred_behavior"/>
+    <skos:prefLabel>natural remanent magnetisation processing</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/paleomagnetism/1.4/"/>
+  </skos:Concept>
+
+</rdf:RDF>

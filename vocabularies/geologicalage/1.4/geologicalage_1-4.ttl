@@ -1,0 +1,1662 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/>
+  a skos:ConceptScheme ;
+  skos:prefLabel "Geological age" ;
+  skos:hasTopConcept <https://epos-msl.uu.nl/voc/geologicalage/1.4/present-day>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/formationofearth> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/present-day>
+  a skos:Concept ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalage/1.4/> ;
+  skos:prefLabel "present-day" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Present> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Present> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalage/1.4/> ;
+  skos:prefLabel "Phanerozoic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic> ;
+  skos:prefLabel "Cenozoic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Cenozoic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Cenozoic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-holocene>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic> ;
+  skos:prefLabel "Quaternary" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Quaternary> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Quaternary> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-holocene>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary> ;
+  skos:prefLabel "Holocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Holocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Holocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene-calabrian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene-gelasian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene-middlepleistocene>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene-upperlatepleistocene> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary> ;
+  skos:prefLabel "Pleistocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Pleistocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Pleistocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene-upperlatepleistocene>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene> ;
+  skos:prefLabel "Upper/LatePleistocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Upper/LatePleistocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Upper/LatePleistocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene-middlepleistocene>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene> ;
+  skos:prefLabel "MiddlePleistocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene-calabrian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene> ;
+  skos:prefLabel "Calabrian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Calabrian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Calabrian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene-gelasian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-quaternary-pleistocene> ;
+  skos:prefLabel "Gelasian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Gelasian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Gelasian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-pliocene> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic> ;
+  skos:prefLabel "Neogene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Neogene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Neogene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-pliocene>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-pliocene-piacenzian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-pliocene-zanclean> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene> ;
+  skos:prefLabel "Pliocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Pliocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Pliocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-pliocene-piacenzian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-pliocene> ;
+  skos:prefLabel "Piacenzian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Piacenzian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Piacenzian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-pliocene-zanclean>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-pliocene> ;
+  skos:prefLabel "Zanclean" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Zanclean> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Zanclean> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-aquitanian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-burdigalian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-langhian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-messinian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-serravallian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-tortonian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene> ;
+  skos:prefLabel "Miocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Miocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Miocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-messinian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene> ;
+  skos:prefLabel "Messinian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Messinian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Messinian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-tortonian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene> ;
+  skos:prefLabel "Tortonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Tortonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Tortonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-serravallian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene> ;
+  skos:prefLabel "Serravallian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Serravallian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Serravallian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-langhian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene> ;
+  skos:prefLabel "Langhian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Langhian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Langhian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-burdigalian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene> ;
+  skos:prefLabel "Burdigalian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Burdigalian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Burdigalian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene-aquitanian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-neogene-miocene> ;
+  skos:prefLabel "Aquitanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Aquitanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Aquitanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-oligocene>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic> ;
+  skos:prefLabel "Paleogene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Paleogene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Paleogene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-oligocene>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-oligocene-chattian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-oligocene-rupelian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene> ;
+  skos:prefLabel "Oligocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Oligocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Oligocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-oligocene-chattian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-oligocene> ;
+  skos:prefLabel "Chattian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Chattian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Chattian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-oligocene-rupelian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-oligocene> ;
+  skos:prefLabel "Rupelian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Rupelian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Rupelian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene-bartonian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene-lutetian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene-priabonian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene-ypresian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene> ;
+  skos:prefLabel "Eocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Eocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Eocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene-priabonian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene> ;
+  skos:prefLabel "Priabonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Priabonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Priabonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene-lutetian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene> ;
+  skos:prefLabel "Lutetian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lutetian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lutetian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene-bartonian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene> ;
+  skos:prefLabel "Bartonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Bartonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Bartonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene-ypresian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-eocene> ;
+  skos:prefLabel "Ypresian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene-danian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene-selandian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene-thanetian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene> ;
+  skos:prefLabel "Paleocene" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Paleocene> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Paleocene> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene-thanetian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene> ;
+  skos:prefLabel "Thanetian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Thanetian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Thanetian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene-selandian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene> ;
+  skos:prefLabel "Selandian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Selandian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Selandian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene-danian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-cenozoic-paleogene-paleocene> ;
+  skos:prefLabel "Danian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Danian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Danian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic> ;
+  skos:prefLabel "Mesozoic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Mesozoic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Mesozoic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic> ;
+  skos:prefLabel "Cretaceous" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Cretaceous> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Cretaceous> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-campanian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-cenomanian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-coniacian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-maastrichtian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-santonian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-turonian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous> ;
+  skos:prefLabel "Upper/LateCretaceous" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateCretaceous> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateCretaceous> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-maastrichtian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous> ;
+  skos:prefLabel "Maastrichtian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Maastrichtian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Maastrichtian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-campanian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous> ;
+  skos:prefLabel "Campanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Campanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Campanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-santonian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous> ;
+  skos:prefLabel "Santonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Santonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Santonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-coniacian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous> ;
+  skos:prefLabel "Coniacian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Coniacian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Coniacian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-turonian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous> ;
+  skos:prefLabel "Turonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Turonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Turonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-cenomanian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-upperlatecretaceous> ;
+  skos:prefLabel "Cenomanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Cenomanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Cenomanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-albian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-aptian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-barremian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-berriasian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-hauterivian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-valanginian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous> ;
+  skos:prefLabel "Lower/EarlyCretaceous" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyCretaceous> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyCretaceous> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-albian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous> ;
+  skos:prefLabel "Albian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Albian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Albian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-aptian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous> ;
+  skos:prefLabel "Aptian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Aptian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Aptian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-barremian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous> ;
+  skos:prefLabel "Barremian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Barremian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Barremian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-hauterivian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous> ;
+  skos:prefLabel "Hauterivian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Hauterivian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Hauterivian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-valanginian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous> ;
+  skos:prefLabel "Valanginian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Valanginian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Valanginian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-berriasian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous> ;
+  skos:prefLabel "Berriasian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Berriasian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Berriasian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic> ;
+  skos:prefLabel "Jurassic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Jurassic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Jurassic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic-kimmeridgian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic-oxfordian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic-tithonian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic> ;
+  skos:prefLabel "Upper/LateJurassic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateJurassic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateJurassic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic-tithonian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic> ;
+  skos:prefLabel "Tithonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Tithonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Tithonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic-kimmeridgian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic> ;
+  skos:prefLabel "Kimmeridgian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Kimmeridgian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Kimmeridgian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic-oxfordian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-upperlatejurassic> ;
+  skos:prefLabel "Oxfordian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Oxfordian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Oxfordian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic-aalenian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic-bajocian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic-bathonian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic-callovian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic> ;
+  skos:prefLabel "MiddleJurassic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic-callovian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic> ;
+  skos:prefLabel "Callovian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Callovian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Callovian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic-bathonian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic> ;
+  skos:prefLabel "Bathonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Bathonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Bathonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic-bajocian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic> ;
+  skos:prefLabel "Bajocian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Bajocian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Bajocian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic-aalenian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-middlejurassic> ;
+  skos:prefLabel "Aalenian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Aalenian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Aalenian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-hettangian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-pliensbachian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-sinemurian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-toarcian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic> ;
+  skos:prefLabel "Lower/EarlyJurassic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyJurassic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyJurassic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-toarcian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic> ;
+  skos:prefLabel "Toarcian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Toarcian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Toarcian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-pliensbachian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic> ;
+  skos:prefLabel "Pliensbachian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Pliensbachian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Pliensbachian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-sinemurian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic> ;
+  skos:prefLabel "Sinemurian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Sinemurian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Sinemurian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-hettangian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-jurassic-lowerearlyjurassic> ;
+  skos:prefLabel "Hettangian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Hettangian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Hettangian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-lowerearlytriassic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-middletriassic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic> ;
+  skos:prefLabel "Triassic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Triassic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Triassic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic-carnian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic-norian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic-rhaetian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic> ;
+  skos:prefLabel "Upper/LateTriassic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateTriassic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateTriassic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic-rhaetian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic> ;
+  skos:prefLabel "Rhaetian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Rhaetian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Rhaetian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic-norian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic> ;
+  skos:prefLabel "Norian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Norian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Norian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic-carnian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-upperlatetriassic> ;
+  skos:prefLabel "Carnian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Carnian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Carnian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-middletriassic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-middletriassic-anisian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-middletriassic-ladinian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic> ;
+  skos:prefLabel "MiddleTriassic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/MiddleTriassic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddleTriassic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-middletriassic-ladinian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-middletriassic> ;
+  skos:prefLabel "Ladinian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Ladinian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Ladinian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-middletriassic-anisian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-middletriassic> ;
+  skos:prefLabel "Anisian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Anisian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Anisian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-lowerearlytriassic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-lowerearlytriassic-induan>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-lowerearlytriassic-olenekian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic> ;
+  skos:prefLabel "Lower/EarlyTriassic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyTriassic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyTriassic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-lowerearlytriassic-olenekian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-lowerearlytriassic> ;
+  skos:prefLabel "Olenekian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Olenekian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Olenekian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-lowerearlytriassic-induan>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-mesozoic-triassic-lowerearlytriassic> ;
+  skos:prefLabel "Induan" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Induan> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Induan> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic> ;
+  skos:prefLabel "Paleozoic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Paleozoic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Paleozoic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-lopingian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic> ;
+  skos:prefLabel "Permian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Permian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Permian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-lopingian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-lopingian-changhsingian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-lopingian-wuchiapingian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian> ;
+  skos:prefLabel "Lopingian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lopingian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lopingian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-lopingian-changhsingian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-lopingian> ;
+  skos:prefLabel "Changhsingian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Changhsingian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Changhsingian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-lopingian-wuchiapingian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-lopingian> ;
+  skos:prefLabel "Wuchiapingian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Wuchiapingian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Wuchiapingian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian-capitanian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian-roadian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian-wordian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian> ;
+  skos:prefLabel "Guadalupian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Guadalupian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Guadalupian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian-capitanian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian> ;
+  skos:prefLabel "Capitanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Capitanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Capitanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian-wordian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian> ;
+  skos:prefLabel "Wordian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Wordian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Wordian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian-roadian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-guadalupian> ;
+  skos:prefLabel "Roadian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Roadian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Roadian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian-artinskian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian-asselian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian-kungurian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian-sakmarian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian> ;
+  skos:prefLabel "Cisuralian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Cisuralian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Cisuralian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian-kungurian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian> ;
+  skos:prefLabel "Kungurian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Kungurian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Kungurian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian-artinskian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian> ;
+  skos:prefLabel "Artinskian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Artinskian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Artinskian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian-sakmarian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian> ;
+  skos:prefLabel "Sakmarian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Sakmarian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Sakmarian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian-asselian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-permian-cisuralian> ;
+  skos:prefLabel "Asselian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Asselian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Asselian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic> ;
+  skos:prefLabel "Carboniferous" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Carboniferous> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Carboniferous> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous> ;
+  skos:prefLabel "Pennsylvanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Pennsylvanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Pennsylvanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-gzhelian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-kasimovian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian> ;
+  skos:prefLabel "Upper/LatePennsylvanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Upper/LatePennsylvanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Upper/LatePennsylvanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-kasimovian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian> ;
+  skos:prefLabel "Kasimovian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Kasimovian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Kasimovian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-gzhelian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian> ;
+  skos:prefLabel "Gzhelian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Gzhelian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Gzhelian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian-moscovian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian> ;
+  skos:prefLabel "MiddlePennsylvanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/MiddlePennsylvanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddlePennsylvanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian-moscovian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian> ;
+  skos:prefLabel "Moscovian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Moscovian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Moscovian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian-bashkirian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian> ;
+  skos:prefLabel "Lower/EarlyPennsylvanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyPennsylvanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyPennsylvanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian-bashkirian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian> ;
+  skos:prefLabel "Bashkirian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Bashkirian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Bashkirian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous> ;
+  skos:prefLabel "Mississippian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Mississippian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Mississippian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian-serpukhovian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian> ;
+  skos:prefLabel "Upper/LateMississippian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateMississippian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateMississippian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian-serpukhovian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian> ;
+  skos:prefLabel "Serpukhovian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Serpukhovian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Serpukhovian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian-visean> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian> ;
+  skos:prefLabel "MiddleMississippian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/MiddleMississippian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddleMississippian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian-visean>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian> ;
+  skos:prefLabel "Visean" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Visean> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Visean> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian-tournaisian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian> ;
+  skos:prefLabel "Lower/EarlyMississippian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyMississippian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyMississippian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian-tournaisian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian> ;
+  skos:prefLabel "Tournaisian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Tournaisian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Tournaisian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-middledevonian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-upperlatedevonian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic> ;
+  skos:prefLabel "Devonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Devonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Devonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-upperlatedevonian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-upperlatedevonian-famennian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-upperlatedevonian-frasnian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian> ;
+  skos:prefLabel "Upper/LateDevonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateDevonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateDevonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-upperlatedevonian-famennian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-upperlatedevonian> ;
+  skos:prefLabel "Famennian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Famennian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Famennian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-upperlatedevonian-frasnian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-upperlatedevonian> ;
+  skos:prefLabel "Frasnian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Frasnian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Frasnian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-middledevonian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-middledevonian-eifelian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-middledevonian-givetian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian> ;
+  skos:prefLabel "MiddleDevonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/MiddleDevonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddleDevonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-middledevonian-givetian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-middledevonian> ;
+  skos:prefLabel "Givetian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Givetian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Givetian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-middledevonian-eifelian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-middledevonian> ;
+  skos:prefLabel "Eifelian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Eifelian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Eifelian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian-emsian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian-lochkovian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian-pragian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian> ;
+  skos:prefLabel "Lower/EarlyDevonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyDevonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyDevonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian-emsian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian> ;
+  skos:prefLabel "Emsian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Emsian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Emsian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian-pragian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian> ;
+  skos:prefLabel "Pragian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Pragian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Pragian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian-lochkovian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-devonian-lowerearlydevonian> ;
+  skos:prefLabel "Lochkovian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lochkovian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lochkovian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-ludlow>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-pridoli>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-wenlock> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic> ;
+  skos:prefLabel "Silurian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Silurian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Silurian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-pridoli>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian> ;
+  skos:prefLabel "Pridoli" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Pridoli> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Pridoli> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-ludlow>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-ludlow-gorstian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-ludlow-ludfordian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian> ;
+  skos:prefLabel "Ludlow" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Ludlow> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Ludlow> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-ludlow-ludfordian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-ludlow> ;
+  skos:prefLabel "Ludfordian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Ludfordian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Ludfordian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-ludlow-gorstian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-ludlow> ;
+  skos:prefLabel "Gorstian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Gorstian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Gorstian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-wenlock>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-wenlock-homerian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-wenlock-sheinwoodian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian> ;
+  skos:prefLabel "Wenlock" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Wenlock> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Wenlock> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-wenlock-homerian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-wenlock> ;
+  skos:prefLabel "Homerian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Homerian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Homerian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-wenlock-sheinwoodian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-wenlock> ;
+  skos:prefLabel "Sheinwoodian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Sheinwoodian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Sheinwoodian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery-aeronian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery-rhuddanian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery-telychian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian> ;
+  skos:prefLabel "Llandovery" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Llandovery> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Llandovery> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery-telychian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery> ;
+  skos:prefLabel "Telychian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Telychian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Telychian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery-aeronian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery> ;
+  skos:prefLabel "Aeronian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Aeronian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Aeronian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery-rhuddanian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-silurian-llandovery> ;
+  skos:prefLabel "Rhuddanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Rhuddanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Rhuddanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-lowerearlyordovician>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-middleordovician>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic> ;
+  skos:prefLabel "Ordovician" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Ordovician> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Ordovician> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician-hirnantian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician-katian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician-sandbian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician> ;
+  skos:prefLabel "Upper/LateOrdovician" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateOrdovician> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Upper/LateOrdovician> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician-hirnantian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician> ;
+  skos:prefLabel "Hirnantian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Hirnantian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Hirnantian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician-katian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician> ;
+  skos:prefLabel "Katian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Katian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Katian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician-sandbian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-upperlateordovician> ;
+  skos:prefLabel "Sandbian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Sandbian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Sandbian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-middleordovician>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-middleordovician-dapingian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-middleordovician-darriwilian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician> ;
+  skos:prefLabel "MiddleOrdovician" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/MiddleOrdovician> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddleOrdovician> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-middleordovician-darriwilian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-middleordovician> ;
+  skos:prefLabel "Darriwilian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Darriwilian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Darriwilian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-middleordovician-dapingian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-middleordovician> ;
+  skos:prefLabel "Dapingian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Dapingian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Dapingian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-lowerearlyordovician>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-lowerearlyordovician-floian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-lowerearlyordovician-tremadocian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician> ;
+  skos:prefLabel "Lower/EarlyOrdovician" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyOrdovician> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Lower/EarlyOrdovician> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-lowerearlyordovician-floian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-lowerearlyordovician> ;
+  skos:prefLabel "Floian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Floian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Floian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-lowerearlyordovician-tremadocian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-ordovician-lowerearlyordovician> ;
+  skos:prefLabel "Tremadocian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Tremadocian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Tremadocian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries2>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-terreneuvian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic> ;
+  skos:prefLabel "Cambrian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Cambrian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Cambrian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian-cambrianstage10>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian-jiangshanian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian-paibian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian> ;
+  skos:prefLabel "Furongian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Furongian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Furongian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian-cambrianstage10>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian> ;
+  skos:prefLabel "CambrianStage10" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage10> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage10> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian-jiangshanian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian> ;
+  skos:prefLabel "Jiangshanian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Jiangshanian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Jiangshanian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian-paibian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-furongian> ;
+  skos:prefLabel "Paibian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Paibian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Paibian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3-cambrianstage5>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3-drumian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3-guzhangian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian> ;
+  skos:prefLabel "CambrianSeries3" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/CambrianSeries3> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/CambrianSeries3> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3-guzhangian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3> ;
+  skos:prefLabel "Guzhangian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Guzhangian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Guzhangian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3-drumian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3> ;
+  skos:prefLabel "Drumian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Drumian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Drumian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3-cambrianstage5>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries3> ;
+  skos:prefLabel "CambrianStage5" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage5> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage5> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries2>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage3>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage4> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian> ;
+  skos:prefLabel "CambrianSeries2" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/CambrianSeries2> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/CambrianSeries2> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage4>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries2> ;
+  skos:prefLabel "CambrianStage4" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage4> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage4> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage3>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-cambrianseries2> ;
+  skos:prefLabel "CambrianStage3" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage3> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage3> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-terreneuvian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-terreneuvian-cambrianstage2>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-terreneuvian-fortunian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian> ;
+  skos:prefLabel "Terreneuvian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Terreneuvian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Terreneuvian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-terreneuvian-cambrianstage2>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-terreneuvian> ;
+  skos:prefLabel "CambrianStage2" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage2> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage2> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-terreneuvian-fortunian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/phanerozoic-paleozoic-cambrian-terreneuvian> ;
+  skos:prefLabel "Fortunian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Fortunian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Fortunian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-hadean>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalage/1.4/> ;
+  skos:prefLabel "Precambrian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Precambrian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Precambrian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian> ;
+  skos:prefLabel "Proterozoic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Proterozoic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Proterozoic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic-cryogenian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic-ediacaran>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic-tonian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic> ;
+  skos:prefLabel "Neoproterozoic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Neoproterozoic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Neoproterozoic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic-ediacaran>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic> ;
+  skos:prefLabel "Ediacaran" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Ediacaran> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Ediacaran> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic-cryogenian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic> ;
+  skos:prefLabel "Cryogenian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Cryogenian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Cryogenian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic-tonian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-neoproterozoic> ;
+  skos:prefLabel "Tonian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Tonian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Tonian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic-calymmian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic-ectasian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic-stenian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic> ;
+  skos:prefLabel "Mesoproterozoic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Mesoproterozoic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Mesoproterozoic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic-stenian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic> ;
+  skos:prefLabel "Stenian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Stenian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Stenian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic-ectasian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic> ;
+  skos:prefLabel "Ectasian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Ectasian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Ectasian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic-calymmian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-mesoproterozoic> ;
+  skos:prefLabel "Calymmian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Calymmian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Calymmian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic-orosirian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic-rhyacian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic-siderian>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic-statherian> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic> ;
+  skos:prefLabel "Paleoproterozoic" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Paleoproterozoic> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Paleoproterozoic> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic-statherian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic> ;
+  skos:prefLabel "Statherian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Statherian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Statherian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic-orosirian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic> ;
+  skos:prefLabel "Orosirian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Orosirian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Orosirian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic-rhyacian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic> ;
+  skos:prefLabel "Rhyacian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Rhyacian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Rhyacian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic-siderian>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-proterozoic-paleoproterozoic> ;
+  skos:prefLabel "Siderian" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Siderian> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Siderian> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean-eoarchean>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean-mesoarchean>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean-neoarchean>, <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean-paleoarchean> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian> ;
+  skos:prefLabel "Archean" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Archean> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Archean> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean-eoarchean>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean> ;
+  skos:prefLabel "Eoarchean" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Eoarchean> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Eoarchean> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean-mesoarchean>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean> ;
+  skos:prefLabel "Mesoarchean" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Mesoarchean> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Mesoarchean> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean-neoarchean>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean> ;
+  skos:prefLabel "Neoarchean" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Neoarchean> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Neoarchean> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean-paleoarchean>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-archean> ;
+  skos:prefLabel "Paleoarchean" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Paleoarchean> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Paleoarchean> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian-hadean>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalage/1.4/precambrian> ;
+  skos:prefLabel "Hadean" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/Hadean> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Hadean> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalage/1.4/formationofearth>
+  a skos:Concept ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalage/1.4/> ;
+  skos:prefLabel "FormationOfEarth" ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/FormationOfEarth> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/FormationOfEarth> ;
+  dc:source "geosciml" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalage/1.4/> .
+

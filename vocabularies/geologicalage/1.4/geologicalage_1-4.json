@@ -1,0 +1,1858 @@
+[
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/present-day",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+        "value": "present-day",
+        "label": "present-day",
+        "synonyms": [
+            {
+                "value": "presentday"
+            },
+            {
+                "value": "present-day"
+            },
+            {
+                "value": "antropogenic setting"
+            }
+        ],
+        "children": [],
+        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Present",
+        "external_vocab_scheme": "geosciml"
+    },
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+        "value": "Phanerozoic",
+        "label": "Phanerozoic",
+        "synonyms": [],
+        "children": [
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                "value": "Cenozoic",
+                "label": "Cenozoic",
+                "synonyms": [
+                    {
+                        "value": "cenozoic times"
+                    }
+                ],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Neogene",
+                        "label": "Neogene",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-miocene",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Miocene",
+                                "label": "Miocene",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-miocene-aquitanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Aquitanian",
+                                        "label": "Aquitanian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Aquitanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-miocene-burdigalian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Burdigalian",
+                                        "label": "Burdigalian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Burdigalian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-miocene-langhian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Langhian",
+                                        "label": "Langhian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Langhian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-miocene-messinian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Messinian",
+                                        "label": "Messinian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Messinian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-miocene-serravallian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Serravallian",
+                                        "label": "Serravallian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Serravallian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-miocene-tortonian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Tortonian",
+                                        "label": "Tortonian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Tortonian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Miocene",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-pliocene",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Pliocene",
+                                "label": "Pliocene",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-pliocene-piacenzian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Piacenzian",
+                                        "label": "Piacenzian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Piacenzian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-neogene-pliocene-zanclean",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Zanclean",
+                                        "label": "Zanclean",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Zanclean",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Pliocene",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Neogene",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Paleogene",
+                        "label": "Paleogene",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-eocene",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Eocene",
+                                "label": "Eocene",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-eocene-bartonian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Bartonian",
+                                        "label": "Bartonian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Bartonian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-eocene-lutetian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Lutetian",
+                                        "label": "Lutetian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lutetian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-eocene-priabonian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Priabonian",
+                                        "label": "Priabonian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Priabonian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-eocene-ypresian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Ypresian",
+                                        "label": "Ypresian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Ypresian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Eocene",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-oligocene",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Oligocene",
+                                "label": "Oligocene",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-oligocene-chattian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Chattian",
+                                        "label": "Chattian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Chattian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-oligocene-rupelian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Rupelian",
+                                        "label": "Rupelian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Rupelian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Oligocene",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-paleocene",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Paleocene",
+                                "label": "Paleocene",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-paleocene-danian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Danian",
+                                        "label": "Danian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Danian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-paleocene-selandian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Selandian",
+                                        "label": "Selandian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Selandian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-paleogene-paleocene-thanetian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Thanetian",
+                                        "label": "Thanetian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Thanetian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Paleocene",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Paleogene",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-quaternary",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Quaternary",
+                        "label": "Quaternary",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-quaternary-holocene",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Holocene",
+                                "label": "Holocene",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Holocene",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-quaternary-pleistocene",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Pleistocene",
+                                "label": "Pleistocene",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-quaternary-pleistocene-calabrian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Calabrian",
+                                        "label": "Calabrian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Calabrian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-quaternary-pleistocene-gelasian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Gelasian",
+                                        "label": "Gelasian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Gelasian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-quaternary-pleistocene-middlepleistocene",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "MiddlePleistocene",
+                                        "label": "MiddlePleistocene",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/MiddlePleistocene",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-cenozoic-quaternary-pleistocene-upperlatepleistocene",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Upper\/LatePleistocene",
+                                        "label": "Upper\/LatePleistocene",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Upper\/LatePleistocene",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Pleistocene",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Quaternary",
+                        "external_vocab_scheme": "geosciml"
+                    }
+                ],
+                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Cenozoic",
+                "external_vocab_scheme": "geosciml"
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                "value": "Mesozoic",
+                "label": "Mesozoic",
+                "synonyms": [],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Cretaceous",
+                        "label": "Cretaceous",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Lower\/EarlyCretaceous",
+                                "label": "Lower\/EarlyCretaceous",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-albian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Albian",
+                                        "label": "Albian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Albian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-aptian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Aptian",
+                                        "label": "Aptian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Aptian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-barremian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Barremian",
+                                        "label": "Barremian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Barremian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-berriasian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Berriasian",
+                                        "label": "Berriasian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Berriasian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-hauterivian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Hauterivian",
+                                        "label": "Hauterivian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Hauterivian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-lowerearlycretaceous-valanginian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Valanginian",
+                                        "label": "Valanginian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Valanginian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lower\/EarlyCretaceous",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-upperlatecretaceous",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Upper\/LateCretaceous",
+                                "label": "Upper\/LateCretaceous",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-campanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Campanian",
+                                        "label": "Campanian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Campanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-cenomanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Cenomanian",
+                                        "label": "Cenomanian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Cenomanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-coniacian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Coniacian",
+                                        "label": "Coniacian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Coniacian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-maastrichtian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Maastrichtian",
+                                        "label": "Maastrichtian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Maastrichtian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-santonian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Santonian",
+                                        "label": "Santonian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Santonian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-cretaceous-upperlatecretaceous-turonian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Turonian",
+                                        "label": "Turonian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Turonian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Upper\/LateCretaceous",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Cretaceous",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Jurassic",
+                        "label": "Jurassic",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-lowerearlyjurassic",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Lower\/EarlyJurassic",
+                                "label": "Lower\/EarlyJurassic",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-hettangian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Hettangian",
+                                        "label": "Hettangian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Hettangian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-pliensbachian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Pliensbachian",
+                                        "label": "Pliensbachian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Pliensbachian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-sinemurian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Sinemurian",
+                                        "label": "Sinemurian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Sinemurian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-lowerearlyjurassic-toarcian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Toarcian",
+                                        "label": "Toarcian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Toarcian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lower\/EarlyJurassic",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-middlejurassic",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "MiddleJurassic",
+                                "label": "MiddleJurassic",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-middlejurassic-aalenian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Aalenian",
+                                        "label": "Aalenian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Aalenian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-middlejurassic-bajocian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Bajocian",
+                                        "label": "Bajocian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Bajocian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-middlejurassic-bathonian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Bathonian",
+                                        "label": "Bathonian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Bathonian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-middlejurassic-callovian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Callovian",
+                                        "label": "Callovian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Callovian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/MiddleJurassic",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-upperlatejurassic",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Upper\/LateJurassic",
+                                "label": "Upper\/LateJurassic",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-upperlatejurassic-kimmeridgian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Kimmeridgian",
+                                        "label": "Kimmeridgian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Kimmeridgian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-upperlatejurassic-oxfordian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Oxfordian",
+                                        "label": "Oxfordian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Oxfordian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-jurassic-upperlatejurassic-tithonian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Tithonian",
+                                        "label": "Tithonian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Tithonian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Upper\/LateJurassic",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Jurassic",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Triassic",
+                        "label": "Triassic",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-lowerearlytriassic",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Lower\/EarlyTriassic",
+                                "label": "Lower\/EarlyTriassic",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-lowerearlytriassic-induan",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Induan",
+                                        "label": "Induan",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Induan",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-lowerearlytriassic-olenekian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Olenekian",
+                                        "label": "Olenekian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Olenekian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lower\/EarlyTriassic",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-middletriassic",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "MiddleTriassic",
+                                "label": "MiddleTriassic",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-middletriassic-anisian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Anisian",
+                                        "label": "Anisian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Anisian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-middletriassic-ladinian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Ladinian",
+                                        "label": "Ladinian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Ladinian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/MiddleTriassic",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-upperlatetriassic",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Upper\/LateTriassic",
+                                "label": "Upper\/LateTriassic",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-upperlatetriassic-carnian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Carnian",
+                                        "label": "Carnian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Carnian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-upperlatetriassic-norian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Norian",
+                                        "label": "Norian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Norian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-mesozoic-triassic-upperlatetriassic-rhaetian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Rhaetian",
+                                        "label": "Rhaetian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Rhaetian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Upper\/LateTriassic",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Triassic",
+                        "external_vocab_scheme": "geosciml"
+                    }
+                ],
+                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Mesozoic",
+                "external_vocab_scheme": "geosciml"
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                "value": "Paleozoic",
+                "label": "Paleozoic",
+                "synonyms": [],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Cambrian",
+                        "label": "Cambrian",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-cambrianseries2",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "CambrianSeries2",
+                                "label": "CambrianSeries2",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage3",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "CambrianStage3",
+                                        "label": "CambrianStage3",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/CambrianStage3",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-cambrianseries2-cambrianstage4",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "CambrianStage4",
+                                        "label": "CambrianStage4",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/CambrianStage4",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/CambrianSeries2",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-cambrianseries3",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "CambrianSeries3",
+                                "label": "CambrianSeries3",
+                                "synonyms": [
+                                    {
+                                        "value": "miaolingian"
+                                    }
+                                ],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-cambrianseries3-cambrianstage5",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "CambrianStage5",
+                                        "label": "CambrianStage5",
+                                        "synonyms": [
+                                            {
+                                                "value": "wuliuan"
+                                            }
+                                        ],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/CambrianStage5",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-cambrianseries3-drumian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Drumian",
+                                        "label": "Drumian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Drumian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-cambrianseries3-guzhangian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Guzhangian",
+                                        "label": "Guzhangian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Guzhangian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/CambrianSeries3",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-furongian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Furongian",
+                                "label": "Furongian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-furongian-cambrianstage10",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "CambrianStage10",
+                                        "label": "CambrianStage10",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/CambrianStage10",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-furongian-jiangshanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Jiangshanian",
+                                        "label": "Jiangshanian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Jiangshanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-furongian-paibian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Paibian",
+                                        "label": "Paibian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Paibian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Furongian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-terreneuvian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Terreneuvian",
+                                "label": "Terreneuvian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-terreneuvian-cambrianstage2",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "CambrianStage2",
+                                        "label": "CambrianStage2",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/CambrianStage2",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-cambrian-terreneuvian-fortunian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Fortunian",
+                                        "label": "Fortunian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Fortunian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Terreneuvian",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Cambrian",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Carboniferous",
+                        "label": "Carboniferous",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-mississippian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Mississippian",
+                                "label": "Mississippian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Lower\/EarlyMississippian",
+                                        "label": "Lower\/EarlyMississippian",
+                                        "synonyms": [],
+                                        "children": [
+                                            {
+                                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-mississippian-lowerearlymississippian-tournaisian",
+                                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                                "value": "Tournaisian",
+                                                "label": "Tournaisian",
+                                                "synonyms": [],
+                                                "children": [],
+                                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Tournaisian",
+                                                "external_vocab_scheme": "geosciml"
+                                            }
+                                        ],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lower\/EarlyMississippian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "MiddleMississippian",
+                                        "label": "MiddleMississippian",
+                                        "synonyms": [],
+                                        "children": [
+                                            {
+                                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-mississippian-middlemississippian-visean",
+                                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                                "value": "Visean",
+                                                "label": "Visean",
+                                                "synonyms": [],
+                                                "children": [],
+                                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Visean",
+                                                "external_vocab_scheme": "geosciml"
+                                            }
+                                        ],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/MiddleMississippian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Upper\/LateMississippian",
+                                        "label": "Upper\/LateMississippian",
+                                        "synonyms": [],
+                                        "children": [
+                                            {
+                                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-mississippian-upperlatemississippian-serpukhovian",
+                                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                                "value": "Serpukhovian",
+                                                "label": "Serpukhovian",
+                                                "synonyms": [],
+                                                "children": [],
+                                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Serpukhovian",
+                                                "external_vocab_scheme": "geosciml"
+                                            }
+                                        ],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Upper\/LateMississippian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Mississippian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-pennsylvanian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Pennsylvanian",
+                                "label": "Pennsylvanian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Lower\/EarlyPennsylvanian",
+                                        "label": "Lower\/EarlyPennsylvanian",
+                                        "synonyms": [],
+                                        "children": [
+                                            {
+                                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-pennsylvanian-lowerearlypennsylvanian-bashkirian",
+                                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                                "value": "Bashkirian",
+                                                "label": "Bashkirian",
+                                                "synonyms": [],
+                                                "children": [],
+                                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Bashkirian",
+                                                "external_vocab_scheme": "geosciml"
+                                            }
+                                        ],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lower\/EarlyPennsylvanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "MiddlePennsylvanian",
+                                        "label": "MiddlePennsylvanian",
+                                        "synonyms": [],
+                                        "children": [
+                                            {
+                                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-pennsylvanian-middlepennsylvanian-moscovian",
+                                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                                "value": "Moscovian",
+                                                "label": "Moscovian",
+                                                "synonyms": [],
+                                                "children": [],
+                                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Moscovian",
+                                                "external_vocab_scheme": "geosciml"
+                                            }
+                                        ],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/MiddlePennsylvanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Upper\/LatePennsylvanian",
+                                        "label": "Upper\/LatePennsylvanian",
+                                        "synonyms": [],
+                                        "children": [
+                                            {
+                                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-gzhelian",
+                                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                                "value": "Gzhelian",
+                                                "label": "Gzhelian",
+                                                "synonyms": [],
+                                                "children": [],
+                                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Gzhelian",
+                                                "external_vocab_scheme": "geosciml"
+                                            },
+                                            {
+                                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-carboniferous-pennsylvanian-upperlatepennsylvanian-kasimovian",
+                                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                                "value": "Kasimovian",
+                                                "label": "Kasimovian",
+                                                "synonyms": [],
+                                                "children": [],
+                                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Kasimovian",
+                                                "external_vocab_scheme": "geosciml"
+                                            }
+                                        ],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Upper\/LatePennsylvanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Pennsylvanian",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Carboniferous",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Devonian",
+                        "label": "Devonian",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-lowerearlydevonian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Lower\/EarlyDevonian",
+                                "label": "Lower\/EarlyDevonian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-lowerearlydevonian-emsian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Emsian",
+                                        "label": "Emsian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Emsian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-lowerearlydevonian-lochkovian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Lochkovian",
+                                        "label": "Lochkovian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lochkovian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-lowerearlydevonian-pragian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Pragian",
+                                        "label": "Pragian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Pragian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lower\/EarlyDevonian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-middledevonian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "MiddleDevonian",
+                                "label": "MiddleDevonian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-middledevonian-eifelian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Eifelian",
+                                        "label": "Eifelian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Eifelian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-middledevonian-givetian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Givetian",
+                                        "label": "Givetian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Givetian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/MiddleDevonian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-upperlatedevonian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Upper\/LateDevonian",
+                                "label": "Upper\/LateDevonian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-upperlatedevonian-famennian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Famennian",
+                                        "label": "Famennian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Famennian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-devonian-upperlatedevonian-frasnian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Frasnian",
+                                        "label": "Frasnian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Frasnian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Upper\/LateDevonian",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Devonian",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Ordovician",
+                        "label": "Ordovician",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-lowerearlyordovician",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Lower\/EarlyOrdovician",
+                                "label": "Lower\/EarlyOrdovician",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-lowerearlyordovician-floian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Floian",
+                                        "label": "Floian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Floian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-lowerearlyordovician-tremadocian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Tremadocian",
+                                        "label": "Tremadocian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Tremadocian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lower\/EarlyOrdovician",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-middleordovician",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "MiddleOrdovician",
+                                "label": "MiddleOrdovician",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-middleordovician-dapingian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Dapingian",
+                                        "label": "Dapingian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Dapingian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-middleordovician-darriwilian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Darriwilian",
+                                        "label": "Darriwilian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Darriwilian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/MiddleOrdovician",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-upperlateordovician",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Upper\/LateOrdovician",
+                                "label": "Upper\/LateOrdovician",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-upperlateordovician-hirnantian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Hirnantian",
+                                        "label": "Hirnantian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Hirnantian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-upperlateordovician-katian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Katian",
+                                        "label": "Katian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Katian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-ordovician-upperlateordovician-sandbian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Sandbian",
+                                        "label": "Sandbian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Sandbian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Upper\/LateOrdovician",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Ordovician",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Permian",
+                        "label": "Permian",
+                        "synonyms": [
+                            {
+                                "value": "perm"
+                            }
+                        ],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-cisuralian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Cisuralian",
+                                "label": "Cisuralian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-cisuralian-artinskian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Artinskian",
+                                        "label": "Artinskian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Artinskian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-cisuralian-asselian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Asselian",
+                                        "label": "Asselian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Asselian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-cisuralian-kungurian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Kungurian",
+                                        "label": "Kungurian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Kungurian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-cisuralian-sakmarian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Sakmarian",
+                                        "label": "Sakmarian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Sakmarian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Cisuralian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-guadalupian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Guadalupian",
+                                "label": "Guadalupian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-guadalupian-capitanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Capitanian",
+                                        "label": "Capitanian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Capitanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-guadalupian-roadian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Roadian",
+                                        "label": "Roadian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Roadian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-guadalupian-wordian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Wordian",
+                                        "label": "Wordian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Wordian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Guadalupian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-lopingian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Lopingian",
+                                "label": "Lopingian",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-lopingian-changhsingian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Changhsingian",
+                                        "label": "Changhsingian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Changhsingian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-permian-lopingian-wuchiapingian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Wuchiapingian",
+                                        "label": "Wuchiapingian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Wuchiapingian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Lopingian",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Permian",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Silurian",
+                        "label": "Silurian",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-llandovery",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Llandovery",
+                                "label": "Llandovery",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-llandovery-aeronian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Aeronian",
+                                        "label": "Aeronian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Aeronian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-llandovery-rhuddanian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Rhuddanian",
+                                        "label": "Rhuddanian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Rhuddanian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-llandovery-telychian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Telychian",
+                                        "label": "Telychian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Telychian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Llandovery",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-ludlow",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Ludlow",
+                                "label": "Ludlow",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-ludlow-gorstian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Gorstian",
+                                        "label": "Gorstian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Gorstian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-ludlow-ludfordian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Ludfordian",
+                                        "label": "Ludfordian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Ludfordian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Ludlow",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-pridoli",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Pridoli",
+                                "label": "Pridoli",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Pridoli",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-wenlock",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Wenlock",
+                                "label": "Wenlock",
+                                "synonyms": [],
+                                "children": [
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-wenlock-homerian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Homerian",
+                                        "label": "Homerian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Homerian",
+                                        "external_vocab_scheme": "geosciml"
+                                    },
+                                    {
+                                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/phanerozoic-paleozoic-silurian-wenlock-sheinwoodian",
+                                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                        "value": "Sheinwoodian",
+                                        "label": "Sheinwoodian",
+                                        "synonyms": [],
+                                        "children": [],
+                                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Sheinwoodian",
+                                        "external_vocab_scheme": "geosciml"
+                                    }
+                                ],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Wenlock",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Silurian",
+                        "external_vocab_scheme": "geosciml"
+                    }
+                ],
+                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Paleozoic",
+                "external_vocab_scheme": "geosciml"
+            }
+        ],
+        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Phanerozoic",
+        "external_vocab_scheme": "geosciml"
+    },
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+        "value": "Precambrian",
+        "label": "Precambrian",
+        "synonyms": [],
+        "children": [
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-archean",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                "value": "Archean",
+                "label": "Archean",
+                "synonyms": [],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-archean-eoarchean",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Eoarchean",
+                        "label": "Eoarchean",
+                        "synonyms": [],
+                        "children": [],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Eoarchean",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-archean-mesoarchean",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Mesoarchean",
+                        "label": "Mesoarchean",
+                        "synonyms": [],
+                        "children": [],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Mesoarchean",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-archean-neoarchean",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Neoarchean",
+                        "label": "Neoarchean",
+                        "synonyms": [],
+                        "children": [],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Neoarchean",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-archean-paleoarchean",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Paleoarchean",
+                        "label": "Paleoarchean",
+                        "synonyms": [],
+                        "children": [],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Paleoarchean",
+                        "external_vocab_scheme": "geosciml"
+                    }
+                ],
+                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Archean",
+                "external_vocab_scheme": "geosciml"
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-hadean",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                "value": "Hadean",
+                "label": "Hadean",
+                "synonyms": [],
+                "children": [],
+                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Hadean",
+                "external_vocab_scheme": "geosciml"
+            },
+            {
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                "value": "Proterozoic",
+                "label": "Proterozoic",
+                "synonyms": [],
+                "children": [
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-mesoproterozoic",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Mesoproterozoic",
+                        "label": "Mesoproterozoic",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-mesoproterozoic-calymmian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Calymmian",
+                                "label": "Calymmian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Calymmian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-mesoproterozoic-ectasian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Ectasian",
+                                "label": "Ectasian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Ectasian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-mesoproterozoic-stenian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Stenian",
+                                "label": "Stenian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Stenian",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Mesoproterozoic",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-neoproterozoic",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Neoproterozoic",
+                        "label": "Neoproterozoic",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-neoproterozoic-cryogenian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Cryogenian",
+                                "label": "Cryogenian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Cryogenian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-neoproterozoic-ediacaran",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Ediacaran",
+                                "label": "Ediacaran",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Ediacaran",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-neoproterozoic-tonian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Tonian",
+                                "label": "Tonian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Tonian",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Neoproterozoic",
+                        "external_vocab_scheme": "geosciml"
+                    },
+                    {
+                        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-paleoproterozoic",
+                        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                        "value": "Paleoproterozoic",
+                        "label": "Paleoproterozoic",
+                        "synonyms": [],
+                        "children": [
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-paleoproterozoic-orosirian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Orosirian",
+                                "label": "Orosirian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Orosirian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-paleoproterozoic-rhyacian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Rhyacian",
+                                "label": "Rhyacian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Rhyacian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-paleoproterozoic-siderian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Siderian",
+                                "label": "Siderian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Siderian",
+                                "external_vocab_scheme": "geosciml"
+                            },
+                            {
+                                "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/precambrian-proterozoic-paleoproterozoic-statherian",
+                                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+                                "value": "Statherian",
+                                "label": "Statherian",
+                                "synonyms": [],
+                                "children": [],
+                                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Statherian",
+                                "external_vocab_scheme": "geosciml"
+                            }
+                        ],
+                        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Paleoproterozoic",
+                        "external_vocab_scheme": "geosciml"
+                    }
+                ],
+                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Proterozoic",
+                "external_vocab_scheme": "geosciml"
+            }
+        ],
+        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/Precambrian",
+        "external_vocab_scheme": "geosciml"
+    },
+    {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/formationofearth",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/geologicalage\/1.4\/",
+        "value": "FormationOfEarth",
+        "label": "FormationOfEarth",
+        "synonyms": [],
+        "children": [],
+        "external_uri": "http:\/\/resource.geosciml.org\/classifier\/ics\/ischart\/FormationOfEarth",
+        "external_vocab_scheme": "geosciml"
+    }
+]

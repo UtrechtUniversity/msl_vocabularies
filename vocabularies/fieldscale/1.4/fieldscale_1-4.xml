@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+  <skos:ConceptScheme rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/">
+    <skos:prefLabel>Field-Scale Laboratories</skos:prefLabel>
+    <skos:hasTopConcept rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+    <skos:hasTopConcept rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types"/>
+    <skos:hasTopConcept rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:hasTopConcept rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-acuto_field_laboratory">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Acuto Field Laboratory</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-bedretto_underground_laboratory_for_geosciences_and_geoenergies">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Bedretto Underground Laboratory for Geosciences and Geoenergies</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-bochum_research_and_exploration_drilling_rig">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Bochum Research and Exploration Drilling Rig</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-brgms_geothermal_testing_facility">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>BRGM’s Geothermal Testing Facility</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-catenoy_experimental_site">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>CATenoy experimental site</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-eccsel_svelvik_co2_field_lab">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>ECCSEL Svelvik CO2 Field Lab</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-energy_technology_fraunhofer_ieg">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Energy Technology Fraunhofer IEG</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-geotechnology_laboratory_fraunhofer_ieg">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Geotechnology Laboratory Fraunhofer IEG</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-geothermal_project_on_tu_delft_campus">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Geothermal Project on TU Delft campus</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-geothermal_research_platform_gros_schonebeck">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Geothermal research platform Groß Schönebeck</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-krafla_magma_testbed">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Krafla Magma Testbed</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-pilot_site_for_geological_storage_of_co2_ketzin">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Pilot site for geological storage of CO2 Ketzin</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-pitop_borehole_geophysical_test_site">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>PITOP Borehole Geophysical Test Site</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-poggio_baldi_landslide">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Poggio Baldi Landslide</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-rijswijk_centre_for_sustainable_geo-energy">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Rijswijk Centre for Sustainable Geo-energy</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-sotacarbo_fault_laboratory">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Sotacarbo Fault Laboratory</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-trudi_underground_laboratory">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>TRUDI underground laboratory</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-uk_geoenergy_research_centre">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>UK GeoEnergy Research Centre</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-uk_geos">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>UK Geos</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-underground_research_laboratory_andra">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Underground research laboratory Andra</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names-ventotene_field_laboratory">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_names"/>
+        <skos:prefLabel>Ventotene Field Laboratory</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:topConceptOf rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+    <skos:prefLabel>Facility names</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types-field-scale_laboratory_-_active_testing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types"/>
+        <skos:prefLabel>field-scale laboratory - active testing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types-field-scale_observatory_-_passive_monitoring">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types"/>
+        <skos:prefLabel>field-scale observatory - passive monitoring</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types-geo-energy_testbed">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types"/>
+        <skos:prefLabel>geo-energy testbed</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types-in-situ_laboratory">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types"/>
+        <skos:prefLabel>in-situ laboratory</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types-monitoring_borehole">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/facility_types"/>
+        <skos:prefLabel>monitoring borehole</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:topConceptOf rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+    <skos:prefLabel>Facility types</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_logging"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring"/>
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+    <skos:topConceptOf rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+    <skos:prefLabel>Equipment</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring-episensor_force_balance_accelerometer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring"/>
+        <skos:prefLabel>EpiSensor force balance accelerometer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring-high-performance_portable_broadband_triaxial_seismometer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring"/>
+        <skos:prefLabel>high-performance portable broadband triaxial seismometer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring-microaccelerometers">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring"/>
+        <skos:prefLabel>microaccelerometers</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring-three-component_seismic_station">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring"/>
+        <skos:prefLabel>three-component seismic station</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring-tilt_strain_gauge">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-seismic_monitoring"/>
+        <skos:prefLabel>tilt strain gauge</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>seismic monitoring</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-distributed_acoustic_sensing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>distributed acoustic sensing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-distributed_pressure_and_temperature_sensing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>distributed pressure and temperature sensing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-distributed_strain_sensing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>distributed strain sensing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-distributed_temperature_sensing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>distributed temperature sensing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-fbg_interrogator">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>FBG interrogator</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-fibre_braag_grating_sensor">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>fibre braag grating sensor</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-hyperion_optical_sensing_instrument">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>HYPERION Optical Sensing Instrument</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-optoelectronics_interrogator">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>optoelectronics interrogator</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing-silixa_das_interrogator">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-distributed_fibre_optic_sensing"/>
+        <skos:prefLabel>Silixa DAS interrogator</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>distributed fibre optic sensing</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-borehole_acoustic_emission_monitoring_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>borehole acoustic emission monitoring system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-borehole_strainmeter">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>borehole strainmeter</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-cementable_tube_pore-pressure_sensor">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>cementable tube pore-pressure sensor</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-downhole_electric_conductivity_sensing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>downhole electric conductivity sensing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-downhole_electromagnetic_sensing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>downhole electromagnetic sensing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-downhole_probe">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>downhole probe</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-impulse_generator">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>impulse generator</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-multistation_borehole_acquisition_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>multistation borehole acquisition system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring-step-rate_injection_method_for_fracture_in-situ_properties">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_monitoring"/>
+        <skos:prefLabel>step-rate injection method for fracture in-situ properties</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>borehole monitoring</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing-formation_integrity_test">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+        <skos:prefLabel>formation integrity test</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing-heat_pump_mobile_unit">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+        <skos:prefLabel>heat pump mobile unit</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing-heat_pump_test_rig">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+        <skos:prefLabel>heat pump test rig</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing-injection_testing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+        <skos:prefLabel>injection testing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing-intervention_and_stimulation_equipment">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+        <skos:prefLabel>intervention and stimulation equipment</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing-pressure_performance_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+        <skos:prefLabel>pressure performance system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing-production_testing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+        <skos:prefLabel>production testing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing-thermal_response_testing">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-well_testing"/>
+        <skos:prefLabel>thermal response testing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>well testing</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling-borehole_and_geofluid_simulator">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling"/>
+        <skos:prefLabel>borehole and geofluid simulator</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling-drill_core">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling"/>
+        <skos:prefLabel>drill core</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling-drilling_test_rig">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling"/>
+        <skos:prefLabel>drilling test rig</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling-measurement_while_drilling">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling"/>
+        <skos:prefLabel>measurement while drilling</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling-mud_logging">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_drilling"/>
+        <skos:prefLabel>mud logging</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>borehole drilling</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_logging">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_logging-borehole_inspection_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_logging"/>
+        <skos:prefLabel>borehole inspection system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_logging-open_hole_logging">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_logging"/>
+        <skos:prefLabel>open hole logging</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_logging-optical_borehole_scanner">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-borehole_logging"/>
+        <skos:prefLabel>optical borehole scanner</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>borehole logging</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation-groundwater_multi-packer_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation"/>
+        <skos:prefLabel>groundwater multi-packer system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation-hybrid_multi-packer_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation"/>
+        <skos:prefLabel>hybrid multi-packer system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation-multi-packer_piezometer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation"/>
+        <skos:prefLabel>multi-packer piezometer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation-pump_multi-packer_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation"/>
+        <skos:prefLabel>pump multi-packer system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation-stand-pipe_multi-packer_system">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-hydrologic_instrumentation"/>
+        <skos:prefLabel>stand-pipe multi-packer system</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>hydrologic instrumentation</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring-acoustic_wave_and_current_profiler">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring"/>
+        <skos:prefLabel>acoustic wave and current profiler</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring-heat_flux_cell">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring"/>
+        <skos:prefLabel>heat flux cell</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring-leaf_wetness_sensor">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring"/>
+        <skos:prefLabel>leaf wetness sensor</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring-sea_wave_pressure_transducer">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring"/>
+        <skos:prefLabel>sea wave pressure transducer</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring-weather_station">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-environmental_monitoring"/>
+        <skos:prefLabel>weather station</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>Environmental monitoring</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring-doppler_radar">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring"/>
+        <skos:prefLabel>doppler radar</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring-joint_gauges">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring"/>
+        <skos:prefLabel>joint gauges</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring-optical_camera_for_surface_monitoring">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring"/>
+        <skos:prefLabel>optical camera for surface monitoring</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring-thermal_imaging_camera">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment-slope_surface_monitoring"/>
+        <skos:prefLabel>thermal imaging camera</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/equipment"/>
+    <skos:prefLabel>Slope surface monitoring</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models">
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_digital_twin">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models"/>
+        <skos:prefLabel>subsurface digital twin</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-surface_digital_twin">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models"/>
+        <skos:prefLabel>surface digital twin</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:topConceptOf rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+    <skos:prefLabel>Models</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-fluid_composition_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>fluid composition field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-formation_stress_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>formation stress model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-geochemistry_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>geochemistry field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-geomechanical_property_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>geomechanical property field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-gravity_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>gravity field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-magnetic_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>magnetic field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-pore_pressure_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>pore pressure field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-porosity-permeability_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>porosity-permeability field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-reservoir_structural_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>reservoir structural model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-seismic_velocity_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>seismic velocity field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling-temperature_field_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-subsurface_property_modelling"/>
+        <skos:prefLabel>temperature field model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models"/>
+    <skos:prefLabel>subsurface property modelling</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-borehole_heat_exchanger_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>borehole heat exchanger model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-chemical_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>chemical model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-coupled_thermo-hydraulic-mechanical_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>coupled thermo-hydraulic-mechanical model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-flow_and_thermal_transport_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>flow and thermal transport model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-flow_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>flow model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-geothermal_reservoir_simulation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>geothermal reservoir simulation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-geothermal_well_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>geothermal well model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-hydrocarbon_reservoir_simulation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>hydrocarbon reservoir simulation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-hydrogen_reservoir_simulation">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>hydrogen reservoir simulation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-induced_seismicity_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>induced seismicity model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-pore_pressure_diffusion_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>pore pressure diffusion model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-reactive_transport_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>reactive transport model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-storage_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>storage model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model-thermal_transport_model">
+        <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models-field_system_model"/>
+        <skos:prefLabel>thermal transport model</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/models"/>
+    <skos:prefLabel>field system model</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/fieldscale/1.4/"/>
+  </skos:Concept>
+
+</rdf:RDF>

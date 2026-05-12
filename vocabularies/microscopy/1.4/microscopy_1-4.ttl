@@ -1,0 +1,1885 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/>
+  a skos:ConceptScheme ;
+  skos:prefLabel "Microscopy and tomography" ;
+  skos:hasTopConcept <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-atomic_force_microscope>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-microchemical_analysis>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-neutron_tomography>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-x-ray_tomography> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/microscopy/1.4/> ;
+  skos:prefLabel "Apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-atomic_force_microscope>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus> ;
+  skos:prefLabel "atomic force microscope" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-microchemical_analysis>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-microchemical_analysis-electron_probe_micro_analyser> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus> ;
+  skos:prefLabel "microchemical analysis" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-microchemical_analysis-electron_probe_micro_analyser>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-microchemical_analysis> ;
+  skos:prefLabel "electron probe micro analyser" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy-focused_ion_beam_-_scanning_electron_microscope_fib-sem>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy-scanning_electron_microscope_sem>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy-scanning_transmission_electron_microscope_stem>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy-transmission_electron_microscope_tem> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus> ;
+  skos:prefLabel "electron microscopy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy-focused_ion_beam_-_scanning_electron_microscope_fib-sem>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy> ;
+  skos:prefLabel "focused ion beam - scanning electron microscope (FIB-SEM)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy-scanning_electron_microscope_sem>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy> ;
+  skos:prefLabel "scanning electron microscope (SEM)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy-scanning_transmission_electron_microscope_stem>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy> ;
+  skos:prefLabel "scanning transmission electron microscope (STEM)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy-transmission_electron_microscope_tem>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-electron_microscopy> ;
+  skos:prefLabel "transmission electron microscope (TEM)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy-reflected_light_microscope>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy-slide_scanner_microscope>, <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy-transmitted_light_microscope> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus> ;
+  skos:prefLabel "optical microscopy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy-reflected_light_microscope>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy> ;
+  skos:prefLabel "reflected light microscope" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy-slide_scanner_microscope>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy> ;
+  skos:prefLabel "slide scanner microscope" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy-transmitted_light_microscope>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-optical_microscopy> ;
+  skos:prefLabel "transmitted light microscope" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-x-ray_tomography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus> ;
+  skos:prefLabel "X-ray tomography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus-neutron_tomography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/apparatus> ;
+  skos:prefLabel "neutron tomography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/microscopy/1.4/> ;
+  skos:prefLabel "Ancillary equipment" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-14_lambda_plate>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-bertrand_lense>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-collimator>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-cross_polarizer>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-gypsum_plate>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-light_condensor>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-light_filter>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-plane_polarizer>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-quartz_plate> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment> ;
+  skos:prefLabel "hardware filtering" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-14_lambda_plate>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "1/4 lambda plate" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-cross_polarizer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "cross polarizer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-gypsum_plate>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "gypsum plate" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-plane_polarizer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "plane polarizer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-quartz_plate>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "quartz plate" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-bertrand_lense>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "Bertrand lense" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-light_condensor>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "light condensor" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-light_filter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "light filter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering-collimator>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-hardware_filtering> ;
+  skos:prefLabel "collimator" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-microcantilever>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-micropillar>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-nanoindenter>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-neutron_transparent_cell>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_transparent_cell> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment> ;
+  skos:prefLabel "syn-deformation imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-nanoindenter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "nanoindenter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-micropillar>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "micropillar" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-microcantilever>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "microcantilever" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_transparent_cell>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "X-ray transparent cell" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging-neutron_transparent_cell>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "neutron transparent cell" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry-analyser_grating>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry-phase_grating>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry-source_grating> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment> ;
+  skos:prefLabel "beam interferometry" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry-source_grating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry> ;
+  skos:prefLabel "source grating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry-phase_grating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry> ;
+  skos:prefLabel "phase grating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry-analyser_grating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-beam_interferometry> ;
+  skos:prefLabel "analyser grating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-charge_coupled_device_ccd_detector>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-complementary_metal_oxide_semiconductor_cmos_detector>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-energy_resolving_detector>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-flat_panel>, <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-photon_counting_detector> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment> ;
+  skos:prefLabel "detector" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-flat_panel>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector> ;
+  skos:prefLabel "flat panel" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-charge_coupled_device_ccd_detector>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector> ;
+  skos:prefLabel "charge coupled device (CCD) detector" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-complementary_metal_oxide_semiconductor_cmos_detector>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector> ;
+  skos:prefLabel "complementary metal oxide semiconductor (CMOS) detector" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-energy_resolving_detector>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector> ;
+  skos:prefLabel "energy resolving detector" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector-photon_counting_detector>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/ancillary_equipment-detector> ;
+  skos:prefLabel "photon counting detector" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/microscopy/1.4/> ;
+  skos:prefLabel "Technique" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_etching>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_staining> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique> ;
+  skos:prefLabel "section preperation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-chemical_polishing>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-ion_polishing>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-mechanical_polishing> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation> ;
+  skos:prefLabel "section polishing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-ion_polishing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-ion_polishing-broad_ion_beam_bib_milling>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-ion_polishing-focussed_ion_beam_fib_milling> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing> ;
+  skos:prefLabel "ion polishing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-ion_polishing-focussed_ion_beam_fib_milling>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-ion_polishing> ;
+  skos:prefLabel "focussed ion beam (FIB) milling" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-ion_polishing-broad_ion_beam_bib_milling>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-ion_polishing> ;
+  skos:prefLabel "broad ion beam (BIB) milling" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-chemical_polishing>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing> ;
+  skos:prefLabel "chemical polishing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing-mechanical_polishing>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_polishing> ;
+  skos:prefLabel "mechanical polishing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_staining>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation> ;
+  skos:prefLabel "section staining" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_etching>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation> ;
+  skos:prefLabel "section etching" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-carbon_coating>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-gold-platinum_coating>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-iridium_coating>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-osmium_coating>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-platinum-palladium_coating> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation> ;
+  skos:prefLabel "section coating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-carbon_coating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating> ;
+  skos:prefLabel "carbon coating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-iridium_coating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating> ;
+  skos:prefLabel "iridium coating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-gold-platinum_coating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating> ;
+  skos:prefLabel "gold-platinum coating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-platinum-palladium_coating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating> ;
+  skos:prefLabel "platinum-palladium coating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating-osmium_coating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-section_preperation-section_coating> ;
+  skos:prefLabel "osmium coating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-annular_dark_field_adf_imaging>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-backscatter_electron_bse_imaging>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-bright_field_bf_imaging>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-cathodoluminescence_cl_imaging>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-dark_field_df_imaging>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-electron_channeling_contrast_imaging_ecci>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-forescatter_electron_fse>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-high-angle_annular_dark-field_haadf>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-radiography>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-radioscopy>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-secondary_electron_se_imaging> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique> ;
+  skos:prefLabel "imaging (2D)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-forescatter_electron_fse>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "forescatter electron (FSE)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-high-angle_annular_dark-field_haadf>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "high-angle annular dark-field (HAADF)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-cathodoluminescence_cl_imaging>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-cathodoluminescence_cl_imaging-panchromatic_cl_image>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-cathodoluminescence_cl_imaging-wavelength_filtered_cl_image> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "cathodoluminescence (CL) imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-cathodoluminescence_cl_imaging-panchromatic_cl_image>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-cathodoluminescence_cl_imaging> ;
+  skos:prefLabel "panchromatic CL image" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-cathodoluminescence_cl_imaging-wavelength_filtered_cl_image>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-cathodoluminescence_cl_imaging> ;
+  skos:prefLabel "wavelength filtered CL image" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-secondary_electron_se_imaging>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "secondary electron (SE) imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-backscatter_electron_bse_imaging>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "backscatter electron (BSE) imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-bright_field_bf_imaging>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "bright field (BF) imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-dark_field_df_imaging>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "dark field (DF) imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-annular_dark_field_adf_imaging>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "annular dark field (ADF) imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-electron_channeling_contrast_imaging_ecci>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "electron channeling contrast imaging (ECCI)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-radiography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "radiography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d-radioscopy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_2d> ;
+  skos:prefLabel "radioscopy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-dual_mode_scan>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-dual_resolution_scan>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-ghost_imaging>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-holotomography>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-laminography>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-monochromotic_beam>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-multi-pass_scan>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-pink_beam>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-rheography>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-tomoscopy>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-white_beam> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique> ;
+  skos:prefLabel "imaging (3D)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-absorption_contrast_tomography>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-cone_beam_ct>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-dark_field_tomography>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-dual_energy_ct>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-fan_beam_ct>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-parallel_beam_ct>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-phase_contrast_tomography>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-region_of_interest_ct>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-spectral_ct>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-x-ray_diffraction> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "computed tomography (CT)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-cone_beam_ct>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "cone beam CT" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-fan_beam_ct>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "fan beam CT" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-parallel_beam_ct>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "parallel beam CT" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-region_of_interest_ct>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "region of interest CT" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-dual_energy_ct>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "dual energy CT" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-spectral_ct>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "spectral CT" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-dark_field_tomography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "dark field tomography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-absorption_contrast_tomography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "absorption contrast tomography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-phase_contrast_tomography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "phase contrast tomography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct-x-ray_diffraction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-computed_tomography_ct> ;
+  skos:prefLabel "X-ray diffraction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-tomoscopy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "tomoscopy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-rheography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "rheography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-laminography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "laminography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-holotomography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "holotomography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-ghost_imaging>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "ghost imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-multi-pass_scan>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "multi-pass scan" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-dual_mode_scan>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "dual mode scan" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-dual_resolution_scan>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "dual resolution scan" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-white_beam>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "white beam" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-pink_beam>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "pink beam" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d-monochromotic_beam>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-imaging_3d> ;
+  skos:prefLabel "monochromotic beam" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-cathodoluminescence_cl_spectroscopy>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-electron_energy_loss_spectroscopy_eels>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-raman_spectrometry_-_chemistry_and_mineralogy>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-wavelength-dispersive_x-ray_spectroscopy_wds> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique> ;
+  skos:prefLabel "chemical and mineralogical analysis" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-electron_energy_loss_spectroscopy_eels>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis> ;
+  skos:prefLabel "electron energy loss spectroscopy (EELS)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-wavelength-dispersive_x-ray_spectroscopy_wds>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis> ;
+  skos:prefLabel "wavelength-dispersive x-ray spectroscopy (WDS)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-raman_spectrometry_-_chemistry_and_mineralogy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis> ;
+  skos:prefLabel "Raman spectrometry - chemistry and mineralogy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy-fourier_transform_infrared_spectroscopy_ftir> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis> ;
+  skos:prefLabel "infrared spectroscopy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy-fourier_transform_infrared_spectroscopy_ftir>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-infrared_spectroscopy> ;
+  skos:prefLabel "fourier transform infrared spectroscopy (FTIR)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-cathodoluminescence_cl_spectroscopy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis> ;
+  skos:prefLabel "cathodoluminescence (CL) spectroscopy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx-eds_in_2d>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx-eds_in_3d> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis> ;
+  skos:prefLabel "energy dispersive x-ray spectroscopy (EDS EDX)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx-eds_in_2d>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx> ;
+  skos:prefLabel "EDS in 2D" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx-eds_in_3d>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-chemical_and_mineralogical_analysis-energy_dispersive_x-ray_spectroscopy_eds_edx> ;
+  skos:prefLabel "EDS in 3D" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-automated_crystal_orientation_mapping_acom>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-raman_spectrometry_-_crystal_lattice> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique> ;
+  skos:prefLabel "crystal structure analysis" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-convergent_beam_electron_diffraction_cbed>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-electron_backscatter_diffraction_ebsd>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-large_area_convergent_beam_electron_diffraction_lacbed>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-nano_beam_diffraction_nbd>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-selected_area_electron_diffraction_saed>, <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-transmission_kikuchi_diffraction_tkd> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis> ;
+  skos:prefLabel "electron diffraction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-large_area_convergent_beam_electron_diffraction_lacbed>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction> ;
+  skos:prefLabel "large area convergent beam electron diffraction (LACBED)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-nano_beam_diffraction_nbd>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction> ;
+  skos:prefLabel "nano beam diffraction (NBD)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-selected_area_electron_diffraction_saed>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction> ;
+  skos:prefLabel "selected area electron diffraction (SAED)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-convergent_beam_electron_diffraction_cbed>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction> ;
+  skos:prefLabel "convergent beam electron diffraction (CBED)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-electron_backscatter_diffraction_ebsd>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction> ;
+  skos:prefLabel "electron backscatter diffraction (EBSD)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction-transmission_kikuchi_diffraction_tkd>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-electron_diffraction> ;
+  skos:prefLabel "transmission Kikuchi diffraction (TKD)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-raman_spectrometry_-_crystal_lattice>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis> ;
+  skos:prefLabel "Raman spectrometry - crystal lattice" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis-automated_crystal_orientation_mapping_acom>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/technique-crystal_structure_analysis> ;
+  skos:prefLabel "automated crystal orientation mapping (ACOM)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/microscopy/1.4/> ;
+  skos:prefLabel "Analyzed feature" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "deformation microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-breccia_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intergranular_crack>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intergranular_slip>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-joint_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-pseudotachylite_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-shear_fracture_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-slickenline>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-slickenside>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-transgranular_crack> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure> ;
+  skos:prefLabel "brittle microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_density>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_distribution>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_orientation> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "intragranular crack" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_distribution>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack> ;
+  skos:prefLabel "intragranular crack distribution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_orientation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack> ;
+  skos:prefLabel "intragranular crack orientation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack-intragranular_crack_density>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intragranular_crack> ;
+  skos:prefLabel "intragranular crack density" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intergranular_crack>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "intergranular crack" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-intergranular_slip>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "intergranular slip" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-transgranular_crack>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "transgranular crack" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-joint_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "joint microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "fault microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-shear_fracture_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "shear fracture microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-p-foliation>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-r1_shear>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-riedel_shear_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-y_shear> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "fault gouge microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-riedel_shear_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure> ;
+  skos:prefLabel "Riedel shear microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-r1_shear>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure> ;
+  skos:prefLabel "R1 shear" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-y_shear>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure> ;
+  skos:prefLabel "Y shear" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure-p-foliation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-fault_gouge_microstructure> ;
+  skos:prefLabel "P-foliation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-pseudotachylite_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "pseudotachylite microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-slickenline>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "slickenline" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-slickenside>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "slickenside" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure-breccia_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-brittle_microstructure> ;
+  skos:prefLabel "breccia microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_twin>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-localized_extinction_band_leb>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-stacking_fault>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-undulose_extinction>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure> ;
+  skos:prefLabel "crystal plastic microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-undulose_extinction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure> ;
+  skos:prefLabel "undulose extinction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae-fine_extinction_band_feb_width_sub-5_micron>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae-short-wavelength_undulatory_extinction> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure> ;
+  skos:prefLabel "deformation lamellae" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae-fine_extinction_band_feb_width_sub-5_micron>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae> ;
+  skos:prefLabel "fine extinction band (FEB) width sub-5 micron" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae-short-wavelength_undulatory_extinction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_lamellae> ;
+  skos:prefLabel "short-wavelength undulatory extinction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web-intragranular_deformation_band>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web-intragranular_kink_band> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure> ;
+  skos:prefLabel "wide extinction band (WEB)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web-intragranular_deformation_band>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web> ;
+  skos:prefLabel "intragranular deformation band" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web-intragranular_kink_band>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-wide_extinction_band_web> ;
+  skos:prefLabel "intragranular kink band" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-localized_extinction_band_leb>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure> ;
+  skos:prefLabel "localized extinction band (LEB)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-core_and_mantle_subgrain_structure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_boundary_orientations>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_misorientations>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_size>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_size_hierarchy> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure> ;
+  skos:prefLabel "subgrains" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-core_and_mantle_subgrain_structure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains> ;
+  skos:prefLabel "core and mantle subgrain structure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_size>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains> ;
+  skos:prefLabel "subgrain size" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_size_hierarchy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains> ;
+  skos:prefLabel "subgrain size hierarchy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_boundary_orientations>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains> ;
+  skos:prefLabel "subgrain boundary orientations" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains-subgrain_misorientations>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-subgrains> ;
+  skos:prefLabel "subgrain misorientations" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-deformation_twin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure> ;
+  skos:prefLabel "deformation twin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-burgers_vector>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-dislocation_density>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-glide_plane> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure> ;
+  skos:prefLabel "lattice dislocation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-dislocation_density>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation> ;
+  skos:prefLabel "dislocation density" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-burgers_vector>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation> ;
+  skos:prefLabel "Burger's vector" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation-glide_plane>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-lattice_dislocation> ;
+  skos:prefLabel "glide plane" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure-stacking_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-crystal_plastic_microstructure> ;
+  skos:prefLabel "stacking fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-fluid_inclusion_planes>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-grain_indentation>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-microstylolites>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-overgrowths>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-sealed_fracture>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-solution_cleavage>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-solution_seam>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-strain_cap>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-strain_or_pressure_shadow>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-vein> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure> ;
+  skos:prefLabel "pressure solution microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features-growth_features>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features-solution_pits_and_ledges> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "surface dissolution and precipitation features" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features-solution_pits_and_ledges>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features> ;
+  skos:prefLabel "solution pits and ledges" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features-growth_features>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-surface_dissolution_and_precipitation_features> ;
+  skos:prefLabel "growth features" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-grain_indentation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "grain indentation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-strain_cap>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "strain cap" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-strain_or_pressure_shadow>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "strain or pressure shadow" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-solution_seam>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "solution seam" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-solution_cleavage>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "solution cleavage" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-microstylolites>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "microstylolites" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-overgrowths>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "overgrowths" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-fluid_inclusion_planes>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "fluid inclusion planes" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-sealed_fracture>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "sealed fracture" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure-vein>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-pressure_solution_microstructure> ;
+  skos:prefLabel "vein" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-boudinage_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-cleavage>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-crenulation_cleavage>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformed_porphyroclast>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-foliation>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mica_fish>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-microfold>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-s-c_foliation>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-schistosity>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-shear_band_foliation> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure> ;
+  skos:prefLabel "generic deformation microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-cleavage>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "cleavage" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-crenulation_cleavage>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "crenulation cleavage" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-foliation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "foliation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-schistosity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "schistosity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-microfold>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "microfold" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-boudinage_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "boudinage microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-cataclastic_band_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-compaction_band_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-dilation_band_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-phyllosilicate_deformation_band_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-shear_band_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-solution_and_cementation_band_microstructure> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "deformation band" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-compaction_band_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band> ;
+  skos:prefLabel "compaction band microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-dilation_band_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band> ;
+  skos:prefLabel "dilation band microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-shear_band_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band> ;
+  skos:prefLabel "shear band microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-phyllosilicate_deformation_band_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band> ;
+  skos:prefLabel "phyllosilicate deformation band microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-cataclastic_band_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band> ;
+  skos:prefLabel "cataclastic band microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band-solution_and_cementation_band_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformation_band> ;
+  skos:prefLabel "solution and cementation band microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-deformed_porphyroclast>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "deformed porphyroclast" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-complex_porphyroclasts>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-delta_type_porphyroclasts>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-phi_type_porphyroclasts>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-sigma_type_porphyroclasts> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "mantled porphyroclasts" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-sigma_type_porphyroclasts>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts> ;
+  skos:prefLabel "sigma type porphyroclasts" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-delta_type_porphyroclasts>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts> ;
+  skos:prefLabel "delta type porphyroclasts" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-phi_type_porphyroclasts>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts> ;
+  skos:prefLabel "phi type porphyroclasts" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts-complex_porphyroclasts>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mantled_porphyroclasts> ;
+  skos:prefLabel "complex porphyroclasts" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-shear_band_foliation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "shear band foliation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-s-c_foliation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "S-C foliation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure-mica_fish>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-deformation_microstructure-generic_deformation_microstructure> ;
+  skos:prefLabel "mica fish" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-amoeboid_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-decussate_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-diamond_grain_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-foam_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_geometry>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-growth_twins>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-interlobate_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-recrystallized_grains>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-ribbon_microstructure> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "grain aggregate microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-foam_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "foam microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-interlobate_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "interlobate microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-amoeboid_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "amoeboid microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-decussate_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "decussate microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-ribbon_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "ribbon microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-recrystallized_grains>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "recrystallized grains" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-growth_twins>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "growth twins" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-diamond_grain_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "diamond grain microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_geometry>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "grain boundary geometry" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-four-grain_junctions>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_alignments>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_triple_junctions>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_voids_and_openings> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "grain boundary features" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_triple_junctions>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features> ;
+  skos:prefLabel "grain boundary triple junctions" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-four-grain_junctions>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features> ;
+  skos:prefLabel "four-grain junctions" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_alignments>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features> ;
+  skos:prefLabel "grain boundary alignments" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features-grain_boundary_voids_and_openings>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_features> ;
+  skos:prefLabel "grain boundary voids and openings" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-disclination_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-disconnection_microstructure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-grain_boundary_dislocations> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure> ;
+  skos:prefLabel "grain boundary defect" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-grain_boundary_dislocations>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect> ;
+  skos:prefLabel "grain boundary dislocations" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-disclination_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect> ;
+  skos:prefLabel "disclination microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect-disconnection_microstructure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_aggregate_microstructure-grain_boundary_defect> ;
+  skos:prefLabel "disconnection microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-fluid_inclusion>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_mineralogy>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "mineralogy and composition" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-igneous_classification>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-metamorphic_classification>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-sedimentary_classification>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-structural_classification> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition> ;
+  skos:prefLabel "qualitative rock classification" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-sedimentary_classification>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification> ;
+  skos:prefLabel "sedimentary classification" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-igneous_classification>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification> ;
+  skos:prefLabel "igneous classification" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-metamorphic_classification>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification> ;
+  skos:prefLabel "metamorphic classification" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification-structural_classification>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_rock_classification> ;
+  skos:prefLabel "structural classification" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-qualitative_mineralogy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition> ;
+  skos:prefLabel "qualitative mineralogy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-microchemical_map>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-mineral_map>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-phase_map> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition> ;
+  skos:prefLabel "quantitative mineralogy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-mineral_map>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy> ;
+  skos:prefLabel "mineral map" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-phase_map>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy> ;
+  skos:prefLabel "phase map" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy-microchemical_map>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-quantitative_mineralogy> ;
+  skos:prefLabel "microchemical map" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition-fluid_inclusion>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-mineralogy_and_composition> ;
+  skos:prefLabel "fluid inclusion" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-crystallographic_preferred_orientation_cpo>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-grain_size>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-misorientation_analysis>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-shape_preferred_orientation_spo>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-spatial_distribution_clustering>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-spatial_frequency_analysis_sfa> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "grain size and configuration" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-grain_size>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-grain_size-grain_size_distribution> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration> ;
+  skos:prefLabel "grain size" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-grain_size-grain_size_distribution>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-grain_size> ;
+  skos:prefLabel "grain size distribution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-shape_preferred_orientation_spo>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration> ;
+  skos:prefLabel "shape preferred orientation (SPO)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-spatial_frequency_analysis_sfa>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration> ;
+  skos:prefLabel "spatial frequency analysis (SFA)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-crystallographic_preferred_orientation_cpo>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration> ;
+  skos:prefLabel "crystallographic preferred orientation (CPO)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-misorientation_analysis>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration> ;
+  skos:prefLabel "misorientation analysis" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration-spatial_distribution_clustering>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-grain_size_and_configuration> ;
+  skos:prefLabel "spatial distribution (clustering)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution-pore_shape>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution-pore_size>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution-pore_size_distribution> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "pore structure and distribution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution-pore_size>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution> ;
+  skos:prefLabel "pore size" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution-pore_size_distribution>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution> ;
+  skos:prefLabel "pore size distribution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution-pore_shape>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-pore_structure_and_distribution> ;
+  skos:prefLabel "pore shape" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-igneous_lamination>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-igneous_vesicle_lineation>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-lava_flow_banding>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-phenocryst>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-schlieren> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "igneous microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-igneous_vesicle_lineation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure> ;
+  skos:prefLabel "igneous vesicle lineation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-igneous_lamination>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure> ;
+  skos:prefLabel "igneous lamination" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-lava_flow_banding>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure> ;
+  skos:prefLabel "lava flow banding" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-schlieren>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure> ;
+  skos:prefLabel "Schlieren" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure-phenocryst>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-igneous_microstructure> ;
+  skos:prefLabel "phenocryst" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-mineral_polymorphism>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-oxidation_lamellae>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-oxide_exsolution>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroclast>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-reaction_rim>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-spinodal_decomposition>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-symplectite_and_exsolution> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "metamorphic microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroclast>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure> ;
+  skos:prefLabel "porphyroclast" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast-growth_twin>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast-inclusion_trail>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast-porphyroblast_zoning>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast-truncation_surface> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure> ;
+  skos:prefLabel "porphyroblast" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast-inclusion_trail>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast> ;
+  skos:prefLabel "inclusion trail" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast-porphyroblast_zoning>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast> ;
+  skos:prefLabel "porphyroblast zoning" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast-truncation_surface>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast> ;
+  skos:prefLabel "truncation surface" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast-growth_twin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-porphyroblast> ;
+  skos:prefLabel "growth twin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-symplectite_and_exsolution>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure> ;
+  skos:prefLabel "symplectite and exsolution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-spinodal_decomposition>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure> ;
+  skos:prefLabel "spinodal decomposition" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-oxide_exsolution>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure> ;
+  skos:prefLabel "oxide exsolution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-oxidation_lamellae>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure> ;
+  skos:prefLabel "oxidation lamellae" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-mineral_polymorphism>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure> ;
+  skos:prefLabel "mineral polymorphism" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure-reaction_rim>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_microstructure> ;
+  skos:prefLabel "reaction rim" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-ballen_structure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-diaplectic_glass>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-feather_structure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-mosaicism>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-shock_microfracture> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "shock microstructure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf-pdf_orientation> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure> ;
+  skos:prefLabel "planar deformation feature (PDF)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf-pdf_orientation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-planar_deformation_feature_pdf> ;
+  skos:prefLabel "PDF orientation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-shock_microfracture>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure> ;
+  skos:prefLabel "shock microfracture" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-feather_structure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure> ;
+  skos:prefLabel "feather structure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-ballen_structure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure> ;
+  skos:prefLabel "ballen structure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-mosaicism>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure> ;
+  skos:prefLabel "mosaicism" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure-diaplectic_glass>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-shock_microstructure> ;
+  skos:prefLabel "diaplectic glass" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-amphibolite_metamorphic_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-eclogite_metamorphic_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-epidote_amphibolite_metamorphic_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-glaucophane_schist_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-granulite_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-greenschist_metamorphic_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-pyroxene_hornfels_metamorphic_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-sanidinite_metamorphic_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-subgreenschist_metamorphic_facies>, <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-zeolite_metamorphic_facies> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature> ;
+  skos:prefLabel "metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-amphibolite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "amphibolite metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-eclogite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "eclogite metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-epidote_amphibolite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "epidote amphibolite metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-glaucophane_schist_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "glaucophane schist facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-granulite_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "granulite facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-greenschist_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "greenschist metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-pyroxene_hornfels_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "pyroxene hornfels metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-sanidinite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "sanidinite metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-subgreenschist_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "subgreenschist metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies-zeolite_metamorphic_facies>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/analyzed_feature-metamorphic_facies> ;
+  skos:prefLabel "zeolite metamorphic facies" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/microscopy/1.4/> ;
+  skos:prefLabel "Inferred parameter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions-inferred_fluid_pressure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions-inferred_lithostatic_pressure>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions-inferred_shock_pressure_and_temperature>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions-inferred_temperature> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter> ;
+  skos:prefLabel "inferred metamorphic conditions" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions-inferred_lithostatic_pressure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions> ;
+  skos:prefLabel "inferred lithostatic pressure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions-inferred_fluid_pressure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions> ;
+  skos:prefLabel "inferred fluid pressure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions-inferred_temperature>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions> ;
+  skos:prefLabel "inferred temperature" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions-inferred_shock_pressure_and_temperature>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_metamorphic_conditions> ;
+  skos:prefLabel "inferred shock pressure and temperature" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_finite_strain>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_shear_sense>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_strain_history>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_strain_rate>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_stress>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_vorticity_axis> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter> ;
+  skos:prefLabel "inferred deformation conditions" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_stress>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions> ;
+  skos:prefLabel "inferred stress" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_shear_sense>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions> ;
+  skos:prefLabel "inferred shear sense" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_strain_rate>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions> ;
+  skos:prefLabel "inferred strain rate" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_finite_strain>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions> ;
+  skos:prefLabel "inferred finite strain" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_vorticity_axis>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions> ;
+  skos:prefLabel "inferred vorticity axis" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions-inferred_strain_history>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_deformation_conditions> ;
+  skos:prefLabel "inferred strain history" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_internal_stored_stress>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_permeability>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_rheology>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_sesimic_anisotropy> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter> ;
+  skos:prefLabel "inferred properties" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_sesimic_anisotropy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties> ;
+  skos:prefLabel "inferred sesimic anisotropy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_internal_stored_stress>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties> ;
+  skos:prefLabel "inferred Internal stored stress" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties-dislocation_slip_systems> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties> ;
+  skos:prefLabel "inferred crystal plastic properties" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties-dislocation_slip_systems>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_crystal_plastic_properties> ;
+  skos:prefLabel "dislocation slip systems" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_permeability>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties> ;
+  skos:prefLabel "inferred permeability" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties-inferred_rheology>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_properties> ;
+  skos:prefLabel "inferred rheology" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_deformation_mechanisms>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter> ;
+  skos:prefLabel "inferred mechanisms" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-geometric_dynamic_recrystallization>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-grain_boundary_bulging>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-grain_boundary_migration>, <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-subgrain_rotation> ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms> ;
+  skos:prefLabel "inferred recrystallization mechanisms" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-subgrain_rotation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms> ;
+  skos:prefLabel "subgrain rotation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-grain_boundary_bulging>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms> ;
+  skos:prefLabel "grain boundary bulging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-grain_boundary_migration>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms> ;
+  skos:prefLabel "grain boundary migration" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms-geometric_dynamic_recrystallization>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_recrystallization_mechanisms> ;
+  skos:prefLabel "geometric dynamic recrystallization" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+
+<https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms-inferred_deformation_mechanisms>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/microscopy/1.4/inferred_parameter-inferred_mechanisms> ;
+  skos:prefLabel "inferred deformation mechanisms" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/microscopy/1.4/> .
+

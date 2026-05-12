@@ -1,0 +1,1091 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/>
+  a skos:ConceptScheme ;
+  skos:prefLabel "Geological setting" ;
+  skos:hasTopConcept <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/extra-terrestrial_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> ;
+  skos:prefLabel "tectonic plate boundary" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/plateMarginSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/plateMarginSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-obduction>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary> ;
+  skos:prefLabel "convergent tectonic plate boundary" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-continental_subduction>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-fold-and-thrust_belt>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-foreland_basin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-high_pressure_metamorphism>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-lithosphere_folding>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-metamorphic_core>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-orogen>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-peripheral_bulge_-_continental_collision>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-piggy-back_basin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-post-orogenic_collapse>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-pro-wedge>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-retro-shear>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-retro-wedge>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-rock_exhumation>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-surface_uplift>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-suture_zone> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary> ;
+  skos:prefLabel "continental collision" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/collisionalSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/collisionalSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-orogen>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "orogen" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-continental_subduction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "continental subduction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-fold-and-thrust_belt>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "fold-and-thrust belt" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-suture_zone>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "suture zone" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-foreland_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "foreland basin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-piggy-back_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "piggy-back basin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-metamorphic_core>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "metamorphic core" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-high_pressure_metamorphism>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "high pressure metamorphism" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-peripheral_bulge_-_continental_collision>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "peripheral bulge - continental collision" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-post-orogenic_collapse>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "post-orogenic collapse" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-retro-wedge>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "retro-wedge" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-pro-wedge>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "pro-wedge" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-retro-shear>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "retro-shear" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-surface_uplift>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "surface uplift" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-rock_exhumation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "rock exhumation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision-lithosphere_folding>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-continental_collision> ;
+  skos:prefLabel "lithosphere folding" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-accretionary_wedge>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-back-arc_basin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-continent-continent_subduction>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-forearc_basin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-high_pressure_metamorphism>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-intra-arc_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-ocean-continent_subduction>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-ocean-ocean_subduction>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-peripheral_bulge_-_subduction>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-shallow-dipping_slab>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-slab_roll-back>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-steeply_dipping_slab>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-subducting_plate_interface>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-subduction_erosion>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-subduction_initiation>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-subduction_zone_topography>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-trench>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-trench_advancement>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-trench_retreat>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-volcanic_arc> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary> ;
+  skos:prefLabel "subduction" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/subductionZoneSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/subductionZoneSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-ocean-ocean_subduction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "ocean-ocean subduction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-ocean-continent_subduction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "ocean-continent subduction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-continent-continent_subduction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "continent-continent subduction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-volcanic_arc>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "volcanic arc" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/volcanicArcSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/volcanicArcSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-forearc_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "forearc basin" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/forearcSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/forearcSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-trench>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "trench" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deepSeaTrenchSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deepSeaTrenchSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-accretionary_wedge>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "accretionary wedge" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-back-arc_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "back-arc basin" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/backArcSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/backArcSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-subducting_plate_interface>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "subducting plate interface" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-steeply_dipping_slab>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "steeply dipping slab" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-shallow-dipping_slab>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "shallow-dipping slab" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-slab_roll-back>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "slab roll-back" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-intra-arc_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "intra-arc fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-trench_retreat>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "trench retreat" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-trench_advancement>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "trench advancement" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-peripheral_bulge_-_subduction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "peripheral bulge - subduction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-high_pressure_metamorphism>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "high pressure metamorphism" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-subduction_initiation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "subduction initiation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-subduction_zone_topography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "subduction zone topography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction-subduction_erosion>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-subduction> ;
+  skos:prefLabel "subduction erosion" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-obduction>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-obduction-metamorphic_sole>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-obduction-ophiolite> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary> ;
+  skos:prefLabel "obduction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-obduction-ophiolite>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-obduction> ;
+  skos:prefLabel "ophiolite" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-obduction-metamorphic_sole>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-convergent_tectonic_plate_boundary-obduction> ;
+  skos:prefLabel "metamorphic sole" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary> ;
+  skos:prefLabel "divergent tectonic plate boundary" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-asymmetric_rifting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-boundary_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-break-up_unconmformity>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-continental_core_complex>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-horst-and-graben>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-mantle_exhumation>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-narrow_rift>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-non-volcanic_rifted_margin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-oceanic_core_complex>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_volcanism>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-symmetric_rifting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-tilted_block_faulting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-volcanic_rifted_margin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-wide_rift> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary> ;
+  skos:prefLabel "rifting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/continentalRiftSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/continentalRiftSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-narrow_rift>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "narrow rift" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-wide_rift>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "wide rift" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-horst-and-graben>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "horst-and-graben" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-tilted_block_faulting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "tilted block faulting" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-mantle_exhumation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "mantle exhumation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-oceanic_core_complex>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "oceanic core complex" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-continental_core_complex>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "continental core complex" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-asymmetric_rifting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "asymmetric rifting" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-symmetric_rifting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "symmetric rifting" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-boundary_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "boundary fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-rift_volcanism>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "rift volcanism" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-volcanic_rifted_margin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "volcanic rifted margin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-non-volcanic_rifted_margin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "non-volcanic rifted margin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting-break-up_unconmformity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-rifting> ;
+  skos:prefLabel "break-up unconmformity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading-fracture_zone>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading-mid-ocean_ridge>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading-nodal_basin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading-transform_fault> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary> ;
+  skos:prefLabel "plate spreading" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/activeSpreadingCenterSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/activeSpreadingCenterSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading-mid-ocean_ridge>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading> ;
+  skos:prefLabel "mid-ocean ridge" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading-transform_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading> ;
+  skos:prefLabel "transform fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading-fracture_zone>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading> ;
+  skos:prefLabel "fracture zone" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading-nodal_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-divergent_tectonic_plate_boundary-plate_spreading> ;
+  skos:prefLabel "nodal basin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-contractional_bend>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-pull-apart_basin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-releasing_and_restraining_bend>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-stepover_basin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-transpressional_basin> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary> ;
+  skos:prefLabel "transcurrent tectonic plate boundary" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/transformPlateBoundarySetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/transformPlateBoundarySetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-pull-apart_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary> ;
+  skos:prefLabel "pull-apart basin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-stepover_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary> ;
+  skos:prefLabel "stepover basin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-transpressional_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary> ;
+  skos:prefLabel "transpressional basin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-contractional_bend>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary> ;
+  skos:prefLabel "contractional bend" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary-releasing_and_restraining_bend>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_plate_boundary-transcurrent_tectonic_plate_boundary> ;
+  skos:prefLabel "releasing and restraining bend" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-cratonisation>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> ;
+  skos:prefLabel "intraplate setting" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism-large_igneous_province_lip>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism-mantle_plume>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism-volcanic_island> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting> ;
+  skos:prefLabel "hot spot magmatism" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/hotSpotSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/hotSpotSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism-volcanic_island>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism> ;
+  skos:prefLabel "volcanic island" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism-mantle_plume>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism> ;
+  skos:prefLabel "mantle plume" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism-large_igneous_province_lip>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-hot_spot_magmatism> ;
+  skos:prefLabel "large igneous province (LIP)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy-dynamic_topography>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy-flexural_basin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy-isostatic_loading>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy-isostatic_rebound> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting> ;
+  skos:prefLabel "isostasy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy-isostatic_loading>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy> ;
+  skos:prefLabel "isostatic loading" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy-isostatic_rebound>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy> ;
+  skos:prefLabel "isostatic rebound" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy-flexural_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy> ;
+  skos:prefLabel "flexural basin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy-dynamic_topography>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-isostasy> ;
+  skos:prefLabel "dynamic topography" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-cratonisation>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-cratonisation-craton>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-cratonisation-cratonic_basin> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting> ;
+  skos:prefLabel "cratonisation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-cratonisation-craton>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-cratonisation> ;
+  skos:prefLabel "craton" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/intracratonicSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/intracratonicSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-cratonisation-cratonic_basin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-cratonisation> ;
+  skos:prefLabel "cratonic basin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin-continent-ocean_transition>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin-non-volcanic_rifted_margin>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin-seaward-dipping_reflectors>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin-volcanic_rifted_margin> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting> ;
+  skos:prefLabel "passive continental margin" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/passiveContinentalMarginSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/passiveContinentalMarginSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin-continent-ocean_transition>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin> ;
+  skos:prefLabel "continent-ocean transition" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin-seaward-dipping_reflectors>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin> ;
+  skos:prefLabel "seaward-dipping reflectors" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin-non-volcanic_rifted_margin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin> ;
+  skos:prefLabel "non-volcanic rifted margin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin-volcanic_rifted_margin>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/intraplate_setting-passive_continental_margin> ;
+  skos:prefLabel "volcanic rifted margin" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-asthenosphere>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_core>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-mohorovicic_discontinuity> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> ;
+  skos:prefLabel "Earth's structure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-continental_crust>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-lower_crust>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-middle_crust>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-ocean_continent_transition_oct>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-oceanic_crust>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-upper_crust> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure> ;
+  skos:prefLabel "Earth crust" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-upper_crust>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust> ;
+  skos:prefLabel "upper crust" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-middle_crust>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust> ;
+  skos:prefLabel "middle crust" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-lower_crust>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust> ;
+  skos:prefLabel "lower crust" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-oceanic_crust>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust> ;
+  skos:prefLabel "oceanic crust" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-continental_crust>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust> ;
+  skos:prefLabel "continental crust" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust-ocean_continent_transition_oct>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_crust> ;
+  skos:prefLabel "ocean continent transition (OCT)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-mohorovicic_discontinuity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure> ;
+  skos:prefLabel "Mohorovicic discontinuity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-410_km_discontinuity>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-660_km_discontinuity>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-core-mantle_boundary>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-d_layer>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-lithosphere-asthenosphere_boundary>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-lower_mantle>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-upper_mantle> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure> ;
+  skos:prefLabel "Earth mantle" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/mantleSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/mantleSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-upper_mantle>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle> ;
+  skos:prefLabel "upper mantle" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/upperMantleSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/upperMantleSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-lower_mantle>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle> ;
+  skos:prefLabel "lower mantle" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lowerMantleSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lowerMantleSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-lithosphere-asthenosphere_boundary>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle> ;
+  skos:prefLabel "lithosphere-asthenosphere boundary" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-410_km_discontinuity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle> ;
+  skos:prefLabel "410 km discontinuity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-660_km_discontinuity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle> ;
+  skos:prefLabel "660 km discontinuity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-d_layer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle> ;
+  skos:prefLabel "D'' layer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle-core-mantle_boundary>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_mantle> ;
+  skos:prefLabel "core-mantle boundary" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_core>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_core-inner_core>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_core-outer_core> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure> ;
+  skos:prefLabel "Earth core" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_core-inner_core>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_core> ;
+  skos:prefLabel "inner core" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_core-outer_core>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-earth_core> ;
+  skos:prefLabel "outer core" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere-cratonic_lithosphere>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere-oceanic_lithosphere>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere-sub-continental_lithospheric_mantle>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere-sub-oceanic_lithospheric_mantle> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure> ;
+  skos:prefLabel "lithosphere" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere-cratonic_lithosphere>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere> ;
+  skos:prefLabel "cratonic lithosphere" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere-oceanic_lithosphere>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere> ;
+  skos:prefLabel "oceanic lithosphere" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere-sub-continental_lithospheric_mantle>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere> ;
+  skos:prefLabel "sub-continental lithospheric mantle" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere-sub-oceanic_lithospheric_mantle>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-lithosphere> ;
+  skos:prefLabel "sub-oceanic lithospheric mantle" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure-asthenosphere>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/earths_structure> ;
+  skos:prefLabel "asthenosphere" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_shear_zone> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> ;
+  skos:prefLabel "tectonic deformation structure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-detachment_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-normal_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-oblique-slip_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-reverse_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-scissor_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-strike-slip_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-thrust_fault>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-wrench_fault> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure> ;
+  skos:prefLabel "tectonic fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-oblique-slip_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault> ;
+  skos:prefLabel "oblique-slip fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-reverse_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault> ;
+  skos:prefLabel "reverse fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-scissor_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault> ;
+  skos:prefLabel "scissor fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-strike-slip_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault> ;
+  skos:prefLabel "strike-slip fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-normal_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault> ;
+  skos:prefLabel "normal fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-thrust_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault> ;
+  skos:prefLabel "thrust fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-wrench_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault> ;
+  skos:prefLabel "wrench fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault-detachment_fault>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fault> ;
+  skos:prefLabel "detachment fault" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold-anticline>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold-antiform>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold-syncline>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold-synform> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure> ;
+  skos:prefLabel "tectonic fold" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold-anticline>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold> ;
+  skos:prefLabel "anticline" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold-antiform>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold> ;
+  skos:prefLabel "antiform" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold-syncline>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold> ;
+  skos:prefLabel "syncline" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold-synform>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_fold> ;
+  skos:prefLabel "synform" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_shear_zone>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_shear_zone-riedel_shear> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure> ;
+  skos:prefLabel "tectonic shear zone" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_shear_zone-riedel_shear>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/tectonic_deformation_structure-tectonic_shear_zone> ;
+  skos:prefLabel "Riedel shear" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/extra-terrestrial_setting>
+  a skos:Concept ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> ;
+  skos:prefLabel "extra-terrestrial setting" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-deltaic_system_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-glacier_related_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> ;
+  skos:prefLabel "surface morphological setting" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-glacier_related_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting> ;
+  skos:prefLabel "glacier related setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/glacierRelatedSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/glacierRelatedSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-barrier_island_coastline_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-beach_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-estuary_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-lagoonal_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-rocky_coast_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-tidal_setting> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting> ;
+  skos:prefLabel "shoreline setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/shorelineSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/shorelineSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-beach_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting> ;
+  skos:prefLabel "beach setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/beachSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/beachSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-estuary_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting> ;
+  skos:prefLabel "estuary setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/estuarySetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/estuarySetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-lagoonal_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting> ;
+  skos:prefLabel "lagoonal setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lagoonalSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lagoonalSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-tidal_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting> ;
+  skos:prefLabel "tidal setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-rocky_coast_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting> ;
+  skos:prefLabel "rocky coast setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/rockyCoastSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/rockyCoastSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting-barrier_island_coastline_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-shoreline_setting> ;
+  skos:prefLabel "barrier island coastline setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/barrierIslandCoastlineSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/barrierIslandCoastlineSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-floodplain_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-river_channel_setting> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting> ;
+  skos:prefLabel "river plain system setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/riverPlainSystemSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/riverPlainSystemSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-floodplain_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting> ;
+  skos:prefLabel "floodplain setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/floodplainSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/floodplainSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-river_channel_setting>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-river_channel_setting-braided_river_channel_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-river_channel_setting-meandering_river_channel_setting> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting> ;
+  skos:prefLabel "river channel setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/riverChannelSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/riverChannelSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-river_channel_setting-braided_river_channel_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-river_channel_setting> ;
+  skos:prefLabel "braided river channel setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/braidedRiverChannelSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/braidedRiverChannelSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-river_channel_setting-meandering_river_channel_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-river_plain_system_setting-river_channel_setting> ;
+  skos:prefLabel "meandering river channel setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/meanderingRiverChannelSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/meanderingRiverChannelSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-deltaic_system_setting>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-deltaic_system_setting-estuarine_delta_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-deltaic_system_setting-lacustrine_delta_setting> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting> ;
+  skos:prefLabel "deltaic system setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deltaicSystemSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deltaicSystemSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-deltaic_system_setting-estuarine_delta_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-deltaic_system_setting> ;
+  skos:prefLabel "estuarine delta setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/estuarineDeltaSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/estuarineDeltaSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-deltaic_system_setting-lacustrine_delta_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-deltaic_system_setting> ;
+  skos:prefLabel "lacustrine delta setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lacustrineDeltaSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lacustrineDeltaSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-abyssal_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-basin_plain_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-continental_shelf>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-deep_sea_trench_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-slope-rise_setting>, <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-submarine_fan_setting> ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting> ;
+  skos:prefLabel "marine setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/marineSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/marineSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-continental_shelf>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting> ;
+  skos:prefLabel "continental shelf" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/continentalShelfSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/continentalShelfSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-slope-rise_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting> ;
+  skos:prefLabel "slope-rise setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/slopeRiseSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/slopeRiseSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-submarine_fan_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting> ;
+  skos:prefLabel "submarine fan setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/submarineFanSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/submarineFanSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-basin_plain_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting> ;
+  skos:prefLabel "basin plain setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/basinPlainSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/basinPlainSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-deep_sea_trench_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting> ;
+  skos:prefLabel "deep sea trench setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deepSeaTrenchSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deepSeaTrenchSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+
+<https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting-abyssal_setting>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/surface_morphological_setting-marine_setting> ;
+  skos:prefLabel "abyssal setting" ;
+  rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/abyssalSetting> ;
+  skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/abyssalSetting> ;
+  dc:source "inspire" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/geologicalsetting/1.4/> .
+

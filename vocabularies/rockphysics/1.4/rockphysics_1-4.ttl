@@ -1,0 +1,1608 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/>
+  a skos:ConceptScheme ;
+  skos:prefLabel "Rock and melt physics" ;
+  skos:hasTopConcept <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/rockphysics/1.4/> ;
+  skos:prefLabel "Apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus> ;
+  skos:prefLabel "deformation testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-biaxial_compression_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-brazilian_testing_setup>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-chevron-notch_test_setup>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-confining_pressure_vessel>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-deformation-dia>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-diamond_anvil_cell>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-flexural_testing_machine>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-load_stamp>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-microcantilever>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-micropillar>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-multi-anvil>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-nanoindenter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-plate_bearing_test_setup>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-point_load_test_setup>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-split_hopkinson_pressure_bar_-_compression>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-vickers_hardness_test_setup> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing> ;
+  skos:prefLabel "compression testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-confining_pressure_vessel>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "confining pressure vessel" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus-uniaxial_oedometer_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus-uniaxial_unconfined_apparatus_-_compression> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "uniaxial compression apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus-uniaxial_oedometer_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus> ;
+  skos:prefLabel "uniaxial (oedometer) apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus-uniaxial_unconfined_apparatus_-_compression>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-uniaxial_compression_apparatus> ;
+  skos:prefLabel "uniaxial (unconfined) apparatus - compression" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-biaxial_compression_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "biaxial compression apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus-conventional_triaxial_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus-true_triaxial_apparatus> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "triaxial compression apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus-conventional_triaxial_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus> ;
+  skos:prefLabel "conventional triaxial apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus-true_triaxial_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-triaxial_compression_apparatus> ;
+  skos:prefLabel "true triaxial apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-diamond_anvil_cell>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "diamond anvil cell" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-deformation-dia>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "deformation-DIA" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-multi-anvil>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "multi-anvil" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-brazilian_testing_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "Brazilian testing setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-flexural_testing_machine>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "flexural testing machine" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-load_stamp>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "load stamp" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-chevron-notch_test_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "Chevron-notch test setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-nanoindenter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "nanoindenter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-micropillar>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "micropillar" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-microcantilever>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "microcantilever" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-vickers_hardness_test_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "Vickers hardness test setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-plate_bearing_test_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "plate bearing test setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-point_load_test_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "point load test setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing-split_hopkinson_pressure_bar_-_compression>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-compression_testing> ;
+  skos:prefLabel "split Hopkinson pressure bar - compression" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-conventional_triaxial_apparatus_-_extension>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-dilatometer>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-direct_tension_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-pull_test_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-split_hopkinson_pressure_bar_-_extension>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-uniaxial_unconfined_apparatus_-_extension> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing> ;
+  skos:prefLabel "extension testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-conventional_triaxial_apparatus_-_extension>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing> ;
+  skos:prefLabel "conventional triaxial apparatus - extension" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-uniaxial_unconfined_apparatus_-_extension>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing> ;
+  skos:prefLabel "uniaxial (unconfined) apparatus - extension" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-direct_tension_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing> ;
+  skos:prefLabel "direct tension apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-pull_test_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing> ;
+  skos:prefLabel "pull test apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-split_hopkinson_pressure_bar_-_extension>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing> ;
+  skos:prefLabel "split Hopkinson pressure bar - extension" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing-dilatometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-extension_testing> ;
+  skos:prefLabel "dilatometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-biaxial_apparatus_direct_shear>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-conventional_triaxial_apparatus_direct_shear>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-conventional_triaxial_apparatus_saw-cut>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-rotary_shear_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-true_triaxial_apparatus_shear> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing> ;
+  skos:prefLabel "shear testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-biaxial_apparatus_direct_shear>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing> ;
+  skos:prefLabel "biaxial apparatus: direct shear" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-rotary_shear_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing> ;
+  skos:prefLabel "rotary shear apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-conventional_triaxial_apparatus_direct_shear>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing> ;
+  skos:prefLabel "conventional triaxial apparatus: direct shear" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-conventional_triaxial_apparatus_saw-cut>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing> ;
+  skos:prefLabel "conventional triaxial apparatus: saw-cut" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing-true_triaxial_apparatus_shear>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-shear_testing> ;
+  skos:prefLabel "true triaxial apparatus shear" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing-conventional_triaxial_apparatus_-_torsion>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing-double_torsion_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing-split_hopkinson_pressure_bar_-_torsion>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing-uniaxial_unconfined_apparatus_-_torsion> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing> ;
+  skos:prefLabel "torsion testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing-conventional_triaxial_apparatus_-_torsion>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing> ;
+  skos:prefLabel "conventional triaxial apparatus - torsion" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing-uniaxial_unconfined_apparatus_-_torsion>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing> ;
+  skos:prefLabel "uniaxial (unconfined) apparatus - torsion" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing-double_torsion_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing> ;
+  skos:prefLabel "double torsion apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing-split_hopkinson_pressure_bar_-_torsion>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-deformation_testing-torsion_testing> ;
+  skos:prefLabel "split Hopkinson pressure bar - torsion" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus> ;
+  skos:prefLabel "fluid transport testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter-permeameter_-_pore_pressure_oscillation_method>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter-permeameter_-_pressure_transient_pulse_decay_method>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter-permeameter_-_steady_state_flow_method> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing> ;
+  skos:prefLabel "permeameter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter-permeameter_-_steady_state_flow_method>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter> ;
+  skos:prefLabel "permeameter - steady state flow method" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter-permeameter_-_pore_pressure_oscillation_method>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter> ;
+  skos:prefLabel "permeameter - pore pressure oscillation method" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter-permeameter_-_pressure_transient_pulse_decay_method>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-permeameter> ;
+  skos:prefLabel "permeameter - pressure transient pulse decay method" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing-multi-phase_flow_test_apparatus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing-rheometer>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing-viscometer> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing> ;
+  skos:prefLabel "fluid rheology testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing-rheometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing> ;
+  skos:prefLabel "rheometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing-viscometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing> ;
+  skos:prefLabel "viscometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing-multi-phase_flow_test_apparatus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-fluid_transport_testing-fluid_rheology_testing> ;
+  skos:prefLabel "multi-phase flow test apparatus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-humidity_control>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus> ;
+  skos:prefLabel "environmental control" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control-cryostat>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control-furnace>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control-incubator> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control> ;
+  skos:prefLabel "temperature control" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control-cryostat>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control> ;
+  skos:prefLabel "cryostat" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control-furnace>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control> ;
+  skos:prefLabel "furnace" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control-incubator>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-temperature_control> ;
+  skos:prefLabel "incubator" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-humidity_control>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-humidity_control-humidity_controlled_chamber> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control> ;
+  skos:prefLabel "humidity control" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-humidity_control-humidity_controlled_chamber>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-environmental_control-humidity_control> ;
+  skos:prefLabel "humidity controlled chamber" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus> ;
+  skos:prefLabel "general sample characterization" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination-densimeter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination-porosity_meter_archimedes_method>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination-porosity_meter_mercury_porosimeter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination-pycnometer> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization> ;
+  skos:prefLabel "porosity and density determination" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination-densimeter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination> ;
+  skos:prefLabel "densimeter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination-porosity_meter_archimedes_method>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination> ;
+  skos:prefLabel "porosity meter: Archimedes method" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination-porosity_meter_mercury_porosimeter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination> ;
+  skos:prefLabel "porosity meter: mercury porosimeter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination-pycnometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-porosity_and_density_determination> ;
+  skos:prefLabel "pycnometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis-particle_analyser>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis-profilometer>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis-roughness_testing_equipment> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization> ;
+  skos:prefLabel "size and shape analysis" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis-particle_analyser>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis> ;
+  skos:prefLabel "particle analyser" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis-profilometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis> ;
+  skos:prefLabel "profilometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis-roughness_testing_equipment>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-size_and_shape_analysis> ;
+  skos:prefLabel "roughness testing equipment" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination-conductivity_cell>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination-contact_resistivity_cell>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination-electric_resistivity_meter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination-tensiometer> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization> ;
+  skos:prefLabel "electrical property determination" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination-conductivity_cell>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination> ;
+  skos:prefLabel "conductivity cell" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination-contact_resistivity_cell>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination> ;
+  skos:prefLabel "contact resistivity cell" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination-electric_resistivity_meter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination> ;
+  skos:prefLabel "electric resistivity meter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination-tensiometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-electrical_property_determination> ;
+  skos:prefLabel "tensiometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination-calorimeter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination-differential_thermal_analysis_setup>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination-thermal_conductivity_test_setup>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination-thermal_diffusivity_test_setup> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization> ;
+  skos:prefLabel "thermal property determination" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination-calorimeter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination> ;
+  skos:prefLabel "calorimeter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination-differential_thermal_analysis_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination> ;
+  skos:prefLabel "differential thermal analysis setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination-thermal_conductivity_test_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination> ;
+  skos:prefLabel "thermal conductivity test setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination-thermal_diffusivity_test_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-thermal_property_determination> ;
+  skos:prefLabel "thermal diffusivity test setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-cherchar_equipment>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-core_scratcher>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-schmidt_hammer>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-sclerometer>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-slake_durability_setup> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization> ;
+  skos:prefLabel "mechanical property determination" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-cherchar_equipment>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination> ;
+  skos:prefLabel "Cherchar equipment" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-core_scratcher>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination> ;
+  skos:prefLabel "core scratcher" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-schmidt_hammer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination> ;
+  skos:prefLabel "Schmidt hammer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-sclerometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination> ;
+  skos:prefLabel "sclerometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination-slake_durability_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/apparatus-general_sample_characterization-mechanical_property_determination> ;
+  skos:prefLabel "Slake durability setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_passive>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/rockphysics/1.4/> ;
+  skos:prefLabel "Ancillary equipment" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-camera_imaging_during_testing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-infrared_camera>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-infrared_spectroscope>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-photoelastic_setup>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment> ;
+  skos:prefLabel "syn-deformation imaging" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-camera_imaging_during_testing>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "camera imaging during testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-infrared_camera>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "infrared camera" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing-x-ray_imaging_of_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing-x-ray_imaging_of_fluid_transport> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "X-ray imaging during testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing-x-ray_imaging_of_fluid_transport>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing> ;
+  skos:prefLabel "X-ray imaging of fluid transport" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing-x-ray_imaging_of_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-x-ray_imaging_during_testing> ;
+  skos:prefLabel "X-ray imaging of deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing-neutron_imaging_of_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing-neutron_imaging_of_fluid_transport> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "neutron imaging during testing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing-neutron_imaging_of_fluid_transport>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing> ;
+  skos:prefLabel "neutron imaging of fluid transport" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing-neutron_imaging_of_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-neutron_imaging_during_testing> ;
+  skos:prefLabel "neutron imaging of deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-infrared_spectroscope>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "infrared spectroscope" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging-photoelastic_setup>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-syn-deformation_imaging> ;
+  skos:prefLabel "photoelastic setup" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source-accelerometer>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source-laser_vibrometer>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source-ultrasonic_imaging_equipment>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source-ultrasound_monitoring_equipment> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment> ;
+  skos:prefLabel "acoustic measurement - active source" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source-accelerometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source> ;
+  skos:prefLabel "accelerometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source-laser_vibrometer>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source> ;
+  skos:prefLabel "laser vibrometer" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source-ultrasonic_imaging_equipment>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source> ;
+  skos:prefLabel "ultrasonic imaging equipment" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source-ultrasound_monitoring_equipment>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_active_source> ;
+  skos:prefLabel "ultrasound monitoring equipment" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_passive>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_passive-acoustic_emission_ae_monitoring_equipment_-_continuous>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_passive-acoustic_emission_ae_monitoring_equipment_-_triggered> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment> ;
+  skos:prefLabel "acoustic measurement - passive" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_passive-acoustic_emission_ae_monitoring_equipment_-_triggered>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_passive> ;
+  skos:prefLabel "acoustic emission (AE) monitoring equipment - triggered" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_passive-acoustic_emission_ae_monitoring_equipment_-_continuous>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-acoustic_measurement_-_passive> ;
+  skos:prefLabel "acoustic emission (AE) monitoring equipment - continuous" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing-distributed_acoustic_sensing_das_system>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing-distributed_strain_sensing_dss_system>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing-distributed_temperature_sensing_dts_system> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment> ;
+  skos:prefLabel "distributed fibre sensing" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing-distributed_acoustic_sensing_das_system>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing> ;
+  skos:prefLabel "distributed acoustic sensing (DAS) system" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing-distributed_strain_sensing_dss_system>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing> ;
+  skos:prefLabel "distributed strain sensing (DSS) system" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing-distributed_temperature_sensing_dts_system>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-distributed_fibre_sensing> ;
+  skos:prefLabel "distributed temperature sensing (DTS) system" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement-coriolis_meter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement-flow_meter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement-in-line_ph_meter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement-relative_humidity_meter> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment> ;
+  skos:prefLabel "in-line fluid property measurement" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement-in-line_ph_meter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement> ;
+  skos:prefLabel "in-line pH meter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement-flow_meter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement> ;
+  skos:prefLabel "flow meter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement-coriolis_meter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement> ;
+  skos:prefLabel "Coriolis meter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement-relative_humidity_meter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/ancillary_equipment-in-line_fluid_property_measurement> ;
+  skos:prefLabel "relative humidity meter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-hydrological_effects>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-fracture_and_crack_toughness>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_stress>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-grain_size_distribution>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-pore_fluid_pressure>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-porosity>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-slake_durability>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain_rate_-_creep_constant_stress>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-stress_relaxation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-surface_roughness>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-thermal_properties>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-viscosity> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/rockphysics/1.4/> ;
+  skos:prefLabel "Measured property" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-hydrostatic_compressive_strength_s1s2s3>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-plastic_flow_stress>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-residual_strength>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-shear_strength>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-tensile_strength>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-torsion_strength>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-triaxial_compressive_strength_s1-s2s3>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-true_tension_strength>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-true_triaxial_strength_s1-s2-s3>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-unconfined_compressive_strength_ucs>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-yield_strength> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "mechanical strength" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-unconfined_compressive_strength_ucs>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "unconfined compressive strength (UCS)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-tensile_strength>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "tensile strength" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-true_tension_strength>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "true tension strength" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-hydrostatic_compressive_strength_s1s2s3>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "hydrostatic compressive strength (s1=s2=s3)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-triaxial_compressive_strength_s1-s2s3>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "triaxial compressive strength (s1>s2=s3)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-true_triaxial_strength_s1-s2-s3>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "true triaxial strength (s1>s2>s3)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-yield_strength>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "yield strength" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-shear_strength>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "shear strength" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-torsion_strength>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "torsion strength" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-residual_strength>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "residual strength" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-plastic_flow_stress>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-plastic_flow_stress-plastic_flow_law_stress_exponent> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength> ;
+  skos:prefLabel "plastic flow stress" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-plastic_flow_stress-plastic_flow_law_stress_exponent>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-mechanical_strength-plastic_flow_stress> ;
+  skos:prefLabel "plastic flow law stress exponent" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-fracture_and_crack_toughness>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-fracture_and_crack_toughness-linear-elastic_critical_stress_intensity_factor_kic>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-fracture_and_crack_toughness-plastic-elastic_fracture_toughness_jic> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "fracture and crack toughness" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-fracture_and_crack_toughness-linear-elastic_critical_stress_intensity_factor_kic>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-fracture_and_crack_toughness> ;
+  skos:prefLabel "linear-elastic (critical stress intensity factor KIC)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-fracture_and_crack_toughness-plastic-elastic_fracture_toughness_jic>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-fracture_and_crack_toughness> ;
+  skos:prefLabel "plastic-elastic fracture toughness (JIC)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-cohesion>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-dilatancy_parameter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-linker-dieterich_parameter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-rate_and_state_friction_rsf_parameters>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-slip_weakening_parameters>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-stress_drop> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "friction - controlled slip rate" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-frictional_strength_recovery>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-kinetic_friction_coefficient>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-peak_friction_coefficient>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-reactivation_friction_coefficient>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-steady_state_friction_coefficient> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate> ;
+  skos:prefLabel "friction coefficient" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-peak_friction_coefficient>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient> ;
+  skos:prefLabel "peak friction coefficient" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-kinetic_friction_coefficient>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient> ;
+  skos:prefLabel "kinetic friction coefficient" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-steady_state_friction_coefficient>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient> ;
+  skos:prefLabel "steady state friction coefficient" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-reactivation_friction_coefficient>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient> ;
+  skos:prefLabel "reactivation friction coefficient" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient-frictional_strength_recovery>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-friction_coefficient> ;
+  skos:prefLabel "frictional strength recovery" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-rate_and_state_friction_rsf_parameters>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate> ;
+  skos:prefLabel "rate and state friction (RSF) parameters" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-slip_weakening_parameters>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate> ;
+  skos:prefLabel "slip weakening parameters" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-stress_drop>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate> ;
+  skos:prefLabel "stress drop" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-cohesion>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate> ;
+  skos:prefLabel "cohesion" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-dilatancy_parameter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate> ;
+  skos:prefLabel "dilatancy parameter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate-linker-dieterich_parameter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_slip_rate> ;
+  skos:prefLabel "Linker-Dieterich parameter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_stress>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_stress-slip_rate> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "friction - controlled stress" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_stress-slip_rate>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-friction_-_controlled_stress> ;
+  skos:prefLabel "slip rate" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain-anelastic_strain>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain-elastic_strain>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain-inelastic_strain>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain-strain_partitioning> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "strain" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain-elastic_strain>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain> ;
+  skos:prefLabel "elastic strain" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain-anelastic_strain>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain> ;
+  skos:prefLabel "anelastic strain" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain-inelastic_strain>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain> ;
+  skos:prefLabel "inelastic strain" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain-strain_partitioning>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain> ;
+  skos:prefLabel "strain partitioning" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-strain_rate_-_creep_constant_stress>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "strain rate - creep (constant stress)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-stress_relaxation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "stress relaxation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-pore_fluid_pressure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "pore fluid pressure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects-force_of_crystallization_foc>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects-pore_fluid_composition>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects-rate_of_crack_growth>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects-rate_of_pressure_solution> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "coupled  mechanical-chemical effects" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects-force_of_crystallization_foc>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects> ;
+  skos:prefLabel "force of crystallization (FOC)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects-rate_of_crack_growth>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects> ;
+  skos:prefLabel "rate of crack growth" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects-rate_of_pressure_solution>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects> ;
+  skos:prefLabel "rate of pressure solution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects-pore_fluid_composition>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-chemical_effects> ;
+  skos:prefLabel "pore fluid composition" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-coupled_mechanical-hydrological_effects>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "coupled mechanical-hydrological effects" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change-endothermic_reaction>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change-exothermic_reaction>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change-frictional_heating> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "temperature change" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change-endothermic_reaction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change> ;
+  skos:prefLabel "endothermic reaction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change-exothermic_reaction>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change> ;
+  skos:prefLabel "exothermic reaction" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change-frictional_heating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-temperature_change> ;
+  skos:prefLabel "frictional heating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-axial_compressibility>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-biot_coefficient>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-bulk_compressibility>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-bulk_modulus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-indentation_modulus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-lame_parameter>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-modulus_attenuation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-modulus_dispersion>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-poisson_ratio>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-shear_modulus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-storageloss_modulus>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-youngs_modulus> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "elasticity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-youngs_modulus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "Young's modulus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-bulk_modulus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "bulk modulus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-shear_modulus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "shear modulus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-poisson_ratio>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "Poisson ratio" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-biot_coefficient>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "Biot coefficient" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-axial_compressibility>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "axial compressibility" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-bulk_compressibility>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "bulk compressibility" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-lame_parameter>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "Lamé parameter" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-indentation_modulus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "indentation modulus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-modulus_dispersion>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "modulus dispersion" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-modulus_attenuation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "modulus attenuation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity-storageloss_modulus>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elasticity> ;
+  skos:prefLabel "storage/loss modulus" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-p-wave>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-s-wave>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-s1-wave>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-s2-wave>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-wave_attenuation> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "elastic wave velocity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-p-wave>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity> ;
+  skos:prefLabel "P-wave" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-s-wave>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity> ;
+  skos:prefLabel "S-wave" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-s1-wave>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity> ;
+  skos:prefLabel "S1-wave" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-s2-wave>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity> ;
+  skos:prefLabel "S2-wave" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity-wave_attenuation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-elastic_wave_velocity> ;
+  skos:prefLabel "wave attenuation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae-acoustic_emission_ae_count>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae-acoustic_emission_ae_energy>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae-acoustic_emission_ae_location> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "acoustic emission (AE)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae-acoustic_emission_ae_energy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae> ;
+  skos:prefLabel "acoustic emission (AE) energy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae-acoustic_emission_ae_count>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae> ;
+  skos:prefLabel "acoustic emission (AE) count" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae-acoustic_emission_ae_location>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-acoustic_emission_ae> ;
+  skos:prefLabel "acoustic emission (AE) location" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-porosity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "porosity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-absolute_permeability>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-bulk_sample_permeability>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-capillary_effects>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-fluid_hold-up>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-fracture_permeability>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-klinkenberg_constant>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-relative_permeability>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-storativity> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "permeability" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-absolute_permeability>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability> ;
+  skos:prefLabel "absolute permeability" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-relative_permeability>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability> ;
+  skos:prefLabel "relative permeability" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-fracture_permeability>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability> ;
+  skos:prefLabel "fracture permeability" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-bulk_sample_permeability>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability> ;
+  skos:prefLabel "bulk sample permeability" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-storativity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability> ;
+  skos:prefLabel "storativity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-klinkenberg_constant>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability> ;
+  skos:prefLabel "Klinkenberg constant" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-capillary_effects>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability> ;
+  skos:prefLabel "capillary effects" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability-fluid_hold-up>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-permeability> ;
+  skos:prefLabel "fluid hold-up" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-thermal_properties>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-thermal_properties-heat_capacity>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-thermal_properties-thermal_conductivity> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "thermal properties" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-thermal_properties-heat_capacity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-thermal_properties> ;
+  skos:prefLabel "heat capacity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-thermal_properties-thermal_conductivity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-thermal_properties> ;
+  skos:prefLabel "thermal conductivity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties-electrical_capacity>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties-electrical_conductivity>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties-electrical_resistivity>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties-frequency_dependent_conductivity> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "electrical properties" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties-electrical_conductivity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties> ;
+  skos:prefLabel "electrical conductivity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties-electrical_resistivity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties> ;
+  skos:prefLabel "electrical resistivity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties-electrical_capacity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties> ;
+  skos:prefLabel "electrical capacity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties-frequency_dependent_conductivity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-electrical_properties> ;
+  skos:prefLabel "frequency dependent conductivity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical-elastic_anisotropy>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical-permeability_anisotropy>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical-seismic_anisotropy>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical-strength_anisotropy> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "anisotropy (petrophysical)" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical-strength_anisotropy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical> ;
+  skos:prefLabel "strength anisotropy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical-elastic_anisotropy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical> ;
+  skos:prefLabel "elastic anisotropy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical-permeability_anisotropy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical> ;
+  skos:prefLabel "permeability anisotropy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical-seismic_anisotropy>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-anisotropy_petrophysical> ;
+  skos:prefLabel "seismic anisotropy" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-surface_roughness>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-surface_roughness-grain_surface_roughness>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-surface_roughness-rock_surface_roughness> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "surface roughness" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-surface_roughness-grain_surface_roughness>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-surface_roughness> ;
+  skos:prefLabel "grain surface roughness" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-surface_roughness-rock_surface_roughness>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-surface_roughness> ;
+  skos:prefLabel "rock surface roughness" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-slake_durability>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "Slake durability" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-viscosity>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "viscosity" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property-grain_size_distribution>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/measured_property> ;
+  skos:prefLabel "grain size distribution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-energy_partitioning>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:topConceptOf <https://epos-msl.uu.nl/voc/rockphysics/1.4/> ;
+  skos:prefLabel "Inferred deformation behavior" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-anelastic_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-brittle_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-brittle-ductile_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-brittle-viscous_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-ductile_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-flow_law>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-frictional_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-hysteretic_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-inelastic_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-poroelastic_deformation>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-viscous_deformation> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior> ;
+  skos:prefLabel "deformation behaviour" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-poroelastic_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "poroelastic deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-anelastic_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "anelastic deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-inelastic_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "inelastic deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-hysteretic_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "hysteretic deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-brittle_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "brittle deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-frictional_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "frictional deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-ductile_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "ductile deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-brittle-ductile_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "brittle-ductile deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-brittle-viscous_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "brittle-viscous deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-viscous_deformation>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "viscous deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor-deviatoric_strain_tensor>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor-elastic_strain_tensor>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor-inelastic_strain_tensor>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor-mean_strain_tensor> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "strain tensor" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor-mean_strain_tensor>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor> ;
+  skos:prefLabel "mean strain tensor" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor-deviatoric_strain_tensor>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor> ;
+  skos:prefLabel "deviatoric strain tensor" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor-elastic_strain_tensor>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor> ;
+  skos:prefLabel "elastic strain tensor" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor-inelastic_strain_tensor>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-strain_tensor> ;
+  skos:prefLabel "inelastic strain tensor" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-flow_law>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-flow_law-associated_flow>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-flow_law-nonassociated_flow> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "flow law" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-flow_law-associated_flow>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-flow_law> ;
+  skos:prefLabel "associated flow" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-flow_law-nonassociated_flow>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-flow_law> ;
+  skos:prefLabel "nonassociated flow" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-compaction_band>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-dilation_band>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-riedel_shear>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-shear_band>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-shear_failure> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour> ;
+  skos:prefLabel "localized deformation" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-shear_failure>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation> ;
+  skos:prefLabel "shear failure" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-compaction_band>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation> ;
+  skos:prefLabel "compaction band" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-dilation_band>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation> ;
+  skos:prefLabel "dilation band" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-shear_band>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation> ;
+  skos:prefLabel "shear band" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation-riedel_shear>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-deformation_behaviour-localized_deformation> ;
+  skos:prefLabel "Riedel shear" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_absorption>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_adsorption>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_desorption>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-frictional_heating>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-intergranular_cracking>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-intergranular_slip>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-intragranular_cracking>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-transgranular_cracking> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior> ;
+  skos:prefLabel "microphysical deformation mechanism" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-intragranular_cracking>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "intragranular cracking" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-intergranular_cracking>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "intergranular cracking" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-transgranular_cracking>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "transgranular cracking" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-intergranular_slip>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "intergranular slip" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_desorption>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "fluid desorption" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism>
+  a skos:Concept ;
+  skos:narrower <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-crystal_plasticity_-_diffusion_creep>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-crystal_plasticity_-_dislocation_creep>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-pressure_solution>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-stress_corrosion_cracking>, <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-sub-critical_crack_growth> ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "time-dependent mechanism" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-pressure_solution>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism> ;
+  skos:prefLabel "pressure solution" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-sub-critical_crack_growth>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism> ;
+  skos:prefLabel "sub-critical crack growth" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-stress_corrosion_cracking>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism> ;
+  skos:prefLabel "stress corrosion cracking" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-crystal_plasticity_-_dislocation_creep>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism> ;
+  skos:prefLabel "crystal plasticity - dislocation creep" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism-crystal_plasticity_-_diffusion_creep>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-time-dependent_mechanism> ;
+  skos:prefLabel "crystal plasticity - diffusion creep" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_adsorption>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "fluid adsorption" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-fluid_absorption>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "fluid absorption" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism-frictional_heating>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-microphysical_deformation_mechanism> ;
+  skos:prefLabel "frictional heating" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
+<https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior-energy_partitioning>
+  a skos:Concept ;
+  skos:broader <https://epos-msl.uu.nl/voc/rockphysics/1.4/inferred_deformation_behavior> ;
+  skos:prefLabel "energy partitioning" ;
+  skos:inScheme <https://epos-msl.uu.nl/voc/rockphysics/1.4/> .
+
