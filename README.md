@@ -11,7 +11,9 @@ encourage others to use and improve the provided vocabularies within this reposi
 
 We currently publish the following vocabularies:
 - Analogue modelling of geological processes (referred to as "analogue")
+- Field-Scale Laboratories
 - Geochemistry
+- ~~Geo-energy testbeds (referred to as "testbeds")~~ (Replaced by the Field-Scale Laboratories vocabulary starting version 1.4)
 - Geological age
 - Geological setting
 - Materials
@@ -42,6 +44,8 @@ JSON (JavaScript Object Notation) format to provide easy access for (web)applica
 - label; label of term
 - synonyms; array of synonyms
 - children; child terms
+- external_uri; uri of term in external vocabulary
+- external_vocab_scheme; scheme of external vocabulary
 
 Sample of data:
 
@@ -50,12 +54,16 @@ Sample of data:
         "value": "Modeled structure",
         "label": "Modeled structure",
         "synonyms": [],
+        "external_uri": "",
+        "external_vocab_scheme": ""
         "children": [
             {
                 "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.0\/modeled_structure-modelled_magmatic_structure",
                 "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.0\/",
                 "value": "modelled magmatic structure",
                 "label": "modelled magmatic structure",
+                "external_uri": "",
+                "external_vocab_scheme": ""
                 "synonyms": [],
                 "children": [
 
@@ -71,12 +79,12 @@ Sample of data:
 
       <https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure-modelled_crack>
         a skos:Concept ;
-        skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure" ;
+        skos:broader <https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure> ;
         rdfs:label "modelled crack" .
 
       <https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure-modelled_fracture>
         a skos:Concept ;
-        skos:broader "https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure" ;
+        skos:broader <https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure> ;
         rdfs:label "modelled fracture" .
 
 ### Rdf/xml
