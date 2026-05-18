@@ -49,23 +49,26 @@ JSON (JavaScript Object Notation) format to provide easy access for (web)applica
 
 Sample of data:
 
-        "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.0\/modeled_structure",
-        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.0\/",
-        "value": "Modeled structure",
-        "label": "Modeled structure",
+        {
+        "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.4\/sedimentary_rock",
+        "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.4\/",
+        "value": "sedimentary rock",
+        "label": "sedimentary rock",
         "synonyms": [],
-        "external_uri": "",
-        "external_vocab_scheme": ""
         "children": [
             {
-                "uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.0\/modeled_structure-modelled_magmatic_structure",
-                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/analoguemodelling\/1.0\/",
-                "value": "modelled magmatic structure",
-                "label": "modelled magmatic structure",
-                "external_uri": "",
-                "external_vocab_scheme": ""
+                "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.4\/sedimentary_rock-breccia",
+                "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.4\/",
+                "value": "breccia",
+                "label": "breccia",
                 "synonyms": [],
-                "children": [
+                "children": [],
+                "external_uri": "http:\/\/resource.geosciml.org\/classifier\/cgi\/lithology\/breccia",
+                "external_vocab_scheme": "geosciml"
+				...
+            },
+		"external_uri": "http:\/\/resource.geosciml.org\/classifier\/cgi\/lithology\/sedimentary_rock",
+        "external_vocab_scheme": "geosciml"
 
 ### Excel
 
