@@ -80,15 +80,30 @@ Vocabularies are also published in turtle (Terse RDF Triple Language) format. Tr
 
 Sample of data:
 
-      <https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure-modelled_crack>
-        a skos:Concept ;
-        skos:broader <https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure> ;
-        rdfs:label "modelled crack" .
+      <https://epos-msl.uu.nl/voc/materials/1.4/>
+	  a skos:ConceptScheme ;
+	  skos:prefLabel "Material" ;
+	  skos:hasTopConcept <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock>, <https://epos-msl.uu.nl/voc/materials/1.4/igneous_rock_-_intrusive>, <https://epos-msl.uu.nl/voc/materials/1.4/igneous_rock_-_extrusive>, <https://epos-msl.uu.nl/voc/materials/1.4/metamorphic_rock>, <https://epos-msl.uu.nl/voc/materials/1.4/fault_rock>, <https://epos-msl.uu.nl/voc/materials/1.4/metasomatic_rock>, <https://epos-msl.uu.nl/voc/materials/1.4/meteorite>, <https://epos-msl.uu.nl/voc/materials/1.4/impact_rock>, <https://epos-msl.uu.nl/voc/materials/1.4/minerals>, <https://epos-msl.uu.nl/voc/materials/1.4/unconsolidated_sediment>, <https://epos-msl.uu.nl/voc/materials/1.4/analogue_modelling_material>, <https://epos-msl.uu.nl/voc/materials/1.4/synthesized_material> .
 
-      <https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure-modelled_fracture>
-        a skos:Concept ;
-        skos:broader <https://epos-msl.uu.nl/voc/analoguemodelling/1.0/modeled_structure-modelled_deformation_structure> ;
-        rdfs:label "modelled fracture" .
+	<https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock>
+	  a skos:Concept ;
+	  skos:narrower <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-breccia>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-coal>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-conglomerate>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-dolomite>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-evaporite>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-marl>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-mudstone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-sandstone> ;
+	  skos:topConceptOf <https://epos-msl.uu.nl/voc/materials/1.4/> ;
+	  skos:prefLabel "sedimentary rock" ;
+	  rdfs:seeAlso <http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_rock> ;
+	  skos:exactMatch <http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_rock> ;
+	  dc:source "geosciml" ;
+	  skos:inScheme <https://epos-msl.uu.nl/voc/materials/1.4/> .
+
+	<https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone>
+	  a skos:Concept ;
+	  skos:narrower <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-anstrude_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-austin_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-balmholtz_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-carthage_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-chalk>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-chauvigny_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-comiso_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-estaillades_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-fontvieille_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-hallekis_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-holston_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-indiana_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-irondequoit_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-leitha_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-lueders_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-majella_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-red_oland_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-reynales_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-saint_maximin_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-shelly_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-solnhofen_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-tavel_limestone>, <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-travertine> ;
+	  skos:broader <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock> ;
+	  skos:prefLabel "limestone" ;
+	  rdfs:seeAlso <http://resource.geosciml.org/classifier/cgi/lithology/limestone> ;
+	  skos:exactMatch <http://resource.geosciml.org/classifier/cgi/lithology/limestone> ;
+	  dc:source "geosciml" ;
+	  skos:inScheme <https://epos-msl.uu.nl/voc/materials/1.4/> .
 
 ### Rdf/xml
 
