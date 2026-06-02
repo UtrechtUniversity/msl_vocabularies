@@ -166,8 +166,8 @@
   a skos:Concept ;
   skos:broader <https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone> ;
   skos:prefLabel "travertine" ;
-  rdfs:seeAlso <http://resource.geosciml.org/classifier/cgi/lithology/claystone> ;
-  skos:exactMatch <http://resource.geosciml.org/classifier/cgi/lithology/claystone> ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/cgi/lithology/travertine> ;
+  skos:exactMatch <http://resource.geosciml.org/classifier/cgi/lithology/travertine> ;
   dc:source "geosciml" ;
   skos:inScheme <https://epos-msl.uu.nl/voc/materials/1.4/> .
 

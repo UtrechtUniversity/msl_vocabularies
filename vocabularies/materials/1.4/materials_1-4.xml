@@ -259,8 +259,8 @@
       <skos:Concept rdf:about="https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone-travertine">
         <skos:broader rdf:resource="https://epos-msl.uu.nl/voc/materials/1.4/sedimentary_rock-limestone"/>
         <skos:prefLabel>travertine</skos:prefLabel>
-        <rdfs:seeAlso rdf:resource="http://resource.geosciml.org/classifier/cgi/lithology/claystone"/>
-        <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/lithology/claystone"/>
+        <rdfs:seeAlso rdf:resource="http://resource.geosciml.org/classifier/cgi/lithology/travertine"/>
+        <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/lithology/travertine"/>
         <dc:source>geosciml</dc:source>
         <skos:inScheme rdf:resource="https://epos-msl.uu.nl/voc/materials/1.4/"/>
       </skos:Concept>

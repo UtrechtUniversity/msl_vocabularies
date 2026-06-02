@@ -434,7 +434,7 @@
                                 "extra": {
                                     "uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.4\/sedimentary_rock-limestone-travertine",
                                     "vocab_uri": "https:\/\/epos-msl.uu.nl\/voc\/materials\/1.4\/",
-                                    "external_uri": "http:\/\/resource.geosciml.org\/classifier\/cgi\/lithology\/claystone",
+                                    "external_uri": "http:\/\/resource.geosciml.org\/classifier\/cgi\/lithology\/travertine",
                                     "external_vocab_scheme": "geosciml"
                                 },
                                 "children": []
